@@ -1,0 +1,31 @@
+{% fetchxml parent_categories_query %}
+  <fetch mapping="logical" returntotalrecordcount="true">
+    <entity name="category">
+      <attribute name="categorynumber" />
+      <attribute name="title" />
+      <attribute name="createdon" />
+      <attribute name="categoryid" />
+      <filter type="and">
+        <condition attribute="parentcategoryid" operator="null" />
+      </filter>
+   </entity>
+  </fetch>
+{% endfetchxml %}
+{% assign categories = parent_categories_query.results.entities %}
+{% if categories.size > 0 %}
+    <div class="dropdown category-dropdown">
+      <button class="btn btn-warning dropdown-toggle" 
+        type="button" id="categoryselect" 
+        data-toggle="dropdown" 
+        aria-haspopup="true" 
+        aria-expanded="true">
+        {{ resx["Find_Your_Product"] }}
+        <span class="caret">
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="categoryselect">
+        {% for category in categories %}
+          <li><a href="{{ category_url | add_query: 'id', category.categorynumber | escape }}">{{ category.title | escape }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+{% endif %}

@@ -1,0 +1,15 @@
+{% assign count = count | default: 5 %}
+{% assign languagecode = website.selected_language.code %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="panel-title">{% editable snippets 'KnowledgeMgmt/MostRecentArticles' type: 'text', default: resx['KnowledgeMgmt_Most_Recent_Articles'], escape: true, tag: 'span' %}</div>
+  </div>
+  {% assign recent_articles = knowledge.articles | recent: count,languagecode  %}
+  {% if recent_articles %}
+    <div class="list-group">
+    {% for article in recent_articles %}
+      <a class="list-group-item" href="{{ article.url | escape }}"><div class="text-muted small">{{ article.modifiedon | date: 'MMM d, yyyy' | escape }}</div>{{ article.title | escape }}</a>
+    {% endfor %}
+    </div>
+  {% endif %}
+</div>

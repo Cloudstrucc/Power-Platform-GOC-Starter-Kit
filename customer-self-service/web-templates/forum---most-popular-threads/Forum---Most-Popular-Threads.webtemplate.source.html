@@ -1,0 +1,27 @@
+{% assign count = count | default: 5 %}
+{% assign forums_url = sitemarkers["Forums"].url %}
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="panel-title">{% editable snippets 'Forum/MostPopularThreads' type: 'text', default: resx['Forum_Most_Popular_Threads'], escape: true, tag: 'span' %}</div>
+  </div>
+  {% fetchxml popular_forumthreads_query %}
+    <fetch mapping="logical" returntotalrecordcount="true" count="{{ count }}">
+      <entity name="adx_communityforumthread">
+        <attribute name="adx_communityforumthreadid" />
+        <attribute name="adx_forumid" />
+        <attribute name="adx_name" />
+        <attribute name="adx_postcount" />
+        <order attribute="adx_postcount" descending="true" />
+     </entity>
+    </fetch>
+  {% endfetchxml %}
+  {% assign forumthreads = popular_forumthreads_query.results.entities %}
+  {% if forumthreads %}
+    <div class="list-group">
+    {% for forumthread in forumthreads %}
+      <a class="list-group-item" href="{{ forums_url | escape }}{{ forumthread.adx_forumid.name | downcase | split:' ' | join: '-' | escape }}/{{ forumthread.id | escape }}">{{ forumthread.adx_name | escape }}</a>
+    {% endfor %}
+    </div>
+  {% endif %}
+</div>

@@ -1,0 +1,35 @@
+<main role="main" property="mainContentOfPage" typeof="WebPageElement" class="home container">
+    <h1 property="name">{{snippets["GCCF/sign-in/register/title"] | escape}}</h1>
+
+    <div class="page-copy">
+        {{snippets["GCCF/sign-in/register/page-copy"]}}
+        <div id="api"></div>
+    </div>
+</main>
+
+<script type="text/javascript">
+    $(function() {
+        $('#content > ul.nav-account').hide();
+        $('#content-container').css({'padding':'0'});
+        $('.page-content').css({'margin-top':'0'});
+
+        $('.breadcrumb li.active').before('{{snippets["GCCF/sign-in/breadcrumbs"]}}');
+        $('.breadcrumb li.active:last').remove();
+
+        $('form[action*="Register"]').prependTo($('#api'));
+
+        $('form[action*="Register"] legend').remove();
+
+        $('#RedeemByLogin').prop('checked', true);
+        $('div.checkbox').parent().parent().hide();
+
+        $('#submit-redeem-invitation').addClass('btn-call-to-action');
+
+        if ($('#InvitationCode').val() && $('#redeemInvitation-validation-summary').hasClass('validation-summary-valid')) {
+            $('#submit-redeem-invitation').click();
+            return;
+        }
+
+        $('style[title="hide-for-ready"]').remove();
+    });
+</script>

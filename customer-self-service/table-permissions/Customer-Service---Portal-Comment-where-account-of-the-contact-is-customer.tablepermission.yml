@@ -1,0 +1,13 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: adx_portalcomment
+adx_entityname: Customer Service - Portal Comment where account of the contact is customer
+adx_entitypermission_webrole: []
+adx_entitypermissionid: 04b521d4-6278-4949-8ed8-49b3471b9dfa
+adx_parententitypermission: e312492f-539f-49b9-af6c-b9b4c2546b58
+adx_parentrelationship: incident_adx_portalcomments
+adx_read: true
+adx_scope: 756150003
+adx_write: true

@@ -1,0 +1,27 @@
+{% extends 'Layout 1 Column' %}
+
+{% block main %}
+{% if sitemap.root.children.size > 0 %}
+  {% assign leaf_page = false %}
+{% else %}
+  {% assign leaf_page = true %}
+{% endif %}
+
+<ul class="tree" role="navigation">
+  <li class="root">
+    <a href="{{ sitemap.root.url | h }}" title="{{ sitemap.root.title | h }}">
+      {% unless leaf_page %}
+        <span class="fa fa-fw fa-caret-down" aria-hidden="true"></span>
+      {% endunless %}
+      {{ sitemap.root.title | h }}
+    </a>
+    {% unless leaf_page %}
+      <ul>
+        {% for child in sitemap.root.children %}
+          {% include 'Sitemap Item' %}
+        {% endfor %}
+      </ul>
+    {% endunless %}
+  </li>
+</ul>
+{% endblock %}

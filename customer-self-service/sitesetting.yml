@@ -1,0 +1,303 @@
+- adx_description: Determines if product filtering is turned on (enabled) or off (disabled).
+  adx_name: ProductFiltering/Enabled
+  adx_sitesettingid: 07418dfa-3d42-48d6-b14d-b3b436356099
+  adx_value: False
+- adx_description: Enables or disables Azure AD as an external identity provider. By default, it is set to true.
+  adx_name: Authentication/Registration/AzureADLoginEnabled
+  adx_sitesettingid: 10ed686c-772b-e711-80df-00155dfcea14
+  adx_value: true
+  importsequencenumber: 2
+- adx_name: Authentication/Registration/EmailConfirmationEnabled
+  adx_sitesettingid: 12ed686c-772b-e711-80df-00155dfcea14
+  adx_value: true
+  importsequencenumber: 2
+- adx_name: Authentication/Registration/ExternalLoginEnabled
+  adx_sitesettingid: 14ed686c-772b-e711-80df-00155dfcea14
+  adx_value: true
+  importsequencenumber: 2
+- adx_name: Authentication/Registration/InvitationEnabled
+  adx_sitesettingid: 16ed686c-772b-e711-80df-00155dfcea14
+  adx_value: true
+  importsequencenumber: 2
+- adx_name: Authentication/Registration/LoginButtonAuthenticationType
+  adx_sitesettingid: 18ed686c-772b-e711-80df-00155dfcea14
+  importsequencenumber: 2
+- adx_description: Site setting that controls the depth of the webpage hierarchy that’s cloned in a newly-added supported language. Web link sets and content snippets are cloned in the newly-added language when webpages are cloned.
+  adx_name: MultiLanguage/MaximumDepthToClone
+  adx_sitesettingid: 1a41ad7b-d741-4ae6-9cd7-b1781e5a5a1d
+  adx_value: 3
+- adx_name: Authentication/Registration/OpenRegistrationEnabled
+  adx_sitesettingid: 1aed686c-772b-e711-80df-00155dfcea14
+  adx_value: true
+  importsequencenumber: 2
+- adx_description: Sets whether or not the portal can redirect the user to the profile page after successful sign-in. By default, it is set to true.
+  adx_name: Authentication/Registration/ProfileRedirectEnabled
+  adx_sitesettingid: 1ced686c-772b-e711-80df-00155dfcea14
+  adx_value: true
+  importsequencenumber: 2
+- adx_description: 'Relationship to use to query the Contacts Product association. If you use a custom intersect ex: like an Asset entity, then you can include the relationship names from Contact to Asset and Asset to Product, separated by “;” delimiter.'
+  adx_name: ProductFiltering/ContactToProductRelationshipNames
+  adx_sitesettingid: 1eafd9ff-b85d-4a04-90ed-56707b9dcf1b
+  adx_value: adx_contactproduct
+- adx_description: Used to group a set of entities under an entry in the record type facet view.
+  adx_name: Search/RecordTypeFacetsEntities
+  adx_sitesettingid: 21dcd72b-5d2c-4bb5-aa00-b904de2c0e47
+  adx_value: Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Downloads:annotation,adx_webfile
+- adx_description: Denies use of the portal to minors. By default, it is set to false.
+  adx_name: Authentication/Registration/DenyMinors
+  adx_sitesettingid: 2606c26d-36a9-e711-80c7-000d3afd3574
+  adx_value: false
+- adx_description: Set to "True" to force the user to submit the profile information before accessing the website contents.
+  adx_name: Profile/ForceSignUp
+  adx_sitesettingid: 27500698-90e7-4e55-b0a4-62c755230266
+  adx_value: False
+  importsequencenumber: 2
+- adx_name: HTTP/X-Frame-Options
+  adx_sitesettingid: 29a2cfe6-7587-4332-8b40-31a4db6e9959
+  adx_value: SAMEORIGIN
+- adx_description: Set whether the header web template is output cached.
+  adx_name: Header/OutputCache/Enabled
+  adx_sitesettingid: 30084086-b31d-47d9-af08-5fe1dacc478c
+  adx_value: True
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_1/Authority
+  adx_sitesettingid: 339ac2ee-cbc4-eb11-bacc-0022483bf7f2
+  adx_value: https://gckeyep.b2clogin.com/tfp/b4104781-1fd5-46cc-85ef-d2ac7368fb0a/B2C_1A_2KEYS_signup_signin/v2.0/
+- adx_name: Authentication/Registration/Enabled
+  adx_sitesettingid: 342be1a0-db7b-47eb-9131-97f6cf96de69
+  adx_value: true
+  importsequencenumber: 5
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_1/RegistrationEnabled
+  adx_sitesettingid: 349ac2ee-cbc4-eb11-bacc-0022483bf7f2
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/RegistrationEnabled
+  adx_sitesettingid: 363522c9-d54b-ec11-8f8e-000d3ae9a753
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/Authority
+  adx_sitesettingid: 373522c9-d54b-ec11-8f8e-000d3ae9a753
+  adx_value: https://pspcsso.b2clogin.com/pspcsso.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_CSDEV/
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/Caption
+  adx_sitesettingid: 39021ab6-16ca-eb11-bace-000d3a84a456
+  adx_value: 2keys-gl
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/ExternalLogoutEnabled
+  adx_sitesettingid: 3a021ab6-16ca-eb11-bace-000d3a84a456
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/RedirectUri
+  adx_sitesettingid: 3b021ab6-16ca-eb11-bace-000d3a84a456
+  adx_value: https://cs-dev1.powerappsportals.com/signin-aad-b2c_3
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/ClientId
+  adx_sitesettingid: 3c021ab6-16ca-eb11-bace-000d3a84a456
+  adx_value: c1a34725-4459-4a8f-83a7-bbbfbf91e3d8
+- adx_name: Authentication/OpenAuth/Facebook/AppSecret
+  adx_sitesettingid: 408c2e8a-fd0f-4a6a-889b-74bd65b25c70
+  importsequencenumber: 5
+- adx_description: 'The Prefix entered here will be used to filter Notes Text, allowing you to control notes exposed on the Portal ex: *WEB*'
+  adx_name: KnowledgeManagement/NotesFilter
+  adx_sitesettingid: 41172509-7f49-4fab-a833-2f8d0cab2d80
+  adx_value: '*WEB*'
+- adx_name: Authentication/OpenAuth/LinkedIn/ConsumerSecret
+  adx_sitesettingid: 46d664b6-8aa6-4637-a7d0-c1d4c88057a9
+- adx_name: CustomerSupport/CaseEntitlementEnabled
+  adx_sitesettingid: 498227f7-5895-4d6a-9b70-450f90d968fc
+  adx_value: false
+- adx_description: Denies use of the portal to minors without parental consent. By default, it is set to false.
+  adx_name: Authentication/Registration/DenyMinorsWithoutParentalConsent
+  adx_sitesettingid: 5d96cc7a-36a9-e711-80c7-000d3afd3574
+  adx_value: false
+- adx_description: 'The amount of time the Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress are to be within before the IP address has to wait Authentication/LoginThrottling/IpAddressTimeoutTimeSpan. Default: 00:03:00 (3 mins)'
+  adx_name: Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan
+  adx_sitesettingid: 5e86e832-e06f-4ae1-9afc-1ee759e7793e
+  adx_value: 00:03:00
+- adx_name: Authentication/OpenAuth/Facebook/AppId
+  adx_sitesettingid: 5fab301a-f7d5-4684-8f1c-16989e0c61ab
+  importsequencenumber: 5
+- adx_name: Profile/ShowMarketingOptionsPanel
+  adx_sitesettingid: 6347a8e6-9291-4f54-8876-4978fdad520c
+  adx_value: True
+- adx_name: Authentication/OpenAuth/Microsoft/ClientSecret
+  adx_sitesettingid: 649fdd78-8179-49ab-9468-e0976a16f806
+  importsequencenumber: 5
+- adx_description: 'The amount of time the IP address will have to wait if Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress occur within Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan amount of time. Default: 00:10:00 (10 mins)'
+  adx_name: Authentication/LoginThrottling/IpAddressTimeoutTimeSpan
+  adx_sitesettingid: 652163cb-9afa-42dc-a084-18f0fb9a1ca3
+  adx_value: 00:10:00
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/RedirectUri
+  adx_sitesettingid: 79cbd2ca-d54b-ec11-8f8e-000d3ae9a4c9
+  adx_value: https://cs-dev1.powerappsportals.com/signin-aad-b2c_4
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/ClientId
+  adx_sitesettingid: 7acbd2ca-d54b-ec11-8f8e-000d3ae9a4c9
+  adx_value: 836f18f1-a069-4839-9867-5bfd54cbfd9e
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/Caption
+  adx_sitesettingid: 7bcbd2ca-d54b-ec11-8f8e-000d3ae9a4c9
+  adx_value: SIGNCANADA
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_1/ClientId
+  adx_sitesettingid: 7c5412f3-cbc4-eb11-bacc-000d3af385d3
+  adx_value: caabec7d-2fe1-4bd1-9d75-1af3e378325d
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/AllowContactMappingWithEmail
+  adx_sitesettingid: 7ccbd2ca-d54b-ec11-8f8e-000d3ae9a4c9
+  adx_value: false
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_1/RedirectUri
+  adx_sitesettingid: 7d0e1aed-cbc4-eb11-bacc-000d3af385d3
+  adx_value: https://cs-dev1.powerappsportals.com/signin-aad-b2c_1
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_1/AllowContactMappingWithEmail
+  adx_sitesettingid: 7e0e1aed-cbc4-eb11-bacc-000d3af385d3
+  adx_value: false
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_1/Caption
+  adx_sitesettingid: 7f0e1aed-cbc4-eb11-bacc-000d3af385d3
+  adx_value: 2Keys
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_1/ExternalLogoutEnabled
+  adx_sitesettingid: 800e1aed-cbc4-eb11-bacc-000d3af385d3
+  adx_value: true
+- adx_name: Authentication/OpenAuth/Twitter/ConsumerKey
+  adx_sitesettingid: 83782a91-1946-44de-8026-ad5ca8bd7dde
+  importsequencenumber: 5
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/ExternalLogoutEnabled
+  adx_sitesettingid: 83cbd2ca-d54b-ec11-8f8e-000d3ae9a4c9
+  adx_value: true
+- adx_description: External search engines that will be tracked as knowledge article referrers for a portal.
+  adx_name: KnowledgeManagement/Analytics/ExternalSearchEngines
+  adx_sitesettingid: 92786ad2-ee63-4a67-8b67-15b6e45eb525
+  adx_value: bing|google|duckduckgo|msn|wolframalpha|yahoo|ask|altavista|live|aol|yandex|baidu
+- adx_description: 'Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html'
+  adx_name: search/query
+  adx_sitesettingid: 938e5d6f-f887-41b2-88fc-ac2e12c78251
+  adx_value: +(@Query) _title:(@Query) _logicalname:knowledgearticle~0.9^0.3 _logicalname:annotation~0.9^0.25 _logicalname:adx_webpage~0.9^0.2 -_logicalname:adx_webfile~0.9 adx_partialurl:(@Query) -_logicalname:adx_communityforumthread~0.9
+- adx_description: Setting controls whether attachments will be displayed on Knowledge articles
+  adx_name: KnowledgeManagement/DisplayNotes
+  adx_sitesettingid: 95237b77-1a84-4439-980f-bdc757ad8699
+  adx_value: false
+- adx_name: Search/IndexQueryName
+  adx_sitesettingid: 95e9f6e1-541c-4e60-95ab-cbb5da0b7e7b
+  adx_value: Portal Search
+- adx_name: Authentication/Registration/LocalLoginEnabled
+  adx_sitesettingid: 9ab1b6c9-7af9-4cd7-8f0e-7428979837a2
+  adx_value: false
+- adx_description: Site setting that determines if the language code is included in the portal URL.
+  adx_name: MultiLanguage/DisplayLanguageCodeInURL
+  adx_sitesettingid: 9b4588f0-9b67-4fd8-b1f6-d625a993243b
+  adx_value: True
+- adx_description: Controls whether Content Access Level is enabled or disabled.
+  adx_name: KnowledgeManagement/ContentAccessLevel/Enabled
+  adx_sitesettingid: 9e5b2b2a-f493-4ec8-8bee-f467c28d4792
+  adx_value: False
+- adx_description: Set whether the footer web template is output cached.
+  adx_name: Footer/OutputCache/Enabled
+  adx_sitesettingid: 9e7d9dd3-ebce-4e0a-97b8-a4b6e7b63e06
+  adx_value: True
+- adx_name: ThemeFeature
+  adx_sitesettingid: a10d395c-3122-ec11-b6e6-0022483cb399
+  adx_value: '{"status":"enable","selectedThemeId":"df88c9ca-e24f-4eca-af9a-880e7b8559a0","siteSettingId":"a10d395c-3122-ec11-b6e6-0022483cb399"}'
+- adx_name: OnlineDomains
+  adx_sitesettingid: a2e8a7f5-370d-4693-aabe-c4a182ff5ec6
+  adx_value: sharepoint.com;microsoftonline.com
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_2/RedirectUri
+  adx_sitesettingid: a3ef835e-ccc4-eb11-bacc-0022483bf7f2
+  adx_value: https://cs-dev1.powerappsportals.com/signin-aad-b2c_2
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_2/Authority
+  adx_sitesettingid: a4ef835e-ccc4-eb11-bacc-0022483bf7f2
+  adx_value: https://gckeyep.b2clogin.com/tfp/b4104781-1fd5-46cc-85ef-d2ac7368fb0a/B2C_1A_SECUREKEY_signup_signin/v2.0/
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_2/AllowContactMappingWithEmail
+  adx_sitesettingid: a5ef835e-ccc4-eb11-bacc-0022483bf7f2
+  adx_value: false
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_2/ExternalLogoutEnabled
+  adx_sitesettingid: a6ef835e-ccc4-eb11-bacc-0022483bf7f2
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_2/Caption
+  adx_sitesettingid: a7ef835e-ccc4-eb11-bacc-0022483bf7f2
+  adx_value: SecureKey
+- adx_description: A true or false value. If set to true, the local account will be marked as deprecated. The portal user will be required to migrate to a non-deprecated account.
+  adx_name: Authentication/Registration/LocalLoginDeprecated
+  adx_sitesettingid: a8c630b2-7bad-e711-80c7-000d3afd1882
+  adx_value: False
+- adx_description: Determines if the different ways users access knowledge articles are tracked in a Dynamics 365 portal.
+  adx_name: KnowledgeManagement/Analytics/CaptureKnowledgeArticleReferrer
+  adx_sitesettingid: aaa59991-1db4-47f3-a20c-0931242189c3
+  adx_value: false
+- adx_name: Search/IndexNotesAttachments
+  adx_sitesettingid: b5457388-4d77-40cd-ab59-0189bccbd1f4
+  adx_value: false
+- adx_description: A true or false value. If set to true, the Last Successful Login field on the portal user’s contact will be updated with the date and time when they successfully signed in.
+  adx_name: Authentication/LoginTrackingEnabled
+  adx_sitesettingid: b69fa724-35eb-4df8-a198-0abb4cc7066c
+  adx_value: True
+- adx_name: Authentication/OpenAuth/Microsoft/ClientId
+  adx_sitesettingid: b8d70337-d6b5-4fe9-93e9-91de5c06e801
+  importsequencenumber: 5
+- adx_name: Authentication/OpenAuth/LinkedIn/ConsumerKey
+  adx_sitesettingid: c25b4fad-f8fc-4377-b008-9e5840ea45d5
+- adx_description: Set to "True" to capture view count data for Knowledge Management.
+  adx_name: KnowledgeManagement/Article/CaptureViewCount
+  adx_sitesettingid: c3cc9e81-e426-4a83-9a46-1b8789cd5937
+  adx_value: True
+- adx_description: >-
+    A collection of search logical name filter options. Defining a value here will add dropdown filter options to site-wide search.
+
+
+    This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Issues:adx_issueforum,adx_issue,adx_issuecomment;".
+  adx_name: search/filters
+  adx_sitesettingid: c52243f9-cc72-4ae8-915e-df96d0affa55
+  adx_value: Content:adx_webpage,adx_webfile;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Help Desk:incident;Knowledge:knowledgearticle
+- adx_name: Authentication/OpenAuth/Twitter/ConsumerSecret
+  adx_sitesettingid: c8bd8c0d-50cb-493b-b5d4-954019acd154
+  importsequencenumber: 5
+- adx_description: Determines if faceted search is used for this portal.
+  adx_name: Search/FacetedView
+  adx_sitesettingid: ccf98c44-ecbe-42c0-a59b-1cb1777cf6f7
+  adx_value: True
+- adx_description: Enabling this setting will show all customer activity on the portal timeline.
+  adx_name: CustomerSupport/DisplayAllUserActivitiesOnTimeline
+  adx_sitesettingid: d21a2e6a-1c5c-4c10-ada3-52bbb2fbaf7f
+  adx_value: false
+- adx_description: 'The default number of unauthenticated login attempts from an IP address before the IP address is blocked for Authentication/LoginThrottling/IpAddressTimeoutTimeSpan if the attempts occur within Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan amount of time. Default: 1000'
+  adx_name: Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress
+  adx_sitesettingid: d3721fd5-a783-45a3-8378-37b81d6024c2
+  adx_value: 1000
+- adx_description: A date/time value in GMT format to represent the effective date of the current published terms and conditions. If the terms agreement is enabled, portal users that have not accepted the terms after this date will be asked to accept them the next time they sign in. If the date is not provided, and the terms agreement is enabled, the terms will be presented every time portal users sign in.
+  adx_name: Authentication/Registration/TermsPublicationDate
+  adx_sitesettingid: d486712d-7527-4a9f-bf36-6eb1228b2316
+- adx_description: 'Relationship to use to query the Accounts Product association. If you use a custom intersect ex: like an Asset entity, then you can include the relationship names from Account to Asset and Asset to Product, separate by “;” delimiter.'
+  adx_name: ProductFiltering/AccountToProductRelationshipNames
+  adx_sitesettingid: d4f16cc2-a2d6-45e3-9edf-ecfec9ec9c40
+  adx_value: adx_accountproduct
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_2/ClientId
+  adx_sitesettingid: d794885a-ccc4-eb11-bacc-000d3af385d3
+  adx_value: caabec7d-2fe1-4bd1-9d75-1af3e378325d
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_2/RegistrationEnabled
+  adx_sitesettingid: d894885a-ccc4-eb11-bacc-000d3af385d3
+  adx_value: true
+- adx_description: Determines if users will see knowledge articles that aren’t associated with products when product filtering is turned on.
+  adx_name: ProductFiltering/DisplayArticlesWithoutAssociatedProducts
+  adx_sitesettingid: da0f9755-5d3f-47c5-bd25-9062d319395c
+  adx_value: True
+- adx_description: A true or false value. If set to true, the portal will display the terms and conditions of the site. Users must agree to the terms and conditions before they are considered authenticated and can use the site.
+  adx_name: Authentication/Registration/TermsAgreementEnabled
+  adx_sitesettingid: e23532fe-da87-4063-9d5d-d460f3b8ed3f
+  adx_value: false
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/Authority
+  adx_sitesettingid: e729ddb6-16ca-eb11-bacc-000d3a84a658
+  adx_value: https://cloudstruccsso.b2clogin.com/tfp/50b4082d-07b3-4aed-98a0-98613385be9e/b2c_1_shib-oidc/v2.0/
+- adx_name: Search/Enabled
+  adx_sitesettingid: e7aa396d-60c9-475b-940b-58eb4fff8c9a
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/AllowContactMappingWithEmail
+  adx_sitesettingid: e829ddb6-16ca-eb11-bacc-000d3a84a658
+  adx_value: false
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/RegistrationEnabled
+  adx_sitesettingid: e929ddb6-16ca-eb11-bacc-000d3a84a658
+  adx_value: true
+- adx_name: DisableValidationWebTemplate
+  adx_sitesettingid: ea95e37a-8cb5-4db4-a305-68d74f955df1
+  adx_value: false
+- adx_description: >-
+    Sets the partial view that will be used to render the portal footer. By default, there are 3 options available for this setting:
+
+
+    - FooterCopy: This template will produce a footer composed of a single HTML Content Snippet (named "Footer"). This is ideal for a simple footer with total HTML control.
+
+
+    - FooterMenu: This template will produce a footer composed of a two-level Web Link Set menu (the web link set is named "Footer"), with the Web Link Set copy above it, and an HTML Content Snippet below it (also named "Footer"). This allows the creation of a rich footer menu to help users navigate your site.
+
+
+    - FooterMenuWithCopy: This template is the default, and will be rendered is this setting is not present or set to an invalid value. It is a variation of FooterMenu, with the addition of an HTML copy block to the left of the menu links. This copy block is ideal for content like a site description, or social media functionality.
+  adx_name: Footer/Template
+  adx_sitesettingid: f3595c22-4fba-4212-b2df-fdf40637f1cf
+  adx_value: FooterMenuWithCopy

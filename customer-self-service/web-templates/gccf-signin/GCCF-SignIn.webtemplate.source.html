@@ -1,0 +1,92 @@
+<main role="main" property="mainContentOfPage" typeof="WebPageElement" class="home container">
+    <h1 property="name">{{snippets["GCCF/sign-in/title"] | escape}}</h1>
+
+    <div class="page-copy">
+        {{snippets["GCCF/sign-in/page-copy"]}}
+
+        <form action="/en/Account/Login/ExternalLogin" method="post">
+            <input name="__RequestVerificationToken" type="hidden" value="2L2mvOSpbRypaLRGj2n_-MsI6CvxEYCos8czXW0lX4og0fEf5LlhzE6hqCuko8atdVR63xBwqMDSjvYgYZj_BeXue6qbdns-bbLrixP9qsE1">
+
+            <div aria-describedby="loginValidationSummary" aria-label="Sign in failed." class="validation-summary-valid listStyleTypeNone alert alert-block alert-danger" data-valmsg-summary="true" id="loginValidationSummary" tabindex="0"><ul><li style="display:none"></li>
+            </ul></div>
+
+
+            <div class="wb-eqht wb-init wb-eqht-inited">
+                <div class="col-md-4" style="vertical-align: top; min-height: 247px;">
+                    <section class="well hght-inhrt">
+                        <h2 class="text-center mrgn-tp-0">Option 1: Sign-In Partner TEST</h2>
+                        <p class="text-center" style="margin-bottom:20%">Sign in with your online Canadian banking information if you have an existing account with 1 of
+                            our partners.</p>
+                        <p class="text-center">                           
+                                <button name="provider" type="submit" class="btn btn-primary btn-line btn-call-to-action" id="https://gckeyep.b2clogin.com/tfp/b4104781-1fd5-46cc-85ef-d2ac7368fb0a/B2C_1A_SECUREKEY_signup_signin/v2.0/" title="Sign in with your SecureKey account." value="https://gckeyep.b2clogin.com/tfp/b4104781-1fd5-46cc-85ef-d2ac7368fb0a/B2C_1A_SECUREKEY_signup_signin/v2.0/">SecureKey
+                                </button>                                
+                        </p>
+                    </section>
+                </div>
+                <div class="col-md-4" style="vertical-align: top; min-height: 247px;">
+                    <section class="well hght-inhrt">
+                        <h2 class="text-center mrgn-tp-0">Option 2: GCKey</h2>
+                        <p class="text-center" style="margin-bottom:11%">Register and or Sign in with your GCKey user ID and password. We recommend that you opt into the GCkey recovery system </p>
+                        <p class="text-center">
+                            <button name="provider" type="submit" class="btn btn-primary btn-line btn-call-to-action" id="https://gckeyep.b2clogin.com/tfp/b4104781-1fd5-46cc-85ef-d2ac7368fb0a/B2C_1A_2KEYS_signup_signin/v2.0/" title="Sign in with your 2Keys account." value="https://gckeyep.b2clogin.com/tfp/b4104781-1fd5-46cc-85ef-d2ac7368fb0a/B2C_1A_2KEYS_signup_signin/v2.0/">Sign-in using GCKey</button>
+                        </p>
+                    </section>
+                </div>
+                <div class="col-md-4" style="vertical-align: top; min-height: 247px;">
+                    <section class="well hght-inhrt">
+                        <h2 class="text-center mrgn-tp-0">Option 3: Internal Employees Only</h2>
+                        <p class="text-center" style="margin-bottom:20%">Sign in with your work credentials to perform your duties as a reviewer or administrator.</p>
+                        <p class="text-center">
+                            <button name="provider" type="submit" class="btn btn-primary btn-line btn-call-to-action" id="https://login.windows.net/05c95b33-90ca-49d5-b644-288b930b912b/" title="Sign in with your Azure AD account." value="https://login.windows.net/05c95b33-90ca-49d5-b644-288b930b912b/">Azure AD
+                            </button>
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</main>
+
+
+
+<script type="text/javascript">
+    $(function () {
+
+
+        $('#content > ul.nav-account').hide();
+        // $('#content-container').css({ 'padding': '0' });
+        // $('.page-content').css({ 'margin-top': '0' });
+
+
+        // $('.breadcrumb li.active').before('{{snippets["GCCF/sign-in/breadcrumbs"]}}');
+        $('.breadcrumb li.active:last').remove();
+
+        // $('form[action*="ExternalLogin"]').prependTo($('#api'));
+
+        // $('#api').prepend($('div.alert.alert-info').css({ 'overflow-wrap': 'break-word', 'margin-top': '-33px' }).html('<p>&nbsp;{{snippets["GCCF/sign-in/invitation-code-alert"] | escape}}<br/><small>{{request.params["InvitationCode"] | escape}}</small></p>'));
+
+        $('#external-login-heading').remove();
+
+        // var btnGCKEY = $('button[id*="2KEYS"').addClass('btn-call-to-action btn btn-primary btn-lg').html('{{snippets["GCCF/sign-in/gckey-title"] | escape}}')
+        // $('#api form').html('<div class="row"><div class="col-md-6" style="vertical-align: top; min-height: 247px;"> <section class="well hght-inhrt"> <h2 class="text-center mrgn-tp-0">Option 1: GCKey</h2> <p class="text-center">Sign in with your GCKey user ID and password.</p> <p class="text-center gckey"></p>');
+        // $('.gckey').html(btnGCKEY);
+
+        // var btnSecureKey = $('button[id*="securekey"').addClass('btn-call-to-action btn btn-primary btn-lg').html('{{snippets["GCCF/sign-in/securekey-title"] | escape}}')
+        // $('#api form').html('<div class="row"><div class="col-md-6" style="vertical-align: top; min-height: 247px;"> <section class="well hght-inhrt"> <h2 class="text-center mrgn-tp-0">Option 2: Sign-In Partner</h2> <p>Sign in with your online Canadian banking information if you have an existing account with 1 of our partners.</p> <p class="text-center securekey"></p>');
+        // $('.securekey').html(btnSecureKey);
+
+
+        // $('#securekey').append("{{snippets['GCCF/sign-in/securekey-copy']}}");
+
+        // $('#securekey').parent().parent().append($('#gckey').parent());
+
+        $('style[title="hide-for-ready"]').remove();
+        $(".form-horizontal").hide();
+
+        
+
+
+
+    });
+</script>

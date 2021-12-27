@@ -1,0 +1,9 @@
+.most-requested li{font-family:"Lato",sans-serif;font-size:17px;font-weight:600;line-height:26px;margin-top:0;}.most-requested .list-responsive > li{padding-right:1em;min-height:1.5em;}.most-requested h2{font-size:1.2em;}.most-requested li{font-size:19px;}.list-responsive-3 > li{clear:right;width:100%;}
+.featured{margin-bottom:0em;padding-top:20px;padding-bottom:20px;background:#31708f;}.featured a{color:#fff;}ul.feeds-cont li a{font-weight:bold;}@media screen and (max-width:1200px){.featured{padding-left:.8em;}}@media screen and (min-width:1200px){.list-responsive-3 > li{width:33%;}}@media screen and (max-width:767px){.btn-call-to-action{font-size:19px !important;}
+.ip-cover-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin-top: 15px;
+    padding-bottom: 25px;
+}

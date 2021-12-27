@@ -1,0 +1,148 @@
+<!-- <script src="/wet4-93-gap.js"></script> -->
+
+<!-- <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/i18n/en.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script> -->
+
+<!--<script type="text/javascript" src="https://wet-boew.github.io/v4.0-ci/wet-boew/js/deps/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/wet-boew/js/wet-boew.min.js"></script>
+<script type="text/javascript" src="/wet-boew/js/i18n/en-US.min.js"></script>-->
+
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
+<!--
+<iframe id="shib" src="https://shibsp-cloudstrucc.msappproxy.net/gckey-clegc/Shibboleth.sso/Session"></iframe> -->
+
+
+<style>
+        footer {
+                clear: both;
+                position: relative;
+                height: 400px;
+        }
+</style>
+
+
+{% if website.selected_language.name == "English" %}
+
+
+<footer id="wb-info">
+        <div class="landscape">
+                <nav style="margin-top:10px" class="container wb-navcurr" aria-label="footer">
+                        <h2 class="wb-inv">About government</h2>
+                        <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+                                <li><a href="https://www.canada.ca/en/canadian-heritage/contact-us.html">Contact us</a>
+                                </li>
+                                <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a>
+                                </li>
+                                <li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and
+                                                military</a></li>
+                                <li><a href="https://www.canada.ca/en/news.html">News</a></li>
+                                <li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and
+                                                regulations</a></li>
+                                <li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide
+                                                reporting</a></li>
+                                <li><a href="https://pm.gc.ca/eng">Prime Minister</a></li>
+                                <li><a href="https://www.canada.ca/en/government/system.html">How government works</a>
+                                </li>
+                                <li><a href="https://open.canada.ca/en/">Open government</a></li>
+                        </ul>
+                </nav>
+        </div>
+        <div class="brand">
+                <div class="container">
+                        <div class="row">
+                                <nav class="col-md-9 col-lg-10 ftr-urlt-lnk" aria-label="bottom-page-footer">
+                                        <h2 class="wb-inv">About this site</h2>
+                                        <ul>
+                                                <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+                                                <li><a href="https://www.canada.ca/en/mobile.html">Mobile
+                                                                applications</a></li>
+                                                <li><a href="https://www1.canada.ca/en/newsite.html">About Canada.ca</a>
+                                                </li>
+                                                <li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and
+                                                                conditions</a></li>
+                                                <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a>
+                                                </li>
+                                        </ul>
+                                </nav>
+                                <div class="col-xs-6 visible-sm visible-xs tofpg">
+                                        <!-- <a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a> -->
+                                </div>
+                                <div class="col-xs-6 col-md-3 col-lg-2 text-right">
+                                        <img src="/GCWeb/assets/wmms-blk.png" alt="Symbol of the Government of Canada">
+                                </div>
+                        </div>
+                </div>
+        </div>
+</footer>
+{% else %}
+
+
+
+
+
+<footer id="wb-info">
+        <div class="landscape">
+                <nav style="margin-top:10px" class="container wb-navcurr">
+                        <h2 class="wb-inv">Au sujet du gouvernement</h2>
+                        <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+                                <li><a href="https://www.canada.ca/fr/patrimoine-canadien/pour-nous-joindre.html">Contactez-nous</a>
+                                </li>
+                                <li><a href="https://www.canada.ca/fr/gouvernement/min.html">Ministères et
+                                                organismes</a></li>
+                                <li><a href="https://www.canada.ca/fr/gouvernement/fonctionpublique.html">Fonction
+                                                publique et force militaire</a></li>
+                                <li><a href="https://www.canada.ca/fr/nouvelles.html">Nouvelles</a></li>
+                                <li><a href="https://www.canada.ca/fr/gouvernement/systeme/lois.html">Traités, lois et
+                                                règlements</a></li>
+                                <li><a href="https://www.canada.ca/fr/transparence/rapports.html">Rapports à l'échelle
+                                                du gouvernement</a></li>
+                                <li><a href="https://pm.gc.ca/fra">Premier ministre</a></li>
+                                <li><a href="https://www.canada.ca/fr/gouvernement/systeme.html">Comment le gouvernement
+                                                fonctionne</a></li>
+                                <li><a href="https://ouvert.canada.ca/">Gouvernement ouvert</a></li>
+                        </ul>
+                </nav>
+        </div>
+        <div class="brand">
+                <div class="container">
+                        <div class="row">
+                                <nav class="col-md-9 col-lg-10 ftr-urlt-lnk">
+                                        <h2 class="wb-inv">À propos du site</h2>
+                                        <ul>
+                                                <li><a href="https://www.canada.ca/fr/sociaux.html">Médias sociaux</a>
+                                                </li>
+                                                <li><a href="https://www.canada.ca/fr/mobile.html">Applications
+                                                                mobiles</a></li>
+                                                <li><a href="https://www1.canada.ca/fr/nouveausite.html">À propos de
+                                                                Canada.ca</a></li>
+                                                <li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a>
+                                                </li>
+                                                <li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a>
+                                                </li>
+                                        </ul>
+                                </nav>
+                                <div class="col-xs-6 visible-sm visible-xs tofpg">
+                                        <!-- <a href="#wb-cont">Haut de la page <span class="glyphicon glyphicon-chevron-up"></span></a> -->
+                                </div>
+                                <div class="col-xs-6 col-md-3 col-lg-2 text-right">
+                                        <img src="/GCWeb/assets/wmms-blk.png" alt="Symbole du gouvernement du Canada">
+                                </div>
+                        </div>
+                </div>
+        </div>
+</footer>
+{% endif %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+<script type="text/javascript" src="/wet-boew/js/wet-boew.min.js"></script>
+<script type="test/javascript" src="/GCWeb/js/theme.min.js"></script>
+<!--
+ <script>
+        $.get("https://shibsp-cloudstrucc.msappproxy.net/gckey-clegc/Shibboleth.sso/Session",function(data) 
+        { 
+             if ($.isEmptyObject(data)) {
+                    // $(location).attr('href', 'http://stackoverflow.com');
+             };
+        });
+</script> -->

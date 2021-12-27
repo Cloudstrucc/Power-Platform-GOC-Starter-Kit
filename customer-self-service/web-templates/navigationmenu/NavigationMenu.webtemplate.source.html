@@ -1,0 +1,65 @@
+{% block NavigationMenu %}
+
+<div class="dept-nav">
+    <div class="container">
+        <section class="menu-content">
+            <nav id="menu-group">    
+                <a href="/" class="btn btn-default pull-left" >
+                        <span class="fa fa-home" aria-hidden="true"></span>
+                        {{snippets["BreadCrumb/Home"]}}                               
+                </a>            
+                <div class="dropdown btn-group pull-left"> 
+                       
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <span class="fa fa-bars" aria-hidden="true"></span>
+                                Menu
+                                <span class="caret"></span>
+                        </button>   
+                        
+                        <div class="dropdown-menu list-group" style="width:300%">
+                            {% if user %}                             
+                                {% assign weblink_set_name = "Navigation Menu - Authenticated" %}                                                               
+                            {% else %}
+                                {% assign weblink_set_name = "Navigation Menu - Unauthenticated" %}
+                            {% endif %}
+                            {% assign weblink_set = weblinks[weblink_set_name] %}
+                            {% for link in weblink_set.weblinks %}                                
+                                    <a class="list-group-item" style="color: #001a4d;text-decoration: none;" href="{{ link.url | h}}{{request.query}}"
+                                        title="{{link.tooltip | h}}">{{ link.name | h }}</a>                                                                    
+                            {% endfor %}                                 
+                        </div>                                       
+                    
+                </div>
+                
+
+                <div class="dropdown btn-group pull-right">  
+                {% if user %} 
+                    
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="fa fa-user" aria-hidden="true"></span>
+                        {{ user.fullname }}
+                        <span class="caret"></span>
+                    </button>
+                    
+                    <div class="dropdown-menu list-group">
+                        <a class="list-group-item" style="color: #001a4d;text-decoration: none;"  href={{ sitemarkers["Profile"].url }}><span class="fa fa-user" aria-hidden="true"></span> {{ sitemarkers["Profile"].adx_name }}</a>
+                        <a class="list-group-item" style="color: #001a4d;text-decoration: none;"  href="{% if homeurl %}/{{homeurl}}{% endif %}/Account/Login/LogOff?returnUrl={{'home'| escape}}"  role="button"> 
+                            <span class="glyphicon glyphicon-log-out"></span> <span class="title">{{snippets["BreadCrumb/AccountSignOut/Button"]}}</span></a>                        
+                    </div> 
+                {% else %}
+                    <a href="/Account/Login" class="btn btn-default dropdown-toggle" role="button" > <span class="fa fa-user" aria-hidden="true"></span>
+                    <span class="title">{{snippets["BreadCrumb/AccountSignIn/Button"]}}</span></a>                
+                {% endif %}
+                </div>
+                               
+            </nav>
+        </section>
+    </div>
+</div>
+<script>
+// $("#menuBtn").on('click',function(){
+//     $("#jb-menu-list").toggle();
+
+// });
+</script>
+{% endblock %}

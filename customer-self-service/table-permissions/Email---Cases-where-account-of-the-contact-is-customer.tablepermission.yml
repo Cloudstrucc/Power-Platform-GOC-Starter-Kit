@@ -1,0 +1,13 @@
+adx_append: false
+adx_appendto: false
+adx_create: false
+adx_delete: false
+adx_entitylogicalname: email
+adx_entityname: Email - Cases where account of the contact is customer
+adx_entitypermission_webrole: []
+adx_entitypermissionid: bfdecb7b-29bf-44be-8fb9-2c241c4a02e0
+adx_parententitypermission: e312492f-539f-49b9-af6c-b9b4c2546b58
+adx_parentrelationship: Incident_Emails
+adx_read: true
+adx_scope: 756150003
+adx_write: false

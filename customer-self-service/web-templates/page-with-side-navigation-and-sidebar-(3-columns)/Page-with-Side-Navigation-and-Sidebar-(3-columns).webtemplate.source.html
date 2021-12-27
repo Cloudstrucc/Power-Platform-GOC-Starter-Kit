@@ -1,0 +1,15 @@
+{% extends "layout_3_column_wide_middle" %}
+
+{% block left_aside %}
+  <div class="hidden-xs hidden-print">
+    {% include "side_navigation" depth_offset: 1 %}
+  </div>
+{% endblock %}
+
+{% block right_aside %}
+  <div class="hidden-print">
+    {% include "weblink_list_group" weblink_set_name: "Secondary Navigation" %}
+    {% include "poll" poll_placement_name: "Sidebar" %}
+    {% include "ad" ad_placement_name: "Sidebar Bottom" %}
+  </div>
+{% endblock %}

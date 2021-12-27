@@ -1,0 +1,14 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: annotation
+adx_entityname: Child App Notes
+adx_entitypermission_webrole:
+- 03a3c34f-f5a4-461f-8179-21710a52f22d
+- ff54f608-70df-4637-81f7-dc40dc1b7d34
+- 3af20681-fc11-4e19-8bdc-f7416d37cf61
+adx_entitypermissionid: fab9595b-1630-ec11-b6e6-0022483cc0ff
+adx_read: true
+adx_scope: 756150000
+adx_write: true

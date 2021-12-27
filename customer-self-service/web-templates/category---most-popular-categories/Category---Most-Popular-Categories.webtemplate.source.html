@@ -1,0 +1,25 @@
+{% assign count = count | default: 5 %}
+{% assign category_url = sitemarkers['Category'].url %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="panel-title"><i class="fa fa-heart"></i>&nbsp; {% editable snippets 'Category/MostPopularCategories' type: 'text', default: resx['Most_Popular_Categories'], escape: true, tag: 'span' %}</div>
+  </div>
+  {% fetchxml popular_categories_query %}
+  <fetch mapping="logical" returntotalrecordcount="true" count="{{ count }}">
+    <entity name="category">
+      <attribute name="categorynumber" />
+      <attribute name="title" />
+      <attribute name="createdon" />
+      <attribute name="categoryid" />
+       </entity>
+  </fetch>
+  {% endfetchxml %}
+  {% assign categories = popular_categories_query.results.entities %}
+  {% if categories %}
+    <div class="list-group">
+    {% for category in categories %}
+      <a class="list-group-item" href="{{ category_url | escape }}{{ category.categorynumber | escape }}">{{ category.title | escape }}</a>
+    {% endfor %}
+    </div>
+  {% endif %}
+</div>
