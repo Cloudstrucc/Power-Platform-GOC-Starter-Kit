@@ -15,27 +15,7 @@
           {% if page.adx_entitylist %}
              {% include 'entity_list' key:page.adx_entitylist.id %}
           {% endif %}
-          <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
-            <entity name="Event">
-              <b>Event</b> {{event.cscan_event}}
-              <b>Event Id</b> {{event.cscan_EventId}}
-              <b>Number of Seats</b> {{event.NumberofSeats}}
-              {% comment %}
-              <b>Attachment</b> {{event.cscan_attachment}}
-              {% endcomment %}
-              <b>Note</b> {{event.notes}}
-              <b>Parent Event</b> {{event.ParentEvent}}
-              <b>State</b> {{event.StateCode}}
-              <a href="http://waaark.com" class="btn-liquid">
-            <span class="inner">Buy Event Tickets</span>
-          </a>
-            </entity>
-          </fetch>
   
-          {% include 'Events' %}
-          {% include 'Products' %}
-          {% include 'Buy Tickets' %}
-
   {% comment %}
   {% endcomment %}
   

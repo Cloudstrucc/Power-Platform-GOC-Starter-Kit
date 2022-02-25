@@ -61,14 +61,6 @@ adx_contentsnippet:
   DisplayName: Header/Toggle Navigation
   CheckSum: ec6b226dd58f49ed86c669ca26f70580663655a8d8da1b764a69fa79f9d14b92
   IsDeleted: false
-- RecordId: 8fc0aa6a-6b1d-468c-9bf4-c2517628414a
-  DisplayName: Forum Post Create Heading
-  CheckSum: b297eaee157a64dda171ba285ab08e3279469767fdfeb87d9d63551bb3614142
-  IsDeleted: false
-- RecordId: 878d7d3c-97c4-eb11-8235-000d3af3278f
-  DisplayName: Forum Post Create Heading
-  CheckSum: e7150bbe32d655c1fbc4fd7ba64d35f29ca8ae6afef925c5dafbafd127209710
-  IsDeleted: false
 - RecordId: e1c0ad27-5dc1-4bf1-beea-c563ea80a707
   DisplayName: Forum Thread Create Instructions
   CheckSum: 78aa72217626bc6a526df415741a8aafaeaef8686b93ee9870711056892646f6
@@ -76,10 +68,6 @@ adx_contentsnippet:
 - RecordId: cd8d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Forum Thread Create Instructions
   CheckSum: 28114afb54509831f29902a3153ec01044ec470d2b1f52f0d7664ab119fc7c53
-  IsDeleted: false
-- RecordId: c78d7d3c-97c4-eb11-8235-000d3af3278f
-  DisplayName: Forum Post Create Heading
-  CheckSum: 7db81ca1bfb1f6686954f8c9fc92faf3e2fcb935a0da388e50f47ad9313a8375
   IsDeleted: false
 - RecordId: 938d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: KnowledgeManagement/ArticleUnavailableMessage
@@ -137,6 +125,10 @@ adx_contentsnippet:
   DisplayName: Mobile Header
   CheckSum: 349d9e2640e1d400e7c332fb0339cf0b30383299fb0fb2604405b27ff8a60c3e
   IsDeleted: false
+- RecordId: c78d7d3c-97c4-eb11-8235-000d3af3278f
+  DisplayName: Forum Post Create Heading
+  CheckSum: 7db81ca1bfb1f6686954f8c9fc92faf3e2fcb935a0da388e50f47ad9313a8375
+  IsDeleted: false
 - RecordId: 3acda250-c471-438e-a981-28165c9ea63b
   DisplayName: Knowledge Management - Related Attachments Heading
   CheckSum: b4748b7f9e5464526c15910c7385da7d9cc93dd9eb8079955b56f721b12bc059
@@ -151,7 +143,7 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 8adf07b7-cfc4-eb11-bacc-000d3af385d3
   DisplayName: Account/SignIn/PageCopy
-  CheckSum: 63be562ac79c94cdd35a7a4df8d64aab27ce5fa36127987bf1e273fd02e15325
+  CheckSum: 7c7adcb140f25cb2069c7fbcd4839299b210fc30aa1f88d4f1c77ae12d09a795
   IsDeleted: false
 - RecordId: 330d6629-894f-e711-80dc-00155dfd2fe9
   DisplayName: Account/ConfirmEmailRequest/PageCopy
@@ -271,11 +263,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: b7801670-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/gckey-title
-  CheckSum: d99018c1a89ea7cff8f04bffda871d4d3d957c1fe978085e0226155492099e45
+  CheckSum: 74931e7a5a23e8676d0c9e0cf2a96dfcada9d483ed087ac4b307ee5ae2e34e95
   IsDeleted: false
 - RecordId: f2c8b756-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/gckey-title
-  CheckSum: 4a79bdfb00c9998f1602f10080d180b06bee2a883338b011a688c90b77322274
+  CheckSum: b253851f79484cbba99c1136c7d19ee33670a7de65c588966c597ccc8340ef4a
   IsDeleted: false
 - RecordId: d4064696-20c4-eb11-bacc-000d3af385d3
   DisplayName: Portal/Name
@@ -308,6 +300,10 @@ adx_contentsnippet:
 - RecordId: a7331eaa-4c4c-431f-bfc9-81b7598a00ad
   DisplayName: Knowledge Management - Related Products Heading
   CheckSum: 3d90d788205fb62605ce58494308ade7c6746f91e4430b8d0099384563583c00
+  IsDeleted: false
+- RecordId: 8fc0aa6a-6b1d-468c-9bf4-c2517628414a
+  DisplayName: Forum Post Create Heading
+  CheckSum: b297eaee157a64dda171ba285ab08e3279469767fdfeb87d9d63551bb3614142
   IsDeleted: false
 - RecordId: d28d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Categories - Child Categories Heading
@@ -359,11 +355,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 45e036fe-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/securekey-title
-  CheckSum: 9e80547b60024b9e691cf80458b810e05e85ee025ca1948dbfef1a3cf6933833
+  CheckSum: e4d0671f3255b6a877372c87c5e7bfcdf1e5e2300d8f0c96d65586770892fc84
   IsDeleted: false
 - RecordId: 8f280ee6-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/securekey-title
-  CheckSum: d8de97df0dfe252dab5575b8f7a3f35f2bc7c8911496d6582bf02cb5c8a74c26
+  CheckSum: 15b407045609f2c0492174e73c26950cc3ad5a87dd7aa39e086131cfdad97d89
   IsDeleted: false
 - RecordId: f8fbc8f5-f428-e611-80d2-00155db28d5d
   DisplayName: Account/ChangeEmail/EmailLabel
@@ -375,11 +371,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 600664b4-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/page-copy
-  CheckSum: 8415b0b87e4882208ce9986cff4c99210cacabb7e01e956d3ccbab49b2145d80
+  CheckSum: d8bf259c86dab757ba5e104d058a2c0c8d6922aae824e55c1b6e5dfd2684d743
   IsDeleted: false
 - RecordId: 8bdce4cc-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/page-copy
-  CheckSum: 0f2a7e31bc9fb0ebd00ec8c189c9fc34505ba289d85e5b14de0b5d0db4155320
+  CheckSum: 0496eb8102dae4308323058f8f6f57d683ec99e1cc7f8455a977daf1d9d4c158
   IsDeleted: false
 - RecordId: 2c8d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Account/Conversion/SignInExternalFormHeading
@@ -447,11 +443,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 2d4af39a-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/invitation-code-alert
-  CheckSum: fb79e8bfeb37391f6bb6fc685b9068ed422396ebce43366c39a76b35c6931b6a
+  CheckSum: c556cdf2a687d4c6c082d3435e692a3d1907916ec349fc7c3fff7ee5974279fb
   IsDeleted: false
 - RecordId: bd1d0482-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/invitation-code-alert
-  CheckSum: 9d104df343cb17576ce1e0f2c2a7195aab22f0ecb1c141c1f3188ca5fe4a2c5f
+  CheckSum: 7fd04a51610cf9a409e9d597b4fa75f57d834a500d57ac5abf74dd5cb0693fab
   IsDeleted: false
 - RecordId: f802222f-2daf-e711-80c7-000d3af744c3
   DisplayName: Account/Signin/MinorWithoutParentalConsentNotAllowedCopy
@@ -495,11 +491,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 28812d1d-cbc4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/title
-  CheckSum: d4736660843c9fa35d851d46747a3c8c3250d2ec5b7557756dbd65cbfd1ec5ea
+  CheckSum: 147b46d7312dda784c018db5e1b05b382b9bc0d81598b499e81aaf973cc4af78
   IsDeleted: false
 - RecordId: cfdd4a2f-cbc4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/title
-  CheckSum: aec99e886b370e49b140c9cf915afd997e9227af0ac595baa1b2b0ccb9935b6b
+  CheckSum: e582cc836526ffb8dfab7b17622690205f0e8ff1860c3462eb3649fdd0495f07
   IsDeleted: false
 - RecordId: 638d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Profile/MarketFax
@@ -555,11 +551,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: b0398728-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/register/page-copy
-  CheckSum: 99a11f295f9c20b68d82361bb39b5a0e49f383cb5ca96140bc4b73b6504cd488
+  CheckSum: 26afd79e3914780770204c44b92c2c0923d30e98dadd1f54a521eb0b73dbd0c9
   IsDeleted: false
 - RecordId: 4191af3b-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/register/page-copy
-  CheckSum: 5f456c3a5be48c1ee2fd3e2057dd8e150948156816fe70e6e4b72bab947c8c25
+  CheckSum: c6f824b961f9beb282a5902e50d3766c57a9c0fd66ba15bf3b03a502b5a6d414
   IsDeleted: false
 - RecordId: ece26eb7-ff31-4241-be06-08e5aaa24620
   DisplayName: Account/SetPassword/Username
@@ -568,6 +564,10 @@ adx_contentsnippet:
 - RecordId: 8d8d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Account/SetPassword/Username
   CheckSum: c6b2bdf657cf242a4bc13e65b89953ebab5447f2a08af803af71d847a2a59d91
+  IsDeleted: false
+- RecordId: 9f542af9-90cf-4d20-ada3-073792bebabf
+  DisplayName: Forum Post Create Heading
+  CheckSum: 03d4eaad9c2cf70a7bd8bf4ac77162a1fd036499659e914917f4fb17d33321ab
   IsDeleted: false
 - RecordId: 1708aa78-f228-e611-80d2-00155db28d5d
   DisplayName: Profile/SecurityNav/ChangeEmail
@@ -643,11 +643,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: e6729409-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/page-copy-below
-  CheckSum: 04f799055c3b2abea2a9a94c2040d19dbc52adfd293686afdfd6469e7f279c8a
+  CheckSum: c15e2d36f5205eb07722770b9542545d90ec21265e9c674c4e90273c20f4248a
   IsDeleted: false
 - RecordId: f4e740f1-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/page-copy-below
-  CheckSum: 62ffb7d762d4a5677625b6ced524fa5d098c4185f608d241858a234126df2c92
+  CheckSum: 3f00fb4fe8fd46738437ae2f73a50fc52bee8a76785ce1600d96412f5cb1c5d0
   IsDeleted: false
 - RecordId: 229f25ec-f428-e611-80d2-00155db28d5d
   DisplayName: Account/ChangePassword/ConfirmPassword
@@ -683,11 +683,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 91e28d79-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/securekey-copy
-  CheckSum: e2456b72edbeb96257085b3c45ecee004bbf7df3cfd675a0f6b5d0eb588c19d6
+  CheckSum: f16092cbc4e43d6da5d7eff0795c0a73ecf05143da1bf9b652994519db9ba2d0
   IsDeleted: false
 - RecordId: 0f418b97-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/securekey-copy
-  CheckSum: 2a52758ea3e24454105565a8f1593053943c7c14624dc2c040594c28e2e52303
+  CheckSum: 66b76dc28ee95110dc65777bf8098b19bbc26c0f9cec2ecedab7fb471f7f75b9
   IsDeleted: false
 - RecordId: 20394a27-0d0f-4b03-9422-c3d1d68d03bb
   DisplayName: Account/ChangePassword/PageCopy
@@ -763,11 +763,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 06d2553e-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/gckey-copy
-  CheckSum: 74f1db2ce1826b1ccacf6ef7c330287da40118ded838c09ddccc548b74dd5d94
+  CheckSum: 2afd7eaacecf33cf7fee4899843c0b5189c822d1b4d1f6762dc12e24c93d0744
   IsDeleted: false
 - RecordId: 56464632-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/gckey-copy
-  CheckSum: b5e9ac79732d990619872efd136ff378938b880f4217d833159cbed05729b80c
+  CheckSum: 5b98e07d2f369587031acbafc90d46a7702c872b6cd5266ba3903ba0d1136a08
   IsDeleted: false
 - RecordId: 378d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Search/Facet/ModifiedDate
@@ -817,6 +817,10 @@ adx_contentsnippet:
   DisplayName: Account/SetPassword/SetPasswordButtonText
   CheckSum: 8f5995623097b0d8fea5ae7316045087c7119dbd7b59fc8e3c43fa0bb54f3fed
   IsDeleted: false
+- RecordId: 878d7d3c-97c4-eb11-8235-000d3af3278f
+  DisplayName: Forum Post Create Heading
+  CheckSum: e7150bbe32d655c1fbc4fd7ba64d35f29ca8ae6afef925c5dafbafd127209710
+  IsDeleted: false
 - RecordId: 137ca0ce-884f-e711-80dc-00155dfd2fe9
   DisplayName: Account/ChangeEmail/PageCopy
   CheckSum: 71517667ae2d095a76e693695f5c87b39e29e3ee5b2e2a3387f6b85058980128
@@ -835,11 +839,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 3fe9eeb5-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/securekey-image-alt
-  CheckSum: 0d9853a06ed6ae060ceca5483e8153336f6d54f7be441bd357ef5abc14311e05
+  CheckSum: 23c0e4dcce977ccc127aa8595c881f0eccbed0d1c20012c8c8d0259572b02eff
   IsDeleted: false
 - RecordId: bdd8f3cd-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/securekey-image-alt
-  CheckSum: b9288008226aaa948bff2d4f51b039ab7ae22c9a2ad7b5dae941a9b81b56c5cd
+  CheckSum: 93dd5604cb3c7ffae2bf0e03c7bccc73814288fc7710bd5d500debd7ce4843f2
   IsDeleted: false
 - RecordId: 9688f11a-3bc0-46fb-b98a-e627c9638dcf
   DisplayName: Forum Thread Last Post Heading
@@ -855,7 +859,7 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: ead54024-255f-4af5-a27b-c01e61d16c86
   DisplayName: Account/Register/ExternalAuthenticationFailed
-  CheckSum: 1959c6da2ccb937348308ddeb9aeca659d9e9a1b9c5138d80f9149fe1a2059b6
+  CheckSum: 6c9be38440cefc4e1390e22141977cd7cc3373052a6209808d512f2e6bda4265
   IsDeleted: false
 - RecordId: 3e8d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Search/Facet/SortOrder/Views
@@ -881,17 +885,13 @@ adx_contentsnippet:
   DisplayName: Account/ConfirmEmail/EmailLabel
   CheckSum: 4820533ea277ed147cd7f0c3a0b6dda7212cfeb3195834f5c6ca5330d51e84ee
   IsDeleted: false
-- RecordId: 9f542af9-90cf-4d20-ada3-073792bebabf
-  DisplayName: Forum Post Create Heading
-  CheckSum: 03d4eaad9c2cf70a7bd8bf4ac77162a1fd036499659e914917f4fb17d33321ab
-  IsDeleted: false
 - RecordId: 5d39fde5-c8c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/breadcrumbs
-  CheckSum: 0b87ea2f0912d0b1ed99bff699ed2085673dd6d13861215d0b3e4e24f2eff20c
+  CheckSum: ac466713a7909e7a9d12e8f0ef86ad1cce45fc441a951871893a8cc5c29b3843
   IsDeleted: false
 - RecordId: d50e8704-c9c4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/breadcrumbs
-  CheckSum: c1d65be31b59bbf80ca5fc5e476e28e2a5448ab7fc864b8c96e3dc7bfda023fd
+  CheckSum: 3f790c3fc8b90d60a7f50284b441a61c3f1006b9529b02b64006f646f04c9653
   IsDeleted: false
 - RecordId: 9c8d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Forum Thread Name Heading
@@ -1075,11 +1075,11 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 03ccf260-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/register/title
-  CheckSum: 21f09870c2346941f791b37a372cb2044ea84c88f1aecae82d9f2708ea4a01ae
+  CheckSum: fd6e56b0e2ecc4f776bd2d4edf80876654395dd989a97603ad8215d76cbe4c36
   IsDeleted: false
 - RecordId: ef62d64d-cac4-eb11-bacc-000d3af385d3
   DisplayName: GCCF/sign-in/register/title
-  CheckSum: 294e3705a51303e26ddaab1c92968b7eba7e3ba215b1c3a92533dca01f046746
+  CheckSum: 227386aa47ee235276ddeb78e70a3f08f26354fcead3f5e33ed896ef83d6e9b8
   IsDeleted: false
 - RecordId: 668d7d3c-97c4-eb11-8235-000d3af3278f
   DisplayName: Profile/MarketMail
@@ -1584,7 +1584,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: e729ddb6-16ca-eb11-bacc-000d3a84a658
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_3/Authority
-  CheckSum: 6e0558eb3858825e38a27471cc334715e8f0aff88679110a63eb3247bdbf4a32
+  CheckSum: ffd42f92bc87d73f110912dffc5f339ce19d35c548199d3c41a89ed5cebb5149
   IsDeleted: false
 - RecordId: e23532fe-da87-4063-9d5d-d460f3b8ed3f
   DisplayName: Authentication/Registration/TermsAgreementEnabled
@@ -1600,7 +1600,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: d794885a-ccc4-eb11-bacc-000d3af385d3
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_2/ClientId
-  CheckSum: b717d3928438039daf03576a5504cd507e075d0ab092e5501accd081c07f114a
+  CheckSum: e066db1c5790343fe2a59d7d64eab3d86e2ee47c1ab2ce58187abfc7a5edc87f
   IsDeleted: false
 - RecordId: d4f16cc2-a2d6-45e3-9edf-ecfec9ec9c40
   DisplayName: ProductFiltering/AccountToProductRelationshipNames
@@ -1672,7 +1672,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: a4ef835e-ccc4-eb11-bacc-0022483bf7f2
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_2/Authority
-  CheckSum: 1acd58bc2684b7b5661b3c983aa751fc017b550a92437d8a4f638cefbb2ab548
+  CheckSum: 789e8adbb4245704db6e878d1d12807ab77d5beb9554a53428181663732335b0
   IsDeleted: false
 - RecordId: a3ef835e-ccc4-eb11-bacc-0022483bf7f2
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_2/RedirectUri
@@ -1706,17 +1706,77 @@ adx_sitesetting:
   DisplayName: Search/IndexQueryName
   CheckSum: 096e6fa0c6290696c122c6fa4deaab1507c34d567480d72130da0e188f3c0c9d
   IsDeleted: false
+- RecordId: 95341d4c-bc94-ec11-b3fe-0022483e2902
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/Authority
+  CheckSum: ca4591b1283bfcf92afe5d8b5da762349fc8b725aa1a52a316e3c872ba6e0595
+  IsDeleted: false
 - RecordId: 95237b77-1a84-4439-980f-bdc757ad8699
   DisplayName: KnowledgeManagement/DisplayNotes
   CheckSum: 83f0257315cfa0e99f7442c9d13cbb0193aef4d2260e505f86ada53517d675f2
+  IsDeleted: false
+- RecordId: 94341d4c-bc94-ec11-b3fe-0022483e2902
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/RedirectUri
+  CheckSum: bedb7b4ba5c2569346400ced7d5bef518504dd5abac369ecdaa5cd796e7e6635
   IsDeleted: false
 - RecordId: 938e5d6f-f887-41b2-88fc-ac2e12c78251
   DisplayName: search/query
   CheckSum: c2b366f0ab4c0d4062fa722820e45a2ce338ef1d577470e07be692a15e080495
   IsDeleted: false
+- RecordId: 93341d4c-bc94-ec11-b3fe-0022483e2902
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ClientId
+  CheckSum: d7c2611b518cff0c1ab81d8ecc3d1a58825d257830c56ce6caf595bdd8725083
+  IsDeleted: false
 - RecordId: 92786ad2-ee63-4a67-8b67-15b6e45eb525
   DisplayName: KnowledgeManagement/Analytics/ExternalSearchEngines
   CheckSum: dcb95e628693696bb20a75ef8fea4c6500d8cea7a63ea6bde489b874a9dfc4d7
+  IsDeleted: false
+- RecordId: 90d9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ClientSecret
+  CheckSum: 331c49a7699f4e06017033bdf858e534fb700de2abe3ac879448a9a6b4fb2b4c
+  IsDeleted: false
+- RecordId: 8fd9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ResponseMode
+  CheckSum: 473eea0a93e5779ee47d12c60febbff8d1b67dc371bcf66ca3b58a0701b79442
+  IsDeleted: false
+- RecordId: 8ed9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ExternalLogoutEnabled
+  CheckSum: 591836874d0ecf62ab13caa940bd77bc8ad1c803d57df971b683e35e7f215c55
+  IsDeleted: false
+- RecordId: 8dd9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/Caption
+  CheckSum: 131e44f3dc83ffca1e1a1966ea0f60665ca35f1c387577c7caa6963da8db3c4b
+  IsDeleted: false
+- RecordId: 8cd9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/MetadataAddress
+  CheckSum: a3497f69707c61566e5cd9fe6cf32f23f8b9d9047e3a756392d95a4e47af5062
+  IsDeleted: false
+- RecordId: 8bd9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/Scope
+  CheckSum: a2f5795e7201a0d7c6e1d47bf7c2fc48581cbfb10119721fe7b7d027eda696c1
+  IsDeleted: false
+- RecordId: 8ad9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/AllowContactMappingWithEmail
+  CheckSum: 00f56d6d780d750d2e82f9c40f3be8adf479603b35082fd90a9283da03792997
+  IsDeleted: false
+- RecordId: 89d9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ResponseType
+  CheckSum: 2fd7843163690e31139348f6c39240e4a059892a487496e8dcf24ad3fd10196a
+  IsDeleted: false
+- RecordId: 88d9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ValidateAudience
+  CheckSum: 4874fcfaf15360a589cdcdbfabcc27524ae078a5a3f606a04069b7f7903d89ff
+  IsDeleted: false
+- RecordId: 87d9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/RPInitiatedLogout
+  CheckSum: 52b98c1552ff0609f135f0fbadbf7c854ad593ffc1a7100ec334f841ba08f061
+  IsDeleted: false
+- RecordId: 86d9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/UseTokenLifetime
+  CheckSum: d1f96c39b9c618faa32ba8676662e2fbb67b4af161250e682e077a3e3f7eb91a
+  IsDeleted: false
+- RecordId: 85d9df4e-bc94-ec11-b3fe-0022483e815c
+  DisplayName: Authentication/OpenIdConnect/OpenId_1/ValidateIssuer
+  CheckSum: 1db4cff8b995e19360cf4f54ad34bf7960e162d09c9117d1248c4577d5fef307
   IsDeleted: false
 - RecordId: 83cbd2ca-d54b-ec11-8f8e-000d3ae9a4c9
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_4/ExternalLogoutEnabled
@@ -1748,11 +1808,11 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 7c5412f3-cbc4-eb11-bacc-000d3af385d3
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_1/ClientId
-  CheckSum: 694c71bdd05c243beecbf6198be55ce00dabd9c00f1224ef64108f6254b570ab
+  CheckSum: 70d0e74a57bae53ef0e37c91d50b56cb0c6696e73e8d1c7b9a5285509407ad2f
   IsDeleted: false
 - RecordId: 7bcbd2ca-d54b-ec11-8f8e-000d3ae9a4c9
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_4/Caption
-  CheckSum: 33ed0d8fe0b274a34c67d5b2615c1251ad0e9311e6a64891ccbf02938e39e69c
+  CheckSum: 748d381b0cc91a5501a1591be8b412763cf7240d7acdc5262dd23763746bb928
   IsDeleted: false
 - RecordId: 7acbd2ca-d54b-ec11-8f8e-000d3ae9a4c9
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_4/ClientId
@@ -1820,7 +1880,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 373522c9-d54b-ec11-8f8e-000d3ae9a753
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_4/Authority
-  CheckSum: b860e565dba62f8e463c4fd083d852ac2935cfb22b1ce17079726afdb1a22b29
+  CheckSum: c78ab8f71f318efce1f64cd522d9b624f159ec8f8cea4a5eadd0859fde43581c
   IsDeleted: false
 - RecordId: 363522c9-d54b-ec11-8f8e-000d3ae9a753
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_4/RegistrationEnabled
@@ -1836,7 +1896,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 339ac2ee-cbc4-eb11-bacc-0022483bf7f2
   DisplayName: Authentication/OpenIdConnect/AAD-B2C_1/Authority
-  CheckSum: 0969405ba61c9bee5e5ce0f217bce195502145f0bb74785459a6422508a954ab
+  CheckSum: e4ea362d7860dde42e2301bf262bb83c0dd4edcb77c3bb7ce22edf9b945ee132
   IsDeleted: false
 - RecordId: 30084086-b31d-47d9-af08-5fe1dacc478c
   DisplayName: Header/OutputCache/Enabled
@@ -1876,7 +1936,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 18ed686c-772b-e711-80df-00155dfcea14
   DisplayName: Authentication/Registration/LoginButtonAuthenticationType
-  CheckSum: a453c4bc30653a3d720b5e85f045216a1e6c4695b94de95cf51626e53579ced5
+  CheckSum: 9630d25136f4d82dfab725e5554a9efaee49b3bded91286c7b4876302c0fcb73
   IsDeleted: false
 - RecordId: 16ed686c-772b-e711-80df-00155dfcea14
   DisplayName: Authentication/Registration/InvitationEnabled
@@ -1892,7 +1952,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 10ed686c-772b-e711-80df-00155dfcea14
   DisplayName: Authentication/Registration/AzureADLoginEnabled
-  CheckSum: 6fbbe42c3fd0796fb5d0bfde21667420a280a167d0660f1df0458f7b91b24f17
+  CheckSum: d853f66c98a095f2d0355ef517228102b8c134ed5bfbbc96644c359317bc5a75
   IsDeleted: false
 - RecordId: 07418dfa-3d42-48d6-b14d-b3b436356099
   DisplayName: ProductFiltering/Enabled
@@ -2001,6 +2061,10 @@ adx_webfile:
   DisplayName: servermessage-fr.html
   CheckSum: b4fc2fefe6e54ba22b62f01e2acba1ef3109ba9dc4ed44fcd3b72d6d2e770631
   IsDeleted: false
+- RecordId: f0d677c2-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 07fb6bc17f113af3094f79db5cef2bb950b95b526902dd72713f04145d1f74cd
+  IsDeleted: false
 - RecordId: d35a9195-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: package.json
   CheckSum: bc8368ac4b06d9421101ea4e9d73c662659db3cf1b1edfcaaaeeed1ce7e54111
@@ -2008,10 +2072,6 @@ adx_webfile:
 - RecordId: 9c01ddc5-d4c4-eb11-bacc-000d3af385d3
   DisplayName: cbs-mosaic-fr.png
   CheckSum: 5d4053ccebf4726676c54f2cd0522d8b2645ce2f52ddcfa96754dc5ddbcb5464
-  IsDeleted: false
-- RecordId: ec99adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: fr.js
-  CheckSum: c7b02a19b04b8c0dd8e55547884215e128f2589d6bb500d75099ee83f5699f3a
   IsDeleted: false
 - RecordId: 06aebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: colour-en.html
@@ -2032,10 +2092,6 @@ adx_webfile:
 - RecordId: ca22217d-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: proxy-fr.html
   CheckSum: 0754e362aa797ab71e213d503d002f5b1fc323f63acec2ee0e5f0aac9f650372
-  IsDeleted: false
-- RecordId: ee99adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: HTML-CSS.js
-  CheckSum: cb9a3b095bcc22fbb5b7b348565360bf043341e504da77ee8e08a667fcafe8e5
   IsDeleted: false
 - RecordId: 52ab29a0-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: mmultiscripts.js
@@ -2101,10 +2157,6 @@ adx_webfile:
   DisplayName: details.min.css
   CheckSum: 0f95cff390ffd320e17b67fad9196b4c74ab687a620e5df0fa46e2ef495552c2
   IsDeleted: false
-- RecordId: 995f9473-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: bd6302feb86bafacbbe083674546f7d1f003f01934e78adeb9100da63b60edb3
-  IsDeleted: false
 - RecordId: 3a00565a-0801-e611-80d3-00155db72521
   DisplayName: layer_down.png
   CheckSum: 8cdb11432b21f6b11024611e960b18dc1d52e73a5c67f9b0a945c06e27d38835
@@ -2145,10 +2197,6 @@ adx_webfile:
   DisplayName: MathJax_Vector-Bold.otf
   CheckSum: bc51c620f5359ca28ed9e91fe3467556006444bebba10aa6adc19523da3bfc6b
   IsDeleted: false
-- RecordId: 69f00dbb-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: afbe36577e60ffa6125548784f4cb946a6f6e7ee376e399c2646b67c3a2c26fb
-  IsDeleted: false
 - RecordId: 791b6a5a-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: CombDiacritMarks.js
   CheckSum: 318641a7483d94efc53c75082b6d57ca1369b8f97e644bba745a6d0ae6411a1d
@@ -2172,6 +2220,10 @@ adx_webfile:
 - RecordId: 2b53b0f5-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 404-fr.html
   CheckSum: 43aae5f48fc2a203785e135eab8c5670f6df300e4c3932deafe13b78fab1c1d0
+  IsDeleted: false
+- RecordId: 9dab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathML.js
+  CheckSum: 53c0054303e23afe5255a58528826aac8d0c8620215de356985b6075c136dfdc
   IsDeleted: false
 - RecordId: 52aebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: topic-en.html
@@ -2204,10 +2256,6 @@ adx_webfile:
 - RecordId: 09e46250-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: meter.min.css
   CheckSum: f77077a274c8987925348284b85e26cfd7d38dcf35660fc2394d6a41fc7d2618
-  IsDeleted: false
-- RecordId: c97b91da-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: index.html
-  CheckSum: 75d2425c6147f9ed394f597886ee39452493bdf63b4b38ca63064d32ffca0d48
   IsDeleted: false
 - RecordId: ef45cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: latin-mathfonts.js
@@ -2252,10 +2300,6 @@ adx_webfile:
 - RecordId: 7589af98-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: boutons-radio-specs.png
   CheckSum: 4744b8bcc302c7943c01ebf566ad3808b9205d6fb89aec11c914c39368e4b2f2
-  IsDeleted: false
-- RecordId: 3d70fab4-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 8278f12d59049823234bb3fcf37ca89e0a2286623342b83e6e8a3d32a05b87a6
   IsDeleted: false
 - RecordId: 75466a04-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: svg.min.js.map
@@ -2305,6 +2349,10 @@ adx_webfile:
   DisplayName: test.html
   CheckSum: 6f1aa034df8e754e8379105d95d5807f3f9a2ca536e39571abb1df2c551a5a75
   IsDeleted: false
+- RecordId: 6b1c5f61-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: index.html
+  CheckSum: 8d4d1fc002f4fdc9ca38dea1dafb5d2e8c92f5c6b4f5ebd04d33a42776cc1a21
+  IsDeleted: false
 - RecordId: c793eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-proto.js
   CheckSum: 59fb99b40044ff3423dad57532657a2517ebf6bf8038df15077b5156edcf51e1
@@ -2312,10 +2360,6 @@ adx_webfile:
 - RecordId: 16a25536-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Main-Bold.woff
   CheckSum: 18544e960eec6b68ce02b0e1d6c1fa019b03b307a99c0473e5a8445f11574db0
-  IsDeleted: false
-- RecordId: e9b7c988-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: index.html
-  CheckSum: 8721f48452cbe1072c7b7d82ea04a3b418bfacc6f702d1d16826591b37f68ae3
   IsDeleted: false
 - RecordId: f3828faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-MML-AM_SVG-full.js
@@ -2328,10 +2372,6 @@ adx_webfile:
 - RecordId: d5ed2283-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: start-fr.html
   CheckSum: ae118029e8d69acd7102d2526fc5b7aa9e57b71ab5c5c942058a3948cf538817
-  IsDeleted: false
-- RecordId: d04d1a14-b440-ec11-8c62-0022483bee55
-  DisplayName: theme.css
-  CheckSum: 4690e39b6bfd4dcddfa76fb0542e4312253c2872605504876a35e478e3effea5
   IsDeleted: false
 - RecordId: 91db94a9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: MML_HTMLorMML-full.js
@@ -2357,6 +2397,18 @@ adx_webfile:
   DisplayName: template.min.js
   CheckSum: f177015419da954454098f9adc0b45f6388535c8c7f1a5cd1b011bdcd62930cd
   IsDeleted: false
+- RecordId: 3d70fab4-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 8278f12d59049823234bb3fcf37ca89e0a2286623342b83e6e8a3d32a05b87a6
+  IsDeleted: false
+- RecordId: 69f00dbb-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: afbe36577e60ffa6125548784f4cb946a6f6e7ee376e399c2646b67c3a2c26fb
+  IsDeleted: false
+- RecordId: 97ab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: en-US.js
+  CheckSum: f8aa5de55b1f039d4d7e7d9fea2564c94780f96d04e87f39abc8e1aa248f6a43
+  IsDeleted: false
 - RecordId: 67c5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.dataTables.js
   CheckSum: 352b31aa86653b293a34aed3513d1d8fd0e36d2a8c96e8b77883cc3a96d70a27
@@ -2373,13 +2425,13 @@ adx_webfile:
   DisplayName: 1-sc-7-ie.png
   CheckSum: 86a5b2f9e5a6deb245df5464068da2c16bb40e1ee916bb231d2472cde2a1f076
   IsDeleted: false
+- RecordId: c522217d-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-en.html
+  CheckSum: 5b86fca3e8d79f705c2235ecf7f920b905ad60554a35b66e47e9d30191697596
+  IsDeleted: false
 - RecordId: 1139aca7-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: youtube.svg
   CheckSum: 2289a5161db85c8f9672a57f7d683c5951f0e28860b60462ba290d4a42cf606f
-  IsDeleted: false
-- RecordId: ed5a2d23-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: payload.json
-  CheckSum: ca7c8beec9e9fc868d40e50cdbf1217f7cbcbb62de975c7f32c6a19732bdab9e
   IsDeleted: false
 - RecordId: 94c0c143-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: glyphicons-halflings-regular.ttf
@@ -2397,10 +2449,6 @@ adx_webfile:
   DisplayName: lang-proto.min.js
   CheckSum: 9129b56ed6b38f3c4bbb786e56f73a367a9255d4554f066496d6b17b7830d5cb
   IsDeleted: false
-- RecordId: c462b8c4-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: FontWarnings.js
-  CheckSum: 68290ddc19afaf8c958908df0cbe80af01e431777aa4b4d37b240ed5f78a0000
-  IsDeleted: false
 - RecordId: cd1314c4-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.woff
   CheckSum: 5ac3c590a3d10153706736db5b552c2f11ab09c2f0ff4b29b774b66da62cd1bb
@@ -2416,6 +2464,10 @@ adx_webfile:
 - RecordId: c093eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-mumps.js
   CheckSum: aa10c0e39a85c98e417a8bce72d69f544fe652bcc11469fe458344ce2dc0d472
+  IsDeleted: false
+- RecordId: c962b8c4-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathMenu.js
+  CheckSum: 46863722cc3033786067322dafcd53d7495431e446297dc23af1176de0c854bb
   IsDeleted: false
 - RecordId: dad1907f-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: n.js
@@ -2441,10 +2493,6 @@ adx_webfile:
   DisplayName: 1-capture-8-ie.png
   CheckSum: af00ab6795b8fac09a89dd10a837db78e061b39a5a8761877e317a2603c9d2a9
   IsDeleted: false
-- RecordId: bbb50d87-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 8db4b013583a33bfb05dbcc330aa8199478e0109d3ab3fc238dc9398c881c447
-  IsDeleted: false
 - RecordId: e793eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: prettify.min.js
   CheckSum: 8b62cdbe1450c72b90f458419775f41cd1c2927a9a10c6d5bee627342227aa27
@@ -2461,13 +2509,13 @@ adx_webfile:
   DisplayName: 1-sc-4-ie.png
   CheckSum: 4ef70edab348bebbe3964eb953ce045836a30361f65e5a683833a39cb7edf244
   IsDeleted: false
-- RecordId: 99ab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: FontWarnings.js
-  CheckSum: 0ae91c1e29c08537485d4993af1df5e92999fe9ed8e399aaebf86b03d4bb747f
-  IsDeleted: false
 - RecordId: 1a21090e-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: AMSsymbols.js
   CheckSum: 169b1e13e4a6c8a95025b36171f020c8760cf90b4e6602f24967976ec560dda3
+  IsDeleted: false
+- RecordId: 164d58ba-9ac4-eb11-bacc-000d3af385d3
+  DisplayName: sig-blk-en.svg
+  CheckSum: e7cd887a0d211bb4e3658df88ecd4ab5b321f35361ac954528e73a40c6c75e93
   IsDeleted: false
 - RecordId: 351fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-sc-9.png
@@ -2537,9 +2585,9 @@ adx_webfile:
   DisplayName: lang-pascal.min.js
   CheckSum: 2137ab3e520983e66dbc84cc72c2100afba2f2bd458cc284c3f8d0158c75a873
   IsDeleted: false
-- RecordId: c622217d-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-fr.html
-  CheckSum: 25bd3e9ad8a6e5c72bb12babe622999e2219a5fe870fe853c75027de28c24f6d
+- RecordId: 49c2b6ad-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 53b5cd55f9951fa3d46cbfe6e0a00e5388329cc5a62dda56803c4c43f1b268b4
   IsDeleted: false
 - RecordId: 9908851c-564b-ec11-8f8e-000d3ae9a753
   DisplayName: nrcanbaseline.css
@@ -2548,10 +2596,6 @@ adx_webfile:
 - RecordId: c293eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-n.js
   CheckSum: 6d3ab8aeb74b2b59080ef4d23addd1449223e51dff11a408971d9884243d5a77
-  IsDeleted: false
-- RecordId: c562b8c4-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: HelpDialog.js
-  CheckSum: e3928b2311ebdc2fe73065bc717f19f182b0e2f65577e2e2ded809ea63418acc
   IsDeleted: false
 - RecordId: f951a0bc-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-capture-3.png
@@ -2573,10 +2617,6 @@ adx_webfile:
   DisplayName: cs.js
   CheckSum: be82cf7ea88cb5a8932dbd67b914e37dfe739346c2d5a3420ba8542165979ff5
   IsDeleted: false
-- RecordId: d45a9195-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: payload.json
-  CheckSum: 8dc1f8350daccc7df9d80eb25989d9cea89a30faaa09065c234b425a3509bb82
-  IsDeleted: false
 - RecordId: aedb94a9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-MML-AM_HTMLorMML.js
   CheckSum: 92514a077d2e7782cc494fff27d9fa75bda9e34d741d58acb60282dc743f3188
@@ -2592,14 +2632,6 @@ adx_webfile:
 - RecordId: 85106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: uk.js
   CheckSum: 29a811c00116a5683a0f2d99c906897c823d10982d43088d8e8293aa86bd04d1
-  IsDeleted: false
-- RecordId: fd48319a-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: fbeefe2007cdcc3c49e9e74d90c3fd6de578924282f2d5b2dce6b771f4b6ddaf
-  IsDeleted: false
-- RecordId: 9eab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: TeX.js
-  CheckSum: 4ed28856298edfdc89a84e4d55e00a3e2f97ed6f975ec1a607cfb99b8221db5e
   IsDeleted: false
 - RecordId: 48106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: af.js
@@ -2645,10 +2677,6 @@ adx_webfile:
   DisplayName: unorm.min.js
   CheckSum: 3ed228bd1b564b7b56f8f4d93c5b9739075e0e3c97da8869a92895549a2e8172
   IsDeleted: false
-- RecordId: 49c2b6ad-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 53b5cd55f9951fa3d46cbfe6e0a00e5388329cc5a62dda56803c4c43f1b268b4
-  IsDeleted: false
 - RecordId: e193eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-xq.min.js
   CheckSum: 345fb524a88aa159df9c68fd213f1abd56b00b9f6005a4a566e3b7b0b402e1bc
@@ -2685,6 +2713,10 @@ adx_webfile:
   DisplayName: lang-hs.js
   CheckSum: cfed3cacb27faa88ed37ede01e9736916c8aaaee74b0a42b27af6ac190649017
   IsDeleted: false
+- RecordId: 9eab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: TeX.js
+  CheckSum: 4ed28856298edfdc89a84e4d55e00a3e2f97ed6f975ec1a607cfb99b8221db5e
+  IsDeleted: false
 - RecordId: 40fd4890-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 218x291.png
   CheckSum: 1c45dce699ba5a0d17ff5d20577786c9d011a5c14ae000f42454e85e48cd57e3
@@ -2701,17 +2733,17 @@ adx_webfile:
   DisplayName: energy.js
   CheckSum: 30a658d600e9898526c05eab5cc98b9872d57029a49df623082d88cdcfae4272
   IsDeleted: false
+- RecordId: 291c9356-b201-e611-80d3-00155db72521
+  DisplayName: theme.css
+  CheckSum: 3c651207bac72700b22948be139656bcc62b4aba5d4eb267423aa2de76323193
+  IsDeleted: false
+- RecordId: 42f3756d-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 532d8f3de6ccf3e8191ac2b71eacef884ff0ba6660410a6bf49b850491b09c98
+  IsDeleted: false
 - RecordId: 7b6afa6e-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: bootstrap-3.html
   CheckSum: 1a6617025ebeb89d4a0a72d71740fc5cf151f31e444039f94c3353148728602d
-  IsDeleted: false
-- RecordId: d262b8c4-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: Safe.js
-  CheckSum: 0432c9fea070491319a801f4caf3dd7691878dddf199c158cd59d4d8c389ac0b
-  IsDeleted: false
-- RecordId: 16812375-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-fr.html
-  CheckSum: d24123f1f5340c03da9ce402254450cb5ae1736c495857e1203cd91196d6f0dc
   IsDeleted: false
 - RecordId: 81c5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-css.js
@@ -2752,6 +2784,10 @@ adx_webfile:
 - RecordId: 30288cfc-1e4b-ec11-8f8e-000d3ae9a4c9
   DisplayName: cloudbg.jpg
   CheckSum: 13fe8fae27fc68b7fa6bddd2ff8a5d7ff956f64f7d068e7d3e10b3307dd32503
+  IsDeleted: false
+- RecordId: 16812375-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-fr.html
+  CheckSum: d24123f1f5340c03da9ce402254450cb5ae1736c495857e1203cd91196d6f0dc
   IsDeleted: false
 - RecordId: 7c1b6a5a-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: GeneralPunctuation.js
@@ -2797,9 +2833,9 @@ adx_webfile:
   DisplayName: a.js
   CheckSum: 6f35638fc88945838ef1e4e8daea8a03c772df42c9a447503b5b6a953684466e
   IsDeleted: false
-- RecordId: 42f3756d-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 532d8f3de6ccf3e8191ac2b71eacef884ff0ba6660410a6bf49b850491b09c98
+- RecordId: 9cab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathMenu.js
+  CheckSum: de712b13f8e71ae3041764add5be6f39345109d2a8aa35d79e48f5b681c4d75b
   IsDeleted: false
 - RecordId: 70c5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.flot.pie.min.js
@@ -2837,13 +2873,9 @@ adx_webfile:
   DisplayName: lang-tcl.min.js
   CheckSum: 03badc76ea23e66ae453c9e5c2d56fe1a2acc13b9fc8bd88bd47baa35d953e5c
   IsDeleted: false
-- RecordId: 9cab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathMenu.js
-  CheckSum: de712b13f8e71ae3041764add5be6f39345109d2a8aa35d79e48f5b681c4d75b
-  IsDeleted: false
-- RecordId: 985f9473-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 3fd0fd8e6f9785c6b1dab091d56552ef3047690fa295c7825543b4a0f15f7ca9
+- RecordId: fd48319a-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: fbeefe2007cdcc3c49e9e74d90c3fd6de578924282f2d5b2dce6b771f4b6ddaf
   IsDeleted: false
 - RecordId: 7689af98-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: radio-buttons-specs.png
@@ -2868,10 +2900,6 @@ adx_webfile:
 - RecordId: d993eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-tex.min.js
   CheckSum: 019be222e0f8109f036fab0aac9ea7d28a875cd2d976b5f0f8d1564609e1b31a
-  IsDeleted: false
-- RecordId: ae54fa4e-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: d5d58d095612b299058e80746a414bffba3fa5d7b9de5fc4cec3b1d89930ee7e
   IsDeleted: false
 - RecordId: e01713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: wet-boew.min.css
@@ -2953,13 +2981,13 @@ adx_webfile:
   DisplayName: institution-arms-fr.html
   CheckSum: a13388291c4972b9240f4ae902ec1efd587cdb90a84638f3962ab744725bbe5e
   IsDeleted: false
+- RecordId: 89b05193-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 0501285a0986f8a6203f3572531f795301db6562182ecdebb57770c8e3097c9c
+  IsDeleted: false
 - RecordId: 73106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: nl.js
   CheckSum: fc8441566959d7203e227909df3615e49c99878000ac031f6452977e06d9f25e
-  IsDeleted: false
-- RecordId: d2d1907f-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: fr.js
-  CheckSum: a1633eee6d356bce09f99b56c684eb4c20589e27099cf57a3b04665818c47e5a
   IsDeleted: false
 - RecordId: 0546cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: math_whitespace.js
@@ -2969,21 +2997,13 @@ adx_webfile:
   DisplayName: spanish.js
   CheckSum: 5ed9c78ecdec24b487b38557848f1419e2a732799018f9e7d27b572974554ab2
   IsDeleted: false
-- RecordId: f199adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: TeX.js
-  CheckSum: 2bb458f73deea0429abbec67377ddfd67dca6a0f574e46526e15ad059b7c52cb
-  IsDeleted: false
-- RecordId: 21aebbfb-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: index-en.html
-  CheckSum: cbe68f17dd0066e8842b15e88395aca23640e1c1cfd6474d83d3ce0a8738dc6c
-  IsDeleted: false
 - RecordId: 49106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: af.min.js
   CheckSum: 0e0d0635c59a606e09b9038b382918914f773c77d968f1974c46e7129b68357d
   IsDeleted: false
-- RecordId: 9dab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathML.js
-  CheckSum: 53c0054303e23afe5255a58528826aac8d0c8620215de356985b6075c136dfdc
+- RecordId: 3c70fab4-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 5ab9ddde77a879954ee6365aa4023c4f910c9c9cf1227bd760efb05d4fe060a3
   IsDeleted: false
 - RecordId: 7fc5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-clj.js
@@ -3073,6 +3093,10 @@ adx_webfile:
   DisplayName: lang-apollo.js
   CheckSum: 4b54f56c257c292eb47be6d862ca4efc16efa515486405c686776e4f90c7552b
   IsDeleted: false
+- RecordId: d262b8c4-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: Safe.js
+  CheckSum: 0432c9fea070491319a801f4caf3dd7691878dddf199c158cd59d4d8c389ac0b
+  IsDeleted: false
 - RecordId: 9c2e5c0e-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: results-contextual-en.html
   CheckSum: 9d9cfaf8ac652f3e9236bc3f5dbdb37c7d537c552376cff708c2247e0876f715
@@ -3093,10 +3117,6 @@ adx_webfile:
   DisplayName: th.min.js
   CheckSum: 14c7fe18a7243ac0ad18820d0557fd8d13a631eb5df6014786ab2cff2c6d1136
   IsDeleted: false
-- RecordId: 88b05193-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: fd781af1259b522ccb2ddbd7f9d836efaac1d80ace06ccdae0607fe87c374927
-  IsDeleted: false
 - RecordId: 6dc5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.flot.orderBars.js
   CheckSum: 99c15c3191feaeeab368af7f87afd913a5fe54b9c07e61b27fe576134b1a542d
@@ -3104,10 +3124,6 @@ adx_webfile:
 - RecordId: d11713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: messages.css
   CheckSum: c70457871fd48addf476161aa3afbb6e48015c5abaa2057e9e1f1d29fd0455c4
-  IsDeleted: false
-- RecordId: fa48319a-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: ef9d237c256d3dc12a3e2badac84f6c63b2a33a83537a26da3c505aa673f693d
   IsDeleted: false
 - RecordId: 62106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: hy.min.js
@@ -3124,10 +3140,6 @@ adx_webfile:
 - RecordId: 74fd614f-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: page3-en.html
   CheckSum: 74277f1b75c6cde42dcccd7caaceeb0ec55b9a4a44af8f018250987fa3410d40
-  IsDeleted: false
-- RecordId: 9b2e5c0e-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: index.html
-  CheckSum: 0deac2addb41e93a69a3203b4d06a33359bb27201a76dec88344307c0b58b48d
   IsDeleted: false
 - RecordId: 73c5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.validate.js
@@ -3153,6 +3165,10 @@ adx_webfile:
   DisplayName: well-header-rwd-en.html
   CheckSum: 273f8c3d008ab5a41f2fa15d8f9bb336799d6b1e4e8b1d0058ef3b4a1857ae26
   IsDeleted: false
+- RecordId: 15812375-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-en.html
+  CheckSum: b4fcbc7305243376f1161fa42686cdffb870fddf20b9c2699b5a6ca9a777fd64
+  IsDeleted: false
 - RecordId: 1f52a0bc-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-sc-7.png
   CheckSum: 97137cd14b237090220278dbba1b9b2522e177dc22ff86e76d5ef85e7bbab91f
@@ -3177,10 +3193,6 @@ adx_webfile:
   DisplayName: d.js
   CheckSum: b97edd31e3fa1a56d04e9876e2578c877b2f5e3aabb0db5409ee30f21b051c0e
   IsDeleted: false
-- RecordId: 3c70fab4-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 5ab9ddde77a879954ee6365aa4023c4f910c9c9cf1227bd760efb05d4fe060a3
-  IsDeleted: false
 - RecordId: c91314c4-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.eot
   CheckSum: a0c76f3dedc8a7d4b05d83b2b69dba9956f99736b02620b6a8e5bf0deda76e45
@@ -3204,6 +3216,10 @@ adx_webfile:
 - RecordId: 7cc5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-apollo.min.js
   CheckSum: abc34d6d40af80442bba771553e6a48e04863148c5b8371ab8f2c3ef28a12246
+  IsDeleted: false
+- RecordId: 9b2e5c0e-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: index.html
+  CheckSum: 0deac2addb41e93a69a3203b4d06a33359bb27201a76dec88344307c0b58b48d
   IsDeleted: false
 - RecordId: 12a25536-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Caligraphic-Regular.woff
@@ -3237,21 +3253,9 @@ adx_webfile:
   DisplayName: content-mathml.js
   CheckSum: 449f77e2e5a5c3cec2e44bc6dac2dd116021dd9df780ded3f50746a4558ac96f
   IsDeleted: false
-- RecordId: 9aab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: HelpDialog.js
-  CheckSum: 447347e1017b44e5691d0db98917112d7c96bff80dd659fd377f41fe68e4b88b
-  IsDeleted: false
 - RecordId: 0246cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: math_harpoons.js
   CheckSum: 2fafac20cc808b577feb2db52393e1bad289a9c9649a5fbf7e291efb0bbf3dcf
-  IsDeleted: false
-- RecordId: 9bab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: HTML-CSS.js
-  CheckSum: 9984179ab136e2585f5f75ebdf50410b3cf8d7dc7a99a5025341b1264e11fe4e
-  IsDeleted: false
-- RecordId: f0d677c2-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 07fb6bc17f113af3094f79db5cef2bb950b95b526902dd72713f04145d1f74cd
   IsDeleted: false
 - RecordId: a4db94a9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-AMS-MML_SVG.js
@@ -3301,6 +3305,10 @@ adx_webfile:
   DisplayName: Accessible-full.js
   CheckSum: 85bf4e73fed8852f6d352cd83fa75641fed68d087a40013e6958b7ef86b49a6a
   IsDeleted: false
+- RecordId: d2d1907f-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: fr.js
+  CheckSum: a1633eee6d356bce09f99b56c684eb4c20589e27099cf57a3b04665818c47e5a
+  IsDeleted: false
 - RecordId: a32e5c0e-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: results-en.html
   CheckSum: 1a1d26de3616d02b2a4f111348a6c3f0bbde2ec81455f53db5de3e5060ffe560
@@ -3332,6 +3340,10 @@ adx_webfile:
 - RecordId: 4c73cee9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: other.js
   CheckSum: 75e4993080fb2a3c7f447d9da80bd3727c2228989e7c8bc5ef1e3d93a42acef5
+  IsDeleted: false
+- RecordId: 9bab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: HTML-CSS.js
+  CheckSum: 9984179ab136e2585f5f75ebdf50410b3cf8d7dc7a99a5025341b1264e11fe4e
   IsDeleted: false
 - RecordId: 401fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-sc-14.png
@@ -3437,6 +3449,10 @@ adx_webfile:
   DisplayName: m.js
   CheckSum: 497794a73a37bef8ecdf9db7c8786a4896e24d5281041f8db4d50dbfc9fbbfc9
   IsDeleted: false
+- RecordId: 4ac2b6ad-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: c0ef7cbe46b61da6b065ed79a85c34f2ea1334374df2c0baaba2c81869fd28c7
+  IsDeleted: false
 - RecordId: fe51a0bc-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-capture-5.png
   CheckSum: b1139538c1e010e1d7b3c5df4d3c86f0b546b029b448ec191adb5569bb74151e
@@ -3464,10 +3480,6 @@ adx_webfile:
 - RecordId: f5e1811f-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: pink-day-fr.html
   CheckSum: 2dfc2b142408f5dce7f31669ae9261213ad9fb202a07d052f8484fb49c0b03df
-  IsDeleted: false
-- RecordId: c522217d-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-en.html
-  CheckSum: 5b86fca3e8d79f705c2235ecf7f920b905ad60554a35b66e47e9d30191697596
   IsDeleted: false
 - RecordId: b8d6ae3e-7402-e611-80d3-00155db72521
   DisplayName: searchhero.jpg
@@ -3517,17 +3529,9 @@ adx_webfile:
   DisplayName: MML_CHTML-full.js
   CheckSum: ccec2f1ec426f52f50cb6005ab1f4bff6ff1b85f6d5f5d6668c5d0b1788ce518
   IsDeleted: false
-- RecordId: c962b8c4-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathMenu.js
-  CheckSum: 46863722cc3033786067322dafcd53d7495431e446297dc23af1176de0c854bb
-  IsDeleted: false
 - RecordId: 7d106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: sk.js
   CheckSum: 14f017a2763d17eb1a9410ebfdc2bc1eaec65e8c38210e1107d855b499b2b4ae
-  IsDeleted: false
-- RecordId: 89b05193-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 0501285a0986f8a6203f3572531f795301db6562182ecdebb57770c8e3097c9c
   IsDeleted: false
 - RecordId: ca93eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-r.min.js
@@ -3536,6 +3540,10 @@ adx_webfile:
 - RecordId: 17aebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: dept-fr.html
   CheckSum: 34b7cee957d30711b56e601c8a2dbbbc3fad4af2ff8c1e64ff658c8fece36e73
+  IsDeleted: false
+- RecordId: f099adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathML.js
+  CheckSum: f54091d9af2aeb20c48df4ab92d066ccdbdf7a3ba0f8300cfbf3beb13ec050f4
   IsDeleted: false
 - RecordId: 1caebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: gc-audience-en.html
@@ -3549,6 +3557,10 @@ adx_webfile:
   DisplayName: 1-capture-10.png
   CheckSum: 56d9e239bf43dfc520b3d8e36437219842cf32d39d85842beb3b18691bb44d70
   IsDeleted: false
+- RecordId: c462b8c4-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: FontWarnings.js
+  CheckSum: 68290ddc19afaf8c958908df0cbe80af01e431777aa4b4d37b240ed5f78a0000
+  IsDeleted: false
 - RecordId: 56106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: es.js
   CheckSum: 0cb807d7490a2dc87cd41e1787faf7979acc53446ad7f1622420f72ca48bdf16
@@ -3561,10 +3573,6 @@ adx_webfile:
   DisplayName: lt.min.js
   CheckSum: 53907b7f164640506cc038bf6f3983a1f2fc04f4d9f27a972a9c82b7bf05bbe2
   IsDeleted: false
-- RecordId: 98db94a9-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: Safe.js
-  CheckSum: 70750d657bec3982db87253d6a73a5c1f29b278ddee765537bd9150689b6d670
-  IsDeleted: false
 - RecordId: 51ab29a0-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: mglyph.js
   CheckSum: 12dd0f5bdc42c9e5a27af6ab1237d8a9ef6f2993a867473d36a81215a10c65d1
@@ -3576,10 +3584,6 @@ adx_webfile:
 - RecordId: d31713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: messages-ie.css
   CheckSum: 205b6f547c12ef9b6c097446dd4befbf14a8669491f82efaafdbd31a355f1a47
-  IsDeleted: false
-- RecordId: ed99adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: HelpDialog.js
-  CheckSum: c4f0c88546236e3ec55628bee01e479befbf60065d88947fb0397c19e8e4e316
   IsDeleted: false
 - RecordId: 1039aca7-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: twitter.svg
@@ -3653,10 +3657,6 @@ adx_webfile:
   DisplayName: lang-lisp.js
   CheckSum: abb2e0cc7e2a675cb88fa772eac141ac77955feaad7de2e70bf433fdb04e45db
   IsDeleted: false
-- RecordId: eb99adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: FontWarnings.js
-  CheckSum: b508a51e2aa171a27bb7b8e991479f36d3a5a524625e30d98a55bd6c1fde7647
-  IsDeleted: false
 - RecordId: 38aebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: redacted-en.html
   CheckSum: 3477cdef10632d7fecde769692f376ccc581a80bbd681054e0833ce40fbe89ff
@@ -3673,9 +3673,17 @@ adx_webfile:
   DisplayName: datalist.css
   CheckSum: edd0eaeb56b6915379cdc2b03aace88811b1ac6656a9d45035b124c829a25c78
   IsDeleted: false
+- RecordId: c622217d-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-fr.html
+  CheckSum: 25bd3e9ad8a6e5c72bb12babe622999e2219a5fe870fe853c75027de28c24f6d
+  IsDeleted: false
 - RecordId: 781b6a5a-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: BasicLatin.js
   CheckSum: ac753130ef39b8276fdeffde6ec73b4d8f4f6b4542f6dafe25d290079e7b3cb6
+  IsDeleted: false
+- RecordId: c97b91da-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: index.html
+  CheckSum: 75d2425c6147f9ed394f597886ee39452493bdf63b4b38ca63064d32ffca0d48
   IsDeleted: false
 - RecordId: e4d1907f-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: v.js
@@ -3693,17 +3701,13 @@ adx_webfile:
   DisplayName: glyphicons-halflings-regular.woff
   CheckSum: 1847671611f18fc0dfdab3bf9b6592c7c842f544e7defc1319061d039f2800a7
   IsDeleted: false
-- RecordId: 4ac2b6ad-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: c0ef7cbe46b61da6b065ed79a85c34f2ea1334374df2c0baaba2c81869fd28c7
-  IsDeleted: false
 - RecordId: 4baebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: theme-fr.html
   CheckSum: 3c91e0d9992e189873507094cd153544e96880264f2beb08bcf9c633e0648b1e
   IsDeleted: false
-- RecordId: f099adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathML.js
-  CheckSum: f54091d9af2aeb20c48df4ab92d066ccdbdf7a3ba0f8300cfbf3beb13ec050f4
+- RecordId: 88b05193-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: fd781af1259b522ccb2ddbd7f9d836efaac1d80ace06ccdae0607fe87c374927
   IsDeleted: false
 - RecordId: ca62b8c4-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: MathZoom.js
@@ -3712,6 +3716,10 @@ adx_webfile:
 - RecordId: 97bdaa5b-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: list-fr.html
   CheckSum: 60641b91a695b05c571169a6a7ec872dd5648ed66dc2e5c9bdcc390e145082bd
+  IsDeleted: false
+- RecordId: 21aebbfb-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: index-en.html
+  CheckSum: cbe68f17dd0066e8842b15e88395aca23640e1c1cfd6474d83d3ce0a8738dc6c
   IsDeleted: false
 - RecordId: 61dcf0af-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 750x222-2.png
@@ -3749,6 +3757,10 @@ adx_webfile:
   DisplayName: mobile.js
   CheckSum: 4b7365ac50139385f0bd1cf931086c18602322d5b147c6c0bdd6fcd168aa55ba
   IsDeleted: false
+- RecordId: 68f00dbb-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: ec9c140e11c7346bad9132dfe33655dbe5f640b3dc97054d3bcea02c10456a34
+  IsDeleted: false
 - RecordId: 80c5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-clj.min.js
   CheckSum: 0f351d8f9039a404179fb9328dce1b14e048edc28764448844bf5696e84be87e
@@ -3760,10 +3772,6 @@ adx_webfile:
 - RecordId: 2daebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: ministerial-fr.html
   CheckSum: 923ba386eff2458e9d2a882d97c5c6faff23a07b286047c8cd384bc6be0a1194
-  IsDeleted: false
-- RecordId: 41f3756d-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: d4a5b5513fd10fc24252336a4f4b04975e775cc7363b9eb07ac3d8a708c8036d
   IsDeleted: false
 - RecordId: 1aa25536-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Math-Italic.woff
@@ -3801,6 +3809,10 @@ adx_webfile:
   DisplayName: proj4.js
   CheckSum: a96d8e40b216957dbc86926ecef17604c6297a19226cffba9fb8e4c9b428266a
   IsDeleted: false
+- RecordId: 39143114-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: mhchem.js
+  CheckSum: 6041e128428a96147060e192c51f6840f0005db95a5053a600811992304e714d
+  IsDeleted: false
 - RecordId: 4f106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: cs.min.js
   CheckSum: 553fdc1fd31b499b81ba8309a7914015c4cda7b7ea2b5a51c8225c1df92056b5
@@ -3829,6 +3841,10 @@ adx_webfile:
   DisplayName: q.js
   CheckSum: 1d87947368a73c2fafffb0ecba67781fbb61fc4da532262b9cda56f086fb83b3
   IsDeleted: false
+- RecordId: 22aebbfb-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: index-fr.html
+  CheckSum: 4b2a20d86f245028a1be8c1402b8772f61687999109ef7e4de82bdb648060e22
+  IsDeleted: false
 - RecordId: afdb94a9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-MML-AM_HTMLorMML-full.js
   CheckSum: 551ae4d959616523fc2a92e6fd777f277236b443f1dd30fc642aa8023457e95f
@@ -3845,10 +3861,6 @@ adx_webfile:
   DisplayName: 1-sc-5.png
   CheckSum: ea95c5ede0704f9f1f4a4a9acdc2fc0b49770c2f3df70a454c8cbd21089c2980
   IsDeleted: false
-- RecordId: 4c09a8a1-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: favicon.ico
-  CheckSum: b4d339791c9810380f1bbb594c43d22ee9675394d4432ac0b732f7a1e7daf7ad
-  IsDeleted: false
 - RecordId: 65466a04-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: meter.min.js.map
   CheckSum: 6205adcb5b30823dbe398b882b93f601a2bde0a715f33bb1d4ebb21d5092d67e
@@ -3856,14 +3868,6 @@ adx_webfile:
 - RecordId: 1c21090e-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: autobold.js
   CheckSum: 28a2cd7436e8e9b8adce5cac205a9df6f2d69e740f23aa62c6fd37035eb5f0fa
-  IsDeleted: false
-- RecordId: bae1f820-93c4-eb11-bacc-000d3af385d3
-  DisplayName: favicon.ico
-  CheckSum: de65f5d51f44a50c7d36576fd4420202fa57cd3d12722154612c30cec41865f1
-  IsDeleted: false
-- RecordId: 6b1c5f61-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: index.html
-  CheckSum: 8d4d1fc002f4fdc9ca38dea1dafb5d2e8c92f5c6b4f5ebd04d33a42776cc1a21
   IsDeleted: false
 - RecordId: 21a25536-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Size2-Regular.woff
@@ -3892,6 +3896,14 @@ adx_webfile:
 - RecordId: 10a2dc63-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ie8-wet-boew.min.js
   CheckSum: 617507986836d27b9968cb8d751a086f9bceffa862e0e880dc41609d3ca93dd3
+  IsDeleted: false
+- RecordId: d45a9195-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: payload.json
+  CheckSum: 8dc1f8350daccc7df9d80eb25989d9cea89a30faaa09065c234b425a3509bb82
+  IsDeleted: false
+- RecordId: 985f9473-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 3fd0fd8e6f9785c6b1dab091d56552ef3047690fa295c7825543b4a0f15f7ca9
   IsDeleted: false
 - RecordId: d41713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: messages-ie.min.css
@@ -3953,6 +3965,10 @@ adx_webfile:
   DisplayName: service-fr.html
   CheckSum: 1848c11ac785b843f468d984456f64f16b127370f5f1077608ad48d75fa1f321
   IsDeleted: false
+- RecordId: 54106190-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: en-US.js
+  CheckSum: d3c3be04fb48d4a934fc682047f4bf92243d6a178b0f32897f9c8a3fae4d0052
+  IsDeleted: false
 - RecordId: 03e46250-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: datepicker.min.css
   CheckSum: ae232f820cc5658930043ef608e0f291949a5e3ac21bc0ec09b3f5e04427010e
@@ -3968,6 +3984,10 @@ adx_webfile:
 - RecordId: cb93eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-rd.js
   CheckSum: b47b52ce9ddc2c3a74180cf8f4459587e8d154cd04a084eae06aea082d5ab254
+  IsDeleted: false
+- RecordId: ed99adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: HelpDialog.js
+  CheckSum: c4f0c88546236e3ec55628bee01e479befbf60065d88947fb0397c19e8e4e316
   IsDeleted: false
 - RecordId: 5edcf0af-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 653x194-2.png
@@ -3989,9 +4009,17 @@ adx_webfile:
   DisplayName: y.js
   CheckSum: 0e8180ca3f60e8498e62f9d1ed1ec54ab0f8832e3b11f5593ddfec588b994db1
   IsDeleted: false
+- RecordId: 2821090e-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: mhchem.js
+  CheckSum: 670e00ad95f61fbcdfa05d9c2472339961a61cf2f1d4ac8343621946333795c0
+  IsDeleted: false
 - RecordId: 0d39aca7-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: facebook.svg
   CheckSum: e9fa6a07146e24da80006f4a43531bd92a48aaba49d5442c32826474749b8471
+  IsDeleted: false
+- RecordId: ec99adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: fr.js
+  CheckSum: c7b02a19b04b8c0dd8e55547884215e128f2589d6bb500d75099ee83f5699f3a
   IsDeleted: false
 - RecordId: 54f54e30-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_WinChrome-Regular.otf
@@ -4012,6 +4040,10 @@ adx_webfile:
 - RecordId: 8bdb94a9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: AM_SVG.js
   CheckSum: f05a9b65fa7fe91ca296fe811091582a7cbb997c6ad8e40433f9d288ad1f008c
+  IsDeleted: false
+- RecordId: bae1f820-93c4-eb11-bacc-000d3af385d3
+  DisplayName: favicon.ico
+  CheckSum: de65f5d51f44a50c7d36576fd4420202fa57cd3d12722154612c30cec41865f1
   IsDeleted: false
 - RecordId: 07aebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: colour-fr.html
@@ -4053,17 +4085,13 @@ adx_webfile:
   DisplayName: 1-sc-12-ie.png
   CheckSum: 793379bef82db25c155b1ace36858a2142e5bf131101b1cb26f66e3b24231371
   IsDeleted: false
-- RecordId: be1a84b6-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: sp-bg-2.jpg
-  CheckSum: 686ca99667ddf2796a18fc4415b11e73c8009f817c2d1afc10e6760ab397232b
+- RecordId: 995f9473-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: bd6302feb86bafacbbe083674546f7d1f003f01934e78adeb9100da63b60edb3
   IsDeleted: false
 - RecordId: 6e106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ko.min.js
   CheckSum: 9182f6f80ff973e6004a95a9f5f4047838305550035f240da82a32edb55bdc44
-  IsDeleted: false
-- RecordId: f1d677c2-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 59a94c79500dc6733c11ce4f94a9546a601131c3f250f362cc498711d8229be0
   IsDeleted: false
 - RecordId: 6ac5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.flot.canvas.min.js
@@ -4109,9 +4137,17 @@ adx_webfile:
   DisplayName: loading.png
   CheckSum: ff6ef5b188cd6e0539ba287f5ce46878a16c599cfb452fae7e2ec16996e9bdcd
   IsDeleted: false
+- RecordId: eb99adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: FontWarnings.js
+  CheckSum: b508a51e2aa171a27bb7b8e991479f36d3a5a524625e30d98a55bd6c1fde7647
+  IsDeleted: false
 - RecordId: cc93eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-rd.min.js
   CheckSum: 590d20e2a2dae5553e421b43800ddca866883178c52d9da48cf8ebcfd9669cc1
+  IsDeleted: false
+- RecordId: ae54fa4e-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: d5d58d095612b299058e80746a414bffba3fa5d7b9de5fc4cec3b1d89930ee7e
   IsDeleted: false
 - RecordId: 83c5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-dart.js
@@ -4149,6 +4185,10 @@ adx_webfile:
   DisplayName: 250x250.png
   CheckSum: 2f1b8fd845cf4b26faaa71d1b2ccf1ef5b7ad61ff2e6c80c17d92066e22b2764
   IsDeleted: false
+- RecordId: 5a106190-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: fr.js
+  CheckSum: 1512950cfcf3df6e37f0e4ccc5b35c33a6c16c045a36cd2ea7dbbd2e83481108
+  IsDeleted: false
 - RecordId: 2d21090e-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: verb.js
   CheckSum: 6e524add7536249a58953ecc9b713af7e0071d0d29942f77e39853ffe98899cd
@@ -4173,10 +4213,6 @@ adx_webfile:
   DisplayName: 404-en.html
   CheckSum: 7c8b58ac925847ee1de1ac69ee7056a73381294d5e43f293fd03340069345d33
   IsDeleted: false
-- RecordId: 22aebbfb-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: index-fr.html
-  CheckSum: 4b2a20d86f245028a1be8c1402b8772f61687999109ef7e4de82bdb648060e22
-  IsDeleted: false
 - RecordId: 2e531ecb-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: invalid_keypress.mp3
   CheckSum: cffca78fd8c91aa3f0a9671575d06392a33724060c2c07a35dada43682e89d78
@@ -4185,9 +4221,17 @@ adx_webfile:
   DisplayName: topic-fr.html
   CheckSum: c66e52352fbaa7bf14ce6816192492c016de16b61f7bc4ae822caf35e4d9b429
   IsDeleted: false
+- RecordId: f1d677c2-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 59a94c79500dc6733c11ce4f94a9546a601131c3f250f362cc498711d8229be0
+  IsDeleted: false
 - RecordId: 1552a0bc-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-sc-2.png
   CheckSum: bfd551da016be156752073d26fd1a6381682883eae06dad18980759be387a832
+  IsDeleted: false
+- RecordId: fa48319a-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: ef9d237c256d3dc12a3e2badac84f6c63b2a33a83537a26da3c505aa673f693d
   IsDeleted: false
 - RecordId: 10a25536-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_AMS-Regular.woff
@@ -4209,6 +4253,14 @@ adx_webfile:
   DisplayName: extpfeil.js
   CheckSum: 85dfab9c9b80978bb5d3f5be72b013565be1c63a7b863ee0c9411c2a903b8f9d
   IsDeleted: false
+- RecordId: d04d1a14-b440-ec11-8c62-0022483bee55
+  DisplayName: theme.css
+  CheckSum: 4690e39b6bfd4dcddfa76fb0542e4312253c2872605504876a35e478e3effea5
+  IsDeleted: false
+- RecordId: d61713bd-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: theme.css
+  CheckSum: be6b557abfb1f93b3a40275dba3293ad0de6faa44741c981c9decb8554dd2861
+  IsDeleted: false
 - RecordId: 6f466a04-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: slider.min.js.map
   CheckSum: eb98bb863ded3dd73ca4ac6b2fce8a90d2c17deb9812e2469e1a638fd935bf81
@@ -4216,10 +4268,6 @@ adx_webfile:
 - RecordId: fb45cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: math_geometry.js
   CheckSum: b92d4a8e7c882509f7ccf6a100a0f7e1541a6eaf75a6ab8a47edccaa35fc9d15
-  IsDeleted: false
-- RecordId: ef99adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathMenu.js
-  CheckSum: 4f5955dd49e13a7456520430c655f83cfbd435914774c0ffebb8d2289b0542ee
   IsDeleted: false
 - RecordId: 3df54e30-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Caligraphic-Bold.otf
@@ -4232,10 +4280,6 @@ adx_webfile:
 - RecordId: c193eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-mumps.min.js
   CheckSum: 88629b2fb51a7a62531e2eb2e6386c0736b11577aaeb02e67196f651e821c8f5
-  IsDeleted: false
-- RecordId: 70fd614f-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-en.html
-  CheckSum: 4203cd3ec89027de20606203920cdde13d70c6ccf19b9d235b4653f0cdef963d
   IsDeleted: false
 - RecordId: 62466a04-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: jawsariafixes.min.js.map
@@ -4252,6 +4296,10 @@ adx_webfile:
 - RecordId: 2d53b0f5-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: act-en.html
   CheckSum: bed8444d80400243b1cac848e9882be18c3c35d535559b39614168d1831de600
+  IsDeleted: false
+- RecordId: 9aab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: HelpDialog.js
+  CheckSum: 447347e1017b44e5691d0db98917112d7c96bff80dd659fd377f41fe68e4b88b
   IsDeleted: false
 - RecordId: c862b8c4-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: MathEvents.js
@@ -4353,6 +4401,10 @@ adx_webfile:
   DisplayName: 1-capture-2-ie.png
   CheckSum: fbd016dbd0f765e82731bee7c17cc1c52d9e54fc9a3257f7d404037f2a428c58
   IsDeleted: false
+- RecordId: 70fd614f-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-en.html
+  CheckSum: 4203cd3ec89027de20606203920cdde13d70c6ccf19b9d235b4653f0cdef963d
+  IsDeleted: false
 - RecordId: 12a2dc63-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ie8-wet-boew2.min.js
   CheckSum: 722889ca5df193b0cecad02c74e4299c394ea5a7a11868824b6eb38362286d3c
@@ -4360,10 +4412,6 @@ adx_webfile:
 - RecordId: e093eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-xq.js
   CheckSum: 739c5f43ea8a591aa647c2ae6ad95626becbc82eb8fe612ce4ca14a740aa9d96
-  IsDeleted: false
-- RecordId: 5a106190-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: fr.js
-  CheckSum: 1512950cfcf3df6e37f0e4ccc5b35c33a6c16c045a36cd2ea7dbbd2e83481108
   IsDeleted: false
 - RecordId: 64dcf0af-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1170x347-3.png
@@ -4377,9 +4425,9 @@ adx_webfile:
   DisplayName: wgxpath.install.js
   CheckSum: 19374a5c338321590c73e428558ad0db9963c6df18a48628a276f9d4a16ee84a
   IsDeleted: false
-- RecordId: d61713bd-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: theme.css
-  CheckSum: be6b557abfb1f93b3a40275dba3293ad0de6faa44741c981c9decb8554dd2861
+- RecordId: 5009a8a1-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: sig-blk-en.svg
+  CheckSum: 2fe952c1531579146e9549dc979531189a3f78dad92abf2e4e74b4ad05ae38fd
   IsDeleted: false
 - RecordId: 3eaebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: servermessage-en-fr.html
@@ -4392,6 +4440,10 @@ adx_webfile:
 - RecordId: 14a25536-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Fraktur-Regular.woff
   CheckSum: 86e7cd42e95c9bf78e7437b8e4d40c12afd94399b8f6504e25c12e8781361a6f
+  IsDeleted: false
+- RecordId: 71fd614f-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-fr.html
+  CheckSum: bf94632b96fb307b61958faf21c8fbeab2bec26990a22620a91f16e27a5cd45e
   IsDeleted: false
 - RecordId: 72c5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.magnific-popup.min.js
@@ -4457,9 +4509,9 @@ adx_webfile:
   DisplayName: is.min.js
   CheckSum: 520f704c74c6895c63286a6f91902d6a2aa038c4f333c821d4069d2c608475d6
   IsDeleted: false
-- RecordId: 68f00dbb-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: ec9c140e11c7346bad9132dfe33655dbe5f640b3dc97054d3bcea02c10456a34
+- RecordId: f199adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: TeX.js
+  CheckSum: 2bb458f73deea0429abbec67377ddfd67dca6a0f574e46526e15ad059b7c52cb
   IsDeleted: false
 - RecordId: 9ddb94a9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-AMS_CHTML-full.js
@@ -4537,9 +4589,9 @@ adx_webfile:
   DisplayName: server-fr.html
   CheckSum: 1b765956a172e325f817e032473249513a4431580f15c1a58b94453a4df6c5f0
   IsDeleted: false
-- RecordId: 5609a8a1-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: sp-bg-2.jpg
-  CheckSum: 002fc34537e92d8475b53af83f053ed14d64dfc3e83317b0abef264b3a65e354
+- RecordId: 99ab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: FontWarnings.js
+  CheckSum: 0ae91c1e29c08537485d4993af1df5e92999fe9ed8e399aaebf86b03d4bb747f
   IsDeleted: false
 - RecordId: 92bdaa5b-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: gc-srvinfo.html
@@ -4653,9 +4705,9 @@ adx_webfile:
   DisplayName: feedback-fr.html
   CheckSum: 6c411fb0f93cd868db8e99b21fae9e1b1c16027d06e27ecc2fd30eef9b5079b4
   IsDeleted: false
-- RecordId: 15812375-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-en.html
-  CheckSum: b4fcbc7305243376f1161fa42686cdffb870fddf20b9c2699b5a6ca9a777fd64
+- RecordId: 4c09a8a1-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: favicon.ico
+  CheckSum: b4d339791c9810380f1bbb594c43d22ee9675394d4432ac0b732f7a1e7daf7ad
   IsDeleted: false
 - RecordId: e8d1907f-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: z.js
@@ -4721,6 +4773,10 @@ adx_webfile:
   DisplayName: latin-upper-double-accent.js
   CheckSum: 0b40d2834116452e6d738c81d14c81eab40399c88cbe3dabcabbf6a9f5b0f193
   IsDeleted: false
+- RecordId: ef99adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathMenu.js
+  CheckSum: 4f5955dd49e13a7456520430c655f83cfbd435914774c0ffebb8d2289b0542ee
+  IsDeleted: false
 - RecordId: 14a2dc63-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: wet-boew.min.js
   CheckSum: f982afba1f23cd88052a105f7851197e40bf1b69313057396b373895e388f629
@@ -4736,10 +4792,6 @@ adx_webfile:
 - RecordId: 4df54e30-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Size2-Regular.otf
   CheckSum: b16f618f4b8fefd2bb5f063a8020d6a2b8a5ce14e765aa46b7270da6e522a2bc
-  IsDeleted: false
-- RecordId: bab50d87-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 8476e0c9def15f45e4643dec49d8135dbdf63843bc2077249e308d6a5639d5b0
   IsDeleted: false
 - RecordId: 82c5e96f-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-css.min.js
@@ -4801,6 +4853,10 @@ adx_webfile:
   DisplayName: bootstrap-4.html
   CheckSum: 4dd7cf01aeab51ef137146aff659dfbf33ad49872132cef85c625f9b48ff56ac
   IsDeleted: false
+- RecordId: 41f3756d-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: d4a5b5513fd10fc24252336a4f4b04975e775cc7363b9eb07ac3d8a708c8036d
+  IsDeleted: false
 - RecordId: de1713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: theme-srv.min.css
   CheckSum: a1ed496a4dc87b6f488d2fd1bc19abb0b45411a376d3db3f4ad9815843e710f7
@@ -4857,17 +4913,9 @@ adx_webfile:
   DisplayName: geomap-lib.js
   CheckSum: 872dc739b2a5b8b039b32c4bab3e40e56e797066cfee8303d287db0289019275
   IsDeleted: false
-- RecordId: 5009a8a1-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: sig-blk-en.svg
-  CheckSum: 2fe952c1531579146e9549dc979531189a3f78dad92abf2e4e74b4ad05ae38fd
-  IsDeleted: false
 - RecordId: f551a0bc-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-capture-1.png
   CheckSum: 29dba8abca56f4f3e5d5fd047c3a8394b7eac2d8d650fe48d80a7ea4ccec9dad
-  IsDeleted: false
-- RecordId: 54106190-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: en-US.js
-  CheckSum: d3c3be04fb48d4a934fc682047f4bf92243d6a178b0f32897f9c8a3fae4d0052
   IsDeleted: false
 - RecordId: 7f1b6a5a-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: Latin1Supplement.js
@@ -4897,6 +4945,10 @@ adx_webfile:
   DisplayName: 1-capture-14.png
   CheckSum: 8540b65b1ef6a296920f513a9fae1cc5e4f31c141d55ff7ee3455110b1d2282f
   IsDeleted: false
+- RecordId: bab50d87-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 8476e0c9def15f45e4643dec49d8135dbdf63843bc2077249e308d6a5639d5b0
+  IsDeleted: false
 - RecordId: b193eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-hs.min.js
   CheckSum: 228deff6e4f30a18a39446d0ea665fec3de2cd897e266983830e004b4a517fcd
@@ -4921,6 +4973,10 @@ adx_webfile:
   DisplayName: regulations-en.html
   CheckSum: b2d0904d3e06f1e10bfdcc4158c10303b1661f28030a9e2839b78a4f02708603
   IsDeleted: false
+- RecordId: ee99adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: HTML-CSS.js
+  CheckSum: cb9a3b095bcc22fbb5b7b348565360bf043341e504da77ee8e08a667fcafe8e5
+  IsDeleted: false
 - RecordId: e0d1907f-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: s.js
   CheckSum: 12d569e4cd1fed269401b86f2fa2844d4d40d475f47b0c93e774a308b5f27f39
@@ -4928,6 +4984,18 @@ adx_webfile:
 - RecordId: 5d466a04-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: details.js
   CheckSum: 0d960dca198b68e1a40c2b552fbbeafd3b3811fbc929870019f15664c2c1e8d9
+  IsDeleted: false
+- RecordId: be1a84b6-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: sp-bg-2.jpg
+  CheckSum: 686ca99667ddf2796a18fc4415b11e73c8009f817c2d1afc10e6760ab397232b
+  IsDeleted: false
+- RecordId: e9b7c988-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: index.html
+  CheckSum: 8721f48452cbe1072c7b7d82ea04a3b418bfacc6f702d1d16826591b37f68ae3
+  IsDeleted: false
+- RecordId: bbb50d87-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 8db4b013583a33bfb05dbcc330aa8199478e0109d3ab3fc238dc9398c881c447
   IsDeleted: false
 - RecordId: 2921090e-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: newcommand.js
@@ -4953,9 +5021,9 @@ adx_webfile:
   DisplayName: en-US.min.js
   CheckSum: d715eb0ced6316080951787c37b6e3a117bda2b17ea8f6f9e1e1d3c7d60a6bc8
   IsDeleted: false
-- RecordId: 164d58ba-9ac4-eb11-bacc-000d3af385d3
-  DisplayName: sig-blk-en.svg
-  CheckSum: e7cd887a0d211bb4e3658df88ecd4ab5b321f35361ac954528e73a40c6c75e93
+- RecordId: 98db94a9-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: Safe.js
+  CheckSum: 70750d657bec3982db87253d6a73a5c1f29b278ddee765537bd9150689b6d670
   IsDeleted: false
 - RecordId: 8300d2dd-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: greek-scripts.js
@@ -4989,10 +5057,6 @@ adx_webfile:
   DisplayName: home-fr.html
   CheckSum: 155432f64e5532a4941f8dec05415087c6c8ce78546767424a09368bbf54263e
   IsDeleted: false
-- RecordId: 71fd614f-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-fr.html
-  CheckSum: bf94632b96fb307b61958faf21c8fbeab2bec26990a22620a91f16e27a5cd45e
-  IsDeleted: false
 - RecordId: 92db94a9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: MML_SVG.js
   CheckSum: 15710c2f0ea73f32a2a85c4bcba2c477089ded7b1597bbf763d930a23e6629a6
@@ -5009,6 +5073,10 @@ adx_webfile:
   DisplayName: mediacontrols.html
   CheckSum: 93c498721b2cb7863598385e13a206c60ce38f82c966ed43233dcadf68b7490d
   IsDeleted: false
+- RecordId: c562b8c4-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: HelpDialog.js
+  CheckSum: e3928b2311ebdc2fe73065bc717f19f182b0e2f65577e2e2ded809ea63418acc
+  IsDeleted: false
 - RecordId: 2d531ecb-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: explorer.js
   CheckSum: 9d4c5d7bc1dac17448f3d372719487de816566a5d9fb10deb320c9d8218ae76d
@@ -5016,6 +5084,10 @@ adx_webfile:
 - RecordId: 26aebbfb-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: institution-arms-en.html
   CheckSum: 0034b05943c2a52ee751efa63ade9c2783ffbc22756facddad073d58cc22ced9
+  IsDeleted: false
+- RecordId: ed5a2d23-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: payload.json
+  CheckSum: ca7c8beec9e9fc868d40e50cdbf1217f7cbcbb62de975c7f32c6a19732bdab9e
   IsDeleted: false
 - RecordId: 384b0355-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 2021-04-gcaem.css
@@ -5053,10 +5125,6 @@ adx_webfile:
   DisplayName: x-bootstrap-4.css
   CheckSum: fc6f957abe289678a88200a24430d480aada7d0cb9fec4323b1ac14c2dc87c01
   IsDeleted: false
-- RecordId: 39143114-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: mhchem.js
-  CheckSum: 6041e128428a96147060e192c51f6840f0005db95a5053a600811992304e714d
-  IsDeleted: false
 - RecordId: 6e1c5f61-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: test-menu.html
   CheckSum: 28b69fc188122feee8661466b68c8adf79385476a51d0b45e50c8e352d00a251
@@ -5068,14 +5136,6 @@ adx_webfile:
 - RecordId: 4fab29a0-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: maction.js
   CheckSum: 13a8dc1158874be2b638d3483123ccf279cb20d56a77b3e5eceb6840520990e6
-  IsDeleted: false
-- RecordId: 97ab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: en-US.js
-  CheckSum: f8aa5de55b1f039d4d7e7d9fea2564c94780f96d04e87f39abc8e1aa248f6a43
-  IsDeleted: false
-- RecordId: 2821090e-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: mhchem.js
-  CheckSum: 670e00ad95f61fbcdfa05d9c2472339961a61cf2f1d4ac8343621946333795c0
   IsDeleted: false
 - RecordId: 9cdb94a9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-AMS_CHTML.js
@@ -5125,6 +5185,10 @@ adx_webfile:
   DisplayName: 1-sc-6-ie.png
   CheckSum: 452c14a89b7f074d94ef3a1d46b6aa30835c16a21531f693fe50d5da840290fc
   IsDeleted: false
+- RecordId: 5609a8a1-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: sp-bg-2.jpg
+  CheckSum: 002fc34537e92d8475b53af83f053ed14d64dfc3e83317b0abef264b3a65e354
+  IsDeleted: false
 - RecordId: 6d106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ko.js
   CheckSum: d013d6163f3b3be6f0f1da8d303750535b0ce1eaa111ee6ff55cbd9c329fd62b
@@ -5160,10 +5224,6 @@ adx_webfile:
 - RecordId: 5fdcf0af-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 653x194-3.png
   CheckSum: 2efc83300875b79135076a0bb38360d3ea60e47414663dce8f69089d84fa1889
-  IsDeleted: false
-- RecordId: 291c9356-b201-e611-80d3-00155db72521
-  DisplayName: theme.css
-  CheckSum: 3c651207bac72700b22948be139656bcc62b4aba5d4eb267423aa2de76323193
   IsDeleted: false
 - RecordId: 99bdaa5b-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: well-header-rwd-fr.html
@@ -5835,17 +5895,13 @@ adx_webpage:
   DisplayName: CommonHTML
   CheckSum: 11174857fdbaebad034f81c04ea64b0326d567fef9780381d07eee753617dbc4
   IsDeleted: false
-- RecordId: 2a808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: assets
-  CheckSum: 46d3e480ccb991e9986158b95ddff6fe19fa0c4a8f2d40671c571f43b70465df
-  IsDeleted: false
-- RecordId: 21d31c59-13c4-eb11-bacc-000d3af385d3
-  DisplayName: assets
-  CheckSum: cf39c5a4c7675646610d66d8b2fcdf211e3a4de0791859843b41e77959f8dbc0
-  IsDeleted: false
 - RecordId: 3d275e58-9ac4-eb11-bacc-000d3af385d3
   DisplayName: canada
   CheckSum: 8a3cab3986ad8681a0b4f044fd78354587fe2924c159c8ce5a29f2577a909c97
+  IsDeleted: false
+- RecordId: 45fd4870-9ac4-eb11-bacc-000d3af385d3
+  DisplayName: wet-boew
+  CheckSum: 0f3c9f8ef63f3ef3c8f304121f5d71efaea0b84c7b4fbd57c808b1580d5480ee
   IsDeleted: false
 - RecordId: 849855b8-0fc4-eb11-bacc-000d3af385d3
   DisplayName: ajax
@@ -5871,6 +5927,18 @@ adx_webpage:
   DisplayName: Event Registration Summary Page
   CheckSum: 3e46c9c8bdfbd7d4e8b16cf24c9bd19e7e0f2c85cd037bf4ecd27e9d4b92a1f5
   IsDeleted: false
+- RecordId: b1406dc5-18c4-eb11-bacc-000d3af385d3
+  DisplayName: HTML-CSS
+  CheckSum: 581a7eeb06790d247ce87893b139f1b4f5cb3e5b17c7c2c72b4af5af2d0e3a87
+  IsDeleted: false
+- RecordId: a0d58530-97c4-eb11-8235-000d3af3278f
+  DisplayName: xprmntl
+  CheckSum: 19d4dfecb4768e3fc9bb9c6f2a6c9b61b3d4b52d4b7aba5d97654b9a0eca4abf
+  IsDeleted: false
+- RecordId: c3b19fd1-10c4-eb11-bacc-000d3af385d3
+  DisplayName: xprmntl
+  CheckSum: f6867607c6a9f2feee649baa5e11bc870be1238516022c3c52d1339a09f4abcc
+  IsDeleted: false
 - RecordId: 44d58530-97c4-eb11-8235-000d3af3278f
   DisplayName: demos
   CheckSum: 16f3299b0390548301da98551d082c4e509e9d15407b5c8b47045353154765af
@@ -5887,9 +5955,13 @@ adx_webpage:
   DisplayName: Error
   CheckSum: c39d2a7f98a2024e304ed36fd9500e68c6e0c5e0989f8910334980f721111c04
   IsDeleted: false
-- RecordId: 64258427-19c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: da2813bffd65b18d6ce72a0a4a1918c813e5a35f91f4893c68768157c0f30287
+- RecordId: 2a808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: assets
+  CheckSum: 46d3e480ccb991e9986158b95ddff6fe19fa0c4a8f2d40671c571f43b70465df
+  IsDeleted: false
+- RecordId: 21d31c59-13c4-eb11-bacc-000d3af385d3
+  DisplayName: assets
+  CheckSum: cf39c5a4c7675646610d66d8b2fcdf211e3a4de0791859843b41e77959f8dbc0
   IsDeleted: false
 - RecordId: 5f808036-97c4-eb11-8235-000d3af3278f
   DisplayName: Knowledge Base - Category Details
@@ -5899,10 +5971,6 @@ adx_webpage:
   DisplayName: Knowledge Base - Category Details
   CheckSum: d681c44d71ecf557c4b864383c90850cdae6dec0b5a2eb09a265de93a8722e49
   IsDeleted: false
-- RecordId: 867f7d8e-17c4-eb11-bacc-000d3af385d3
-  DisplayName: TeX
-  CheckSum: c0f6f12a750d1754f4c1f1ec5c9b562a04c8322848ce25a4d96309da2d972cd1
-  IsDeleted: false
 - RecordId: a69a0bf5-13c4-eb11-bacc-000d3af385d3
   DisplayName: i18n
   CheckSum: 0482a81c83aacf5738be7f494e63ca8d8861f9f68bf5932f5bc85a67dff1fe7e
@@ -5910,14 +5978,6 @@ adx_webpage:
 - RecordId: a8808036-97c4-eb11-8235-000d3af3278f
   DisplayName: i18n
   CheckSum: 521f16771c73241d8aa5cfbebc85096312faffc8a7b94aa3acc3ed12bb017a3d
-  IsDeleted: false
-- RecordId: 9e9a15bf-13c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: f7f1c07d2263df8ecb2b12f4ac740fd233ef166fb083c832fe842a97a68ec1a6
-  IsDeleted: false
-- RecordId: 96808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: fonts
-  CheckSum: 05244a3a0f2332a95b106461f68a0ce05175500ed14d83de418194d9399d8d0e
   IsDeleted: false
 - RecordId: ca808036-97c4-eb11-8235-000d3af3278f
   DisplayName: jax
@@ -5927,21 +5987,25 @@ adx_webpage:
   DisplayName: jax
   CheckSum: 64d165021ee7d6e56575dbf0320bcaf2a9973b573b56807e1c56f5d9a9fd8de7
   IsDeleted: false
-- RecordId: 30808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: css
-  CheckSum: c7c508fc1ad1a58c8d26a50dbcc787b021a5e1663c4841006cb7fe157e8eb841
+- RecordId: 9bd58530-97c4-eb11-8235-000d3af3278f
+  DisplayName: wet-boew
+  CheckSum: 051604c2b7ecd74ba608d260ae31ece177845088eb498ba5d066575784b68327
   IsDeleted: false
-- RecordId: 7ea3246b-13c4-eb11-bacc-000d3af385d3
-  DisplayName: css
-  CheckSum: aa3f903fd822da94011ae6cef39acf8742dd3d5434242eb361d0e8cc5052f65d
+- RecordId: 5260aac5-10c4-eb11-bacc-000d3af385d3
+  DisplayName: wet-boew
+  CheckSum: 2c906a2477419eb775155442307055d9b857c6873f623a72ba75de80f0be1f83
+  IsDeleted: false
+- RecordId: b748603f-12c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: c05790f4717164ffc24bd0f8bedbd1d2905c3b146e21f8956a3339c6aceaad4c
+  IsDeleted: false
+- RecordId: 0fd68530-97c4-eb11-8235-000d3af3278f
+  DisplayName: fonts
+  CheckSum: fd75d76fc7a0a0265ed6bd52ad1d9617baafbe099a0d2d1fa066e8192882f351
   IsDeleted: false
 - RecordId: 27c4c45b-16c4-eb11-bacc-000d3af385d3
   DisplayName: en
   CheckSum: 85e937bf8ffc7e6a51b00612c436af1ca8af4b4bbcb192fe0c70afb147a88684
-  IsDeleted: false
-- RecordId: f8f5af7a-18c4-eb11-bacc-000d3af385d3
-  DisplayName: TeX
-  CheckSum: 1ffc77fdd11015cebc644675bb52f34622edaa13b4d81f18c5c0b32f0a2173ac
   IsDeleted: false
 - RecordId: cdff1ef9-16c4-eb11-bacc-000d3af385d3
   DisplayName: mathmaps
@@ -5967,10 +6031,6 @@ adx_webpage:
   DisplayName: fr
   CheckSum: a1974bc82c7c2bf8db92708b7606c0471b7cb90626946d4c34db0aabf72e0709
   IsDeleted: false
-- RecordId: 4ede53e8-17c4-eb11-bacc-000d3af385d3
-  DisplayName: TeX
-  CheckSum: c7e3b8463468a91b648b37d3aa6b86f6fee23df5caee887a62150fdf14b8561f
-  IsDeleted: false
 - RecordId: eac31ff5-17c4-eb11-bacc-000d3af385d3
   DisplayName: otf
   CheckSum: db1ec0e724c219ca3cd837830078b61a9f52c0cfe01d5efc0b40d66553acd1db
@@ -5978,6 +6038,10 @@ adx_webpage:
 - RecordId: 17c13714-19c4-eb11-bacc-000d3af385d3
   DisplayName: autoload
   CheckSum: 0538833aa403ba9c543bfcd5773ed11a8ab9d24bfc5764662afa9115fd2df9ea
+  IsDeleted: false
+- RecordId: bd6496a7-9ac4-eb11-bacc-000d3af385d3
+  DisplayName: assets
+  CheckSum: afd21a19aeececb1f3db708a74d32955f84bee31fa0c6ee4d57e7e22cef917ea
   IsDeleted: false
 - RecordId: 59808036-97c4-eb11-8235-000d3af3278f
   DisplayName: Knowledge Base - Article Details
@@ -5995,25 +6059,9 @@ adx_webpage:
   DisplayName: peers
   CheckSum: 77e84db326ba0e8cf07d16cd9fb6eca292727607f00c3fcf46fd52bf11e15a7e
   IsDeleted: false
-- RecordId: 6ef5809f-5b2c-ec11-b6e6-0022483c6fb5
-  DisplayName: Events
-  CheckSum: 69a54b876173039382c7fb708259822dd423221e6b185aaa17c52c756b296a76
-  IsDeleted: false
-- RecordId: eeadf6d7-5a2c-ec11-b6e6-0022483c6fb5
-  DisplayName: Events
-  CheckSum: cb39f408c2977f086164c13f9645960984393280ee95f0a9208f7938f32a6bfa
-  IsDeleted: false
 - RecordId: 7cf32be5-16c4-eb11-bacc-000d3af385d3
   DisplayName: a11y
   CheckSum: b829b2ff04582accb2b9b24bdf2c212c4770c1fe5fdac311c39197e461ee21a9
-  IsDeleted: false
-- RecordId: 84072d77-13c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: af6c8dd475201f41505357e84bc138aca6f209fddeabbce894a16cc2544eb26e
-  IsDeleted: false
-- RecordId: 38808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: fonts
-  CheckSum: c03d06249448486725f2485ccc1176405931d00ad0ded9c13eb7f937907214c6
   IsDeleted: false
 - RecordId: 629ce565-10c4-eb11-bacc-000d3af385d3
   DisplayName: index
@@ -6047,14 +6095,6 @@ adx_webpage:
   DisplayName: PlainSource
   CheckSum: fcb8965374cfedd61049fa75de654605fc21cb7a4130d0a0a8d662247fef9a6e
   IsDeleted: false
-- RecordId: 377f2983-13c4-eb11-bacc-000d3af385d3
-  DisplayName: js
-  CheckSum: 7902d21a7b18b66f366bac90b8f08fa814af499f3892a540e7ec63258cbe2536
-  IsDeleted: false
-- RecordId: 3d808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: js
-  CheckSum: 423a3706aca5601d64859a068d72efd384caa5c6461198c477776be82c8892eb
-  IsDeleted: false
 - RecordId: fe8ca233-18c4-eb11-bacc-000d3af385d3
   DisplayName: optable
   CheckSum: 6f97bf67473b699fc40633f6056cdc4af4d8b1ff234f13eb20f2307e211eed2a
@@ -6083,6 +6123,18 @@ adx_webpage:
   DisplayName: gcweb-theme
   CheckSum: 61024423c7bb2656f337d7152a2ed86b00ffb342b57dfdc69e4c75c32e55808e
   IsDeleted: false
+- RecordId: d73569d5-17c4-eb11-bacc-000d3af385d3
+  DisplayName: HTML-CSS
+  CheckSum: 6fdd017a28e83436e6f222e367cce0c42cf47ef798da910716685fd7e8d50082
+  IsDeleted: false
+- RecordId: cd40e324-14c4-eb11-bacc-000d3af385d3
+  DisplayName: polyfills
+  CheckSum: 6e4cacc8f1ffc7de6a023852e4b72615fd3b20917aef34dc733c5084361ddf16
+  IsDeleted: false
+- RecordId: 51808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: polyfills
+  CheckSum: c2c85883f3c81f7063f53a5d8aca137920fb6a7e392151d30adc4cdcbe212b3f
+  IsDeleted: false
 - RecordId: cfd58530-97c4-eb11-8235-000d3af3278f
   DisplayName: Poll Archives
   CheckSum: 67200d2d48109f1601ed34a3b1a3a41bc43673d583ade039947c953cf25124cb
@@ -6091,9 +6143,9 @@ adx_webpage:
   DisplayName: Poll Archives
   CheckSum: 975110699e8af366cc2b2c984c6fd86ac80b12f3a19f6f4f8cd320cc9746c42a
   IsDeleted: false
-- RecordId: bd6496a7-9ac4-eb11-bacc-000d3af385d3
-  DisplayName: assets
-  CheckSum: afd21a19aeececb1f3db708a74d32955f84bee31fa0c6ee4d57e7e22cef917ea
+- RecordId: 867f7d8e-17c4-eb11-bacc-000d3af385d3
+  DisplayName: TeX
+  CheckSum: c0f6f12a750d1754f4c1f1ec5c9b562a04c8322848ce25a4d96309da2d972cd1
   IsDeleted: false
 - RecordId: ee7d64ca-c26a-e611-80d7-00155d889a88
   DisplayName: Access Denied
@@ -6111,6 +6163,14 @@ adx_webpage:
   DisplayName: Profile
   CheckSum: a70b8d62c9fe78c2a3c695fe2779ae956b2b6155c84a4673587d82f910dd9b55
   IsDeleted: false
+- RecordId: 30808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: css
+  CheckSum: c7c508fc1ad1a58c8d26a50dbcc787b021a5e1663c4841006cb7fe157e8eb841
+  IsDeleted: false
+- RecordId: 7ea3246b-13c4-eb11-bacc-000d3af385d3
+  DisplayName: css
+  CheckSum: aa3f903fd822da94011ae6cef39acf8742dd3d5434242eb361d0e8cc5052f65d
+  IsDeleted: false
 - RecordId: b8a2d889-10c4-eb11-bacc-000d3af385d3
   DisplayName: provisional
   CheckSum: f1abd19469233600bbe6e3b29e8d558c5321f739e8b95813c2ef133f1c4a3f94
@@ -6118,10 +6178,6 @@ adx_webpage:
 - RecordId: 85d58530-97c4-eb11-8235-000d3af3278f
   DisplayName: provisional
   CheckSum: 90eeb61ecdbb529bd65ee7c8af19256372c9d1d7a0a39692ea7397ef2add76df
-  IsDeleted: false
-- RecordId: b1406dc5-18c4-eb11-bacc-000d3af385d3
-  DisplayName: HTML-CSS
-  CheckSum: 581a7eeb06790d247ce87893b139f1b4f5cb3e5b17c7c2c72b4af5af2d0e3a87
   IsDeleted: false
 - RecordId: 83808036-97c4-eb11-8235-000d3af3278f
   DisplayName: wb-chtwzrd
@@ -6135,6 +6191,18 @@ adx_webpage:
   DisplayName: AsciiMath
   CheckSum: bd50312adbe1f81a314bfd31034d72b3268d321bcc3426af225234607c3517ad
   IsDeleted: false
+- RecordId: 91808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: polyfills
+  CheckSum: 6e376e592d54ff80044ae241d9b720a880fd735f0125cc995af2d4feff40b942
+  IsDeleted: false
+- RecordId: 920d1fa7-13c4-eb11-bacc-000d3af385d3
+  DisplayName: polyfills
+  CheckSum: f1badd3fd6e3226c90de2bf96d882e4d69589eda0aeded36b878af0f191eb463
+  IsDeleted: false
+- RecordId: 4ede53e8-17c4-eb11-bacc-000d3af385d3
+  DisplayName: TeX
+  CheckSum: c7e3b8463468a91b648b37d3aa6b86f6fee23df5caee887a62150fdf14b8561f
+  IsDeleted: false
 - RecordId: 3fd58530-97c4-eb11-8235-000d3af3278f
   DisplayName: Components
   CheckSum: f0211200f07ea55a1116b6a145a3ebd94c3ef39659f1a54bcb63baa7cc5ede19
@@ -6143,17 +6211,17 @@ adx_webpage:
   DisplayName: Components
   CheckSum: 9a764eee4b1d06f2d7acbe55fcb7ba39a90f4d097cc8cd7e914f1eeaa95baf16
   IsDeleted: false
-- RecordId: 3f35aab1-5b2c-ec11-b6e6-0022483c6fb5
-  DisplayName: Events
-  CheckSum: b0d58c9ab117b9bee8adad3b233400f498fedadbdf4193e85b3df871f1f96bc7
-  IsDeleted: false
-- RecordId: 354aa80c-5c2c-ec11-b6e6-0022483c6fb5
-  DisplayName: Events
-  CheckSum: 6cb1f6bd626754666067b32b808bed6f61abf151572130d2cc9d2b7c4fdc4119
-  IsDeleted: false
 - RecordId: 936fa3a1-17c4-eb11-bacc-000d3af385d3
   DisplayName: mhchem3
   CheckSum: 48acd73628abedb1ff704579b74ddbbde085618e8135f1688eb277a3b6a124aa
+  IsDeleted: false
+- RecordId: eeadf6d7-5a2c-ec11-b6e6-0022483c6fb5
+  DisplayName: Events
+  CheckSum: cb39f408c2977f086164c13f9645960984393280ee95f0a9208f7938f32a6bfa
+  IsDeleted: false
+- RecordId: 6ef5809f-5b2c-ec11-b6e6-0022483c6fb5
+  DisplayName: Events
+  CheckSum: 69a54b876173039382c7fb708259822dd423221e6b185aaa17c52c756b296a76
   IsDeleted: false
 - RecordId: abd58530-97c4-eb11-8235-000d3af3278f
   DisplayName: Knowledge Base - Home
@@ -6171,22 +6239,6 @@ adx_webpage:
   DisplayName: units
   CheckSum: 15940f8972be5677def6763332c1a7b449b8aa77c9fe07f8f0527714e3f6a1da
   IsDeleted: false
-- RecordId: a0d58530-97c4-eb11-8235-000d3af3278f
-  DisplayName: xprmntl
-  CheckSum: 19d4dfecb4768e3fc9bb9c6f2a6c9b61b3d4b52d4b7aba5d97654b9a0eca4abf
-  IsDeleted: false
-- RecordId: c3b19fd1-10c4-eb11-bacc-000d3af385d3
-  DisplayName: xprmntl
-  CheckSum: f6867607c6a9f2feee649baa5e11bc870be1238516022c3c52d1339a09f4abcc
-  IsDeleted: false
-- RecordId: 0fd68530-97c4-eb11-8235-000d3af3278f
-  DisplayName: fonts
-  CheckSum: fd75d76fc7a0a0265ed6bd52ad1d9617baafbe099a0d2d1fa066e8192882f351
-  IsDeleted: false
-- RecordId: b748603f-12c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: c05790f4717164ffc24bd0f8bedbd1d2905c3b146e21f8956a3339c6aceaad4c
-  IsDeleted: false
 - RecordId: 631ec518-b040-ec11-8c62-0022483bee55
   DisplayName: Checkout-Confirmation
   CheckSum: df010d6ded9a6572397c3e4e2ab1149386679a27d9c603f9ab0b6a346494291a
@@ -6199,14 +6251,6 @@ adx_webpage:
   DisplayName: img
   CheckSum: f22eb44129068c8854ecd9744f4c84dd7f4270e522e2e2e15325574e4fe5df73
   IsDeleted: false
-- RecordId: 80bd5033-12c4-eb11-bacc-000d3af385d3
-  DisplayName: css
-  CheckSum: 60b9ac0ec3a33fff7f6430db5fa4c236504fc7353757b33341d839714c589cf0
-  IsDeleted: false
-- RecordId: 0dd68530-97c4-eb11-8235-000d3af3278f
-  DisplayName: css
-  CheckSum: d2113488b84b26396ceada54aa3afc624b87496e01761e46787be206d7762357
-  IsDeleted: false
 - RecordId: fb339fcc-16c4-eb11-bacc-000d3af385d3
   DisplayName: local
   CheckSum: e82c2afe8d4ce70c2b5dc2fe683aa2c79966932dd19ccde93d9d03f464b201f4
@@ -6218,6 +6262,18 @@ adx_webpage:
 - RecordId: f47d64ca-c26a-e611-80d7-00155d889a88
   DisplayName: Search
   CheckSum: bb66f891c1046af6ee65957d36683021b332b9fbe1a6ac6fcc0cc8f1475e303b
+  IsDeleted: false
+- RecordId: 96808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: fonts
+  CheckSum: 05244a3a0f2332a95b106461f68a0ce05175500ed14d83de418194d9399d8d0e
+  IsDeleted: false
+- RecordId: 9e9a15bf-13c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: f7f1c07d2263df8ecb2b12f4ac740fd233ef166fb083c832fe842a97a68ec1a6
+  IsDeleted: false
+- RecordId: 80b51582-17c4-eb11-bacc-000d3af385d3
+  DisplayName: MathML
+  CheckSum: 65e282ce9f5d14ca3368e854e2c2b9b2e2d425e59e81bebcd5a2dd64d3fd4e4f
   IsDeleted: false
 - RecordId: be808036-97c4-eb11-8235-000d3af3278f
   DisplayName: extensions
@@ -6243,18 +6299,6 @@ adx_webpage:
   DisplayName: MathJax
   CheckSum: 229c6b9d8104a29f784c8a8725ca147d1bd0b2eb6d6871e9e85d0ec0906f53c0
   IsDeleted: false
-- RecordId: d73569d5-17c4-eb11-bacc-000d3af385d3
-  DisplayName: HTML-CSS
-  CheckSum: 6fdd017a28e83436e6f222e367cce0c42cf47ef798da910716685fd7e8d50082
-  IsDeleted: false
-- RecordId: 21808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: xprmntl
-  CheckSum: 4999bccac31c5ba3b0235cf3bed35d04caa395f957c994bff9eff3cae855aa27
-  IsDeleted: false
-- RecordId: dbe34617-13c4-eb11-bacc-000d3af385d3
-  DisplayName: xprmntl
-  CheckSum: 3b3c5a9a8363d03066ce34ed44b2a9a3271f1ad971fe81780ce0e361720fb04b
-  IsDeleted: false
 - RecordId: 4ad58530-97c4-eb11-8235-000d3af3278f
   DisplayName: docs
   CheckSum: 4e2ea326d194ad1d3bf492c68aa87f0943c4f1b7a4dcbee79c304aef31deed4f
@@ -6271,13 +6315,9 @@ adx_webpage:
   DisplayName: 2.2.4
   CheckSum: 6e90e381d535371384e6ab0fd01ded95d61e8bc92f3a8adf7697ba200fc6d9f5
   IsDeleted: false
-- RecordId: 6ae25127-12c4-eb11-bacc-000d3af385d3
-  DisplayName: assets
-  CheckSum: 135b3fdbea4319b71fef25e9a2db8d4f961c65caa39fd9f79398ec123c86d77d
-  IsDeleted: false
-- RecordId: 06d68530-97c4-eb11-8235-000d3af3278f
-  DisplayName: assets
-  CheckSum: f6252d010dab91764c1273889e7f481740840e86dbc428ada2fe97a4a0633944
+- RecordId: 5a05eb6e-17c4-eb11-bacc-000d3af385d3
+  DisplayName: HTML-CSS
+  CheckSum: 0d896c6a5b74e3f64677e55ad8a167c05c863ea2e2fec3e6417268bc26008e90
   IsDeleted: false
 - RecordId: 88f34bc9-12c4-eb11-bacc-000d3af385d3
   DisplayName: site-assets
@@ -6286,6 +6326,10 @@ adx_webpage:
 - RecordId: 88808036-97c4-eb11-8235-000d3af3278f
   DisplayName: site-assets
   CheckSum: 8e41b79bb6e778c1e432088f8f3b2e24a30d65b8607bf52ded57f0f343fb69de
+  IsDeleted: false
+- RecordId: d01712f5-b340-ec11-8c62-0022483bee55
+  DisplayName: css
+  CheckSum: 9f59948690c063942b3e6b972e0ee24423fe3a582849dc8115b3fce719a33478
   IsDeleted: false
 - RecordId: 29d68530-97c4-eb11-8235-000d3af3278f
   DisplayName: component
@@ -6303,6 +6347,10 @@ adx_webpage:
   DisplayName: Sitemap
   CheckSum: e6890325902d2117d97227e9c9b949dd7218cac63fbad7d705678123447e67b4
   IsDeleted: false
+- RecordId: ae38770c-17c4-eb11-bacc-000d3af385d3
+  DisplayName: functions
+  CheckSum: f76943b9eb49682c502d12107f03495425113ed1bd67c7f1ec1009c899f50bea
+  IsDeleted: false
 - RecordId: 7e808036-97c4-eb11-8235-000d3af3278f
   DisplayName: gc-follow-us
   CheckSum: 8d25b49b41556a9605a5f1158bb97b8256d8882f119d7871e2dca8aa61855394
@@ -6310,6 +6358,10 @@ adx_webpage:
 - RecordId: aadb687b-12c4-eb11-bacc-000d3af385d3
   DisplayName: gc-follow-us
   CheckSum: 1573341a0f49252bc01b10a35ce54d003142ce70fbba2f6cdeb7025056d03a52
+  IsDeleted: false
+- RecordId: f8f5af7a-18c4-eb11-bacc-000d3af385d3
+  DisplayName: TeX
+  CheckSum: 1ffc77fdd11015cebc644675bb52f34622edaa13b4d81f18c5c0b32f0a2173ac
   IsDeleted: false
 - RecordId: d1aeab9f-18c4-eb11-bacc-000d3af385d3
   DisplayName: output
@@ -6355,26 +6407,6 @@ adx_webpage:
   DisplayName: jquery
   CheckSum: c87fe671f4b85c1a2300fc5f38ecd48e91b1582140e975f8873083e193473964
   IsDeleted: false
-- RecordId: 45fd4870-9ac4-eb11-bacc-000d3af385d3
-  DisplayName: wet-boew
-  CheckSum: 0f3c9f8ef63f3ef3c8f304121f5d71efaea0b84c7b4fbd57c808b1580d5480ee
-  IsDeleted: false
-- RecordId: 5a05eb6e-17c4-eb11-bacc-000d3af385d3
-  DisplayName: HTML-CSS
-  CheckSum: 0d896c6a5b74e3f64677e55ad8a167c05c863ea2e2fec3e6417268bc26008e90
-  IsDeleted: false
-- RecordId: ae38770c-17c4-eb11-bacc-000d3af385d3
-  DisplayName: functions
-  CheckSum: f76943b9eb49682c502d12107f03495425113ed1bd67c7f1ec1009c899f50bea
-  IsDeleted: false
-- RecordId: 920d1fa7-13c4-eb11-bacc-000d3af385d3
-  DisplayName: polyfills
-  CheckSum: f1badd3fd6e3226c90de2bf96d882e4d69589eda0aeded36b878af0f191eb463
-  IsDeleted: false
-- RecordId: 91808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: polyfills
-  CheckSum: 6e376e592d54ff80044ae241d9b720a880fd735f0125cc995af2d4feff40b942
-  IsDeleted: false
 - RecordId: 1ea8806c-18c4-eb11-bacc-000d3af385d3
   DisplayName: MathML
   CheckSum: 514926ea02de24488bd33cfffa2c0cff24833d163ef0f618c9e76b29c286f59f
@@ -6382,6 +6414,14 @@ adx_webpage:
 - RecordId: c35d7553-18c4-eb11-bacc-000d3af385d3
   DisplayName: input
   CheckSum: 626753724715bf9b9a76c49dc5c2fb02418a26017331973994efb9e0e72821bd
+  IsDeleted: false
+- RecordId: c3808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: fonts
+  CheckSum: ebcd927d9ebb8975667efb4357afd71f32847b9016af7c8d573f81ff39e935c4
+  IsDeleted: false
+- RecordId: 2591012e-16c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: 5a0ce45d97e60e55149031ed6b76538063e64bf228a24d8aed9b96f4e10cfe04
   IsDeleted: false
 - RecordId: a626910d-16c4-eb11-bacc-000d3af385d3
   DisplayName: config
@@ -6398,6 +6438,14 @@ adx_webpage:
 - RecordId: 3ba16482-5e2c-ec11-b6e6-0022483c6fb5
   DisplayName: Buy Tickets
   CheckSum: e0192e1d77725bc06e7027e6b61a14b5a6b21e194659972047c720388248751d
+  IsDeleted: false
+- RecordId: 377f2983-13c4-eb11-bacc-000d3af385d3
+  DisplayName: js
+  CheckSum: 7902d21a7b18b66f366bac90b8f08fa814af499f3892a540e7ec63258cbe2536
+  IsDeleted: false
+- RecordId: 3d808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: js
+  CheckSum: 423a3706aca5601d64859a068d72efd384caa5c6461198c477776be82c8892eb
   IsDeleted: false
 - RecordId: e3651112-10c4-eb11-bacc-000d3af385d3
   DisplayName: evaluation-report
@@ -6423,9 +6471,21 @@ adx_webpage:
   DisplayName: test
   CheckSum: 84fe15b7aeee7c4ca3b2b71cfcea3dabaa36c86270af1ea08849078a01f6e4ef
   IsDeleted: false
+- RecordId: 64258427-19c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: da2813bffd65b18d6ce72a0a4a1918c813e5a35f91f4893c68768157c0f30287
+  IsDeleted: false
 - RecordId: f76b0b3f-9ac4-eb11-bacc-000d3af385d3
   DisplayName: designs
   CheckSum: 87bafdb53fd3751e0f4dae0f687c894648bb15aad063d03484890f95223e52b1
+  IsDeleted: false
+- RecordId: 80bd5033-12c4-eb11-bacc-000d3af385d3
+  DisplayName: css
+  CheckSum: 60b9ac0ec3a33fff7f6430db5fa4c236504fc7353757b33341d839714c589cf0
+  IsDeleted: false
+- RecordId: 0dd68530-97c4-eb11-8235-000d3af3278f
+  DisplayName: css
+  CheckSum: d2113488b84b26396ceada54aa3afc624b87496e01761e46787be206d7762357
   IsDeleted: false
 - RecordId: 18e54a27-eb30-ec11-b6e6-0022483ccb4c
   DisplayName: Products
@@ -6435,18 +6495,6 @@ adx_webpage:
   DisplayName: Products
   CheckSum: 76a59e6c76f9b19099b724d68fe60e021246c48a2fe5b532bfbf8e9bc4ae6fd9
   IsDeleted: false
-- RecordId: 9bd58530-97c4-eb11-8235-000d3af3278f
-  DisplayName: wet-boew
-  CheckSum: 051604c2b7ecd74ba608d260ae31ece177845088eb498ba5d066575784b68327
-  IsDeleted: false
-- RecordId: 5260aac5-10c4-eb11-bacc-000d3af385d3
-  DisplayName: wet-boew
-  CheckSum: 2c906a2477419eb775155442307055d9b857c6873f623a72ba75de80f0be1f83
-  IsDeleted: false
-- RecordId: 80b51582-17c4-eb11-bacc-000d3af385d3
-  DisplayName: MathML
-  CheckSum: 65e282ce9f5d14ca3368e854e2c2b9b2e2d425e59e81bebcd5a2dd64d3fd4e4f
-  IsDeleted: false
 - RecordId: fa7d64ca-c26a-e611-80d7-00155d889a88
   DisplayName: Customer Service - Case Details
   CheckSum: 8a845f19b23d59f79b559356c12b225e6f1b621979e0c31e38d1b6b04e972f50
@@ -6455,17 +6503,17 @@ adx_webpage:
   DisplayName: Customer Service - Case Details
   CheckSum: 5d74f201408cb02c5c80053b39548f562d625eef70a91ca1935af5af40f741e7
   IsDeleted: false
-- RecordId: 2591012e-16c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: 5a0ce45d97e60e55149031ed6b76538063e64bf228a24d8aed9b96f4e10cfe04
-  IsDeleted: false
-- RecordId: c3808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: fonts
-  CheckSum: ebcd927d9ebb8975667efb4357afd71f32847b9016af7c8d573f81ff39e935c4
-  IsDeleted: false
 - RecordId: 39bef1f1-18c4-eb11-bacc-000d3af385d3
   DisplayName: PreviewHTML
   CheckSum: 4274996fa9acf8e29c596d942fdaed898fd9965b7ee5c4f942d92413f151fa24
+  IsDeleted: false
+- RecordId: da85614b-12c4-eb11-bacc-000d3af385d3
+  DisplayName: js
+  CheckSum: 8effd11814ca5a45d0aeb2cd167aa705b43f6ec531fee56cbc915adfd0ab9451
+  IsDeleted: false
+- RecordId: 14d68530-97c4-eb11-8235-000d3af3278f
+  DisplayName: js
+  CheckSum: 74ce2e92e7e3a28abf449731f45cee5185adb3b43b8669af988ea06d841bc41e
   IsDeleted: false
 - RecordId: 21d68530-97c4-eb11-8235-000d3af3278f
   DisplayName: static-header-footer
@@ -6491,14 +6539,6 @@ adx_webpage:
   DisplayName: Public Profile
   CheckSum: f082701d1bd0e18ecd91fcc8709cf095395a5d161792be08b29cef27960f43f8
   IsDeleted: false
-- RecordId: cd40e324-14c4-eb11-bacc-000d3af385d3
-  DisplayName: polyfills
-  CheckSum: 6e4cacc8f1ffc7de6a023852e4b72615fd3b20917aef34dc733c5084361ddf16
-  IsDeleted: false
-- RecordId: 51808036-97c4-eb11-8235-000d3af3278f
-  DisplayName: polyfills
-  CheckSum: c2c85883f3c81f7063f53a5d8aca137920fb6a7e392151d30adc4cdcbe212b3f
-  IsDeleted: false
 - RecordId: c1d58530-97c4-eb11-8235-000d3af3278f
   DisplayName: Page Not Found
   CheckSum: 8d4b758ecdf28fde836f0e67000abdd988717dda1457c6dd2dd23a1d492f275d
@@ -6515,6 +6555,14 @@ adx_webpage:
   DisplayName: GCWeb
   CheckSum: d8a1ba59a50b331e4620709f67e0133334565e0dbc197d077afcd7b48106035c
   IsDeleted: false
+- RecordId: 21808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: xprmntl
+  CheckSum: 4999bccac31c5ba3b0235cf3bed35d04caa395f957c994bff9eff3cae855aa27
+  IsDeleted: false
+- RecordId: dbe34617-13c4-eb11-bacc-000d3af385d3
+  DisplayName: xprmntl
+  CheckSum: 3b3c5a9a8363d03066ce34ed44b2a9a3271f1ad971fe81780ce0e361720fb04b
+  IsDeleted: false
 - RecordId: c6f4530b-13c4-eb11-bacc-000d3af385d3
   DisplayName: test-cases
   CheckSum: 7283c37c8f71f8e4bd5667a80c7c3a3c339ce89dded6f7c48468d72b89ecde9b
@@ -6523,9 +6571,13 @@ adx_webpage:
   DisplayName: test-cases
   CheckSum: 9c6513103edd89933a12526791ed6b4a4c2a5bcde390c849fa61514d65603a2a
   IsDeleted: false
-- RecordId: ef4a4938-17c4-eb11-bacc-000d3af385d3
-  DisplayName: functions
-  CheckSum: dd2e38c31de515f91f51919d3203f7446b091a63f30c3f115c2902e0f4e59f38
+- RecordId: 6ae25127-12c4-eb11-bacc-000d3af385d3
+  DisplayName: assets
+  CheckSum: 135b3fdbea4319b71fef25e9a2db8d4f961c65caa39fd9f79398ec123c86d77d
+  IsDeleted: false
+- RecordId: 06d68530-97c4-eb11-8235-000d3af3278f
+  DisplayName: assets
+  CheckSum: f6252d010dab91764c1273889e7f481740840e86dbc428ada2fe97a4a0633944
   IsDeleted: false
 - RecordId: c251c924-a83c-ec11-8c62-0022483d79a5
   DisplayName: 404 Page
@@ -6535,6 +6587,14 @@ adx_webpage:
   DisplayName: 404 Page
   CheckSum: f65b2ef583466654354d1e9ff5386126b3fa1582eb0398da7e27edfac72552a3
   IsDeleted: false
+- RecordId: 84072d77-13c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: af6c8dd475201f41505357e84bc138aca6f209fddeabbce894a16cc2544eb26e
+  IsDeleted: false
+- RecordId: 38808036-97c4-eb11-8235-000d3af3278f
+  DisplayName: fonts
+  CheckSum: c03d06249448486725f2485ccc1176405931d00ad0ded9c13eb7f937907214c6
+  IsDeleted: false
 - RecordId: 6ad58530-97c4-eb11-8235-000d3af3278f
   DisplayName: home
   CheckSum: 1d999027af22731060550e5d1ad1bbbf7ddd92047389ef66a7bf6588a0247026
@@ -6542,6 +6602,10 @@ adx_webpage:
 - RecordId: ffe755c4-c26a-e611-80d7-00155d889a88
   DisplayName: Home
   CheckSum: 1cb04f4c38ac7374ca976cd7adde113e6083d09fbd436b54b6aa46c1c6faddc7
+  IsDeleted: false
+- RecordId: ef4a4938-17c4-eb11-bacc-000d3af385d3
+  DisplayName: functions
+  CheckSum: dd2e38c31de515f91f51919d3203f7446b091a63f30c3f115c2902e0f4e59f38
   IsDeleted: false
 - RecordId: 6c808036-97c4-eb11-8235-000d3af3278f
   DisplayName: Customer Service - Edit Case
@@ -6555,9 +6619,13 @@ adx_webpage:
   DisplayName: NativeMML
   CheckSum: d37aaf659ba6d07ba1b36ef9b0ff39ed50462bc08e239cf47e81fd9ce1eca319
   IsDeleted: false
-- RecordId: d01712f5-b340-ec11-8c62-0022483bee55
-  DisplayName: css
-  CheckSum: 9f59948690c063942b3e6b972e0ee24423fe3a582849dc8115b3fce719a33478
+- RecordId: 3f35aab1-5b2c-ec11-b6e6-0022483c6fb5
+  DisplayName: Events
+  CheckSum: b0d58c9ab117b9bee8adad3b233400f498fedadbdf4193e85b3df871f1f96bc7
+  IsDeleted: false
+- RecordId: 354aa80c-5c2c-ec11-b6e6-0022483c6fb5
+  DisplayName: Events
+  CheckSum: 6cb1f6bd626754666067b32b808bed6f61abf151572130d2cc9d2b7c4fdc4119
   IsDeleted: false
 - RecordId: f7d58530-97c4-eb11-8235-000d3af3278f
   DisplayName: Forums
@@ -6571,14 +6639,6 @@ adx_webpage:
   DisplayName: mml
   CheckSum: cc7118bb5d5951afc4039c60d3fafd64af367d38b9278ccaf8e8d47cdcc4c452
   IsDeleted: false
-- RecordId: 14d68530-97c4-eb11-8235-000d3af3278f
-  DisplayName: js
-  CheckSum: 74ce2e92e7e3a28abf449731f45cee5185adb3b43b8669af988ea06d841bc41e
-  IsDeleted: false
-- RecordId: da85614b-12c4-eb11-bacc-000d3af385d3
-  DisplayName: js
-  CheckSum: 8effd11814ca5a45d0aeb2cd167aa705b43f6ec531fee56cbc915adfd0ab9451
-  IsDeleted: false
 - RecordId: 720e06fe-18c4-eb11-bacc-000d3af385d3
   DisplayName: SVG
   CheckSum: 1f5bc22c86800627a33fdcd0db733e1adc45010d03e664debae87c8264b0c238
@@ -6587,13 +6647,13 @@ adx_webpage:
   DisplayName: CommonHTML
   CheckSum: 84f01a8bef2a0f8a80ca93855934f1724c28e02881c3ce370f6d75891e6bd134
   IsDeleted: false
-- RecordId: 1ad31c59-13c4-eb11-bacc-000d3af385d3
-  DisplayName: assets
-  CheckSum: b91bb075e189f0d8a476384d369db1ee890961cbf211a50c008f5a97027ac688
-  IsDeleted: false
 - RecordId: 38275e58-9ac4-eb11-bacc-000d3af385d3
   DisplayName: canada
   CheckSum: 9a5ed862d42eb5137a3b988f7b0e2ebad77ffc2fa60972790cec820556ea1389
+  IsDeleted: false
+- RecordId: 42fd4870-9ac4-eb11-bacc-000d3af385d3
+  DisplayName: wet-boew
+  CheckSum: 9fc92d98cae5ee0fa2ac24813a09de73da446265bfd51ce0bb5dfa120f3e2b35
   IsDeleted: false
 - RecordId: e0525db2-0fc4-eb11-bacc-000d3af385d3
   DisplayName: ajax
@@ -6611,6 +6671,14 @@ adx_webpage:
   DisplayName: Event Registration Summary Page
   CheckSum: 0f926dc93338421ac6a0a3a77d3951b8b1336549388bbb60d174b1fa2eb1fcb7
   IsDeleted: false
+- RecordId: ae406dc5-18c4-eb11-bacc-000d3af385d3
+  DisplayName: HTML-CSS
+  CheckSum: ba1c699a61d4e7a309842479d11cd6d6bf01981cd2908be718529b973dc97004
+  IsDeleted: false
+- RecordId: bbb19fd1-10c4-eb11-bacc-000d3af385d3
+  DisplayName: xprmntl
+  CheckSum: 23d8c9e73032180c69db7ad89c123f7b5513ea801b44d0e904eff42e684a82c5
+  IsDeleted: false
 - RecordId: bcfc1bee-0fc4-eb11-bacc-000d3af385d3
   DisplayName: demos
   CheckSum: c5473d3c1d57e890bf0614ab8ad2c0432381fa50fc61c48750b06db8f01ce220
@@ -6619,41 +6687,33 @@ adx_webpage:
   DisplayName: Error
   CheckSum: 54ee582aeb2e04be5e245920a5e65091a9bd25697663c7ed08c18035c8ef49c7
   IsDeleted: false
-- RecordId: 61258427-19c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: 0c67d132d51911db0ad6f1978e459a7b0e66c48e353d249e0d9ac240b3c13518
+- RecordId: 1ad31c59-13c4-eb11-bacc-000d3af385d3
+  DisplayName: assets
+  CheckSum: b91bb075e189f0d8a476384d369db1ee890961cbf211a50c008f5a97027ac688
   IsDeleted: false
 - RecordId: 61d4fd75-0914-42eb-8a2e-72c9d90021c6
   DisplayName: Knowledge Base - Category Details
   CheckSum: 5f16b421e290b59414386aa0460c3bbee5ae50432755f6f7e536957aa7491197
   IsDeleted: false
-- RecordId: 7d7f7d8e-17c4-eb11-bacc-000d3af385d3
-  DisplayName: TeX
-  CheckSum: b324f18644b5c4798e2f83fbb6cb38dbfed9375bccd82de56263dba2095309de
-  IsDeleted: false
 - RecordId: 949a0bf5-13c4-eb11-bacc-000d3af385d3
   DisplayName: i18n
   CheckSum: 13686a3871e58af077180d71599b14f00cbf43c3edcafab3e6a5c6bbf8ad81ad
-  IsDeleted: false
-- RecordId: 929a15bf-13c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: b65e54cb3ea3e3a609037b7aa73fff8f67d5a891e83360ea4abb964da49053df
   IsDeleted: false
 - RecordId: defea43a-16c4-eb11-bacc-000d3af385d3
   DisplayName: jax
   CheckSum: 70c31acd493fdf63f645a56dc0d264a6a7d564f5f2dc27e41a78e7fc1868c747
   IsDeleted: false
-- RecordId: 76a3246b-13c4-eb11-bacc-000d3af385d3
-  DisplayName: css
-  CheckSum: e77909cf2d9c83fb425bb4ec6db3294a4f4901f1014ad385597d9b52b0ed4375
+- RecordId: 4560aac5-10c4-eb11-bacc-000d3af385d3
+  DisplayName: wet-boew
+  CheckSum: b14c0f379cfc0cbd8615c47babe3e167d9e2f5854009b86a83f9bf3bc439d13d
+  IsDeleted: false
+- RecordId: af48603f-12c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: ee2ffc8afbfa7a68fa27284cd5afc6ba3e0171c529c8d88cf0753973834acdcb
   IsDeleted: false
 - RecordId: 22c4c45b-16c4-eb11-bacc-000d3af385d3
   DisplayName: en
   CheckSum: 8967fcbf5121e35663bb9a739d8f6cb23fba7ec515e6b559b596c5e9fe906c76
-  IsDeleted: false
-- RecordId: f5f5af7a-18c4-eb11-bacc-000d3af385d3
-  DisplayName: TeX
-  CheckSum: e31f88bbe12a0a2cc0b19b492cb9c26ae7901d7e4c0e279784c02568a17e47f5
   IsDeleted: false
 - RecordId: caff1ef9-16c4-eb11-bacc-000d3af385d3
   DisplayName: mathmaps
@@ -6671,10 +6731,6 @@ adx_webpage:
   DisplayName: fr
   CheckSum: a16a0aa8d67b58cb7228838ef547d264ee5daff2c8b35106d96765495faaab25
   IsDeleted: false
-- RecordId: 47de53e8-17c4-eb11-bacc-000d3af385d3
-  DisplayName: TeX
-  CheckSum: 6aec1e1d2cdc86a44a1e22519978b9a71ad2e96ac613b0dacc3d7cc4f44b7391
-  IsDeleted: false
 - RecordId: e3c31ff5-17c4-eb11-bacc-000d3af385d3
   DisplayName: otf
   CheckSum: 074ee38c9e2827126b1be7a87d376919880deaccc1214994a067d0bee82d9c16
@@ -6682,6 +6738,10 @@ adx_webpage:
 - RecordId: 14c13714-19c4-eb11-bacc-000d3af385d3
   DisplayName: autoload
   CheckSum: 44eed2c03c35bd11a017ec9b84fe00ec8b5d00cba39f5b418ed6b42f6b32dbd1
+  IsDeleted: false
+- RecordId: ba6496a7-9ac4-eb11-bacc-000d3af385d3
+  DisplayName: assets
+  CheckSum: 2bdcd9ce60a2a4da8630645a58a797c932658caebdcdb80f9896e7cadd079973
   IsDeleted: false
 - RecordId: 02eb288c-e0ed-e511-80d2-00155dee6a04
   DisplayName: Knowledge Base - Article Details
@@ -6691,17 +6751,9 @@ adx_webpage:
   DisplayName: peers
   CheckSum: 30d1e7ee1260d1eef9b1b7ecca2cdb089071467af8fca96994c10ade1aafc4f2
   IsDeleted: false
-- RecordId: e1adf6d7-5a2c-ec11-b6e6-0022483c6fb5
-  DisplayName: Events
-  CheckSum: 02f91a4fcbb1f7b0b987e8481bce74f8c440e178e1decd78d02990c3fda7ebc6
-  IsDeleted: false
 - RecordId: 75f32be5-16c4-eb11-bacc-000d3af385d3
   DisplayName: a11y
   CheckSum: 51dce5b9dc34c74c81d3dd7771426d8e51fa9e0388d42e6d8548dbcefe59b799
-  IsDeleted: false
-- RecordId: 7c072d77-13c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: a044b88c72e7a285607b85550ef2fd7de7f20c8cd37754451aa52b22a0e5b87e
   IsDeleted: false
 - RecordId: 5c9ce565-10c4-eb11-bacc-000d3af385d3
   DisplayName: index
@@ -6723,10 +6775,6 @@ adx_webpage:
   DisplayName: PlainSource
   CheckSum: 26585904a4e187af808cb6885cc780e0d3e60bdf6becfd61b1d530d6e3400a89
   IsDeleted: false
-- RecordId: 317f2983-13c4-eb11-bacc-000d3af385d3
-  DisplayName: js
-  CheckSum: 27e3f031567d97ae65ab596b25cf2107d2b3566bc0b2d8c51099136da553b764
-  IsDeleted: false
 - RecordId: fb8ca233-18c4-eb11-bacc-000d3af385d3
   DisplayName: optable
   CheckSum: 033ea3b7d401e494062724fee63b173d33b43cdcbfd20617dafb192dba6612aa
@@ -6743,13 +6791,21 @@ adx_webpage:
   DisplayName: gcweb-theme
   CheckSum: 971e62c05df4395283ab964f0924c2314ae53eaf79f058529bcc24cba8466699
   IsDeleted: false
+- RecordId: d43569d5-17c4-eb11-bacc-000d3af385d3
+  DisplayName: HTML-CSS
+  CheckSum: 0ff704d601178708d0bb431c4b37ab7cee1394eb44badadd916cb5347dd45d45
+  IsDeleted: false
+- RecordId: c740e324-14c4-eb11-bacc-000d3af385d3
+  DisplayName: polyfills
+  CheckSum: ad7a280b3672a154cfa6d92f638bff7b364e1d65707c7003d30a4dc7a26ff6bb
+  IsDeleted: false
 - RecordId: f4761d7b-a940-4fbd-ac8a-99ef45f9e60e
   DisplayName: Poll Archives
   CheckSum: 81f73366385cce47e53368e6dc28b90e6548ea71d3ef4c8cb7684c7d2153731c
   IsDeleted: false
-- RecordId: ba6496a7-9ac4-eb11-bacc-000d3af385d3
-  DisplayName: assets
-  CheckSum: 2bdcd9ce60a2a4da8630645a58a797c932658caebdcdb80f9896e7cadd079973
+- RecordId: 7d7f7d8e-17c4-eb11-bacc-000d3af385d3
+  DisplayName: TeX
+  CheckSum: b324f18644b5c4798e2f83fbb6cb38dbfed9375bccd82de56263dba2095309de
   IsDeleted: false
 - RecordId: 19aad961-5995-4316-bcfe-8c3bfacda737
   DisplayName: Access Denied
@@ -6759,13 +6815,13 @@ adx_webpage:
   DisplayName: Profile
   CheckSum: 89e48cfd0a22a584c12a908abbada5c5e0935f37ba293f02f0014ed8cd43249b
   IsDeleted: false
+- RecordId: 76a3246b-13c4-eb11-bacc-000d3af385d3
+  DisplayName: css
+  CheckSum: e77909cf2d9c83fb425bb4ec6db3294a4f4901f1014ad385597d9b52b0ed4375
+  IsDeleted: false
 - RecordId: b0a2d889-10c4-eb11-bacc-000d3af385d3
   DisplayName: provisional
   CheckSum: 5fce3232e180854e1dc8c28c3630893137964aefb7792fad625b9ad770f8b615
-  IsDeleted: false
-- RecordId: ae406dc5-18c4-eb11-bacc-000d3af385d3
-  DisplayName: HTML-CSS
-  CheckSum: ba1c699a61d4e7a309842479d11cd6d6bf01981cd2908be718529b973dc97004
   IsDeleted: false
 - RecordId: 93907f87-12c4-eb11-bacc-000d3af385d3
   DisplayName: wb-chtwzrd
@@ -6775,17 +6831,25 @@ adx_webpage:
   DisplayName: AsciiMath
   CheckSum: 40f94729b94b5e58d8e62e72cb676935830cb7bda798d1f5c1480e9548fdc1c8
   IsDeleted: false
+- RecordId: 8b0d1fa7-13c4-eb11-bacc-000d3af385d3
+  DisplayName: polyfills
+  CheckSum: 4ea4df8c6ac1e630ad75767450549c85f6eace74722c9fbe53e14b10e38ab6d4
+  IsDeleted: false
+- RecordId: 47de53e8-17c4-eb11-bacc-000d3af385d3
+  DisplayName: TeX
+  CheckSum: 6aec1e1d2cdc86a44a1e22519978b9a71ad2e96ac613b0dacc3d7cc4f44b7391
+  IsDeleted: false
 - RecordId: f0652edc-0fc4-eb11-bacc-000d3af385d3
   DisplayName: Components
   CheckSum: 600bc2bb1ebff11a3de73a265887f2151889665d56e49e9a78ce2c131c240b24
   IsDeleted: false
-- RecordId: 3935aab1-5b2c-ec11-b6e6-0022483c6fb5
-  DisplayName: Events
-  CheckSum: 72f25b81e503a7a184f627cd7e236b8c0a8d122b29f3d6a1ac8bd98e08424c87
-  IsDeleted: false
 - RecordId: 8b6fa3a1-17c4-eb11-bacc-000d3af385d3
   DisplayName: mhchem3
   CheckSum: bb48c30b3c980982939ef7cc812974d372a70ba394796435c511d8fffdac6dc1
+  IsDeleted: false
+- RecordId: e1adf6d7-5a2c-ec11-b6e6-0022483c6fb5
+  DisplayName: Events
+  CheckSum: 02f91a4fcbb1f7b0b987e8481bce74f8c440e178e1decd78d02990c3fda7ebc6
   IsDeleted: false
 - RecordId: 0473f419-2ced-e511-80d2-00155dee6a04
   DisplayName: Knowledge Base - Home
@@ -6799,14 +6863,6 @@ adx_webpage:
   DisplayName: units
   CheckSum: ec2c04028e66123e1444399a859e4f98be0d3b720cb416670d83a4acde556e64
   IsDeleted: false
-- RecordId: bbb19fd1-10c4-eb11-bacc-000d3af385d3
-  DisplayName: xprmntl
-  CheckSum: 23d8c9e73032180c69db7ad89c123f7b5513ea801b44d0e904eff42e684a82c5
-  IsDeleted: false
-- RecordId: af48603f-12c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: ee2ffc8afbfa7a68fa27284cd5afc6ba3e0171c529c8d88cf0753973834acdcb
-  IsDeleted: false
 - RecordId: b1d5cc12-b040-ec11-8c62-0022483bee55
   DisplayName: Checkout-Confirmation
   CheckSum: d2f34084f8563e44b352746f68c0816877ae3014e6d83dd7a5c0af56cba5b378
@@ -6815,10 +6871,6 @@ adx_webpage:
   DisplayName: img
   CheckSum: b00717231efcf676e2acc97560bc9066f2c6da39493df3b83b4cd15bbb455bab
   IsDeleted: false
-- RecordId: 73bd5033-12c4-eb11-bacc-000d3af385d3
-  DisplayName: css
-  CheckSum: 1a1c4e84f730413ad27328cfbfab009fd3fa4f89588d9acb5903594c8a3dc768
-  IsDeleted: false
 - RecordId: f4339fcc-16c4-eb11-bacc-000d3af385d3
   DisplayName: local
   CheckSum: 31948886473be8eff576389ac671ec495bc3cc4335d7b2b238e4842c616845d4
@@ -6826,6 +6878,14 @@ adx_webpage:
 - RecordId: 9863e048-c82c-4c86-ba1b-9c3f0155995c
   DisplayName: Search
   CheckSum: 09935f3bba701bf922375b569cadd92f0ee028a297d23e03a62f0394746fde9b
+  IsDeleted: false
+- RecordId: 929a15bf-13c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: b65e54cb3ea3e3a609037b7aa73fff8f67d5a891e83360ea4abb964da49053df
+  IsDeleted: false
+- RecordId: 7cb51582-17c4-eb11-bacc-000d3af385d3
+  DisplayName: MathML
+  CheckSum: 1f6e4842359f9c2fb28229ae6d1ffa543c5a14d83fc6c4404b6d8bb771043fc5
   IsDeleted: false
 - RecordId: c28b1e20-16c4-eb11-bacc-000d3af385d3
   DisplayName: extensions
@@ -6839,14 +6899,6 @@ adx_webpage:
   DisplayName: MathJax
   CheckSum: bfa15cec268ab1769c5491688a010e7f9af9e54586b98bb9e4a1777f9a0c3ac3
   IsDeleted: false
-- RecordId: d43569d5-17c4-eb11-bacc-000d3af385d3
-  DisplayName: HTML-CSS
-  CheckSum: 0ff704d601178708d0bb431c4b37ab7cee1394eb44badadd916cb5347dd45d45
-  IsDeleted: false
-- RecordId: d5e34617-13c4-eb11-bacc-000d3af385d3
-  DisplayName: xprmntl
-  CheckSum: b39f7e748900c5087011079b92a919f7bae9413bb103a02807f20a4d9d516ae9
-  IsDeleted: false
 - RecordId: 5aec0efa-0fc4-eb11-bacc-000d3af385d3
   DisplayName: docs
   CheckSum: 76002f603179c7380dc68501b035bdc2f5f5f78e2304304ca8dee4986184b1bd
@@ -6855,13 +6907,17 @@ adx_webpage:
   DisplayName: 2.2.4
   CheckSum: ed0d7203bc7d09cc27f0c2e237adc7d39d119eb154e963ecb41b08080b991fff
   IsDeleted: false
-- RecordId: 60e25127-12c4-eb11-bacc-000d3af385d3
-  DisplayName: assets
-  CheckSum: de30488b46399faf2d516221e4d33e448007c10c70e91e4e53720221afe93874
+- RecordId: 5505eb6e-17c4-eb11-bacc-000d3af385d3
+  DisplayName: HTML-CSS
+  CheckSum: d533b17c0428b6273b6a47c8a7d2dadf9473a5ec4c174535592e540e4df6c52b
   IsDeleted: false
 - RecordId: 81f34bc9-12c4-eb11-bacc-000d3af385d3
   DisplayName: site-assets
   CheckSum: 2470253ffd7a178f6f2c01387d90a94f862641b9fb4475ec917780804a2878a9
+  IsDeleted: false
+- RecordId: bb1712f5-b340-ec11-8c62-0022483bee55
+  DisplayName: css
+  CheckSum: 4474a33f036ff382e12e3f105680d346d05bf5ac5e109d927c6dae5398f48f81
   IsDeleted: false
 - RecordId: 251f40e1-12c4-eb11-bacc-000d3af385d3
   DisplayName: component
@@ -6871,9 +6927,17 @@ adx_webpage:
   DisplayName: Sitemap
   CheckSum: 7b415e10e12ada1659983ff01c7c505352bac1f9112c5406d9d1900b5ab51bd4
   IsDeleted: false
+- RecordId: a738770c-17c4-eb11-bacc-000d3af385d3
+  DisplayName: functions
+  CheckSum: 638608b05b8b85e060cca55e293dea70c2df7282b4f6aaccf30285e39f1ac2b8
+  IsDeleted: false
 - RecordId: a4db687b-12c4-eb11-bacc-000d3af385d3
   DisplayName: gc-follow-us
   CheckSum: 13884f0a5b8daa996dd050da7128bcd1f20076572ffe2ea7f419119ca586d8fd
+  IsDeleted: false
+- RecordId: f5f5af7a-18c4-eb11-bacc-000d3af385d3
+  DisplayName: TeX
+  CheckSum: e31f88bbe12a0a2cc0b19b492cb9c26ae7901d7e4c0e279784c02568a17e47f5
   IsDeleted: false
 - RecordId: ccaeab9f-18c4-eb11-bacc-000d3af385d3
   DisplayName: output
@@ -6903,22 +6967,6 @@ adx_webpage:
   DisplayName: jquery
   CheckSum: 93ad7560276559084a835ea7a62281e5af489b93344571c8ba9a5bce15ea51ec
   IsDeleted: false
-- RecordId: 42fd4870-9ac4-eb11-bacc-000d3af385d3
-  DisplayName: wet-boew
-  CheckSum: 9fc92d98cae5ee0fa2ac24813a09de73da446265bfd51ce0bb5dfa120f3e2b35
-  IsDeleted: false
-- RecordId: 5505eb6e-17c4-eb11-bacc-000d3af385d3
-  DisplayName: HTML-CSS
-  CheckSum: d533b17c0428b6273b6a47c8a7d2dadf9473a5ec4c174535592e540e4df6c52b
-  IsDeleted: false
-- RecordId: a738770c-17c4-eb11-bacc-000d3af385d3
-  DisplayName: functions
-  CheckSum: 638608b05b8b85e060cca55e293dea70c2df7282b4f6aaccf30285e39f1ac2b8
-  IsDeleted: false
-- RecordId: 8b0d1fa7-13c4-eb11-bacc-000d3af385d3
-  DisplayName: polyfills
-  CheckSum: 4ea4df8c6ac1e630ad75767450549c85f6eace74722c9fbe53e14b10e38ab6d4
-  IsDeleted: false
 - RecordId: 1ba8806c-18c4-eb11-bacc-000d3af385d3
   DisplayName: MathML
   CheckSum: eae7c9dbc3c39fcf43a6ef88f5cf5e8f25d33ec585d881f4cfcc602c7cee63cf
@@ -6927,6 +6975,10 @@ adx_webpage:
   DisplayName: input
   CheckSum: 94b5156606d638b9dd0d6653b9cc0ddb22b234201cc8af86e2556bed7d62cf75
   IsDeleted: false
+- RecordId: 2291012e-16c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: bd2a919b10ac33b7f2a655f358d467b81b457247213304ace1013d2b5c851f2a
+  IsDeleted: false
 - RecordId: a226910d-16c4-eb11-bacc-000d3af385d3
   DisplayName: config
   CheckSum: b944c8c3da93fa7409534fc1766ba89eb4c74dac333eaafd046bad4a1c8c3fce
@@ -6934,6 +6986,10 @@ adx_webpage:
 - RecordId: 1ca16482-5e2c-ec11-b6e6-0022483c6fb5
   DisplayName: Buy Tickets
   CheckSum: 0507765995c8c6775f3751654a6b24ebb71dac7eb57b608f8d52a9ff02453127
+  IsDeleted: false
+- RecordId: 317f2983-13c4-eb11-bacc-000d3af385d3
+  DisplayName: js
+  CheckSum: 27e3f031567d97ae65ab596b25cf2107d2b3566bc0b2d8c51099136da553b764
   IsDeleted: false
 - RecordId: db651112-10c4-eb11-bacc-000d3af385d3
   DisplayName: evaluation-report
@@ -6947,33 +7003,33 @@ adx_webpage:
   DisplayName: test
   CheckSum: 795f6ad3457ea201d4c0a658c1e3a147f76c727d94a0b1a65a52356195feb90a
   IsDeleted: false
+- RecordId: 61258427-19c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: 0c67d132d51911db0ad6f1978e459a7b0e66c48e353d249e0d9ac240b3c13518
+  IsDeleted: false
 - RecordId: f06b0b3f-9ac4-eb11-bacc-000d3af385d3
   DisplayName: designs
   CheckSum: 6d2edf1174b6659130978e43116ba00bfdface15990f0fd6f3d151185831a0c3
+  IsDeleted: false
+- RecordId: 73bd5033-12c4-eb11-bacc-000d3af385d3
+  DisplayName: css
+  CheckSum: 1a1c4e84f730413ad27328cfbfab009fd3fa4f89588d9acb5903594c8a3dc768
   IsDeleted: false
 - RecordId: d0228110-eb30-ec11-b6e6-0022483ccb4c
   DisplayName: Products
   CheckSum: a064290a5302de0b1bfba7f4dc406e13ab06c0bd5f13b9e3a1287ee222cb760c
   IsDeleted: false
-- RecordId: 4560aac5-10c4-eb11-bacc-000d3af385d3
-  DisplayName: wet-boew
-  CheckSum: b14c0f379cfc0cbd8615c47babe3e167d9e2f5854009b86a83f9bf3bc439d13d
-  IsDeleted: false
-- RecordId: 7cb51582-17c4-eb11-bacc-000d3af385d3
-  DisplayName: MathML
-  CheckSum: 1f6e4842359f9c2fb28229ae6d1ffa543c5a14d83fc6c4404b6d8bb771043fc5
-  IsDeleted: false
 - RecordId: 0c4f6587-3df6-42fb-bc4a-bced8b05d167
   DisplayName: Customer Service - Case Details
   CheckSum: 1f604fc7fc69700472248d5f5b3070c7d3026f6da1fa44c3136885bb4a1ce56f
   IsDeleted: false
-- RecordId: 2291012e-16c4-eb11-bacc-000d3af385d3
-  DisplayName: fonts
-  CheckSum: bd2a919b10ac33b7f2a655f358d467b81b457247213304ace1013d2b5c851f2a
-  IsDeleted: false
 - RecordId: 2fbef1f1-18c4-eb11-bacc-000d3af385d3
   DisplayName: PreviewHTML
   CheckSum: b3ce6f2ce66396f68da8c993be053154cd625a974ad07cb8cbbe70110b7e8d25
+  IsDeleted: false
+- RecordId: d285614b-12c4-eb11-bacc-000d3af385d3
+  DisplayName: js
+  CheckSum: b6ffb71d4525da8f37686598af6932cba3a1c58a87d898dc9a0516ed2ef265e5
   IsDeleted: false
 - RecordId: 6bfa5bb7-12c4-eb11-bacc-000d3af385d3
   DisplayName: static-header-footer
@@ -6987,10 +7043,6 @@ adx_webpage:
   DisplayName: Public Profile
   CheckSum: 4ed7ec0e111803156d779908895ee04cefdd293ce7b53fa8cb084232e9a19c48
   IsDeleted: false
-- RecordId: c740e324-14c4-eb11-bacc-000d3af385d3
-  DisplayName: polyfills
-  CheckSum: ad7a280b3672a154cfa6d92f638bff7b364e1d65707c7003d30a4dc7a26ff6bb
-  IsDeleted: false
 - RecordId: 6a3b37e9-9d87-4770-af8d-3fd0a91ea9a0
   DisplayName: Page Not Found
   CheckSum: d7b668cd2fa7773d8340241f43e2959c9bb541bce66d6fe5867cb79889f07956
@@ -6999,21 +7051,33 @@ adx_webpage:
   DisplayName: GCWeb
   CheckSum: b519383648705910565a8d028d444974155ae8e3cab44b6d333b468e582587ef
   IsDeleted: false
+- RecordId: d5e34617-13c4-eb11-bacc-000d3af385d3
+  DisplayName: xprmntl
+  CheckSum: b39f7e748900c5087011079b92a919f7bae9413bb103a02807f20a4d9d516ae9
+  IsDeleted: false
 - RecordId: bdf4530b-13c4-eb11-bacc-000d3af385d3
   DisplayName: test-cases
   CheckSum: 5c8c3411ac5a0860344c4911e66b4fe88294bdbad8216bf8c42463e2c609b739
   IsDeleted: false
-- RecordId: eb4a4938-17c4-eb11-bacc-000d3af385d3
-  DisplayName: functions
-  CheckSum: e44fbeacd8a4eb0d1a70cdd9ea8bb22ce3f10d7ef022bd1698f392db97501472
+- RecordId: 60e25127-12c4-eb11-bacc-000d3af385d3
+  DisplayName: assets
+  CheckSum: de30488b46399faf2d516221e4d33e448007c10c70e91e4e53720221afe93874
   IsDeleted: false
 - RecordId: e3cfb61e-a83c-ec11-8c62-0022483d79a5
   DisplayName: 404 Page
   CheckSum: ba0c84ca154a9ad8f7ea53800b8eca7e52d719a321c43cb81e8c2cc47d3ba546
   IsDeleted: false
+- RecordId: 7c072d77-13c4-eb11-bacc-000d3af385d3
+  DisplayName: fonts
+  CheckSum: a044b88c72e7a285607b85550ef2fd7de7f20c8cd37754451aa52b22a0e5b87e
+  IsDeleted: false
 - RecordId: 394d2396-7be6-4ee0-bf79-527c8962c7cc
   DisplayName: Home
   CheckSum: 83af33c5ad682a2349f7e44a87a7c7ce3d5f4fff01bff501bd756de6d6de7484
+  IsDeleted: false
+- RecordId: eb4a4938-17c4-eb11-bacc-000d3af385d3
+  DisplayName: functions
+  CheckSum: e44fbeacd8a4eb0d1a70cdd9ea8bb22ce3f10d7ef022bd1698f392db97501472
   IsDeleted: false
 - RecordId: 83c1c51a-5d7c-449f-b39f-59c0aefcc258
   DisplayName: Customer Service - Edit Case
@@ -7023,9 +7087,9 @@ adx_webpage:
   DisplayName: NativeMML
   CheckSum: 764e832cd0ba214491da8879516923a5a5c9a0d7f02ece11a6de69eb103b04c6
   IsDeleted: false
-- RecordId: bb1712f5-b340-ec11-8c62-0022483bee55
-  DisplayName: css
-  CheckSum: 4474a33f036ff382e12e3f105680d346d05bf5ac5e109d927c6dae5398f48f81
+- RecordId: 3935aab1-5b2c-ec11-b6e6-0022483c6fb5
+  DisplayName: Events
+  CheckSum: 72f25b81e503a7a184f627cd7e236b8c0a8d122b29f3d6a1ac8bd98e08424c87
   IsDeleted: false
 - RecordId: 5eb3f05b-4f88-4396-b884-ec1b16564148
   DisplayName: Forums
@@ -7034,10 +7098,6 @@ adx_webpage:
 - RecordId: a23aad27-18c4-eb11-bacc-000d3af385d3
   DisplayName: mml
   CheckSum: 952f21db338059aa872b69316d02ee86e23b693def029e2948d28155f2622636
-  IsDeleted: false
-- RecordId: d285614b-12c4-eb11-bacc-000d3af385d3
-  DisplayName: js
-  CheckSum: b6ffb71d4525da8f37686598af6932cba3a1c58a87d898dc9a0516ed2ef265e5
   IsDeleted: false
 - RecordId: 6f0e06fe-18c4-eb11-bacc-000d3af385d3
   DisplayName: SVG
@@ -7116,11 +7176,15 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: 2c2d6914-23ed-e511-80d2-00155dee6a04
   DisplayName: Layout 1 Column
-  CheckSum: ab805256b3a201323ad466e5d6fe27b575f6b6e36015a44d41145da7a6bc9d1e
+  CheckSum: 27a70d223591ca81cd9bbe41d4433789ee2782c32ed64b653df624116ddbff03
   IsDeleted: false
 - RecordId: b8517667-6ded-e511-80d2-00155dee6a04
   DisplayName: Header
   CheckSum: 25af0b3d0a101d1ea364ba70039350189e7dcb5b5f1c2d219a87e4958a4f8a71
+  IsDeleted: false
+- RecordId: 00ee9e8d-d790-ec11-8d20-000d3a0c9e60
+  DisplayName: Power Virtual Agents
+  CheckSum: 2d5f3cdf56748a79bdd87ae5b90080413a98b3ccd57eb86a796f51c5a9cf9179
   IsDeleted: false
 - RecordId: 2295f72d-23ed-e511-80d2-00155dee6a04
   DisplayName: Breadcrumbs
@@ -7140,7 +7204,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: a17cf8f4-35ed-e511-80d2-00155dee6a04
   DisplayName: Layout 3 Column
-  CheckSum: cf786e6e1febe697902fbd187dd79b54a4ba0b10b62f501021da5e0fca36cd2e
+  CheckSum: 248ff3317cc54ac9e4036469fa8970b355216c4ffe4b9d488e35d86bef8882f5
   IsDeleted: false
 - RecordId: eadfc751-1ec4-eb11-bacc-000d3af385d3
   DisplayName: Header-WET
@@ -7156,7 +7220,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: e5dae065-cbc4-eb11-bacc-000d3af385d3
   DisplayName: GCCF SignIn Register
-  CheckSum: e4ce64941b8256b547310191303218ab6ae244c3e844289ec1ae66c000b2270e
+  CheckSum: 6358c2153f0b49db0b0f409a11323ed3be21738715ba6dc2c5d36ef59b83afb5
   IsDeleted: false
 - RecordId: f5e0adeb-ed23-42b5-a040-ad2a5704f395
   DisplayName: Full Page without Child Links
@@ -7204,7 +7268,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: 9a35a253-cbc4-eb11-bacc-000d3af385d3
   DisplayName: GCCF SignIn
-  CheckSum: d8115c2d14691c5b38808d983784d50b8e9813f1377407b36e3efc73d1b32d79
+  CheckSum: f243174b6135fabb806354bb173b676fdc6857288d042c4f1a9b4e312bff1753
   IsDeleted: false
 - RecordId: a84e3060-92c4-4443-b104-7faaa837f644
   DisplayName: Search
@@ -7260,7 +7324,7 @@ adx_webtemplate:
   IsDeleted: false
 - RecordId: 23f9600f-1fc4-eb11-bacc-000d3af385d3
   DisplayName: Home-WET
-  CheckSum: 7a2ee3f0e5c3a8e9d0cc84e298578770a40467ea06d14871f071da2762b597b3
+  CheckSum: 406f7149967aba1cf8dae22a0b528ddb2a0252493efd1457d12f813a476125fb
   IsDeleted: false
 - RecordId: f86553e8-617d-4de7-929f-d70fc3e9da57
   DisplayName: Category - Most Popular Categories
@@ -7335,6 +7399,10 @@ annotation:
   DisplayName: servermessage-fr.html
   CheckSum: 275385a19a4a830c54b42cf0491b57dd2f4aeddd5847d36200946ccc3c37a212
   IsDeleted: false
+- RecordId: f2d677c2-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 186a30f7c40a131054cb9aa5a7f8a0e5492ab0c32b5e7e3b75757079f5d4747c
+  IsDeleted: false
 - RecordId: 33648e9b-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: package.json
   CheckSum: a8a931d8c57f5d6f4b2fea871928decc18cfdea99dbcd4c5b4feb1b2b370bdf3
@@ -7342,10 +7410,6 @@ annotation:
 - RecordId: 399c4d26-a788-3336-b703-c0a239e60707
   DisplayName: cbs-mosaic-fr(1).png
   CheckSum: 44a046d10e79f4d3db19f28cbfc3d3d62a2efaa14fb9d733f44fd801c4272772
-  IsDeleted: false
-- RecordId: f399adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: fr.js
-  CheckSum: 1b8ba3ad1906c4920ac97e2bd3791d6ea6aaf5372c0c16dd092c76fea43374c5
   IsDeleted: false
 - RecordId: 8b19bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: colour-en.html
@@ -7366,10 +7430,6 @@ annotation:
 - RecordId: e1ed2283-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: proxy-fr.html
   CheckSum: 81f8d6bbb26533eb0d716d5f484d9da28b06fea49b1a5b8c0698c40498f55329
-  IsDeleted: false
-- RecordId: f599adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: HTML-CSS.js
-  CheckSum: 89537308d9760e92bde4cecdf5125b51f5c5f21b2e1a841cf3980c02e45cf606
   IsDeleted: false
 - RecordId: 5aab29a0-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: mmultiscripts.js
@@ -7435,10 +7495,6 @@ annotation:
   DisplayName: details.min.css
   CheckSum: 5871915893dc1b7b554e94be490d96bc87b93819784653d5c86debfc6afb6704
   IsDeleted: false
-- RecordId: 9b5f9473-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 9ac455ab363b2c0bd61ec961056fe41fd1634d5328ff0f170499106bf40fd83d
-  IsDeleted: false
 - RecordId: 4103729b-0801-e611-80d3-00155db72521
   DisplayName: layer_down.png
   CheckSum: 22d22235263dbf8e5eee2ebe4f084d6002ca36b93d4738bf81b0a60cf8e22f0e
@@ -7479,10 +7535,6 @@ annotation:
   DisplayName: MathJax_Vector-Bold.otf
   CheckSum: 6c67524a925dac2bec813e5e55796f97a3e92eecbfe5b6a0f0b133835863337c
   IsDeleted: false
-- RecordId: 6bf00dbb-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: a4cf8a3f8e5565ee5374c5dbeb2bbe419193b9001bb473cf8d09df60de3e0d22
-  IsDeleted: false
 - RecordId: 8d1b6a5a-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: CombDiacritMarks.js
   CheckSum: 74eea2a6f5d82698681d4aa7b1cdabe7ec302132e697a7c456fb5bf6764da79d
@@ -7506,6 +7558,10 @@ annotation:
 - RecordId: 7819bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: 404-fr.html
   CheckSum: f9991e25ddb3937d26477a79abe6ab3d853850e17aa3a16c82a0711ddb7597cb
+  IsDeleted: false
+- RecordId: a5ab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathML.js
+  CheckSum: dd7fceb064028d76a40b43f3645d229cab772405ccd7ec5ced26aca7cf523064
   IsDeleted: false
 - RecordId: dd19bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: topic-en.html
@@ -7538,10 +7594,6 @@ annotation:
 - RecordId: 15e46250-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: meter.min.css
   CheckSum: 4678236db6da72ca93a3a264172e82cbf40ab13ec38be4c43f967928f1d5eb61
-  IsDeleted: false
-- RecordId: cc7b91da-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: index.html
-  CheckSum: 6bf4eb963657f2c3d8484b75c66380016ea99df9d3c9555a5bbb9447de712766
   IsDeleted: false
 - RecordId: 1a46cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: latin-mathfonts.js
@@ -7586,10 +7638,6 @@ annotation:
 - RecordId: 7789af98-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: boutons-radio-specs.png
   CheckSum: c37918c84792d0bfb78d3a1e2df867eb53cb27f100423b77e8e318d1e8967c2f
-  IsDeleted: false
-- RecordId: 3f70fab4-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 0e839e2cb0dc4c6e688e9bb58b8f44484ca16ebc62e006fca70b3b3f56b24f01
   IsDeleted: false
 - RecordId: f1136c0a-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: svg.min.js.map
@@ -7639,6 +7687,10 @@ annotation:
   DisplayName: test.html
   CheckSum: 0bb049d95fec51e472a8848994754cc2788c1e0728745fd2e44b7a247ee047b1
   IsDeleted: false
+- RecordId: 711c5f61-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: index.html
+  CheckSum: e90ed9bb5640dad08fa621c29e1a1d389dfbf237b9d713721563f6b940af0524
+  IsDeleted: false
 - RecordId: 2024f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-proto.js
   CheckSum: 34483ecdbae0d375e435b2830ba19ec0d5c744bb8d7a59a07b72bf08f5f701fe
@@ -7646,10 +7698,6 @@ annotation:
 - RecordId: cf6f573c-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Main-Bold.woff
   CheckSum: 8efa0acb51804dae9aa1ce193411e1ec1b0a570eae6d32e4aa17aa59035351d0
-  IsDeleted: false
-- RecordId: eab7c988-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: index.html
-  CheckSum: 83b09e4e654db2ca0f9fc1f535058dce73a5ee01f199d88116c0d6d68249c54c
   IsDeleted: false
 - RecordId: 26838faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-MML-AM_SVG-full.js
@@ -7662,10 +7710,6 @@ annotation:
 - RecordId: e7ed2283-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: start-fr.html
   CheckSum: 2a502eef83d9a1eaaa6d120942b983f09b64d5d2138f06897a0ccd48ba37805f
-  IsDeleted: false
-- RecordId: 32d30a8c-c1e2-ebbc-97c6-45f6607874e3
-  DisplayName: theme.css
-  CheckSum: 90587e6b03b70a919f5c903a8b7494c9648a077eb975b4dd2f37d46f18a29987
   IsDeleted: false
 - RecordId: 00838faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: MML_HTMLorMML-full.js
@@ -7691,6 +7735,18 @@ annotation:
   DisplayName: template.min.js
   CheckSum: d24352ef41ee7959973e545eb180e2fe7a3f9dd27e6d17dddd6c7e0bf182db12
   IsDeleted: false
+- RecordId: 3f70fab4-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 0e839e2cb0dc4c6e688e9bb58b8f44484ca16ebc62e006fca70b3b3f56b24f01
+  IsDeleted: false
+- RecordId: 6bf00dbb-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: a4cf8a3f8e5565ee5374c5dbeb2bbe419193b9001bb473cf8d09df60de3e0d22
+  IsDeleted: false
+- RecordId: 9fab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: en.js
+  CheckSum: 5f26615bec4bae33053cfb5f00594634c72c4e23687120b4a437235d262099ba
+  IsDeleted: false
 - RecordId: f793eb75-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.dataTables.js
   CheckSum: 020fa9badb6ce368acb80476e2c75e7b677c4efdb6b7018f3cf604208b1e6ab2
@@ -7707,13 +7763,13 @@ annotation:
   DisplayName: 1-sc-7-ie.png
   CheckSum: 399865a428b27dc5dcedfde76a0e6d294a3d0c0f41563346e5a0fea0a79e0c57
   IsDeleted: false
+- RecordId: dced2283-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-en.html
+  CheckSum: 43c31b9f45b898a850c8883a4f9cee05cb0e07612ed6106db93342b7ab4c44ec
+  IsDeleted: false
 - RecordId: 1c39aca7-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: youtube.svg
   CheckSum: 56f0a69f9da56ff59361f310b4b3eaae1812a98f60692a80c53d4039b77665c3
-  IsDeleted: false
-- RecordId: ee5a2d23-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: payload.json
-  CheckSum: 9e99721c9b50e0337746284b90ca0b81d8d99fc11dd1a43d4776397d511de128
   IsDeleted: false
 - RecordId: 99c0c143-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: glyphicons-halflings-regular.ttf
@@ -7731,10 +7787,6 @@ annotation:
   DisplayName: lang-proto.min.js
   CheckSum: 81811ffcbb7600afcd78ef11a44826c1bd13beb256fa952e967f42cf3f4e7130
   IsDeleted: false
-- RecordId: d962b8c4-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: FontWarnings.js
-  CheckSum: 51a88149fe8fa1a702ffa7c0ae8a71004897e86d080d0eeed03aa738189b9908
-  IsDeleted: false
 - RecordId: d71314c4-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.woff
   CheckSum: 5b8c5127622cc6a86a8ceb1ed9aad948752c78245168818263007b4119740a0c
@@ -7750,6 +7802,10 @@ annotation:
 - RecordId: 1a24f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-mumps.js
   CheckSum: 6852457ee98e13b6bdfce7159e929d6bdc36e80e9321af0ff5350edcff34e3b0
+  IsDeleted: false
+- RecordId: e462b8c4-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathMenu.js
+  CheckSum: 546ed1a6c3b0506f718b164f2d13a3bd453b45820e7a31448bd463db628f50d0
   IsDeleted: false
 - RecordId: ffd1907f-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: n.js
@@ -7775,10 +7831,6 @@ annotation:
   DisplayName: 1-capture-8-ie.png
   CheckSum: fd72915bca143c6eb9e693ef70564332b38d3734a231b4988548fe72d866f41c
   IsDeleted: false
-- RecordId: beb50d87-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 7a990eda01d4a3a796872ca1b0fbc8f5797eadaa4f2a7ab4f518756f706aa520
-  IsDeleted: false
 - RecordId: 3f24f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: prettify.min.js
   CheckSum: b746030b2f159a374a483f5f71c39579d8df78f06989da7617d730d7289cf2f4
@@ -7795,13 +7847,13 @@ annotation:
   DisplayName: 1-sc-4-ie.png
   CheckSum: 096bae4f9d31bd97b18478da8c82beb0a7b464bff4d9f7588002da43547c46f7
   IsDeleted: false
-- RecordId: a0ab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: FontWarnings.js
-  CheckSum: 4ac48f269a1b498a51b4b4ffd44041e9beae11f4732bd54547682567fab3cf8a
-  IsDeleted: false
 - RecordId: 3121090e-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: AMSsymbols.js
   CheckSum: 569afc08faf5442e74a77915a778a7098ef11d2f5d037be395afaa0edae7931d
+  IsDeleted: false
+- RecordId: 71697502-13cc-ca81-916f-9cb3d8cace44
+  DisplayName: sig-blk-en (3).svg
+  CheckSum: 826b13273cbd4d7dd4c6d747a8954221d2967295331b3d3ddf00fb62fb1ab3cd
   IsDeleted: false
 - RecordId: 701fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-sc-9.png
@@ -7871,9 +7923,9 @@ annotation:
   DisplayName: lang-pascal.min.js
   CheckSum: 8c1ab867337491920c4215e7c38bbd225fdde6e1ab08bf075bd67af40332e41e
   IsDeleted: false
-- RecordId: dded2283-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-fr.html
-  CheckSum: b0b65fa0035c93288f90b1ef51175cb0fa3ac5a32928bac52b39f731c399aa87
+- RecordId: 4bc2b6ad-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 5af04ea35f390abd5a59d994264209484bfea7fdcdbeb03bfc0b2cc89369211e
   IsDeleted: false
 - RecordId: 2b266d41-30f6-1fd8-83d6-4b1e96845322
   DisplayName: nrcanbaseline45.css
@@ -7882,10 +7934,6 @@ annotation:
 - RecordId: 1c24f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-n.js
   CheckSum: 568be52200d3fee1c6a092fbec54b90bf58f0723fb55163da15997ce7e191166
-  IsDeleted: false
-- RecordId: dd62b8c4-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: HelpDialog.js
-  CheckSum: e7a89fba7190c2f467dd65718fd5f5224e582cbd5a0871130ce0fb53b0cf6190
   IsDeleted: false
 - RecordId: 471fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-capture-3.png
@@ -7907,10 +7955,6 @@ annotation:
   DisplayName: cs.js
   CheckSum: f03e132d51af7ace6e2f45e57ea1e712dce8508d7ea69f1906e7dc4eac222c44
   IsDeleted: false
-- RecordId: 37648e9b-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: payload.json
-  CheckSum: 060a78333d674aa40dfe7291017a0c5b1edcf9e5bdc6e2df4bf5b0eb432d0339
-  IsDeleted: false
 - RecordId: 23838faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-MML-AM_HTMLorMML.js
   CheckSum: 889785f48b7c0c9755e937147c951507b9ea2ba121414bd64cffc245160ffd20
@@ -7926,14 +7970,6 @@ annotation:
 - RecordId: 03de6296-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: uk.js
   CheckSum: 7b6f75cb49f9c658370a3ae6b9c10de2085366382361762e3f4d2c4255e19ef1
-  IsDeleted: false
-- RecordId: 0649319a-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: f816e768ad0a954fc82c76fd1d293d02c0387613d11534f28644644ce2feb3b7
-  IsDeleted: false
-- RecordId: a6ab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: TeX.js
-  CheckSum: 985130b4b857d689c2ae23ceaf840139159539deb694fb278b11c99b87950b50
   IsDeleted: false
 - RecordId: 8d106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: af.js
@@ -7979,10 +8015,6 @@ annotation:
   DisplayName: unorm.min.js
   CheckSum: d10a6876cdadd5bd62e4194c1222b6b4e404e814046e7189fd264222f942ad63
   IsDeleted: false
-- RecordId: 4bc2b6ad-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 5af04ea35f390abd5a59d994264209484bfea7fdcdbeb03bfc0b2cc89369211e
-  IsDeleted: false
 - RecordId: 3924f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-xq.min.js
   CheckSum: 7c51662402e2057699a797ca4c7748d56c85437578ebe4f26f89ded83a95f28c
@@ -8019,6 +8051,10 @@ annotation:
   DisplayName: lang-hs.js
   CheckSum: de4608414abc1c3485ca63fed6aca4ac34b7e12c179537e3107caa7322fddfe8
   IsDeleted: false
+- RecordId: a6ab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: TeX.js
+  CheckSum: 985130b4b857d689c2ae23ceaf840139159539deb694fb278b11c99b87950b50
+  IsDeleted: false
 - RecordId: 49fd4890-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 218x291.png
   CheckSum: 0413a7426c480bd7deb515f69d9cc09b7033bbc43929341c06b39945f4bc79ba
@@ -8035,17 +8071,17 @@ annotation:
   DisplayName: energy.js
   CheckSum: b853ef34bf56202829d2a98d45dd628de251d245536aade177f4c8e8b2886462
   IsDeleted: false
+- RecordId: fd01b2fd-0d0c-e611-80d5-00155d216304
+  DisplayName: theme.css
+  CheckSum: 728fb3a264a5b12458ca1fa3e9b949dec447d36264f659eb737d4d2629a880e1
+  IsDeleted: false
+- RecordId: 44f3756d-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: ae372cc72289c30ec4ec4aca729030f832403297b39123a7319842a3c1335674
+  IsDeleted: false
 - RecordId: 7d6afa6e-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: bootstrap-3.html
   CheckSum: 3dbd212a8629e69a16645f39d82cf383199e5bd5c8304c344cec9b216887a63d
-  IsDeleted: false
-- RecordId: e762b8c4-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: Safe.js
-  CheckSum: 0ad9cc02004e8c00588f325704df432d409b793b69970179a89b27e2ab71ef49
-  IsDeleted: false
-- RecordId: 18812375-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-fr.html
-  CheckSum: b2c359b489796f826d2fac34f28c7187ea20bb130c5f121ef88ec8ad8aec7bff
   IsDeleted: false
 - RecordId: 0024f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-css.js
@@ -8086,6 +8122,10 @@ annotation:
 - RecordId: 33f06331-72b4-3528-84b6-4f4cd96c74d4
   DisplayName: cloudbg.jpg
   CheckSum: 95cd8f4004d4cf5644c20286548f335e5e0d8b72db2200cef175029af90566b1
+  IsDeleted: false
+- RecordId: 18812375-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-fr.html
+  CheckSum: b2c359b489796f826d2fac34f28c7187ea20bb130c5f121ef88ec8ad8aec7bff
   IsDeleted: false
 - RecordId: 901b6a5a-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: GeneralPunctuation.js
@@ -8131,9 +8171,9 @@ annotation:
   DisplayName: a.js
   CheckSum: 7a53dac2c45e2caddd8e9b917061b4a5d305261f9c32d575480ac53b7857251a
   IsDeleted: false
-- RecordId: 44f3756d-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: ae372cc72289c30ec4ec4aca729030f832403297b39123a7319842a3c1335674
+- RecordId: a3ab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathMenu.js
+  CheckSum: 201ead7a6851ee28d883f13966eef0fbc7b3823ebcfc9beebb5bacfb717583b8
   IsDeleted: false
 - RecordId: f023f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.flot.pie.min.js
@@ -8171,13 +8211,9 @@ annotation:
   DisplayName: lang-tcl.min.js
   CheckSum: 15b8141a2fc99f81a85ed3f8c57eac5c6037a9c8bffe4292b8cb0634e10d9f4c
   IsDeleted: false
-- RecordId: a3ab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathMenu.js
-  CheckSum: 201ead7a6851ee28d883f13966eef0fbc7b3823ebcfc9beebb5bacfb717583b8
-  IsDeleted: false
-- RecordId: 9a5f9473-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 723e4779a863c0fa864fb154708a39bc542ec1b138574055e7e1361e06fa9f66
+- RecordId: 0649319a-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: f816e768ad0a954fc82c76fd1d293d02c0387613d11534f28644644ce2feb3b7
   IsDeleted: false
 - RecordId: 7889af98-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: radio-buttons-specs.png
@@ -8202,10 +8238,6 @@ annotation:
 - RecordId: 3124f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-tex.min.js
   CheckSum: 86f7e7c1a6960cbc3705ee2f48c9aaaaeaf963a2ea3998f186e2be8be2f981f4
-  IsDeleted: false
-- RecordId: b054fa4e-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: c6a8045661f0508741efd8678b1dabcd45d9072b40f8a7ec47f3813d77ea4458
   IsDeleted: false
 - RecordId: f11713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: wet-boew.min.css
@@ -8287,13 +8319,13 @@ annotation:
   DisplayName: institution-arms-fr.html
   CheckSum: 2f50fa37cd759f61a548f73ab94315f689ad9102fd233f4d85defa3c96c983f1
   IsDeleted: false
+- RecordId: 8bb05193-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: df693cc1edf1ba15ff2dbe80aa7526da2d18345dc1ea9819a6b5be6bd65dc75b
+  IsDeleted: false
 - RecordId: f1dd6296-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: nl.js
   CheckSum: a51705cceaebfffa29e7649f5641003f8b072cb3b166a0f98a96cc7e522c4454
-  IsDeleted: false
-- RecordId: efd1907f-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: fr.js
-  CheckSum: 399f600fd381b7f1ad026ad3e5497942d485b209df74906c7e1803ad3df6b5bc
   IsDeleted: false
 - RecordId: 3046cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: math_whitespace.js
@@ -8303,21 +8335,13 @@ annotation:
   DisplayName: spanish.js
   CheckSum: e09b9de998ad6e8c012fa37f72dba5be955a024d90fa8e50a8a3efe835a57505
   IsDeleted: false
-- RecordId: f899adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: TeX.js
-  CheckSum: 11385488c9d588231ae53eaf59e2186d8835b1eeccb63ab319cedddc318a5fba
-  IsDeleted: false
-- RecordId: b019bb01-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: index-en.html
-  CheckSum: 324967aad375f41a3de9b98a748c7da239d2ab21f2f851f67d372c1a1f12f44a
-  IsDeleted: false
 - RecordId: 8e106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: af.min.js
   CheckSum: b35ae1210c77be6237c4c753a62bdf53728ae8253206ce91268978968e53fc74
   IsDeleted: false
-- RecordId: a5ab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathML.js
-  CheckSum: dd7fceb064028d76a40b43f3645d229cab772405ccd7ec5ced26aca7cf523064
+- RecordId: 3e70fab4-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 29b07233862e5ebfacb835ca52b3bb5e67e69a4abbb9924a5ccc9b36506b24b9
   IsDeleted: false
 - RecordId: fe23f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-clj.js
@@ -8407,6 +8431,10 @@ annotation:
   DisplayName: lang-apollo.js
   CheckSum: e60e6d76d8fb0b8da88685be8625488bcdaab10149d3cf3c97209129c4b7fb53
   IsDeleted: false
+- RecordId: e762b8c4-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: Safe.js
+  CheckSum: 0ad9cc02004e8c00588f325704df432d409b793b69970179a89b27e2ab71ef49
+  IsDeleted: false
 - RecordId: 24e16014-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: results-contextual-en.html
   CheckSum: 7ac6a642461149ab447ca6b2803c153f7e17be19f9195fd09dece46811489cf3
@@ -8427,10 +8455,6 @@ annotation:
   DisplayName: th.min.js
   CheckSum: d204490ea53fbd2ab3e9b4ba270c62a337de61c1a4158394828ded9e1ea927c8
   IsDeleted: false
-- RecordId: 8ab05193-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 2a66812c7d5cf6725ca3582ed79554dc32a98063003edbb00a6b459d8ce35795
-  IsDeleted: false
 - RecordId: ed23f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.flot.orderBars.js
   CheckSum: fb3fbf0f2712e6800f0ffe04316a42028655f116b67b148350642f65741a57d4
@@ -8438,10 +8462,6 @@ annotation:
 - RecordId: e11713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: messages.css
   CheckSum: 165df7911e18637522e262df453d54f6aed13578eadeb2a6fe33b75fc9ea122b
-  IsDeleted: false
-- RecordId: fe48319a-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 0b3057144024d6032a0a382d9a88a941159e7438bb9e01ccc5700f5858d8e3e1
   IsDeleted: false
 - RecordId: e0dd6296-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: hy.min.js
@@ -8458,10 +8478,6 @@ annotation:
 - RecordId: 80fd614f-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: page3-en.html
   CheckSum: 6812f7523aaa08d00e343fce6f679f1da7e3e7967c8a7e0c1f66d0efe3b6f7f3
-  IsDeleted: false
-- RecordId: 23e16014-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: index.html
-  CheckSum: b538eee6f3594b54883612116b77adcdd20e9d87f0cf3dbdf78ade514a41cb62
   IsDeleted: false
 - RecordId: f323f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.validate.js
@@ -8487,6 +8503,10 @@ annotation:
   DisplayName: well-header-rwd-en.html
   CheckSum: 3556178d9d326694132a0587e417f00934db5368c5f7b646c19ec03402f24fae
   IsDeleted: false
+- RecordId: 17812375-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-en.html
+  CheckSum: 5325c6e02894a89fb28bccbb0e8edd49a1cd527986534b708041f3ed9625044c
+  IsDeleted: false
 - RecordId: 6c1fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-sc-7.png
   CheckSum: 248d23fc6be06aecfd9b1055528b7016bed1eb7a828cc310147e70478985547d
@@ -8511,10 +8531,6 @@ annotation:
   DisplayName: d.js
   CheckSum: 57eee12f8aa3adc0412f639154c94de2423dd48c6e52d8d125a3307ad52a8a8e
   IsDeleted: false
-- RecordId: 3e70fab4-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 29b07233862e5ebfacb835ca52b3bb5e67e69a4abbb9924a5ccc9b36506b24b9
-  IsDeleted: false
 - RecordId: ce1314c4-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: gcweb_0c4a4eb7974d0a7287c93c02965f9b3f.eot
   CheckSum: b57c1695f30c1baf99ae9a3990ffc6e4fe2549f17b9993ff8399d12c3cec84fe
@@ -8538,6 +8554,10 @@ annotation:
 - RecordId: fb23f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-apollo.min.js
   CheckSum: c9b89304f13c08b922f821dea501ec64097f73829c6a64f26419b4004080171a
+  IsDeleted: false
+- RecordId: 23e16014-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: index.html
+  CheckSum: b538eee6f3594b54883612116b77adcdd20e9d87f0cf3dbdf78ade514a41cb62
   IsDeleted: false
 - RecordId: cc6f573c-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Caligraphic-Regular.woff
@@ -8571,21 +8591,9 @@ annotation:
   DisplayName: content-mathml.js
   CheckSum: 59dc6a7d8a0a3a18b94fd85bded306b02e8773d364bec63a920a8d424e8f54e9
   IsDeleted: false
-- RecordId: a1ab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: HelpDialog.js
-  CheckSum: bf1661109c05b88e5d51c1f85afdc5f132333ca5469ed521d0f2f32cd1314a4f
-  IsDeleted: false
 - RecordId: 2c46cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: math_harpoons.js
   CheckSum: ca62f36c0f95fbaca4ecd770ac370a7e54d3672f4dc80b9f9e84f399b0684735
-  IsDeleted: false
-- RecordId: a2ab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: HTML-CSS.js
-  CheckSum: 9711c55ff9b468345abfd638f5ef60278c8afa82697f3bafb7b0f3955e4dc216
-  IsDeleted: false
-- RecordId: f2d677c2-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 186a30f7c40a131054cb9aa5a7f8a0e5492ab0c32b5e7e3b75757079f5d4747c
   IsDeleted: false
 - RecordId: 19838faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-AMS-MML_SVG.js
@@ -8635,6 +8643,10 @@ annotation:
   DisplayName: Accessible-full.js
   CheckSum: a0d9d4db090223770604e11d82ec37d148f51959d260fd26ba840ec922655d56
   IsDeleted: false
+- RecordId: efd1907f-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: fr.js
+  CheckSum: 399f600fd381b7f1ad026ad3e5497942d485b209df74906c7e1803ad3df6b5bc
+  IsDeleted: false
 - RecordId: 26e16014-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: results-en.html
   CheckSum: 453cf8569a70246241cf15d8581d80821524b950f01e7825eba633c4906a1760
@@ -8666,6 +8678,10 @@ annotation:
 - RecordId: 5673cee9-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: other.js
   CheckSum: ecac22209ca3092ffb78aded708e1a6039cd2b075320ca6ddae4d39bb7920cb0
+  IsDeleted: false
+- RecordId: a2ab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: HTML-CSS.js
+  CheckSum: 9711c55ff9b468345abfd638f5ef60278c8afa82697f3bafb7b0f3955e4dc216
   IsDeleted: false
 - RecordId: 7b1fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-sc-14.png
@@ -8771,6 +8787,10 @@ annotation:
   DisplayName: m.js
   CheckSum: f8e2b93c297b28de7cdcc3fa9707e4385552ce36251626c27e0c9cc6f9341b69
   IsDeleted: false
+- RecordId: 4cc2b6ad-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 5d2b5e3eb3217a9db490365dccbdf685f01c7e055d764b65267e7ba5053a6e8e
+  IsDeleted: false
 - RecordId: 4b1fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-capture-5.png
   CheckSum: 734dd83af6021c9373c9e216e5591b70e0d6cdb10e7580e2a69321a67d03f924
@@ -8798,10 +8818,6 @@ annotation:
 - RecordId: fae1811f-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: pink-day-fr.html
   CheckSum: 87fbfae9531b2b61dcc8c1ac1fcb2c660dde5ae77a45ea398eea47953c7ef1be
-  IsDeleted: false
-- RecordId: dced2283-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-en.html
-  CheckSum: 43c31b9f45b898a850c8883a4f9cee05cb0e07612ed6106db93342b7ab4c44ec
   IsDeleted: false
 - RecordId: 2c8ca56d-7402-e611-80d3-00155db72521
   DisplayName: searchhero.jpg
@@ -8851,17 +8867,9 @@ annotation:
   DisplayName: MML_CHTML-full.js
   CheckSum: 48b45d15734d60f53ac373cc3fdd3da1e11feb1b6089de7b9bd70546a57264fa
   IsDeleted: false
-- RecordId: e462b8c4-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathMenu.js
-  CheckSum: 546ed1a6c3b0506f718b164f2d13a3bd453b45820e7a31448bd463db628f50d0
-  IsDeleted: false
 - RecordId: fbdd6296-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: sk.js
   CheckSum: 9412db9abf44b26f8572d3bafb55d68f666262224cda517dd6422ff29afe9bf8
-  IsDeleted: false
-- RecordId: 8bb05193-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: df693cc1edf1ba15ff2dbe80aa7526da2d18345dc1ea9819a6b5be6bd65dc75b
   IsDeleted: false
 - RecordId: 2324f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-r.min.js
@@ -8870,6 +8878,10 @@ annotation:
 - RecordId: a619bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: dept-fr.html
   CheckSum: 6c1374ba6a79259b188e531f7ad39effd8b4b9e5ece3420c1ffb90d47b794cbe
+  IsDeleted: false
+- RecordId: f799adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathML.js
+  CheckSum: 4dcf4306c78b1e12db847990f5817dc8d79df2f9a8db40e73acc9d8cac940a58
   IsDeleted: false
 - RecordId: ac19bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: gc-audience-en.html
@@ -8883,6 +8895,10 @@ annotation:
   DisplayName: 1-capture-10.png
   CheckSum: 6091ec11b726869e0c547ff883ac421d3161a83c0e25e4cb83252b92d6fc5aef
   IsDeleted: false
+- RecordId: d962b8c4-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: FontWarnings.js
+  CheckSum: 51a88149fe8fa1a702ffa7c0ae8a71004897e86d080d0eeed03aa738189b9908
+  IsDeleted: false
 - RecordId: d5dd6296-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: es.js
   CheckSum: 86cf9c83be5147e66d234cd98ce6df9aba32161ae14265a6993b46b20cc8f935
@@ -8895,10 +8911,6 @@ annotation:
   DisplayName: lt.min.js
   CheckSum: 1bb0d1220ff540b85526e4b329901756c984a2d05dcfdd1d87756d2cb5dc1bcc
   IsDeleted: false
-- RecordId: 0a838faf-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: Safe.js
-  CheckSum: bbc6958c46aa9853512cbbe550cb26b79a2a3eecbb36b741be32688d7c589dee
-  IsDeleted: false
 - RecordId: 59ab29a0-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: mglyph.js
   CheckSum: 2e83baacc72ccd498fff029cc07b8653fef4ee58e1cf98fc711f14e140eebb71
@@ -8910,10 +8922,6 @@ annotation:
 - RecordId: e41713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: messages-ie.css
   CheckSum: 6064e5ca4ee26b6621ccb2f56a06b9f3d6fc05d642a0dc40e516ef3e660fb601
-  IsDeleted: false
-- RecordId: f499adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: HelpDialog.js
-  CheckSum: f57fe2333cb0d59a8256c4ff765d2d68016d2665a8a914b44265369785d2650b
   IsDeleted: false
 - RecordId: 1a39aca7-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: twitter.svg
@@ -8987,10 +8995,6 @@ annotation:
   DisplayName: lang-lisp.js
   CheckSum: 1f4f69f6b3f541845f3651daed7ae212ddbb72dd74eedf603fdb3e894e6ba1cb
   IsDeleted: false
-- RecordId: f299adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: FontWarnings.js
-  CheckSum: 2ce7e63066e34536fbd98985fb13a4add5b423f56161e16645a17528f32e1cde
-  IsDeleted: false
 - RecordId: c519bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: redacted-en.html
   CheckSum: 3f447627990fbcb3a99b927c2afa5d4e1dba8506662b3f774a1df1348c4ca378
@@ -9007,9 +9011,17 @@ annotation:
   DisplayName: datalist.css
   CheckSum: 0c6bac188126badcf66bb04cf35185b755ab05bc94edd14e0cc8f62a8b629265
   IsDeleted: false
+- RecordId: dded2283-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-fr.html
+  CheckSum: b0b65fa0035c93288f90b1ef51175cb0fa3ac5a32928bac52b39f731c399aa87
+  IsDeleted: false
 - RecordId: 8c1b6a5a-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: BasicLatin.js
   CheckSum: fb0bf105728fc1992d2bd1223f61973f7c938591936cf199f2195a45e26b3db7
+  IsDeleted: false
+- RecordId: cc7b91da-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: index.html
+  CheckSum: 6bf4eb963657f2c3d8484b75c66380016ea99df9d3c9555a5bbb9447de712766
   IsDeleted: false
 - RecordId: 0ed2907f-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: v.js
@@ -9027,17 +9039,13 @@ annotation:
   DisplayName: glyphicons-halflings-regular.woff
   CheckSum: e6a1364723882fba314f3a7054a26fda19608ff321f472439507ed01207ac1b3
   IsDeleted: false
-- RecordId: 4cc2b6ad-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 5d2b5e3eb3217a9db490365dccbdf685f01c7e055d764b65267e7ba5053a6e8e
-  IsDeleted: false
 - RecordId: d419bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: theme-fr.html
   CheckSum: 1e36584725872f665bb42c79110c682577db662b68c17a4d6f0f54ec2b1b57d4
   IsDeleted: false
-- RecordId: f799adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathML.js
-  CheckSum: 4dcf4306c78b1e12db847990f5817dc8d79df2f9a8db40e73acc9d8cac940a58
+- RecordId: 8ab05193-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 2a66812c7d5cf6725ca3582ed79554dc32a98063003edbb00a6b459d8ce35795
   IsDeleted: false
 - RecordId: e562b8c4-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: MathZoom.js
@@ -9046,6 +9054,10 @@ annotation:
 - RecordId: a3bdaa5b-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: list-fr.html
   CheckSum: 78b438fa384bf5ab81d648ae444498d59a4701d63bedec1c971eb5006d68b7b4
+  IsDeleted: false
+- RecordId: b019bb01-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: index-en.html
+  CheckSum: 324967aad375f41a3de9b98a748c7da239d2ab21f2f851f67d372c1a1f12f44a
   IsDeleted: false
 - RecordId: 6bdcf0af-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 750x222-2.png
@@ -9083,6 +9095,10 @@ annotation:
   DisplayName: mobile.js
   CheckSum: ce51a271f428598528ff749ac82e21b6dfdee72dddb6e67a2d858e243dae421f
   IsDeleted: false
+- RecordId: 6af00dbb-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 238d542b6660324bd19017c82d224deea94a32b9beeacbc8eefd6d0aa39b5dd3
+  IsDeleted: false
 - RecordId: ff23f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-clj.min.js
   CheckSum: ca44514537d81275701d840485f8a48dfa1898acce604308993fbd9b68be9a49
@@ -9094,10 +9110,6 @@ annotation:
 - RecordId: bb19bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ministerial-fr.html
   CheckSum: 8ffe5a22aacf67c2986d2a404b12a8d67765d52124d669913c1858ce6efea44a
-  IsDeleted: false
-- RecordId: 43f3756d-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 6fae14abd675ed57ca42ce4d6a8c17f09f17867678161b2eb3542897c9fff07c
   IsDeleted: false
 - RecordId: d46f573c-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Math-Italic.woff
@@ -9135,6 +9147,10 @@ annotation:
   DisplayName: proj4.js
   CheckSum: 23457d68af0aebbe4133e11b89e81496aef1570d6697721634f28b5e1bb03859
   IsDeleted: false
+- RecordId: 3a143114-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: mhchem.js
+  CheckSum: e2c3bdb240c6c6ed1cfa8afe4e26cb14b25cb686e9bbdaa9eb73b82dd958a260
+  IsDeleted: false
 - RecordId: 94106190-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: cs.min.js
   CheckSum: c578c2fafca7ed281c4ca1cdf21c9375791e755d3cc502dfe3ae44816dca4c0c
@@ -9163,6 +9179,10 @@ annotation:
   DisplayName: q.js
   CheckSum: 0853ceaefdf75130c7e0aa6f3c88d91c3bc4f866217b9992b7fac51f0181999f
   IsDeleted: false
+- RecordId: b119bb01-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: index-fr.html
+  CheckSum: 46de16c335e6e6d2d798906b2567ba0efc80dcb400ba4a4d8c032a9473d27937
+  IsDeleted: false
 - RecordId: 24838faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-MML-AM_HTMLorMML-full.js
   CheckSum: f4cee079280d56be9a5d42ce4b96390ee84552b09dcc2fb17ab6bdd9c40ae28a
@@ -9179,10 +9199,6 @@ annotation:
   DisplayName: 1-sc-5.png
   CheckSum: d6c8caeffcf48a245a1523ad9737d2600b030867eec2b30071967cd7db1bbe7e
   IsDeleted: false
-- RecordId: 5d09a8a1-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: favicon.ico
-  CheckSum: 4513be9cf414fae74ba191c73b18ee4233803a1ed66de768a2fbabdd08eca2c2
-  IsDeleted: false
 - RecordId: 8b466a04-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: meter.min.js.map
   CheckSum: 832e4d2a975b0fd64469fed310d18c41d66a52f35af31b2eecaab0503a38d9aa
@@ -9190,14 +9206,6 @@ annotation:
 - RecordId: 3421090e-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: autobold.js
   CheckSum: b0c43371d482ae2b6a0c0f7fc7f84d8ea8ba1b919495ddc81d1938411add00eb
-  IsDeleted: false
-- RecordId: 9705db82-2715-0ffb-872b-63d7579607f2
-  DisplayName: favicon(1).ico
-  CheckSum: 5f79585d587e65d943f8ab574dfecf41000a86f7a04c43bff95cc644694a21f0
-  IsDeleted: false
-- RecordId: 711c5f61-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: index.html
-  CheckSum: e90ed9bb5640dad08fa621c29e1a1d389dfbf237b9d713721563f6b940af0524
   IsDeleted: false
 - RecordId: db6f573c-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Size2-Regular.woff
@@ -9226,6 +9234,14 @@ annotation:
 - RecordId: 19a2dc63-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ie8-wet-boew.min.js
   CheckSum: a58b5eb07a5ecc16559af1de772e6ec9e3fee7155ed74712e322c3a3f9dab4b1
+  IsDeleted: false
+- RecordId: 37648e9b-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: payload.json
+  CheckSum: 060a78333d674aa40dfe7291017a0c5b1edcf9e5bdc6e2df4bf5b0eb432d0339
+  IsDeleted: false
+- RecordId: 9a5f9473-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 723e4779a863c0fa864fb154708a39bc542ec1b138574055e7e1361e06fa9f66
   IsDeleted: false
 - RecordId: ea1713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: messages-ie.min.css
@@ -9287,6 +9303,10 @@ annotation:
   DisplayName: service-fr.html
   CheckSum: df7fc6864d0a5f5ff0926131901ecf96e28e42faa00978e4909a446c2136c1c5
   IsDeleted: false
+- RecordId: d1dd6296-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: en.js
+  CheckSum: b4d07c2e3ba419e9812bdd060d544e9e18d22ce99545188f3ea4d4445263ffd2
+  IsDeleted: false
 - RecordId: 11e46250-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: datepicker.min.css
   CheckSum: 7d5e058a7e1d2f78ed2c33b3c513390b99f98e2beeea52dc8395ba48cacd6aaa
@@ -9302,6 +9322,10 @@ annotation:
 - RecordId: 2424f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-rd.js
   CheckSum: 5879b0849c20a2984506cf142f67f2dd2a51eb95c8001d22a153a6808abfc417
+  IsDeleted: false
+- RecordId: f499adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: HelpDialog.js
+  CheckSum: f57fe2333cb0d59a8256c4ff765d2d68016d2665a8a914b44265369785d2650b
   IsDeleted: false
 - RecordId: 68dcf0af-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 653x194-2.png
@@ -9323,9 +9347,17 @@ annotation:
   DisplayName: y.js
   CheckSum: dfb57d4ee0143580392e71e2e85d658141bd29d421b73e36ca08b88434b5420a
   IsDeleted: false
+- RecordId: 4221090e-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: mhchem.js
+  CheckSum: 91e0890cc1bd171212a7754b54709896472bb17eef4666f5dffdc013ae1c9f9d
+  IsDeleted: false
 - RecordId: 1239aca7-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: facebook.svg
   CheckSum: 32fc711098f9c5c5310d54de1b6055d4ce8a329ca124bdc495a83e556910bbf6
+  IsDeleted: false
+- RecordId: f399adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: fr.js
+  CheckSum: 1b8ba3ad1906c4920ac97e2bd3791d6ea6aaf5372c0c16dd092c76fea43374c5
   IsDeleted: false
 - RecordId: 70f54e30-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_WinChrome-Regular.otf
@@ -9346,6 +9378,10 @@ annotation:
 - RecordId: fa828faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: AM_SVG.js
   CheckSum: 5c3ba711d57c03daf47d8492c5c9dbc5b34fd0cb3ac003253c2abb6454570a8a
+  IsDeleted: false
+- RecordId: 9705db82-2715-0ffb-872b-63d7579607f2
+  DisplayName: favicon(1).ico
+  CheckSum: 5f79585d587e65d943f8ab574dfecf41000a86f7a04c43bff95cc644694a21f0
   IsDeleted: false
 - RecordId: 8d19bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: colour-fr.html
@@ -9387,17 +9423,13 @@ annotation:
   DisplayName: 1-sc-12-ie.png
   CheckSum: edd63fd846f1495343f762fe26cc7b1915626ab9c90f5945fea3475aa5c6ce7b
   IsDeleted: false
-- RecordId: bf1a84b6-1bc4-eb11-bacc-0022483bf7f2
-  DisplayName: sp-bg-2.jpg
-  CheckSum: 94aa884cf78c3492bbcaca13218ffcde00a381a3d6f59e5a76a11b199dbfe8f5
+- RecordId: 9b5f9473-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 9ac455ab363b2c0bd61ec961056fe41fd1634d5328ff0f170499106bf40fd83d
   IsDeleted: false
 - RecordId: ecdd6296-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ko.min.js
   CheckSum: e00f09a04362c051612ae470917451aa4ea1987b41f30de39e6a09d77691c9e5
-  IsDeleted: false
-- RecordId: f3d677c2-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: jax.js
-  CheckSum: 83c129dad6cd8af21984e1ec49d96c4a4a1f7746ac1f7b036430759987e4e14e
   IsDeleted: false
 - RecordId: ea23f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.flot.canvas.min.js
@@ -9443,9 +9475,17 @@ annotation:
   DisplayName: loading.png
   CheckSum: 2efe9a3e3d72cfe6d320b9193a6b703f346fb3128e9c9b0d2ce55f0baf1470be
   IsDeleted: false
+- RecordId: f299adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: FontWarnings.js
+  CheckSum: 2ce7e63066e34536fbd98985fb13a4add5b423f56161e16645a17528f32e1cde
+  IsDeleted: false
 - RecordId: 2524f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-rd.min.js
   CheckSum: 72409ab3d7ee862246071b5e59068ad732e6dfde1f873ef62918281086da0a61
+  IsDeleted: false
+- RecordId: b054fa4e-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: c6a8045661f0508741efd8678b1dabcd45d9072b40f8a7ec47f3813d77ea4458
   IsDeleted: false
 - RecordId: 0224f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-dart.js
@@ -9483,6 +9523,10 @@ annotation:
   DisplayName: 250x250.png
   CheckSum: f5cbd875a5ab65df1d8874f3e038f6623c58d823537a342e30dce6e7c9f0a3af
   IsDeleted: false
+- RecordId: d9dd6296-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: fr.js
+  CheckSum: 2ed666905990c3cfc361749f2d030b91e305f465d9eae1a0cad6b37d18525fe9
+  IsDeleted: false
 - RecordId: 4821090e-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: verb.js
   CheckSum: 7e988ab6a4429b1ab06debc5026222be2e32a8160380cedb39bc0bcac53514ab
@@ -9507,10 +9551,6 @@ annotation:
   DisplayName: 404-en.html
   CheckSum: 7830271b9a77359f9f334097e5d010d421687f00d26813eca3adc3fff0a33db3
   IsDeleted: false
-- RecordId: b119bb01-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: index-fr.html
-  CheckSum: 46de16c335e6e6d2d798906b2567ba0efc80dcb400ba4a4d8c032a9473d27937
-  IsDeleted: false
 - RecordId: 37531ecb-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: invalid_keypress.mp3
   CheckSum: 105ae0571ee618c428243132eb452edd1d2b8b73d74efd8a2d2c3851d78fe4d1
@@ -9519,9 +9559,17 @@ annotation:
   DisplayName: topic-fr.html
   CheckSum: fc537f419ce1667900720b03b4b86c9896a7b3f35a6bddd9ad9ebd5e203170f4
   IsDeleted: false
+- RecordId: f3d677c2-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 83c129dad6cd8af21984e1ec49d96c4a4a1f7746ac1f7b036430759987e4e14e
+  IsDeleted: false
 - RecordId: 621fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-sc-2.png
   CheckSum: 353c6af33d469ca4bf856e75a1122a9a222a6ed87c80797c20596cc611747340
+  IsDeleted: false
+- RecordId: fe48319a-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 0b3057144024d6032a0a382d9a88a941159e7438bb9e01ccc5700f5858d8e3e1
   IsDeleted: false
 - RecordId: 29a25536-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_AMS-Regular.woff
@@ -9543,6 +9591,14 @@ annotation:
   DisplayName: extpfeil.js
   CheckSum: 27ad7fe013559838d747a0d6d839d70727cd3c2ca4e45639176f6bad23c20d9c
   IsDeleted: false
+- RecordId: 32d30a8c-c1e2-ebbc-97c6-45f6607874e3
+  DisplayName: theme.css
+  CheckSum: 90587e6b03b70a919f5c903a8b7494c9648a077eb975b4dd2f37d46f18a29987
+  IsDeleted: false
+- RecordId: eb1713bd-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: theme.css
+  CheckSum: 1544b890105dc0faa599e89133dcf568bc9312cc152309a78fe3e64f143845b4
+  IsDeleted: false
 - RecordId: eb136c0a-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: slider.min.js.map
   CheckSum: 09a59262c5c49639ebd12af14eacef6c965d1b569de40e14d5eac9589a770ed5
@@ -9550,10 +9606,6 @@ annotation:
 - RecordId: 2b46cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: math_geometry.js
   CheckSum: 3e7ff605140182cd0be0adc96a740bfeba9844c3a4020f54df3b5473fb296b11
-  IsDeleted: false
-- RecordId: f699adf6-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: MathMenu.js
-  CheckSum: beb915a5f7480d9db72b35563aa59e0fef0b2a7fb4111de3304a901307d5808f
   IsDeleted: false
 - RecordId: 58f54e30-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Caligraphic-Bold.otf
@@ -9566,10 +9618,6 @@ annotation:
 - RecordId: 1b24f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-mumps.min.js
   CheckSum: f927abe3a1b0b0a57e53188375e1101c9a8349a6048402c8eb6a40c9b00eaf3f
-  IsDeleted: false
-- RecordId: 7cfd614f-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-en.html
-  CheckSum: c73a5b13ac5095d0789394a06740f72594c1e068087e9dcaaf7251624bd273b1
   IsDeleted: false
 - RecordId: 88466a04-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: jawsariafixes.min.js.map
@@ -9586,6 +9634,10 @@ annotation:
 - RecordId: 7a19bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: act-en.html
   CheckSum: 172471b96957db38b41f60386e6ab6a729ce0174536bc6dd0be8faa0b5a52e31
+  IsDeleted: false
+- RecordId: a1ab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: HelpDialog.js
+  CheckSum: bf1661109c05b88e5d51c1f85afdc5f132333ca5469ed521d0f2f32cd1314a4f
   IsDeleted: false
 - RecordId: e362b8c4-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: MathEvents.js
@@ -9687,6 +9739,10 @@ annotation:
   DisplayName: 1-capture-2-ie.png
   CheckSum: d80c20eff0a2a3c22810cecf39535c107d1946a8f7703df49f4f769608c0afe8
   IsDeleted: false
+- RecordId: 7cfd614f-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-en.html
+  CheckSum: c73a5b13ac5095d0789394a06740f72594c1e068087e9dcaaf7251624bd273b1
+  IsDeleted: false
 - RecordId: 1ba2dc63-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ie8-wet-boew2.min.js
   CheckSum: c25991f8e0b5eebe1afd407e243c0476ede9508588f27b64cb62d9a6a3f5eb45
@@ -9694,10 +9750,6 @@ annotation:
 - RecordId: 3824f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-xq.js
   CheckSum: 5756b44be7f6baeb41fefe06b922f447e79a5b41e9e7eb25e8714b2dd5efccfb
-  IsDeleted: false
-- RecordId: d9dd6296-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: fr.js
-  CheckSum: 2ed666905990c3cfc361749f2d030b91e305f465d9eae1a0cad6b37d18525fe9
   IsDeleted: false
 - RecordId: 6edcf0af-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1170x347-3.png
@@ -9711,9 +9763,9 @@ annotation:
   DisplayName: wgxpath.install.js
   CheckSum: 1aa0818f53349e2a6492e3cd93cccb8f61385d0f3bb1d35622530d85ee708a0c
   IsDeleted: false
-- RecordId: eb1713bd-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: theme.css
-  CheckSum: 1544b890105dc0faa599e89133dcf568bc9312cc152309a78fe3e64f143845b4
+- RecordId: 6209a8a1-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: sig-blk-en.svg
+  CheckSum: ea989274c234475f128b05d6bd8ff227aa1a4c79da5626b3e8a74773da0f4489
   IsDeleted: false
 - RecordId: ca19bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: servermessage-en-fr.html
@@ -9726,6 +9778,10 @@ annotation:
 - RecordId: ce6f573c-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Fraktur-Regular.woff
   CheckSum: 63356f85aa69f8b5d8b5e704c981bcff05f27de9c87da96d5a0a9cc59ddbe7ce
+  IsDeleted: false
+- RecordId: 7dfd614f-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: index-fr.html
+  CheckSum: ca5950143d318a71884b963c5876da518a63d079e7a97650cf82584ec1f9771e
   IsDeleted: false
 - RecordId: f223f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: jquery.magnific-popup.min.js
@@ -9791,9 +9847,9 @@ annotation:
   DisplayName: is.min.js
   CheckSum: d2b05a3cf703c4c0bf3f950f73ada8aee2ec6ede83fb64ea0b223012f4f15b68
   IsDeleted: false
-- RecordId: 6af00dbb-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 238d542b6660324bd19017c82d224deea94a32b9beeacbc8eefd6d0aa39b5dd3
+- RecordId: f899adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: TeX.js
+  CheckSum: 11385488c9d588231ae53eaf59e2186d8835b1eeccb63ab319cedddc318a5fba
   IsDeleted: false
 - RecordId: 0c838faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-AMS_CHTML-full.js
@@ -9871,9 +9927,9 @@ annotation:
   DisplayName: server-fr.html
   CheckSum: 88c6f9224b8cf39e9f3af0f615afc13ea49b0d8e8c4cbe447767863191bdfca9
   IsDeleted: false
-- RecordId: 6d09a8a1-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: sp-bg-2.jpg
-  CheckSum: 41bcd0d4ac1895d5407c292bbcf4f37b5161a26331b76acf80d790d159069b29
+- RecordId: a0ab14e9-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: FontWarnings.js
+  CheckSum: 4ac48f269a1b498a51b4b4ffd44041e9beae11f4732bd54547682567fab3cf8a
   IsDeleted: false
 - RecordId: 9ebdaa5b-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: gc-srvinfo.html
@@ -9987,9 +10043,9 @@ annotation:
   DisplayName: feedback-fr.html
   CheckSum: 34c06741ecfe3aac24cc958530c997fb393c4970889ca26b52dca633187540d3
   IsDeleted: false
-- RecordId: 17812375-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-en.html
-  CheckSum: 5325c6e02894a89fb28bccbb0e8edd49a1cd527986534b708041f3ed9625044c
+- RecordId: 5d09a8a1-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: favicon.ico
+  CheckSum: 4513be9cf414fae74ba191c73b18ee4233803a1ed66de768a2fbabdd08eca2c2
   IsDeleted: false
 - RecordId: 12d2907f-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: z.js
@@ -10055,6 +10111,10 @@ annotation:
   DisplayName: latin-upper-double-accent.js
   CheckSum: 438484c66ede9dba97bb2b5279dda7085c37fa643f36f94ae083a571c264e5c6
   IsDeleted: false
+- RecordId: f699adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: MathMenu.js
+  CheckSum: beb915a5f7480d9db72b35563aa59e0fef0b2a7fb4111de3304a901307d5808f
+  IsDeleted: false
 - RecordId: 1da2dc63-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: wet-boew.min.js
   CheckSum: 811a6da7ab6383afab7ce5ff3a1b0f8a6fd85c5961f8c0696fe89b20e69d2be1
@@ -10070,10 +10130,6 @@ annotation:
 - RecordId: 6af54e30-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: MathJax_Size2-Regular.otf
   CheckSum: be6120679415073b91ed051ab40b3999af24978e14eb28abea968711cd36e87e
-  IsDeleted: false
-- RecordId: bcb50d87-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: config.js
-  CheckSum: 8e5180712667f686a30e89563017226f01ff423687a0fa35b968ebce23ae373a
   IsDeleted: false
 - RecordId: 0124f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-css.min.js
@@ -10135,6 +10191,10 @@ annotation:
   DisplayName: bootstrap-4.html
   CheckSum: acedc654450f466b4b22554656a580b12095fc16a12bf6a7178d9ea8655ff0af
   IsDeleted: false
+- RecordId: 43f3756d-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 6fae14abd675ed57ca42ce4d6a8c17f09f17867678161b2eb3542897c9fff07c
+  IsDeleted: false
 - RecordId: ee1713bd-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: theme-srv.min.css
   CheckSum: 1616db016a733c8c51a19687f18d3aed3fa7bdf1af30725e831a4ac0e02b2aa9
@@ -10191,17 +10251,9 @@ annotation:
   DisplayName: geomap-lib.js
   CheckSum: 0620dd186fd6fe5083196eba64cb00ae05ff6f52d2f50cde21eebd8736a15101
   IsDeleted: false
-- RecordId: 6209a8a1-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: sig-blk-en.svg
-  CheckSum: ea989274c234475f128b05d6bd8ff227aa1a4c79da5626b3e8a74773da0f4489
-  IsDeleted: false
 - RecordId: 431fa2c2-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 1-capture-1.png
   CheckSum: 83c24da411479ab3edb355fc56ffc2497da4695d90913f14d24bcd190b941a16
-  IsDeleted: false
-- RecordId: d1dd6296-1cc4-eb11-bacc-0022483bf7f2
-  DisplayName: en.js
-  CheckSum: b4d07c2e3ba419e9812bdd060d544e9e18d22ce99545188f3ea4d4445263ffd2
   IsDeleted: false
 - RecordId: 931b6a5a-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: Latin1Supplement.js
@@ -10231,6 +10283,10 @@ annotation:
   DisplayName: 1-capture-14.png
   CheckSum: 3157a1c349f9f2544ddd17ea6d0b17a13259fdb275b8d0d8dccff6ec8116c1ab
   IsDeleted: false
+- RecordId: bcb50d87-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: config.js
+  CheckSum: 8e5180712667f686a30e89563017226f01ff423687a0fa35b968ebce23ae373a
+  IsDeleted: false
 - RecordId: 0a24f27b-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: lang-hs.min.js
   CheckSum: d248c5f17942e52e253207c31c0725b14be8ac624b0263c9632c6c70d207f37e
@@ -10255,6 +10311,10 @@ annotation:
   DisplayName: regulations-en.html
   CheckSum: 9c48855c484b162b0e28a8819167c10f009bd3eade3052b56854f10800f2c8ca
   IsDeleted: false
+- RecordId: f599adf6-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: HTML-CSS.js
+  CheckSum: 89537308d9760e92bde4cecdf5125b51f5c5f21b2e1a841cf3980c02e45cf606
+  IsDeleted: false
 - RecordId: 04d2907f-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: s.js
   CheckSum: 8f99ae48797cb19bd440bf6ab82f8c0e229429de310416427eb373f53fff3552
@@ -10262,6 +10322,18 @@ annotation:
 - RecordId: 83466a04-1ec4-eb11-bacc-0022483bf7f2
   DisplayName: details.js
   CheckSum: 3041d5755f317cde31ef9864ab63fbbbaca1e67dd797e214279c5f8b1914461c
+  IsDeleted: false
+- RecordId: bf1a84b6-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: sp-bg-2.jpg
+  CheckSum: 94aa884cf78c3492bbcaca13218ffcde00a381a3d6f59e5a76a11b199dbfe8f5
+  IsDeleted: false
+- RecordId: eab7c988-1bc4-eb11-bacc-0022483bf7f2
+  DisplayName: index.html
+  CheckSum: 83b09e4e654db2ca0f9fc1f535058dce73a5ee01f199d88116c0d6d68249c54c
+  IsDeleted: false
+- RecordId: beb50d87-1dc4-eb11-bacc-0022483bf7f2
+  DisplayName: jax.js
+  CheckSum: 7a990eda01d4a3a796872ca1b0fbc8f5797eadaa4f2a7ab4f518756f706aa520
   IsDeleted: false
 - RecordId: 4421090e-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: newcommand.js
@@ -10287,9 +10359,9 @@ annotation:
   DisplayName: en.min.js
   CheckSum: 46df7b3d2eec4f002c56ee7a17d7ba6147583ca21d8a3d87f15160714bf8fb3f
   IsDeleted: false
-- RecordId: 71697502-13cc-ca81-916f-9cb3d8cace44
-  DisplayName: sig-blk-en (3).svg
-  CheckSum: 826b13273cbd4d7dd4c6d747a8954221d2967295331b3d3ddf00fb62fb1ab3cd
+- RecordId: 0a838faf-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: Safe.js
+  CheckSum: bbc6958c46aa9853512cbbe550cb26b79a2a3eecbb36b741be32688d7c589dee
   IsDeleted: false
 - RecordId: 0b46cae3-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: greek-scripts.js
@@ -10323,10 +10395,6 @@ annotation:
   DisplayName: home-fr.html
   CheckSum: 3b0940a5407241d4971b609ba287b6c95ff98b20d3b3ba77e6cc3714bc822988
   IsDeleted: false
-- RecordId: 7dfd614f-1ac4-eb11-bacc-0022483bf7f2
-  DisplayName: index-fr.html
-  CheckSum: ca5950143d318a71884b963c5876da518a63d079e7a97650cf82584ec1f9771e
-  IsDeleted: false
 - RecordId: 01838faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: MML_SVG.js
   CheckSum: 2f3e5276c02656368bad5c42ba7343aa338a557d8767d15d886075778cc7a724
@@ -10343,6 +10411,10 @@ annotation:
   DisplayName: mediacontrols.html
   CheckSum: d596317fe5fb681b942819100c88935ce28697e6d1333dd323f9ad69e9761032
   IsDeleted: false
+- RecordId: dd62b8c4-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: HelpDialog.js
+  CheckSum: e7a89fba7190c2f467dd65718fd5f5224e582cbd5a0871130ce0fb53b0cf6190
+  IsDeleted: false
 - RecordId: 36531ecb-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: explorer.js
   CheckSum: 5553e742beed21a1071da537d0658ed22ab1d80ef78afbd58103951b37b291c2
@@ -10350,6 +10422,10 @@ annotation:
 - RecordId: b419bb01-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: institution-arms-en.html
   CheckSum: 0da022fc5a954ef3924aca87089c5a0eecf443dda8f014d3f1ae64a5f4fb123c
+  IsDeleted: false
+- RecordId: ee5a2d23-1cc4-eb11-bacc-0022483bf7f2
+  DisplayName: payload.json
+  CheckSum: 9e99721c9b50e0337746284b90ca0b81d8d99fc11dd1a43d4776397d511de128
   IsDeleted: false
 - RecordId: 474b0355-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 2021-04-gcaem.css
@@ -10387,10 +10463,6 @@ annotation:
   DisplayName: x-bootstrap-4.css
   CheckSum: 3cefb442a60366b7f83f06bd2662bf21953f7b9c1b98c7c7334ac6d676f03c80
   IsDeleted: false
-- RecordId: 3a143114-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: mhchem.js
-  CheckSum: e2c3bdb240c6c6ed1cfa8afe4e26cb14b25cb686e9bbdaa9eb73b82dd958a260
-  IsDeleted: false
 - RecordId: 741c5f61-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: test-menu.html
   CheckSum: 1f3bab3174c68af08c456998ad662d23657094ae94f7c741df24b09e986e0124
@@ -10402,14 +10474,6 @@ annotation:
 - RecordId: 57ab29a0-1dc4-eb11-bacc-0022483bf7f2
   DisplayName: maction.js
   CheckSum: 81a0d9e747f5820303f73d89271b0cfc7c015bab8ae37c33ad0152da3a9db309
-  IsDeleted: false
-- RecordId: 9fab14e9-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: en.js
-  CheckSum: 5f26615bec4bae33053cfb5f00594634c72c4e23687120b4a437235d262099ba
-  IsDeleted: false
-- RecordId: 4221090e-1dc4-eb11-bacc-0022483bf7f2
-  DisplayName: mhchem.js
-  CheckSum: 91e0890cc1bd171212a7754b54709896472bb17eef4666f5dffdc013ae1c9f9d
   IsDeleted: false
 - RecordId: 0b838faf-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: TeX-AMS_CHTML.js
@@ -10459,6 +10523,10 @@ annotation:
   DisplayName: 1-sc-6-ie.png
   CheckSum: 17cc38b69981ed2cfdc6c5b10f50364e327ab944a1836c14c2039cc6ed868023
   IsDeleted: false
+- RecordId: 6d09a8a1-1ac4-eb11-bacc-0022483bf7f2
+  DisplayName: sp-bg-2.jpg
+  CheckSum: 41bcd0d4ac1895d5407c292bbcf4f37b5161a26331b76acf80d790d159069b29
+  IsDeleted: false
 - RecordId: ebdd6296-1cc4-eb11-bacc-0022483bf7f2
   DisplayName: ko.js
   CheckSum: 8c42f4dbe8e1e9cf97163f91485c4b2f7a83552737fd9a81443adf15aa558331
@@ -10494,10 +10562,6 @@ annotation:
 - RecordId: 69dcf0af-1bc4-eb11-bacc-0022483bf7f2
   DisplayName: 653x194-3.png
   CheckSum: c3c6bbb5021077359ddc038a3056d97857b41e97a364f812063713031808a34e
-  IsDeleted: false
-- RecordId: fd01b2fd-0d0c-e611-80d5-00155d216304
-  DisplayName: theme.css
-  CheckSum: 933e97464ff969976d73d45ed93ded30c12fe23b3822a86f49805a2fa7bf7879
   IsDeleted: false
 - RecordId: a5bdaa5b-1ac4-eb11-bacc-0022483bf7f2
   DisplayName: well-header-rwd-fr.html
