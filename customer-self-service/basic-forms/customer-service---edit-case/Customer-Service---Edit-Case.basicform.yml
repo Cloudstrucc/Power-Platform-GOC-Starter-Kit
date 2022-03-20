@@ -29,414 +29,818 @@ adx_renderwebresourcesinline: false
 adx_setentityreference: false
 adx_settings: >-
   {
+
     "Type": "FormActionMetadata",
+
     "Actions": [
+
       {
+
         "Type": "SubmitAction",
+
         "ButtonBusyLabel": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ],
+
         "SuccessMessage": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": "Your changes have been submitted successfully."
+
           }
+
         ],
+
         "ButtonLabel": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": "Update"
+
           }
+
         ],
+
         "ButtonTooltip": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ],
+
         "ButtonCssClass": "",
+
         "ActionButtonStyle": 0,
+
         "ActionButtonPlacement": 1,
+
         "ActionButtonAlignment": 0,
+
         "ShowModal": 0,
+
         "Confirmation": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ]
+
       },
+
       {
+
         "Type": "CloseIncidentAction",
+
         "DefaultResolution": "",
+
         "DefaultResolutionDescription": "",
+
         "SuccessMessage": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": "The case has been closed."
+
           }
+
         ],
+
         "OnComplete": 0,
+
         "RedirectWebpageId": "",
+
         "RedirectUrl": "",
+
         "ButtonLabel": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ],
+
         "ButtonTooltip": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ],
+
         "ButtonCssClass": "btn-success",
+
         "ActionButtonStyle": 0,
+
         "ActionButtonPlacement": 1,
+
         "ActionButtonAlignment": 0,
+
         "ShowModal": 1,
+
         "Confirmation": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ]
+
       },
+
       {
+
         "Type": "ReopenCaseAction",
+
         "SuccessMessage": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": "The case has been reopened."
+
           }
+
         ],
+
         "OnComplete": 0,
+
         "RedirectWebpageId": "",
+
         "RedirectUrl": "",
+
         "ButtonLabel": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ],
+
         "ButtonTooltip": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ],
+
         "ButtonCssClass": "",
+
         "ActionButtonStyle": 0,
+
         "ActionButtonPlacement": 1,
+
         "ActionButtonAlignment": 0,
+
         "ShowModal": 1,
+
         "Confirmation": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ]
+
       },
+
       {
+
         "Type": "CancelCaseAction",
+
         "SuccessMessage": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": "The case has been cancelled."
+
           }
+
         ],
+
         "OnComplete": 0,
+
         "RedirectWebpageId": "4ee1ce65-070a-4ae9-b42e-e371a7eb4277",
+
         "RedirectUrl": "",
+
         "ButtonLabel": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ],
+
         "ButtonTooltip": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ],
+
         "ButtonCssClass": "btn-danger",
+
         "ActionButtonStyle": 0,
+
         "ActionButtonPlacement": 1,
+
         "ActionButtonAlignment": 0,
+
         "ShowModal": 1,
+
         "Confirmation": [
+
           {
+
             "Type": "LanguageResources",
+
             "LCID": 1033,
+
             "Value": ""
+
           }
+
         ]
+
       }
+
     ],
+
     "DeleteDialog": {
+
       "Type": "DeleteModal",
+
       "Title": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "PrimaryButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "CloseButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "DismissButtonSrText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "Size": 0,
+
       "CssClass": "",
+
       "TitleCssClass": "",
+
       "PrimaryButtonCssClass": "",
+
       "CloseButtonCssClass": ""
+
     },
+
     "WorkflowDialog": {
+
       "Type": "WorkflowModal",
+
       "Title": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "PrimaryButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "CloseButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "DismissButtonSrText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "Size": 0,
+
       "CssClass": "",
+
       "TitleCssClass": "",
+
       "PrimaryButtonCssClass": "",
+
       "CloseButtonCssClass": ""
+
     },
+
     "ActionDropDownButtonLabel": [
+
       {
+
         "Type": "LanguageResources",
+
         "LCID": 1033,
+
         "Value": ""
+
       }
+
     ],
+
     "TopContainerCssClass": "",
+
     "BottomContainerCssClass": "",
+
     "ShowSaveChangesWarningOnExit": false,
+
     "SaveChangesWarningMessage": [
+
       {
+
         "Type": "LanguageResources",
+
         "LCID": 1033,
+
         "Value": ""
+
       }
+
     ],
+
     "CloseIncidentDialog": {
+
       "Type": "CloseIncidentModal",
+
       "Title": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "PrimaryButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": "Yes"
+
         }
+
       ],
+
       "CloseButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": "No"
+
         }
+
       ],
+
       "DismissButtonSrText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "Size": 0,
+
       "CssClass": "",
+
       "TitleCssClass": "",
+
       "PrimaryButtonCssClass": "",
+
       "CloseButtonCssClass": ""
+
     },
+
     "ResolveCaseDialog": {
+
       "Type": "ResolveCaseModal",
+
       "Title": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "PrimaryButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "CloseButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "DismissButtonSrText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "Size": 0,
+
       "CssClass": "",
+
       "TitleCssClass": "",
+
       "PrimaryButtonCssClass": "",
+
       "CloseButtonCssClass": ""
+
     },
+
     "ReopenCaseDialog": {
+
       "Type": "ReopenCaseModal",
+
       "Title": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "PrimaryButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": "Yes"
+
         }
+
       ],
+
       "CloseButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": "No"
+
         }
+
       ],
+
       "DismissButtonSrText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "Size": 0,
+
       "CssClass": "",
+
       "TitleCssClass": "",
+
       "PrimaryButtonCssClass": "",
+
       "CloseButtonCssClass": ""
+
     },
+
     "CancelCaseDialog": {
+
       "Type": "CancelCaseModal",
+
       "Title": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "PrimaryButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": "Yes"
+
         }
+
       ],
+
       "CloseButtonText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": "No"
+
         }
+
       ],
+
       "DismissButtonSrText": [
+
         {
+
           "Type": "LanguageResources",
+
           "LCID": 1033,
+
           "Value": ""
+
         }
+
       ],
+
       "Size": 0,
+
       "CssClass": "",
+
       "TitleCssClass": "",
+
       "PrimaryButtonCssClass": "",
+
       "CloseButtonCssClass": ""
+
     }
+
   }
 adx_showcaptchaforauthenticatedusers: false
 adx_showownerfields: false
 adx_showunsupportedfields: false
 adx_successmessage: >-
   [
+
     {
+
       "LCID": 1033,
+
       "Value": "The case has been updated successfully."
+
     }
+
   ]
 adx_tooltipenabled: false
 adx_validationsummarylinksenabled: true
