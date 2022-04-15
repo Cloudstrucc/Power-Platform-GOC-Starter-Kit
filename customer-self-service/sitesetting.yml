@@ -13,7 +13,7 @@
   importsequencenumber: 2
 - adx_name: Authentication/Registration/ExternalLoginEnabled
   adx_sitesettingid: 14ed686c-772b-e711-80df-00155dfcea14
-  adx_value: false
+  adx_value: true
   importsequencenumber: 2
 - adx_name: Authentication/Registration/InvitationEnabled
   adx_sitesettingid: 16ed686c-772b-e711-80df-00155dfcea14
@@ -21,7 +21,7 @@
   importsequencenumber: 2
 - adx_name: Authentication/Registration/LoginButtonAuthenticationType
   adx_sitesettingid: 18ed686c-772b-e711-80df-00155dfcea14
-  adx_value: https://te-auth.id.tbs-sct.gc.ca/
+  adx_value: https://goctheme.b2clogin.com/tfp/fab0cf3f-89b6-419e-89bd-52c69f94c4ca/b2c_1_signupsingin1/v2.0/
   importsequencenumber: 2
 - adx_description: Site setting that controls the depth of the webpage hierarchy that’s cloned in a newly-added supported language. Web link sets and content snippets are cloned in the newly-added language when webpages are cloned.
   adx_name: MultiLanguage/MaximumDepthToClone
@@ -51,28 +51,14 @@
   adx_name: Authentication/Registration/DenyMinors
   adx_sitesettingid: 2606c26d-36a9-e711-80c7-000d3afd3574
   adx_value: false
-- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/ClientId
-  adx_sitesettingid: 270179fe-839a-ec11-b3fe-000d3a84b31a
-  adx_value: ee10a601-d9af-42b2-a520-b195d638c7f5
 - adx_description: Set to "True" to force the user to submit the profile information before accessing the website contents.
   adx_name: Profile/ForceSignUp
   adx_sitesettingid: 27500698-90e7-4e55-b0a4-62c755230266
   adx_value: False
   importsequencenumber: 2
-- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/Authority
-  adx_sitesettingid: 280179fe-839a-ec11-b3fe-000d3a84b31a
-  adx_value: https://csgac.b2clogin.com/tfp/5a35076f-a666-4c59-ad6a-54ae24303c07/b2c_1_signincanada/v2.0/
-  statecode: 1
-  statuscode: 2
-- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/RegistrationEnabled
-  adx_sitesettingid: 290179fe-839a-ec11-b3fe-000d3a84b31a
-  adx_value: true
 - adx_name: HTTP/X-Frame-Options
   adx_sitesettingid: 29a2cfe6-7587-4332-8b40-31a4db6e9959
   adx_value: SAMEORIGIN
-- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/RedirectUri
-  adx_sitesettingid: 2a0179fe-839a-ec11-b3fe-000d3a84b31a
-  adx_value: https://cs-dev1.powerappsportals.com/signin-aad-b2c_3
 - adx_description: Set whether the header web template is output cached.
   adx_name: Header/OutputCache/Enabled
   adx_sitesettingid: 30084086-b31d-47d9-af08-5fe1dacc478c
@@ -89,6 +75,18 @@
 - adx_name: Authentication/OpenIdConnect/AAD-B2C_1/RegistrationEnabled
   adx_sitesettingid: 349ac2ee-cbc4-eb11-bacc-0022483bf7f2
   adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/ExternalLogoutEnabled
+  adx_sitesettingid: 3c746d42-adb6-ec11-983f-000d3a09debc
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/AllowContactMappingWithEmail
+  adx_sitesettingid: 3d746d42-adb6-ec11-983f-000d3a09debc
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/Caption
+  adx_sitesettingid: 3e746d42-adb6-ec11-983f-000d3a09debc
+  adx_value: Canada.ca Single Sign On (SSO)
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/Authority
+  adx_sitesettingid: 3f746d42-adb6-ec11-983f-000d3a09debc
+  adx_value: https://goctheme.b2clogin.com/tfp/fab0cf3f-89b6-419e-89bd-52c69f94c4ca/b2c_1_signupsingin1/v2.0/
 - adx_name: Authentication/OpenAuth/Facebook/AppSecret
   adx_sitesettingid: 408c2e8a-fd0f-4a6a-889b-74bd65b25c70
   importsequencenumber: 5
@@ -140,12 +138,24 @@
 - adx_name: Authentication/OpenIdConnect/AAD-B2C_1/ExternalLogoutEnabled
   adx_sitesettingid: 800e1aed-cbc4-eb11-bacc-000d3af385d3
   adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/RegistrationEnabled
+  adx_sitesettingid: 8337d347-adb6-ec11-983f-000d3a09eccb
+  adx_value: true
 - adx_name: Authentication/OpenAuth/Twitter/ConsumerKey
   adx_sitesettingid: 83782a91-1946-44de-8026-ad5ca8bd7dde
   importsequencenumber: 5
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/RegistrationClaimsMapping
+  adx_sitesettingid: 8437d347-adb6-ec11-983f-000d3a09eccb
+  adx_value: firstname=givenname,lastname=lastname
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/LoginClaimsMapping
+  adx_sitesettingid: 8537d347-adb6-ec11-983f-000d3a09eccb
+  adx_value: firstname=givenname,lastname=lastname
 - adx_name: Authentication/OpenIdConnect/OpenId_1/ValidateIssuer
   adx_sitesettingid: 85d9df4e-bc94-ec11-b3fe-0022483e815c
   adx_value: false
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/RedirectUri
+  adx_sitesettingid: 8637d347-adb6-ec11-983f-000d3a09eccb
+  adx_value: https://canada-theme-dev.powerappsportals.com/signin-aad-b2c_3
 - adx_name: Authentication/OpenIdConnect/OpenId_1/UseTokenLifetime
   adx_sitesettingid: 86d9df4e-bc94-ec11-b3fe-0022483e815c
   adx_value: false
@@ -207,7 +217,7 @@
   adx_value: Portal Search
 - adx_name: Authentication/Registration/LocalLoginEnabled
   adx_sitesettingid: 9ab1b6c9-7af9-4cd7-8f0e-7428979837a2
-  adx_value: true
+  adx_value: false
 - adx_description: Site setting that determines if the language code is included in the portal URL.
   adx_name: MultiLanguage/DisplayLanguageCodeInURL
   adx_sitesettingid: 9b4588f0-9b67-4fd8-b1f6-d625a993243b
@@ -231,7 +241,7 @@
   adx_value: https://cs-dev1.powerappsportals.com/signin-aad-b2c_2
 - adx_name: Authentication/OpenIdConnect/AAD-B2C_2/Authority
   adx_sitesettingid: a4ef835e-ccc4-eb11-bacc-0022483bf7f2
-  adx_value: https://nrcangccfdev.b2clogin.com/tfp/b4104781-1fd5-46cc-85ef-d2ac7368fb0a/B2C_1A_SECUREKEY_signup_signin/v2.0/
+  adx_value: https://nrcangccfdev.b2clogin.com/tfp/b4104781-1fd5-46cc-85ef-d2ac7368fb0a/B2C_1A_SECUREKEY_signup_signin/v2.0
   statecode: 1
   statuscode: 2
 - adx_name: Authentication/OpenIdConnect/AAD-B2C_2/AllowContactMappingWithEmail
@@ -251,15 +261,20 @@
   adx_name: KnowledgeManagement/Analytics/CaptureKnowledgeArticleReferrer
   adx_sitesettingid: aaa59991-1db4-47f3-a20c-0931242189c3
   adx_value: false
-- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/AllowContactMappingWithEmail
-  adx_sitesettingid: af8056ff-839a-ec11-b3fe-000d3a84b577
-  adx_value: false
-- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/ExternalLogoutEnabled
-  adx_sitesettingid: b08056ff-839a-ec11-b3fe-000d3a84b577
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/Authority
+  adx_sitesettingid: acc32b9b-63ad-ec11-9840-000d3af48a54
+  adx_value: https://nrcangccfdev.b2clogin.com/tfp/5f8beec4-f581-4aea-a401-5ca576e906d6/b2c_1_signincanada/v2.0/
+  statecode: 1
+  statuscode: 2
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/Caption
+  adx_sitesettingid: adc32b9b-63ad-ec11-9840-000d3af48a54
+  adx_value: Sign In Canada (B2C)
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/RedirectUri
+  adx_sitesettingid: aec32b9b-63ad-ec11-9840-000d3af48a54
+  adx_value: https://canada-theme-dev.powerappsportals.com/signin-aad-b2c_4
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/ExternalLogoutEnabled
+  adx_sitesettingid: afc32b9b-63ad-ec11-9840-000d3af48a54
   adx_value: true
-- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/Caption
-  adx_sitesettingid: b18056ff-839a-ec11-b3fe-000d3a84b577
-  adx_value: Sign in Canada (SSO)
 - adx_name: Search/IndexNotesAttachments
   adx_sitesettingid: b5457388-4d77-40cd-ab59-0189bccbd1f4
   adx_value: false
@@ -270,8 +285,17 @@
 - adx_name: Authentication/OpenAuth/Microsoft/ClientId
   adx_sitesettingid: b8d70337-d6b5-4fe9-93e9-91de5c06e801
   importsequencenumber: 5
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/RegistrationEnabled
+  adx_sitesettingid: c0a42b9b-63ad-ec11-9840-000d3af48b87
+  adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/ClientId
+  adx_sitesettingid: c1a42b9b-63ad-ec11-9840-000d3af48b87
+  adx_value: 8176979c-dd40-4350-86d2-72a8bfe56d87
 - adx_name: Authentication/OpenAuth/LinkedIn/ConsumerKey
   adx_sitesettingid: c25b4fad-f8fc-4377-b008-9e5840ea45d5
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_4/AllowContactMappingWithEmail
+  adx_sitesettingid: c2a42b9b-63ad-ec11-9840-000d3af48b87
+  adx_value: true
 - adx_description: Set to "True" to capture view count data for Knowledge Management.
   adx_name: KnowledgeManagement/Article/CaptureViewCount
   adx_sitesettingid: c3cc9e81-e426-4a83-9a46-1b8789cd5937
@@ -323,6 +347,9 @@
 - adx_name: Search/Enabled
   adx_sitesettingid: e7aa396d-60c9-475b-940b-58eb4fff8c9a
   adx_value: true
+- adx_name: Authentication/OpenIdConnect/AAD-B2C_3/ClientId
+  adx_sitesettingid: e8226848-adb6-ec11-983f-000d3a09debc
+  adx_value: df8a5b8d-7787-4b2e-a893-e6dce9307473
 - adx_name: DisableValidationWebTemplate
   adx_sitesettingid: ea95e37a-8cb5-4db4-a305-68d74f955df1
   adx_value: false

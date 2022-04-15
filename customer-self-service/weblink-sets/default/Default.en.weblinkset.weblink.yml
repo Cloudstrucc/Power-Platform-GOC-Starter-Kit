@@ -1254,17 +1254,6 @@
   adx_weblinksetid: 6ea94448-efcf-4113-b747-c43b0cd262fa
 - adx_disablepagevalidation: false
   adx_displayimageonly: false
-  adx_displayorder: 24
-  adx_displaypagechildlinks: false
-  adx_name: home
-  adx_openinnewwindow: false
-  adx_pageid: 9e520048-10c4-eb11-bacc-000d3af385d3
-  adx_publishingstateid: ed67356b-a2db-49a9-b26d-4c8a59e3d9a7
-  adx_robotsfollowlink: true
-  adx_weblinkid: fd8c505e-fa30-4b70-87c8-97fd31a136f6
-  adx_weblinksetid: 6ea94448-efcf-4113-b747-c43b0cd262fa
-- adx_disablepagevalidation: false
-  adx_displayimageonly: false
   adx_displayorder: 1
   adx_displaypagechildlinks: false
   adx_name: a11y
