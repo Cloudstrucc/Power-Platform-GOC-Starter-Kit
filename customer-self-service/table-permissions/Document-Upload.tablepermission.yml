@@ -1,0 +1,13 @@
+adx_append: false
+adx_appendto: false
+adx_contactrelationship: cs_DocumentUpload_Contact
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: cs_documentupload
+adx_entityname: Document Upload
+adx_entitypermission_webrole:
+- ff54f608-70df-4637-81f7-dc40dc1b7d34
+adx_entitypermissionid: 1258853e-98bf-ec11-983e-000d3a09d0bb
+adx_read: true
+adx_scope: 756150001
+adx_write: true

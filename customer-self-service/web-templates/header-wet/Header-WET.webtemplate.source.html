@@ -38,6 +38,9 @@ body {
 
 <script>
 $(document).ready(function() {
+    $("fieldset").css("background-color", "white");
+    $("fieldset").css("padding", "5%");
+    $("fieldset").css("margin-left", "-10%");
     if ($(location).attr("href").contains("ExternalLoginCallback"))
         $("legend").css("margin", "40px");
 });

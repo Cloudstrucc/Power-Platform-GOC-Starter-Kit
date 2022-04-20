@@ -343,7 +343,7 @@
 - adx_description: A true or false value. If set to true, the portal will display the terms and conditions of the site. Users must agree to the terms and conditions before they are considered authenticated and can use the site.
   adx_name: Authentication/Registration/TermsAgreementEnabled
   adx_sitesettingid: e23532fe-da87-4063-9d5d-d460f3b8ed3f
-  adx_value: false
+  adx_value: true
 - adx_name: Search/Enabled
   adx_sitesettingid: e7aa396d-60c9-475b-940b-58eb4fff8c9a
   adx_value: true
