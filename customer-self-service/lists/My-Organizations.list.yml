@@ -1,0 +1,45 @@
+adx_calendar_enabled: false
+adx_entitylistid: 00d6afcb-22c1-ec11-983e-000d3a09c40e
+adx_entityname: account
+adx_entitypermissionsenabled: true
+adx_filter_enabled: false
+adx_filteraccount: parentaccountid
+adx_filterportaluser: primarycontactid
+adx_idquerystringparametername: id
+adx_map_distancevalues: 5,10,25,50,100
+adx_map_enabled: false
+adx_map_infoboxoffsetx: 25
+adx_map_infoboxoffsety: 46
+adx_map_pushpinheight: 39
+adx_map_pushpinwidth: 32
+adx_map_resturl: https://dev.virtualearth.net/REST/v1/Locations
+adx_map_zoom: 12
+adx_name: My Organizations
+adx_odata_enabled: false
+adx_pagesize: 10
+adx_searchenabled: false
+adx_view: 00000000-0000-0000-00aa-000010001002
+adx_views: >-
+  {
+    "Type": "ViewMetadata",
+    "Views": [
+      {
+        "Type": "View",
+        "ViewId": "00000000-0000-0000-00aa-000010001002",
+        "DisplayName": [
+          {
+            "Type": "LanguageResources",
+            "LCID": 1033,
+            "Value": "Organizations I Belong to"
+          },
+          {
+            "Type": "LanguageResources",
+            "LCID": 1036,
+            "Value": "Organizations I Belong to [FR]"
+          }
+        ]
+      }
+    ]
+  }
+adx_webpageforcreate: 0bf80bb0-27c1-ec11-983e-000d3a09d0bb
+adx_webpagefordetailsview: 36e0ed84-2195-ec11-b400-0022486def0b

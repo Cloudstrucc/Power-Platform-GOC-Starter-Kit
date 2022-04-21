@@ -19,43 +19,23 @@ adx_searchenabled: false
 adx_view: 555bfe86-98bf-ec11-983e-000d3a09d0bb
 adx_views: >-
   {
-
     "Type": "ViewMetadata",
-
     "Views": [
-
       {
-
         "Type": "View",
-
         "ViewId": "555bfe86-98bf-ec11-983e-000d3a09d0bb",
-
         "DisplayName": [
-
           {
-
             "Type": "LanguageResources",
-
             "LCID": 1033,
-
             "Value": "Documents"
-
           },
-
           {
-
             "Type": "LanguageResources",
-
             "LCID": 1036,
-
             "Value": "Documents"
-
           }
-
         ]
-
       }
-
     ]
-
   }

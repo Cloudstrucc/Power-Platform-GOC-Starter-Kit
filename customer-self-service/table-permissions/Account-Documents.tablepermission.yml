@@ -1,0 +1,13 @@
+adx_append: true
+adx_appendto: false
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: sharepointdocumentlocation
+adx_entityname: Account Documents
+adx_entitypermission_webrole: []
+adx_entitypermissionid: b9a5f615-21c1-ec11-983e-000d3a09c40e
+adx_parententitypermission: 6b901f36-c0b1-ec11-9840-000d3af456f9
+adx_parentrelationship: Account_SharepointDocumentLocation
+adx_read: true
+adx_scope: 756150003
+adx_write: true

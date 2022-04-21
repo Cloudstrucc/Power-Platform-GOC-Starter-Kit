@@ -1,6 +1,9 @@
 - adx_name: Create Case
   adx_pageid: e360aa61-8ded-e511-80d2-00155dee6a04
   adx_sitemarkerid: 018a3f9d-38ed-e511-80d2-00155dee6a04
+- adx_name: Notification Centre
+  adx_pageid: 5f0c0e90-17c1-ec11-983e-000d3a09d149
+  adx_sitemarkerid: 061a5674-18c1-ec11-983e-000d3a09d149
 - adx_name: Category
   adx_pageid: 61d4fd75-0914-42eb-8a2e-72c9d90021c6
   adx_sitemarkerid: 112f4711-bb25-4c44-881a-40d8b4cc3052
@@ -19,6 +22,12 @@
 - adx_name: Public Profile
   adx_pageid: 830924e7-b93e-472a-b0f5-187ddc279192
   adx_sitemarkerid: 2c48df2d-e89e-4919-ae09-6148a8dcd079
+- adx_name: Submit Documents
+  adx_pageid: 84dc060c-8fbf-ec11-983e-000d3a09d0bb
+  adx_sitemarkerid: 3093cbd0-18c1-ec11-983e-000d3a09d149
+- adx_name: Service Requests
+  adx_pageid: 048dde65-17c1-ec11-983e-000d3a09d149
+  adx_sitemarkerid: 3641f87c-18c1-ec11-983e-000d3a09d149
 - adx_name: Knowledge
   adx_pageid: 0473f419-2ced-e511-80d2-00155dee6a04
   adx_sitemarkerid: 389f1146-cbf6-e511-80d4-00155d88bc74
@@ -43,3 +52,6 @@
 - adx_name: Poll Archives
   adx_pageid: f4761d7b-a940-4fbd-ac8a-99ef45f9e60e
   adx_sitemarkerid: f9dcadfc-d271-4f44-ba70-a758135e1296
+- adx_name: Organizations
+  adx_pageid: 936ae73b-17c1-ec11-983e-000d3a09d149
+  adx_sitemarkerid: fc15f668-18c1-ec11-983e-000d3a09d149

@@ -20,3 +20,14 @@
   adx_robotsfollowlink: true
   adx_weblinkid: 7233aadc-d2c4-eb11-bacc-000d3af385d3
   adx_weblinksetid: 26e2c4b6-d2c4-eb11-bacc-000d3af385d3
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 1
+  adx_displaypagechildlinks: false
+  adx_name: '[FR] My Organization Profile'
+  adx_openinnewwindow: false
+  adx_pageid: 36e0ed84-2195-ec11-b400-0022486def0b
+  adx_publishingstateid: ed67356b-a2db-49a9-b26d-4c8a59e3d9a7
+  adx_robotsfollowlink: true
+  adx_weblinkid: e128dbb4-2095-ec11-b400-0022486def0b
+  adx_weblinksetid: 26e2c4b6-d2c4-eb11-bacc-000d3af385d3
