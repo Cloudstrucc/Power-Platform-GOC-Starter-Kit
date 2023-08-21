@@ -1,6 +1,6 @@
 # Government of Canada Power Platform StarterKit
 
-![Link to documentation]<https://csdocs.z9.web.core.windows.net/documentation/index.html>
+[Link to technical documentation](https://csdocs.z9.web.core.windows.net/documentation/index.html)
 
 ## Introduction
 
