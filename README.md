@@ -1,4 +1,6 @@
-# Link to our Docs (also in the Documentation folder of this repo - suggested to clone this as well for local project as part of your ALM): <https://csdocs.z9.web.core.windows.net/documentation/index.html>
+# Government of Canada Power Platform StarterKit
+
+![Link to documentation]<https://csdocs.z9.web.core.windows.net/documentation/index.html>
 
 ## Introduction
 
@@ -130,15 +132,11 @@ The App User leveraged to connect to each non production environment is the your
 
 ## Overall software/cloud architecture (example)
 
-![Sotware Architecture-Draft - Subject to minor updates](Documentation/images/GOC-SDD/image6.png)
-
-## General High Level Data Architecture of relationship between an OOB Case a program (competition form)
-
-![HL Case -> Competition -Draft - Subject to minor updates](Documentation/images/GOC-SDD/image35.png)
+![Sotware Architecture-Draft - Subject to minor updates](Documentation/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png)
 
 ## Wizard Form Configuration architecture
 
-![Subject to minor updates](Documentation/images/GOC-SDD/ec0585993640016494873593500476ec.png)
+![Subject to minor updates](Documentation/images/SDD/ec0585993640016494873593500476ec.png)
 
 ## Enterprise Grants & Contributions
 

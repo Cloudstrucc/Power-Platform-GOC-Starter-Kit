@@ -457,18 +457,8 @@ to your DevOps project.
 
 ### Pre-Requisites
 
-- Commit the following [Pipeline Automation YAML
-    File](https://github.com/GAC/PowerPlatformCICD/blob/main/PowerPlatform-CI.yml)
-    to your repository's root directory
-
-- Commit the following [PowerShell
-    script](https://github.com/GAC/PowerPlatformCICD/blob/main/PortalMigration.ps1)
-    to a folder named "Pipeline-Scripts" in your repository's root
-    directory
-
-- Download the [release-pipeline JSON
-    file](https://github.com/GAC/PowerPlatformCICD/blob/main/PowerPlatform-Deployment.json)
-
+- Make sure to have the full repo cloned and the yml files at root and your pipeline scripts folder. These files must be updated to ensure your local values are updated
+  
 - Create a Solutions folder in your repository's root directory
 
 - Create a Data folder in your repository's root directory
@@ -498,13 +488,3 @@ a DevOps repository to leverages this extension
 ### Install the following marketplace plugins
 
 ![Image Info](../images/ALM/image19.png)
-
-
-
-
-
-
-
-
-
-
