@@ -132,8 +132,6 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-*/Microsoft.PowerApps.CLI.1.25.2
-
 # TeamCity is a build add-in
 _TeamCity*
 
@@ -378,6 +376,8 @@ Portals/customer-self-service/basic-forms/step-2---supporting-documents-(sharepo
 
 /**/*.pdf
 /**/*_site
-/**/*.exe
+
+*.exe
+**/**/*.exe
 
 

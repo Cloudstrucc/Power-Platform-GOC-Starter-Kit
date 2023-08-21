@@ -143,3 +143,11 @@ The App User leveraged to connect to each non production environment is the your
 ## Enterprise Grants & Contributions
 
 *Details coming soon* - baseline data model solution (EGCS-DS) is available under the Solutions/Unmanged folder. The unpacked and packed (managed) versions coming with the documentation update in our next release. A second version of the customer-self-service portal for G&C will be published as well in our next release slated for August 30 - which includes G&C specific baseline functionality whereas the customer-self-service includes the functionality for any dataverse environment with the D365 Customer Service (basic and pro) licensing available.
+
+## Dependencies
+
+To ensure this theme is deployable in your environment you will need the following (minimum only, additonal dependencies required if you deploy DocFX, DevOps Pipelines, B2C and all other artifacts for the fulsome implementation of the entire architecture - described in the documentation)
+
+1. Dynamics 365 Customer Service Licensing (basic, pro, or enterpise) - Minimum.
+2. The unmanaged solutions contained in the Solutions/Unmanaged folder
+3. The customer-self-service portal application installed in the target Dataverse environment
