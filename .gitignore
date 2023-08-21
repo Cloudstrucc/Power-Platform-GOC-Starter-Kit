@@ -132,6 +132,8 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+*/Microsoft.PowerApps.CLI.1.25.2
+
 # TeamCity is a build add-in
 _TeamCity*
 
