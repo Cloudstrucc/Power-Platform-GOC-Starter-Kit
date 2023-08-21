@@ -1,0 +1,7 @@
+adx_entityname: adx_communityforumthread
+adx_isdefault: false
+adx_name: Forum Thread
+adx_pagetemplateid: a3c17d68-e7ab-47c2-afa3-2a6f9ecb4099
+adx_rewriteurl: ~/Areas/Forums/Pages/ForumThread.aspx
+adx_type: 756150000
+adx_usewebsiteheaderandfooter: true

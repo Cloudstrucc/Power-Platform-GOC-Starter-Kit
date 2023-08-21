@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{721f58d6-93ee-4b82-b721-8b96e9bba280}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cs_name" select="1" icon="1" preview="1">
+        <row name="result" id="cs_formsessionstepid">
+          <cell name="cs_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" distinct="true">
+        <entity name="cs_formsessionstep">
+          <attribute name="cs_formsessionstepid" />
+          <attribute name="cs_name" />
+          <attribute name="createdon" />
+          <order attribute="cs_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Form Session Steps" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

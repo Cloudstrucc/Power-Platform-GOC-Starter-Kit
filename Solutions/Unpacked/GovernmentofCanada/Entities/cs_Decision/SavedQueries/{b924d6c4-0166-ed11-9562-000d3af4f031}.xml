@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b924d6c4-0166-ed11-9562-000d3af4f031}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cs_name" select="1" icon="1" preview="1">
+        <row name="result" id="cs_decisionid">
+          <cell name="cs_name" width="100" />
+          <cell name="cs_decisiontype" width="250" />
+          <cell name="createdby" width="300" />
+          <cell name="createdon" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cs_decision">
+          <attribute name="cs_name" />
+          <attribute name="cs_decisionid" />
+          <attribute name="createdby" />
+          <attribute name="createdon" />
+          <attribute name="cs_decisiontype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.1.0.2</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Decisions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,13 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: sharepointdocumentlocation
+adx_entityname: Customer Servicer - Case Documents
+adx_entitypermission_webrole: []
+adx_entitypermissionid: 0061679c-0731-ee11-bdf4-000d3a09d4d4
+adx_parententitypermission: 2d7a4737-80a8-ec11-9840-0022486de99a
+adx_parentrelationship: incident_SharePointDocumentLocations
+adx_read: true
+adx_scope: 756150003
+adx_write: true

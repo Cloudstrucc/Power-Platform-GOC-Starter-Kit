@@ -1,0 +1,82 @@
+trigger:
+- DeploymentBranch
+
+variables:
+- name: AzureConnectionName
+  value: 'GOCDocFxDeploy'
+- name: AzureAppServiceName
+  value: 'FINTRACgocdocfx'
+
+pool:
+  vmImage: windows-latest
+
+steps:
+
+
+  # install docfx
+  - powershell: choco install docfx -y
+    displayName: Install docfx
+
+  - powershell: choco install wkhtmltopdf
+    displayName: Install wkhtmltopdf
+
+  - task: UseDotNet@2
+    displayName: "Using .NET Core 3.1.x"
+    inputs:
+      version: "3.1.x"
+      packageType: sdk
+
+  # run docfx
+  - powershell: |
+        &docfx docfx.json
+        
+        if ($lastexitcode -ne 0)
+        {
+          throw [System.Exception] "docfx build failed with exit code $lastexitcode."
+        }
+    condition: succeeded()
+    displayName: Run docfx
+
+  # Troubleshooting filesystem 
+  - task: PowerShell@2
+    inputs:
+      targetType: 'inline'
+      script: |
+        # show file contents of the Build Sources Directory
+        cd  documentation/
+        dir
+      workingDirectory: '$(Build.SourcesDirectory)'
+    # Upload PDF to blob storage
+  - task: AzureFileCopy@5
+    inputs:
+     SourcePath: '$(Build.SourcesDirectory)/documentation/s_documentation.pdf'
+     azureSubscription: 'GOCDocFxDeploy'
+     Destination: 'AzureBlob'
+     storage: 'csgocdocfx'
+     ContainerName: 'gocpdf'
+    
+    # Upload the _site folder to blob storage dedicated for site hosting
+  - task: AzureFileCopy@5
+    inputs:
+     SourcePath: '$(System.DefaultWorkingDirectory)/_site'
+     azureSubscription: 'GOCDocFxDeploy'
+     Destination: 'AzureBlob'
+     storage: 'csgocdocfx'
+     ContainerName: 'gocdocfxsite'
+  # Create an archive
+  - task: ArchiveFiles@2
+    displayName: 'Packing Documentation Web Site'
+    inputs:
+      rootFolderOrFile: '$(System.DefaultWorkingDirectory)/_site'
+      includeRootFolder: false
+      archiveType: 'zip'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/site.zip'
+      replaceExistingArchive: true
+
+  # deployment to Azure App Service no longer needed
+  ##- task: AzureRmWebAppDeployment@4
+  ##  displayName: 'Azure App Service Deploy: Documentation website'
+   ## inputs:
+    ##  azureSubscription: $(AzureConnectionName)
+     ## WebAppName: $(AzureAppServiceName)
+     ## packageForLinux: '$(Build.ArtifactStagingDirectory)/site.zip'

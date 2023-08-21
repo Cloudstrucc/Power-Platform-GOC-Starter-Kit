@@ -1,0 +1,29 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+
+<footer>
+  <div class="grad-bottom"></div>
+  <div class="footer">
+    <div class="container">
+      
+      {{{_appFooter}}}
+      {{^_appFooter}}<a href="Https://Canada.ca" target="_blank"><img class="float-right";  id="logo" src="https://gocdocfx.blob.core.windows.net/gocdocfxsite/_site/images/GOCLogos/wmms-blk.svg"" </a>{{/_appFooter}}
+    </div>
+    <div class = "container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-text">
+         
+              <a class="footer-link-text" href="/">Home</a>
+              <a class="footer-link-text" href="/documentation/index.html">Documentation</a>
+              <a class="footer-link-text" href="/product-releases/index.html">Product Releases </a>  
+              <!-- <a class="footer-link-text" href="https://gocdocfx.blob.core.windows.net/gocpdf/GOC-DocFx_documentation.pdf" target="_blank" download>Download PDF Copy of Docs </a>   -->
+           
+          </div>
+        </div>
+      <div class="container">
+       <span class="pull-right">
+        <a class="BackToTopButton"; href="#top">{{__global.backToTop}}</a>
+      </span> 
+      </div>
+  </div>
+</footer>

@@ -1,0 +1,33 @@
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 1
+  adx_displaypagechildlinks: false
+  adx_name: 'Step 1: General Information'
+  adx_openinnewwindow: false
+  adx_pageid: 5a5a8d33-0102-ed11-82e6-000d3af4d379
+  adx_publishingstateid: ed67356b-a2db-49a9-b26d-4c8a59e3d9a7
+  adx_robotsfollowlink: true
+  adx_weblinkid: 577c70c8-0002-ed11-82e6-000d3af4d379
+  adx_weblinksetid: e6805caf-0002-ed11-82e6-000d3af4d379
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 2
+  adx_displaypagechildlinks: false
+  adx_name: 'Step 2: Supporting Documents'
+  adx_openinnewwindow: false
+  adx_pageid: 114ae94f-0102-ed11-82e6-000d3af4d379
+  adx_publishingstateid: ed67356b-a2db-49a9-b26d-4c8a59e3d9a7
+  adx_robotsfollowlink: true
+  adx_weblinkid: 633553d7-0002-ed11-82e6-000d3af4d379
+  adx_weblinksetid: e6805caf-0002-ed11-82e6-000d3af4d379
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 3
+  adx_displaypagechildlinks: false
+  adx_name: 'Step 3: Attestation'
+  adx_openinnewwindow: false
+  adx_pageid: c8a00363-0102-ed11-82e6-000d3af4d379
+  adx_publishingstateid: ed67356b-a2db-49a9-b26d-4c8a59e3d9a7
+  adx_robotsfollowlink: true
+  adx_weblinkid: e4a295f3-0002-ed11-82e6-000d3af4d379
+  adx_weblinksetid: e6805caf-0002-ed11-82e6-000d3af4d379

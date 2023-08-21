@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>Customerservicehub</UniqueName>
+  <IntroducedVersion>9.1.0.0</IntroducedVersion>
+  <WebResourceId>21aa1d8b-2c55-e711-80f0-000d3aa2b1c4</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="goal" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="lead" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyn_dataanalyticsreport_ksinsights" solutionaction="Added" />
+    <AppModuleComponent type="60" id="{4a63c8d1-6c1e-48ec-9db4-3e6c7155334c}" solutionaction="Added" />
+    <AppModuleComponent type="60" id="{1898d587-4b84-ec11-8d21-0022481c0d29}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{915f6055-2e07-4276-ae08-2b96c8d02c57}" solutionaction="Removed" />
+  </AppModuleComponents>
+  <LocalizedNames>
+    <LocalizedName description="Customer Service Hub" languagecode="1033" />
+    <LocalizedName description="Centre de service clientèle" languagecode="1036" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A focused, interactive experience for managing your customer service." languagecode="1033" />
+    <Description description="Une expérience ciblée et interactive pour la gestion de votre service clientèle." languagecode="1036" />
+  </Descriptions>
+</AppModule>

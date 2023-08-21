@@ -1,0 +1,10 @@
+{
+    "mimeTypes": {
+        ".json": "text/json",
+        ".js": "application/javascript",
+        ".css": "text/css",
+        ".html": "text/html",
+        ".md": "text/markdown",
+        ".map": "application/json"
+      }
+}

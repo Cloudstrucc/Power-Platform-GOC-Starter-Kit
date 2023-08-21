@@ -1,0 +1,721 @@
+name: $(Project Name)_$(Date:yyyyMMdd)$(Rev:.r)
+trigger:
+  - dev
+variables:
+  - group: "Connection-Parameters-CI"
+  - name: Artifact1IsData
+    value: $[contains(variables['Artifact1'], 'xml')]
+  - name: Artifact2IsData
+    value: $[contains(variables['Artifact2'], 'xml')]
+  - name: Artifact3IsData
+    value: $[contains(variables['Artifact3'], 'xml')]
+  - name: Artifact4IsData
+    value: $[contains(variables['Artifact4'], 'xml')]
+  - name: DeployPortal
+    value: $[contains(variables['Deploy Portal? (Yes,No)'], 'Yes')]
+  - name: ExitPipeline
+    value: false
+#pool: CS-Agent       #This is the GAC private agent
+pool:
+   vmImage: windows-latest
+stages:
+  - stage: Artifact1
+    condition: ne(variables.Artifact1,'')
+    jobs:
+      - job: Artifact1Sln
+        condition: and(eq(variables.Artifact1IsData, 'false'),ne(variables.Artifact1, ''))
+        steps:
+          - script: echo BEGIN SOLUTION TRANSFER
+            displayName: "Transfer your solution(s) across environments"
+          - checkout: self
+            persistCredentials: true
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90
+          - task: PowerShell@2
+            displayName: 'Set Solution/Patch Version'
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Logical name of the solution passed via pipeline variable
+                $logicalName = $env:Artifact1
+
+                # Source environment path passed via pipeline variable
+                $sourceEnvironmentPath = $env:SourceSPN
+
+                # Function to determine if it's a patch or a solution based on logical name
+                function IsPatch {
+                    if ($logicalName -like '*.*.*.*') {
+                        return $true
+                    } else {
+                        return $false
+                    }
+                }
+                
+                # Determine if it's a patch or a solution
+                $isPatch = IsPatch
+                
+                # Function to extract the existing solution version from Solution.xml
+                function ExtractSolutionVersion {
+                    $zipFilePath = "$(Build.ArtifactStagingDirectory)\$(Artifact1).zip"
+                    $extractPath = "$(Build.ArtifactStagingDirectory)\solution"
+
+                    Expand-Archive -Path $zipFilePath -DestinationPath $extractPath
+
+                    $solutionXmlPath = Join-Path $extractPath "Solution.xml"
+                    if (Test-Path $solutionXmlPath) {
+                        [xml]$solutionXml = Get-Content $solutionXmlPath
+                        return $solutionXml.ImportExportXml.SolutionManifest.Version
+                    }
+
+                    return "0.0.0.0"  # Default version
+                }
+
+                # Extract the existing solution version
+                $existingVersion = ExtractSolutionVersion
+
+                # Increment the appropriate part based on patch or solution
+                $versionParts = $existingVersion.Split('.')
+                if ($isPatch) {
+                    # Increment the fourth integer
+                    $versionParts[3] = [int]$versionParts[3] + 1
+                } else {
+                    # Increment the second integer
+                    $versionParts[1] = [int]$versionParts[1] + 1
+                }
+
+                # Construct the new version
+                $newVersion = $versionParts -join '.'
+
+                Write-Host "Existing Solution Version: $existingVersion"
+                Write-Host "New Solution Version: $newVersion"
+
+                # Set the new version as a pipeline variable
+                Write-Host "##vso[task.setvariable variable=NewSolutionVersion1;isOutput=true]$newVersion"
+            condition: succeededOrFailed()  
+          - task: PowerPlatformSetSolutionVersion@2
+            inputs:
+              authenticationType: 'PowerPlatformSPN'
+              PowerPlatformSPN: '$(SourceSPN)'
+              SolutionName: '$(Artifact1)'
+              SolutionVersionNumber: '$(NewSolutionVersion1)'
+          - task: PowerPlatformExportSolution@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(SourceSPN)"
+              SolutionName: "$(Artifact1)"
+              SolutionOutputFile: '$(Build.ArtifactStagingDirectory)\$(Artifact1).zip'
+              Managed: true
+              AsyncOperation: true
+              MaxAsyncWaitTime: "60"
+              ExportAutoNumberingSettings: true
+              ExportCalendarSettings: true
+              ExportCustomizationSettings: true
+              ExportEmailTrackingSettings: true
+              ExportGeneralSettings: true
+              ExportIsvConfig: true
+              ExportMarketingSettings: true
+              ExportOutlookSynchronizationSettings: true
+              ExportRelationshipRoles: true
+              ExportSales: true
+          - task: PowerPlatformChecker@2
+            inputs:
+              PowerPlatformSPN: "$(SourceSPN)"
+              RuleSet: "0ad12346-e108-40b8-a956-9a8f95ea18c9"
+              ErrorLevel: "CriticalIssueCount"
+              ErrorThreshold: "1"
+              FailOnPowerAppsCheckerAnalysisError: false
+              ArtifactDestinationName: "SolutionAnalysisLogs"
+              FilesToAnalyze: '$(Build.ArtifactStagingDirectory)\$(Artifact1).zip'
+          - task: PowerPlatformUnpackSolution@2
+            inputs:
+              SolutionInputFile: '$(Build.ArtifactStagingDirectory)\$(Artifact1).zip'
+              SolutionTargetFolder: '$(Build.SourcesDirectory)\Solutions\Unpacked\$(Artifact1)'
+              SolutionType: "Managed"
+          - task: PowerShell@2
+            displayName: 'Configure Git and Push Changes'
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Get the user information from environment variables
+                $userDisplayName = $env:BUILD_REQUESTEDFOR
+                $userEmail = $env:BUILD_REQUESTEDFOREMAIL
+                # Configure Git with user information
+                git config --global user.email $userEmail
+                git config --global user.name $userDisplayName
+                Write-Host 'Since this is Windows Agent, set this in GIT for Windows to support longer paths than default 256'
+                git config --system core.longpaths true
+                Write-Host 'Commit all changes'               
+                git add .
+                git commit -am "Solution unpacked source committed to repo"
+                # Check if the branch exists
+                $branchExists = git rev-parse --verify main
+                if (-not $branchExists) {
+                    Write-Host 'Creating and checking out main branch'
+                    git checkout -b main
+                } else {
+                  # Ensure the branch exists and is checked out
+                    git checkout main                  
+                    # Fetch and pull the latest changes from the remote main branch
+                    git fetch origin main
+                    git pull origin main
+                }                
+                Write-Host 'Push code to main branch'
+                git -c http.extraheader="AUTHORIZATION: bearer $(System.AccessToken)" push origin main
+                git clean -fdx              
+            env:
+              SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+          - script: echo END SOLUTION TRANSFER (SUCCESS)
+            displayName: "Successfully Transferred your solution(s)"
+          - task: PowerPlatformPackSolution@2
+            inputs:
+              SolutionSourceFolder: '$(Build.SourcesDirectory)\Solutions\Unpacked\$(Artifact1)'
+              SolutionOutputFile: '$(Build.SourcesDirectory)\Solutions\Managed\$(Artifact1).zip'
+              SolutionType: "Managed"
+          - task: PowerPlatformImportSolution@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              SolutionInputFile: '$(Build.SourcesDirectory)\Solutions\Managed\$(Artifact1).zip'
+              AsyncOperation: true
+              MaxAsyncWaitTime: "60"
+          - script: echo FINISHED SOLN IMPORT!
+            displayName: "PowerPlatform Solution Import Pipeline Completed Successfully"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "$(Build.ArtifactStagingDirectory)"
+              ArtifactName: "Sln"
+              publishLocation: "Container"
+      - job: Artifact1Data
+        condition: and(succeeded(), eq(variables.Artifact1IsData, 'true'), ne(variables.Artifact1,''))
+        steps:
+          - script: echo BEGIN DATA TRANSFER
+            displayName: "Transfer your data across environments"
+          - checkout: self
+            persistCredentials: true
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90
+          - task: PowerPlatformExportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(SourceSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              SchemaFile: "Data/Schemas/$(Artifact1)"
+              DataFile: "Data/Exported-Data/Data.zip"
+              Overwrite: true
+          - task: PowerPlatformImportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              DataFile: "Data/Exported-Data/Data.zip"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "Data/Exported-Data/Data.zip"
+              ArtifactName: "Data"
+              publishLocation: "Container"
+  - stage: Artifact2
+    condition: ne(variables.Artifact2,'')
+    jobs:
+      - job: Artifact2Sln
+        condition: and(eq(variables.Artifact2IsData, 'false'),ne(variables.Artifact2, ''))
+        steps:
+          - script: echo BEGIN SOLUTION TRANSFER
+            displayName: "Transfer your solution(s) across environments"
+          - checkout: self
+            persistCredentials: true
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90
+          - task: PowerShell@2
+            displayName: "Output solution version"
+            inputs:
+              filePath: '$(Build.SourcesDirectory)\Pipeline-Scripts\OutputCurrentSolutionVersion.ps1'
+              arguments: -SourceURL '$(SourceURL)' -ClientID '$(ClientID)' -ClientSecret '$(Secret)' -TenantID '$(TenantID)'           
+            name: SolutionVersionTaskOutput 
+            condition: succeededOrFailed()             
+          # - task: PowerPlatformSetSolutionVersion@2
+          #   inputs:
+          #     authenticationType: 'PowerPlatformSPN'
+          #     PowerPlatformSPN: '$(SourceSPN)'
+          #     SolutionName: '$(Artifact2)'
+          #     SolutionVersionNumber: '$(SolutionVersionTaskOutput.SolutionVersionOutput)'
+          - task: PowerPlatformExportSolution@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(SourceSPN)"
+              SolutionName: "$(Artifact2)"
+              SolutionOutputFile: '$(Build.ArtifactStagingDirectory)\$(Artifact2).zip'
+              Managed: true
+              AsyncOperation: true
+              MaxAsyncWaitTime: "60"
+              ExportAutoNumberingSettings: true
+              ExportCalendarSettings: true
+              ExportCustomizationSettings: true
+              ExportEmailTrackingSettings: true
+              ExportGeneralSettings: true
+              ExportIsvConfig: true
+              ExportMarketingSettings: true
+              ExportOutlookSynchronizationSettings: true
+              ExportRelationshipRoles: true
+              ExportSales: true
+          - task: PowerPlatformChecker@2
+            inputs:
+              PowerPlatformSPN: "$(SourceSPN)"
+              RuleSet: "0ad12346-e108-40b8-a956-9a8f95ea18c9"
+              ErrorLevel: "CriticalIssueCount"
+              ErrorThreshold: "1"
+              FailOnPowerAppsCheckerAnalysisError: false
+              ArtifactDestinationName: "SolutionAnalysisLogs"
+              FilesToAnalyze: '$(Build.ArtifactStagingDirectory)\$(Artifact2).zip'
+          - task: PowerPlatformUnpackSolution@2
+            inputs:
+              SolutionInputFile: '$(Build.ArtifactStagingDirectory)\$(Artifact2).zip'
+              SolutionTargetFolder: '$(Build.SourcesDirectory)\Solutions\Unpacked\$(Artifact2)'
+              SolutionType: "Managed"
+          - task: PowerShell@2
+            displayName: 'Configure Git and Push Changes'
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Get the user information from environment variables
+                $userDisplayName = $env:BUILD_REQUESTEDFOR
+                $userEmail = $env:BUILD_REQUESTEDFOREMAIL
+                # Configure Git with user information
+                git config --global user.email $userEmail
+                git config --global user.name $userDisplayName
+                Write-Host 'Since this is Windows Agent, set this in GIT for Windows to support longer paths than default 256'
+                git config --system core.longpaths true
+                Write-Host 'Commit all changes'               
+                git add .
+                git commit -am "Solution unpacked source committed to repo"
+                # Check if the branch exists
+                $branchExists = git rev-parse --verify main
+                if (-not $branchExists) {
+                    Write-Host 'Creating and checking out main branch'
+                    git checkout -b main
+                } else {
+                  # Ensure the branch exists and is checked out
+                    git checkout main                  
+                    # Fetch and pull the latest changes from the remote main branch
+                    git fetch origin main
+                    git pull origin main
+                }                
+                Write-Host 'Push code to main branch'
+                git -c http.extraheader="AUTHORIZATION: bearer $(System.AccessToken)" push origin main
+                git clean -fdx              
+            env:
+              SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+          - script: echo END SOLUTION TRANSFER (SUCCESS)
+            displayName: "Successfully Transferred your solution(s)"
+          - task: PowerPlatformPackSolution@2
+            inputs:
+              SolutionSourceFolder: '$(Build.SourcesDirectory)\Solutions\Unpacked\$(Artifact2)'
+              SolutionOutputFile: '$(Build.SourcesDirectory)\Solutions\Managed\$(Artifact2).zip'
+              SolutionType: "Managed"
+          - task: PowerPlatformImportSolution@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              SolutionInputFile: '$(Build.SourcesDirectory)\Solutions\Managed\$(Artifact2).zip'
+              AsyncOperation: true
+              MaxAsyncWaitTime: "60"
+          - script: echo FINISHED SOLN IMPORT!
+            displayName: "PowerPlatform Solution Import Pipeline Completed Successfully"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "$(Build.ArtifactStagingDirectory)"
+              ArtifactName: "Sln2"
+              publishLocation: "Container"
+      - job: Artifact2Data
+        condition: and(succeeded(), eq(variables.Artifact2IsData, 'true'), ne(variables.Artifact2,''))
+        steps:
+          - script: echo BEGIN DATA TRANSFER
+            displayName: "Transfer your data across environments"
+          - checkout: self
+            persistCredentials: true
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90
+          - task: PowerPlatformExportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(SourceSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              SchemaFile: "Data/Schemas/$(Artifact2)"
+              DataFile: "Data/Exported-Data/Data2.zip"
+              Overwrite: true
+          - task: PowerPlatformImportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              DataFile: "Data/Exported-Data/Data2.zip"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "Data/Exported-Data/Data2.zip"
+              ArtifactName: "Data"
+              publishLocation: "Container"
+  - stage: Artifact3
+    dependsOn:
+      - Artifact1
+      - Artifact2
+    condition: and(ne(variables.Artifact3,''),in(dependencies.Artifact2.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact1.result, 'Succeeded', 'Skipped'))
+    jobs:
+      - job: Artifact3Sln
+        condition: and(succeeded(),eq(variables.Artifact3IsData, 'false'),ne(variables.Artifact3, ''))
+        steps:
+          - script: echo BEGIN SOLUTION TRANSFER
+            displayName: "Transfer your solution(s) across environments"
+          - checkout: self
+            persistCredentials: true
+
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90
+          - task: PowerPlatformSetSolutionVersion@2
+            inputs:
+              authenticationType: 'PowerPlatformSPN'
+              PowerPlatformSPN: '$(SourceSPN)'
+              SolutionName: '$(Artifact3)'
+              SolutionVersionNumber: '$(Version Artifact 3)'
+          - task: PowerPlatformExportSolution@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(SourceSPN)"
+              SolutionName: "$(Artifact3)"
+              SolutionOutputFile: '$(Build.ArtifactStagingDirectory)\$(Artifact3).zip'
+              Managed: true
+              AsyncOperation: true
+              MaxAsyncWaitTime: "60"
+              ExportAutoNumberingSettings: true
+              ExportCalendarSettings: true
+              ExportCustomizationSettings: true
+              ExportEmailTrackingSettings: true
+              ExportGeneralSettings: true
+              ExportIsvConfig: true
+              ExportMarketingSettings: true
+              ExportOutlookSynchronizationSettings: true
+              ExportRelationshipRoles: true
+              ExportSales: true
+          - task: PowerPlatformChecker@2
+            inputs:
+              PowerPlatformSPN: "$(SourceSPN)"
+              RuleSet: "0ad12346-e108-40b8-a956-9a8f95ea18c9"
+              ErrorLevel: "CriticalIssueCount"
+              ErrorThreshold: "1"
+              FailOnPowerAppsCheckerAnalysisError: false
+              ArtifactDestinationName: "SolutionAnalysisLogs"
+              FilesToAnalyze: '$(Build.ArtifactStagingDirectory)\$(Artifact3).zip'
+          - task: PowerPlatformUnpackSolution@2
+            inputs:
+              SolutionInputFile: '$(Build.ArtifactStagingDirectory)\$(Artifact3).zip'
+              SolutionTargetFolder: '$(Build.SourcesDirectory)\Solutions\Unpacked\$(Artifact3)'
+              SolutionType: "Managed"
+          - task: PowerShell@2
+            displayName: 'Configure Git and Push Changes'
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Get the user information from environment variables
+                $userDisplayName = $env:BUILD_REQUESTEDFOR
+                $userEmail = $env:BUILD_REQUESTEDFOREMAIL
+                # Configure Git with user information
+                git config --global user.email $userEmail
+                git config --global user.name $userDisplayName
+                Write-Host 'Since this is Windows Agent, set this in GIT for Windows to support longer paths than default 256'
+                git config --system core.longpaths true
+                Write-Host 'Commit all changes'               
+                git add .
+                git commit -am "Solution unpacked source committed to repo"
+                # Check if the branch exists
+                $branchExists = git rev-parse --verify main
+                if (-not $branchExists) {
+                    Write-Host 'Creating and checking out main branch'
+                    git checkout -b main
+                } else {
+                  # Ensure the branch exists and is checked out
+                    git checkout main                  
+                    # Fetch and pull the latest changes from the remote main branch
+                    git fetch origin main
+                    git pull origin main
+                }                
+                Write-Host 'Push code to main branch'
+                git -c http.extraheader="AUTHORIZATION: bearer $(System.AccessToken)" push origin main
+                git clean -fdx
+            env:
+              SYSTEM_ACCESSTOKEN: $(System.AccessToken)  
+          - script: echo END SOLUTION TRANSFER (SUCCESS)
+            displayName: "Successfully Transferred your solution(s)"
+          - task: PowerPlatformPackSolution@2
+            inputs:
+              SolutionSourceFolder: '$(Build.SourcesDirectory)\Solutions\Unpacked\$(Artifact3)'
+              SolutionOutputFile: '$(Build.SourcesDirectory)\Solutions\Managed\$(Artifact3).zip'
+              SolutionType: "Managed"
+          - task: PowerPlatformImportSolution@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              SolutionInputFile: '$(Build.SourcesDirectory)\Solutions\Managed\$(Artifact3).zip'
+              AsyncOperation: true
+              MaxAsyncWaitTime: "60"
+          - script: echo FINISHED SOLN IMPORT!
+            displayName: "PowerPlatform Solution Import Pipeline Completed Successfully"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "$(Build.ArtifactStagingDirectory)"
+              ArtifactName: "Sln3"
+              publishLocation: "Container"
+      - job: Artifact3Data
+        condition: and(succeeded(),eq(variables.Artifact3IsData, 'true'),ne(variables.Artifact3, ''))
+        steps:
+          - script: echo BEGIN DATA TRANSFER
+            displayName: "Transfer your data across environments"
+          - checkout: self
+            persistCredentials: true
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90
+          - task: PowerPlatformExportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(SourceSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              SchemaFile: "Data/Schemas/$(Artifact3)"
+              DataFile: "Data/Exported-Data/Data3.zip"
+              Overwrite: true
+          - task: PowerPlatformImportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              DataFile: "Data/Exported-Data/Data3.zip"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "Data/Exported-Data/Data3.zip"
+              ArtifactName: "Data3"
+              publishLocation: "Container"
+  - stage: Artifact4
+    dependsOn:
+      - Artifact1
+      - Artifact2
+      - Artifact3
+    condition: and(ne(variables.Artifact4,''),in(dependencies.Artifact2.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact1.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact3.result, 'Succeeded', 'Skipped'))
+    jobs:
+      - job: Artifact4Sln
+        condition: and(succeeded(),eq(variables.Artifact4IsData, 'false'), ne(variables.Artifact4, ''))
+        steps:
+          - script: echo BEGIN SOLUTION TRANSFER
+            displayName: "Transfer your solution(s) across environments"
+          - checkout: self
+            persistCredentials: true
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90
+          - task: PowerPlatformSetSolutionVersion@2
+            inputs:
+              authenticationType: 'PowerPlatformSPN'
+              PowerPlatformSPN: '$(SourceSPN)'
+              SolutionName: '$(Artifact4)'
+              SolutionVersionNumber: '$(Version Artifact 4)'
+          - task: PowerPlatformExportSolution@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(SourceSPN)"
+              SolutionName: "$(Artifact4)"
+              SolutionOutputFile: '$(Build.ArtifactStagingDirectory)\$(Artifact4).zip'
+              Managed: true
+              AsyncOperation: true
+              MaxAsyncWaitTime: "60"
+              ExportAutoNumberingSettings: true
+              ExportCalendarSettings: true
+              ExportCustomizationSettings: true
+              ExportEmailTrackingSettings: true
+              ExportGeneralSettings: true
+              ExportIsvConfig: true
+              ExportMarketingSettings: true
+              ExportOutlookSynchronizationSettings: true
+              ExportRelationshipRoles: true
+              ExportSales: true
+          - task: PowerPlatformChecker@2
+            inputs:
+              PowerPlatformSPN: "$(SourceSPN)"
+              RuleSet: "0ad12346-e108-40b8-a956-9a8f95ea18c9"
+              ErrorLevel: "CriticalIssueCount"
+              ErrorThreshold: "1"
+              FailOnPowerAppsCheckerAnalysisError: false
+              ArtifactDestinationName: "SolutionAnalysisLogs"
+              FilesToAnalyze: '$(Build.ArtifactStagingDirectory)\$(Artifact4).zip'
+          - task: PowerPlatformUnpackSolution@2
+            inputs:
+              SolutionInputFile: '$(Build.ArtifactStagingDirectory)\$(Artifact4).zip'
+              SolutionTargetFolder: '$(Build.SourcesDirectory)\Solutions\Unpacked\$(Artifact4)'
+              SolutionType: "Managed"
+          - task: PowerShell@2
+            displayName: 'Configure Git and Push Changes'
+            inputs:
+              targetType: 'inline'
+              script: |
+                # Get the user information from environment variables
+                $userDisplayName = $env:BUILD_REQUESTEDFOR
+                $userEmail = $env:BUILD_REQUESTEDFOREMAIL
+                # Configure Git with user information
+                git config --global user.email $userEmail
+                git config --global user.name $userDisplayName
+                Write-Host 'Since this is Windows Agent, set this in GIT for Windows to support longer paths than default 256'
+                git config --system core.longpaths true
+                Write-Host 'Commit all changes'               
+                git add .
+                git commit -am "Solution unpacked source committed to repo"
+                # Check if the branch exists
+                $branchExists = git rev-parse --verify main
+                if (-not $branchExists) {
+                    Write-Host 'Creating and checking out main branch'
+                    git checkout -b main
+                } else {
+                  # Ensure the branch exists and is checked out
+                    git checkout main                  
+                    # Fetch and pull the latest changes from the remote main branch
+                    git fetch origin main
+                    git pull origin main
+                }                
+                Write-Host 'Push code to main branch'
+                git -c http.extraheader="AUTHORIZATION: bearer $(System.AccessToken)" push origin main
+                git clean -fdx
+            env:
+              SYSTEM_ACCESSTOKEN: $(System.AccessToken)  
+          - script: echo END SOLUTION TRANSFER (SUCCESS)
+            displayName: "Successfully Transferred your solution(s)"
+          - task: PowerPlatformPackSolution@2
+            inputs:
+              SolutionSourceFolder: '$(Build.SourcesDirectory)\Solutions\Unpacked\$(Artifact4)'
+              SolutionOutputFile: '$(Build.SourcesDirectory)\Solutions\Managed\$(Artifact4).zip'
+              SolutionType: "Managed"
+          - task: PowerPlatformImportSolution@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              SolutionInputFile: '$(Build.SourcesDirectory)\Solutions\Managed\$(Artifact4).zip'
+              AsyncOperation: true
+              MaxAsyncWaitTime: "60"
+          - script: echo FINISHED SOLN IMPORT!
+            displayName: "PowerPlatform Solution Import Pipeline Completed Successfully"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "$(Build.ArtifactStagingDirectory)"
+              ArtifactName: "Sln4"
+              publishLocation: "Container"
+      - job: Artifact4Data
+        condition: and(succeeded(),eq(variables.Artifact4IsData, 'true'),ne(variables.Artifact4, ''))
+        steps:
+          - script: echo BEGIN DATA TRANSFER
+            displayName: "Transfer your data across environments"
+          - checkout: self
+            persistCredentials: true
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90
+          - task: PowerPlatformExportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(SourceSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              SchemaFile: "Data/Schemas/$(Artifact4)"
+              DataFile: "Data/Exported-Data/Data4.zip"
+              Overwrite: true
+          - task: PowerPlatformImportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              DataFile: "Data/Exported-Data/Data4.zip"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "Data/Exported-Data/Data4.zip"
+              ArtifactName: "Data4"
+              publishLocation: "Container"
+  - stage: Portals
+    dependsOn:
+      - Artifact1
+      - Artifact2
+      - Artifact3
+      - Artifact4
+    condition: and(eq(variables.DeployPortal, 'true'),in(dependencies.Artifact2.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact1.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact3.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact4.result, 'Succeeded', 'Skipped'))
+    jobs:
+      - job: DeployPortal
+        condition: succeeded()
+        steps:
+          - checkout: self
+            persistCredentials: true
+            clean: true   
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90       
+          - task: PowerPlatformExportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              SchemaFile: "Data/Schemas/site-settings.xml"
+              DataFile: "Data/Exported-Data/site-settings-staging-values.zip"
+              Overwrite: true 
+          - script: echo FINISHED SOLN EXPORT TO ZIP FILE!
+            displayName: "PowerPlatform Data Export Data zip file Completed Successfully"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "Data/Exported-Data/site-settings-staging-values.zip"
+              ArtifactName: "site-settings-data"
+              publishLocation: "Container"      
+          - task: PowerShell@2
+            inputs:
+              filePath: '$(Build.SourcesDirectory)\Pipeline-Scripts\PortalMigration.ps1'
+              arguments: -SourceURL '$(SourceURL)' -TargetURL '$(TargetURL)' -ClientID '$(ClientID)' -ClientSecret '$(Secret)' -TenantID '$(TenantID)' -DeploymentProfile '$(DeploymentProfile-Target)' -PortalName 'customer-self-service' -PortalSourceRootDirectory 'Portals'
+            env:
+              SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+              COMMENT: $(Comment)
+          - script: |
+              echo Portal Deployment Script Completed. Commencing GIT commit and Artifact storage              
+            displayName: "Portal Deployment Completed Starting GIT commit"          
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: $(Build.SourcesDirectory)\Portals
+              ArtifactName: "Portal"
+              publishLocation: "Container"         
+  - stage: ImportLatestSiteSettingsFromStaging
+    dependsOn:
+        - Artifact1
+        - Artifact2
+        - Artifact3
+        - Artifact4
+        - Portals
+    condition: and(eq(variables.DeployPortal, 'true'),eq(dependencies.Portals.result, 'Succeeded'),in(dependencies.Artifact2.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact1.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact3.result, 'Succeeded', 'Skipped'),in(dependencies.Artifact4.result, 'Succeeded', 'Skipped'))
+    jobs:
+     # update the site settings for the staging environment that have been overwritten by the dev deployment until the CLI update to the deploymnent profile argument is patched, at which point this job is no longer required.
+      # this job depends on a data file generated by the Dataverse's configuration migration utility that simply holds the existing site setting values of the target env which is source for this CI pipeline. 
+      - job: SiteSettingDataTransfer
+        condition: succeeded()
+        steps:
+          - script: echo BEGIN DATA TRANSFER OF SITE SETTINGS THAT ARE SAVED IN THE REPO (TEMP UNTIL CLI UPDATE TO DEPLOYMENT PROFILES WILL ALLOW US TO USE A CLI FLAG)           
+            displayName: "Site Setting (localized) data update to override source site setting override until the deployment porfiles feature flag in the Dataverse CLI is patched by MS at which point this job will be purged as no longer need (e.g we will use the --deploymentProfile staging (nvname.deployment.yml needs to live in the deployment-profile folder of the portal folder and also you need to use environemnt variables and never commit app registration secrets to the repo, you can look this up in the MS docs with simple google search or even use chatgpt"            
+          # - checkout: self
+          #   persistCredentials: true
+          - task: PowerPlatformToolInstaller@2
+            inputs:
+              PowerAppsAdminVersion: 2.0.137
+              CrmSdkCoreToolsVersion: 9.1.0.90          
+          - task: PowerPlatformImportData@2
+            inputs:
+              authenticationType: "PowerPlatformSPN"
+              PowerPlatformSPN: "$(TargetSPN)"
+              Environment: "$(BuildTools.EnvironmentUrl)"
+              DataFile: "Data/Exported-Data/site-settings-staging-values.zip"         

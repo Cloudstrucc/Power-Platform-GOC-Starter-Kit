@@ -1,0 +1,130 @@
+{% assign incident = entities['incident'][request.params.id] %}
+<div class="container">
+  {% if incident %}
+    <div class="page-heading">
+    <ul class="breadcrumb">
+     {% for crumb in page.breadcrumbs -%}
+     <li>
+      <a href="{{ crumb.url | h }}" title="{{ crumb.title | h }}">{{ crumb.title | truncate: 24 | h }}</a>
+     </li>
+     {% endfor -%}
+     <li class="active">{{ incident.ticketnumber | h }}</li>
+    </ul>
+    <div class="page-header">
+     <h1>{{ incident.title | h }}</h1>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-9">
+      {% if page.adx_copy %}
+       {% include 'page_copy' %}
+     {% endif %}
+     <div class="case-info">
+       {% if incident.permissions.can_read %}
+       <div class="case-header clearfix">
+          <div class="status pull-left">
+            {% if incident.casetypecode %}
+             <span class="label label-default">{{ incident.casetypecode.label | h }}</span>
+           {% endif %}
+           {% if incident.statecode.value == 0 %}
+             <span class="label label-info">{{ incident.statecode.label | h }} &ndash; {{ incident.statuscode.label | h }}</span>
+           {% endif %}
+           {% if incident.statecode.value == 1 %}
+             <span class="label label-success">{{ incident.statecode.label | h }} &ndash; {{ incident.statuscode.label | h }}</span>
+           {% endif %}
+           {% if incident.statecode.value == 2 %}
+             <span class="label label-danger">{{ incident.statecode.label | h }} &ndash; {{ incident.statuscode.label | h }}</span>
+           {% endif %}
+          </div>
+          </div>
+        {% endif %}
+        <div class="form">
+           {% entityform id:page.adx_entityform.id %}
+         </div>
+         {% assign entitlements_enabled = settings["CustomerSupport/CaseEntitlementEnabled"] | boolean %}
+          {% if entitlements_enabled %}
+            <script type="text/javascript">
+              // Show entitlement and product fields if site setting = true
+              (function ($) {
+                $("#productid").closest("td").show();
+               $("#entitlementid").closest("td").show();
+              }(jQuery));
+            </script>
+          {% else %}
+            <script type="text/javascript">
+              // Hide entitlement and product fields if site setting = false
+              (function ($) {
+                $("#productid").closest("td").hide();
+               $("#entitlementid").closest("td").hide();
+              }(jQuery));
+            </script>
+          {% endif %}
+         {% if incident.adx_resolution %}
+           <div class="resolution">
+             <div class="page-header">
+               <h3>{% editable snippets 'CustomerService/Case/Resolution' type: 'text', default: resx['CustomerService_Case_Resolution'], escape: true %}</h3>
+              </div>
+              {{ incident.adx_resolution | text_to_html  }}
+           </div>
+         {% endif %}
+         {% if incident.kbarticleid %}
+           {% assign article = entities['kbarticle'][incident.kbarticleid.id] %}
+           {% if article and article.cms.can_read and article.url %}
+             <div class="articles panel panel-default">
+                <div class="panel-heading">{% editable snippets 'CustomerService/Case/KnowledgeBaseArticle' type: 'text', default: resx['CustomerService_Case_Knowledge_Base_Article'], escape: true %}</div>
+                <ul class="list-group">
+                  <li class="list-group-item"><a href="{{ article.url | h }}">{{ article.title | h }}</a></li>
+                </ul>
+              </div>
+           {% endif %}
+         {% endif %}
+       </div>
+    </div>
+   </div>
+  {% else %}
+    <div class="page-heading">
+    <ul class="breadcrumb">
+     {% for crumb in page.breadcrumbs -%}
+     <li>
+      <a href="{{ crumb.url | h }}" title="{{ crumb.title | h }}">{{ crumb.title | truncate: 24 | h }}</a>
+     </li>
+     {% endfor -%}
+     <li class="active">{% editable snippets 'CustomerService/Case/NotFound' type: 'text', default: resx['CustomerService_Case_Not_Found'], escape: true %}</li>
+    </ul>
+    <div class="page-header">
+     <h1>{{ page.title | h }}</h1>
+    </div>
+   </div>
+    <div class="row">
+    <div class="col-md-12">
+        <div class="alert alert-block alert-danger">{% editable snippets 'CustomerService/Case/NotFoundSentence' type: 'text', default: resx['CustomerService_Case_Not_Found_Sentence'], escape: true %}</div>
+      </div>
+    </div>
+  {% endif %}
+</div>
+<style>
+  .case-info .form {
+    clear:both;
+    padding-top: 15px;
+  }
+  .case-info .articles {
+    margin-top: 20px;
+  }
+</style>
+<script>
+  $(document).ready(function() {
+    // remove empty row 
+    $(".case-info .clearfix").filter(function(index) { return this.children.length == 0 }).hide()
+    
+    // override bootstrap <p> margin and remove inserted <br>
+    var description = $("td.textarea").find("p");
+    description.css("margin-bottom", "0px");
+    description.find("br").first().remove();
+    
+    // remove Contact field if empty
+    var contact = $("#primarycontactid_name");
+    if (!contact.attr("value")) {
+      contact.parent().parent().parent().hide()
+    }
+  });
+</script>

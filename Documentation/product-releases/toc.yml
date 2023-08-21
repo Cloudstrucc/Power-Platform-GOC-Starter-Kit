@@ -1,0 +1,27 @@
+- name: Product Releases
+  href: index.md
+  topicHref: index.md
+  items:  
+  - name: System Design Guide
+    href: System Design Guide/SDD.md
+
+  - name: Azure B2C
+    href: AzureB2C/Releases.md
+
+  - name: ALM
+    href: ALM/ALM.md
+
+  - name: Azure Storage
+    href: Azure Storage/Releases.md
+
+  - name: GOC Theme Configuration
+    href: GOC Theme Configuration/Releases.md
+
+  - name: Portals CS Form Wizard
+    href: Portals CS Form Wizard/Releases.md
+
+  - name: SharePoint
+    href: SharePoint/Releases.md
+
+  - name: Digital Signatures Module
+    href: Digital Signatures Module/Releases.md

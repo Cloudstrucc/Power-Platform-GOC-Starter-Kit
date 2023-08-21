@@ -1,0 +1,206 @@
+<style>
+
+.usa-process-list {
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-size: 1.06rem;
+  line-height: 4;
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style-type: none;
+  padding-left: 0;
+  counter-reset: usa-numbered-list;
+  padding: 20px 0 0 calc((2.5rem / 2) - (0.5rem / 2));
+  position: relative;
+}
+.usa-process-list > li {
+  margin-bottom: 0;
+  max-width: unset;
+}
+.usa-process-list > .usa-process-list__item {
+  max-width: 72ex;
+}
+
+.usa-process-list__item {
+  border-left: 0.3125rem solid #EBEBEB;
+  font-size: 1.06rem;
+  margin-bottom: 0;
+  margin-left: 0.37rem;
+  padding-bottom: 2rem;
+  padding-left: calc(calc((2.5rem / 2) - 0.25rem) * 2);
+}
+
+
+.usa-prose .usa-process-list {
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-size: 1.06rem;
+  line-height: 3;
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style-type: none;
+  padding-left: 0;
+  counter-reset: usa-numbered-list;
+  padding: 20px 0 0 calc((2.5rem / 2) - (0.5rem / 2));
+  position: relative;
+}
+.usa-prose .usa-process-list > li {
+  margin-bottom: 0;
+  max-width: unset;
+}
+.usa-prose .usa-process-list > .usa-process-list__item {
+  max-width: 72ex;
+}
+.usa-prose .usa-process-list__item {
+  border-left: 0.5rem solid #d9e8f6;
+  font-size: 1.06rem;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+  padding-left: calc(calc((2.5rem / 2) - 0.25rem) * 2);
+}
+
+.usa-process-list__item:last-child {
+  border-left: 0.5rem solid transparent;
+}
+.usa-process-list__item::before {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  border-radius: 99rem;
+  width: 2.5rem;
+  background-color: #EBEBEB;
+
+  box-shadow: 0 0 0 0.25rem white;
+  color: #B0B0B0;
+  content: counter(usa-numbered-list, decimal);
+  counter-increment: usa-numbered-list;
+  display: flex;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-size: 1.2rem;
+  /* font-weight: 700; */
+  height: 3rem;
+  left: 0;
+  line-height: 0.9;
+  margin-top: 0.45rem;
+  position: absolute;
+  width: 3rem;
+}
+
+.active.usa-process-list__item::before {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  border-radius: 99rem;
+  width: 2.5rem;
+  background-color: #5664A8;
+
+
+  box-shadow: 0 0 0 0.25rem white;
+  color: white;
+  content: counter(usa-numbered-list, decimal);
+  counter-increment: usa-numbered-list;
+  display: flex;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 3rem;
+  left: 0;
+  line-height: 0.9;
+  margin-top: 0.45rem;
+  position: absolute;
+  width: 3rem;
+}
+
+
+.usa-process-list__item:hover::before {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  border-radius: 99rem;
+  width: 2.5rem;
+  background-color: #8B8DA5;
+  box-shadow: 0 0 0 0.25rem white;
+  color: white;
+  content: counter(usa-numbered-list, decimal);
+  counter-increment: usa-numbered-list;
+  display: flex;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 3rem;
+  left: 0;
+  line-height: 0.9;
+  margin-top: 0.45rem;
+  position: absolute;
+  width: 3rem;
+}
+
+
+
+.usa-process-list__item ul {
+  list-style-type: disc;
+}
+.usa-process-list__item ul li {
+  margin-bottom: 0.25rem;
+}
+.usa-process-list__item ul li:last-child {
+  margin-bottom: 0;
+}
+.usa-process-list__item > *:first-child {
+  margin-top: 0;
+}
+.usa-process-list__item > *:last-child {
+  margin-bottom: 0;
+}
+
+.usa-process-list__heading {
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  color: #B0B0B0;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-weight: 700;
+  margin: 0;
+
+}
+
+.active.usa-process-list__heading {
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+      sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    color: #1b1b1b;
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+      sans-serif;
+    font-weight: 700;
+    margin: 0;
+
+  }
+
+.usa-process-list__heading + * {
+  margin-top: 0.25rem;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+}
+
+</style>

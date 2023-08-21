@@ -1,0 +1,62 @@
+{% extends 'Layout 1 Column with Left Nav' %}
+
+{% block navigation %} 
+
+{% assign current_page = current_page | default: page %}
+{% assign parent_page = current_page.adx_parentpageid %}
+
+{% if parent_page %}
+{% assign weblink_set_name = parent_page.name %}
+  
+      {% assign weblink_set_name = page.adx_navigation.name %}
+      {% include "Weblink List Group Left" weblink_set_name: parent_page.name showdescriptions: true %}
+  
+{% endif %}
+
+{% endblock %}
+
+{% block main %}
+  {% include 'Validation Summary - Wizard Form Step'%}
+  {% include 'Page Copy' %}   
+
+  {% if page.adx_entitylist %}
+    {% include 'entity_list' key: page.adx_entitylist.id %}
+  {% endif %}
+  
+  {% if page.adx_entityform %}
+  <style>
+  h2 {
+    display: block;
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+</style>
+    
+    {% entityform id: page.adx_entityform.id %}
+
+ <script>
+       
+     //  jQuery(".instructions").detach().appendTo('#instructions');
+       jQuery(".validation-summary").detach().appendTo('#step-validation-header')       
+ 
+ </script>
+ 
+  {% endif %}
+  
+  {% if page.adx_webform %}
+    {% webform id: page.adx_webform.id %}
+  {% endif %}
+
+{% endblock %}
+
+{% block nextPrevious %}
+  {% if parent_page %}
+    {% include "Web Link Button" weblink_set_name: parent_page.name %}
+  {% endif %}
+{% endblock %}
+
+

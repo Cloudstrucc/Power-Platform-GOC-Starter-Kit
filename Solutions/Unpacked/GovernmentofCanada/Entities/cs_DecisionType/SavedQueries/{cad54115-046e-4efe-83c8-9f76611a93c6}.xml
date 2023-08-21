@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cad54115-046e-4efe-83c8-9f76611a93c6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cs_id" select="1" icon="1" preview="1">
+        <row name="result" id="cs_decisiontypeid">
+          <cell name="cs_id" width="100" />
+          <cell name="cs_table" width="250" />
+          <cell name="cs_team" width="250" />
+          <cell name="cs_type" width="250" />
+          <cell name="statuscode" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="modifiedby" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cs_decisiontype">
+          <attribute name="cs_decisiontypeid" />
+          <attribute name="cs_id" />
+          <order attribute="cs_id" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cs_table" />
+          <attribute name="cs_team" />
+          <attribute name="cs_type" />
+          <attribute name="statuscode" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Decision Types" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

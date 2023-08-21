@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d6190b35-9474-4098-9698-33f6627eb3bf}</formid>
+    <IntroducedVersion>7.0.0003</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{9748ec98-3746-40cc-83bf-d15c7363166f}" IsUserDefined="0" labelid="{c5d2e290-d6b4-43a6-a686-4d3d64a4fa4c}" name="general" ordinalvalue="0" solutionaction="Modified">
+          <labels>
+            <label description="General" languagecode="1036" solutionaction="Modified" />
+          </labels>
+          <columns>
+            <column width="50%" id="0" solutionaction="Modified">
+              <sections>
+                <section showlabel="false" showbar="false" id="{90b0776f-2977-4695-9cd4-73bb6c820f88}" IsUserDefined="0" labelid="{57aa666b-ad7b-4fca-ad1c-49c69f0d6351}" columns="1" ordinalvalue="0" solutionaction="Modified">
+                  <labels>
+                    <label description="Name" languagecode="1036" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4fde05d9-89b1-4acf-a98f-13159f1bdcc8}" labelid="{f719ff3d-795b-499f-8228-d6471e52da8e}" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{38d7b950-436b-412f-a71b-ae4187e60c14}" labelid="{c1e10744-d681-4a3b-8cc4-fa9c6dbd198d}" ordinalvalue="10002">
+                        <labels>
+                          <label description="E-mail" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell id="{f3eec8ff-7b5a-43af-92c4-1a41adaf4b50}" showlabel="true" locklevel="0" labelid="{2b43173c-2ca6-4de2-b8c6-45ce9af5d960}" visible="false" ordinalvalue="10003" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{2329843a-6ab4-4431-8a2b-101f3272e104}" showlabel="true" locklevel="1" labelid="{43438b83-bd58-4760-bbdc-ac39620022d9}" colspan="1" rowspan="1" visible="false" ordinalvalue="10004" solutionaction="Modified" />
+                      <cell id="{978deed3-c8b8-67bc-161c-3d82b294e8b5}" showlabel="false" ordinalvalue="20005" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1" solutionaction="Added">
+              <sections>
+                <section name="_section_383" id="eb1cc70b-6ac3-491a-a784-3ec4e65d5704" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows></rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{437b54ef-1cc7-4aba-8618-493252bbddf3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Invite Web Form" languagecode="1033" />
+      <LocalizedName description="Invite Web Form" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="This form is used by the portal to invite other's to join the portal" languagecode="1033" />
+      <Description description="Ce formulaire est utilisé par le portail pour inviter d'autres personnes à rejoindre celui-ci" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

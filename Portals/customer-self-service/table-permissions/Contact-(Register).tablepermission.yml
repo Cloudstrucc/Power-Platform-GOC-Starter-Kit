@@ -1,0 +1,12 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: contact
+adx_entityname: Contact (Register)
+adx_entitypermission_webrole:
+- 03a3c34f-f5a4-461f-8179-21710a52f22d
+adx_entitypermissionid: aeb5ff74-6039-ed11-9db1-000d3af4f031
+adx_read: false
+adx_scope: 756150000
+adx_write: false

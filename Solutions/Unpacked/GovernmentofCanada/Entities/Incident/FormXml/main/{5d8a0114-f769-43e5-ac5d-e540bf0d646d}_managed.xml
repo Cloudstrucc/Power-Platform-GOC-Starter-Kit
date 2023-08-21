@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5d8a0114-f769-43e5-ac5d-e540bf0d646d}</formid>
+    <IntroducedVersion>1.0.0000</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form enablerelatedinformation="true" relatedInformationCollapsed="false" shownavigationbar="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{06a2992a-9cc9-41a5-8f37-d2b2214fdde1}" IsUserDefined="0" labelid="{8f4339b4-e9f4-4b59-902e-461311582603}" name="{06a2992a-9cc9-41a5-8f37-d2b2214fdde1}" locklevel="0" expanded="true" showlabel="false" ordinalvalue="0" solutionaction="Modified">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" id="{51999b68-4b4c-439b-bb51-1b49edae03a9}" IsUserDefined="0" labelid="{c29fbd13-2982-4dbf-ac02-0e00788439df}" name="{51999b68-4b4c-439b-bb51-1b49edae03a9}" columns="1" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7eba9b6b-85a5-7a26-9e94-2e746e903c46}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Case Number" languagecode="1033" solutionaction="Added" />
+                          <label description="Numéro de l'incident" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                        <control id="ticketnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ticketnumber" disabled="true" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5446a148-2468-9669-7de1-23ceec12634c}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{82172fc9-a003-4203-87e6-73c8808ae942}" labelid="{203c1956-317f-42ab-b2aa-563803d61636}" visible="false" ordinalvalue="10002" solutionaction="Modified">
+                        <labels>
+                          <label description="Customer" languagecode="1033" solutionaction="Added" />
+                          <label description="Client" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ebb7042-a3c9-194a-22ce-a07cb853d686}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10003" solutionaction="Modified">
+                        <labels>
+                          <label description="Contact" languagecode="1033" solutionaction="Added" />
+                          <label description="Contact" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dae3e345-a070-4428-be90-ab0a926ca354}" showlabel="true" locklevel="1" visible="false" labelid="{d0345b93-d73e-48df-b403-45bab5a24ffc}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                          <label description="Propriétaire" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4738222a-979d-5631-c5eb-0a49e9de23d3}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{22006a60-33e3-05be-63bb-367908dc305d}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{a9859c32-0cdc-41b5-8e7e-3eb173cab4a8}" showlabel="true" locklevel="0" labelid="{f3f7d1e5-a5af-4c82-b86e-e71285af4e0e}" ordinalvalue="10005" solutionaction="Modified">
+                        <labels>
+                          <label description="Subject" languagecode="1033" solutionaction="Added" />
+                          <label description="Sujet" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04eba173-07d5-9417-b319-e51614e69157}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{399ba051-a01d-b3e2-3b17-7e786e2e2aa7}" showlabel="true" locklevel="0" colspan="1" rowspan="6" labelid="{7a2f97ab-e741-4984-8804-565f7c363ace}" ordinalvalue="10009" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{c405edb6-6c28-8c81-0821-1c79667835b2}" showlabel="true" locklevel="0" ordinalvalue="10010" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{e093d1de-be1c-089d-85b1-2c9703d50d55}" showlabel="true" rowspan="15" auto="false" colspan="1" locklevel="0" ordinalvalue="10011" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{9397004c-9492-410d-9157-5101f45e46dd}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Case Title" languagecode="1033" />
+                          <label description="Titre de l'incident" languagecode="1036" />
+                        </labels>
+                        <control id="title" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="title" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c0cd76f7-2e9a-4afd-8649-d6f4b92f131c}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                          <label description="Priorité" languagecode="1036" />
+                        </labels>
+                        <control id="prioritycode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="prioritycode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{06a2992a-9cc9-41a5-8f37-d2b2214fdde1}_section_2" showlabel="false" showbar="false" locklevel="0" id="{2910b06d-c03e-db82-8840-6305464d6077}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell colspan="1" id="{7aebc69c-c3bb-4489-a1f2-9faf3c8b363c}" labelid="{b799b89f-edd3-45cd-a21d-279a2ad0e5fb}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10000">
+                        <labels>
+                          <label description="Titre de l'incident" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="e99b2301-9a86-4369-b93c-a298203c3999" IsUserDefined="0" locklevel="0" showlabel="false" expanded="true" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Supporting Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" id="c001a2f6-0337-4ad1-93cd-33bafa61944c" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_spdocs" id="2743d6bc-1854-4fb6-9be3-7d3988b58bbd" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="2" solutionaction="Added">
+          <labels>
+            <label description="Supporting Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_4_section_spdocs" id="090cd59b-212b-4b9d-8ac5-4e947f16d1fb" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="SharePoint Docs" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{463e3098-09c5-48c4-923a-d9158cf61004}" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{ac9237f5-63f9-4f33-9af8-e2f63dc58516}" rowspan="4" colspan="1" auto="false" showlabel="false" ordinalvalue="10001">
+                        <labels>
+                          <label description="New SG control 1690935687761" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_spgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>sharepointdocument</TargetEntityType>
+                            <ViewId>{A5B008AC-07D9-4554-8509-2C05767BFF51}</ViewId>
+                            <ViewIds>{A5B008AC-07D9-4554-8509-2C05767BFF51}</ViewIds>
+                            <RelationshipName>incident_SharePointDocuments</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="d7c556f1-3888-4de3-9f0a-33fe327106fd" IsUserDefined="0" locklevel="0" showlabel="false" expanded="true" ordinalvalue="3" solutionaction="Added">
+          <labels>
+            <label description="Attestation" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_3_section_1" id="72811a03-511a-45ef-855d-e07ddd5f9fa3" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{36142a26-1ab8-4d06-bfea-cd124f6f8b5b}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="I agree" languagecode="1033" />
+                        </labels>
+                        <control id="cs_attestation" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cs_attestation" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{e4a0bdbe-1512-485d-af7c-2c05c515793c}">
+        <rows>
+          <row>
+            <cell id="{1444911f-6760-4c75-915e-60897f605d5a}" labelid="{14ba2daf-f497-46dc-9344-5376672cc2d4}" ordinalvalue="10000">
+              <labels>
+                <label description="Status" languagecode="1033" solutionaction="Added" />
+                <label description="Statut " languagecode="1036" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <header id="{5b7492bb-6740-4324-bcf8-c13b75516adf}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </header>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Web - Edit Case" languagecode="1033" />
+      <LocalizedName description="Web - Edit Case" languagecode="1036" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,31 @@
+{% assign weblink_set_name = weblink_set_name %}
+
+{% if weblink_set_name %}
+  {% assign weblink_set = weblinks[weblink_set_name] %}
+  {% if weblink_set %}
+      {% assign i = 0 %}
+      {% for link in weblink_set.weblinks %}
+        {% if i != 0 %}
+            {% assign i_minus_1 = i | minus: 1 %}
+            {% assign previousLink = weblink_set.weblinks[i_minus_1] %}
+        {% endif %}
+
+        {% if link.url == request.path %}
+            {% break %}
+        {% endif %}
+
+        {% assign i = i | plus: 1 %}
+      {% endfor %}
+
+
+        {% assign i_plus_1 = i | plus: 1 %}
+      {% if weblink_set.weblinks.size != i_plus_1 %}
+        {% assign nextLink = weblink_set.weblinks[i_plus_1] %}
+      {% endif %}
+      
+    <ul class="pager">
+      <li class="previous{% if previousLink %}{% else %} disabled{% endif %}"><a href="{{ previousLink.url }}{{ request.query }}" rel="prev">Previous</a></li>
+      <li class="next{% if nextLink %}{% else %} disabled{% endif %}"><a href="{{ nextLink.url }}{{ request.query }}" rel="next">Next</a></li>
+    </ul>
+ {% endif %}
+{% endif %}

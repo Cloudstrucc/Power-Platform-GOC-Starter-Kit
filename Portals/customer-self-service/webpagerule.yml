@@ -1,0 +1,17 @@
+- adx_name: Grant Change to Events
+  adx_right: 1
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole: []
+  adx_webpageaccesscontrolruleid: 325d8f2a-1212-4397-9f48-a5e4604dfb1e
+- adx_name: Grant Change to Content
+  adx_right: 1
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole: []
+  adx_webpageaccesscontrolruleid: 99f9b6d0-eeac-45ee-9c8e-605dd5e6e9de
+- adx_name: Grant Change to Administrators
+  adx_right: 1
+  adx_scope: 1
+  adx_webpageaccesscontrolrule_webrole:
+  - 3af20681-fc11-4e19-8bdc-f7416d37cf61
+  adx_webpageaccesscontrolruleid: ba49ad3c-e3ca-4ff0-91da-62f9ca52cd0f
+  adx_webpageid: 394d2396-7be6-4ee0-bf79-527c8962c7cc

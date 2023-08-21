@@ -1,0 +1,101 @@
+{% assign incident = null %}{% if request.params.caseid %}{% assign incident = entities['incident'][request.params.caseid] %}{% endif %}
+<div class="container">
+  {% if incident %}
+    <div class="page-heading">
+    <ul class="breadcrumb">
+     {% for crumb in page.breadcrumbs -%}
+     <li>
+      <a href="{{ crumb.url | h }}" title="{{ crumb.title | h }}">{{ crumb.title | truncate: 24 | h }}</a>
+     </li>
+     {% endfor -%}
+     <li class="active">{{ incident.ticketnumber | h }}</li>
+    </ul>
+    <div class="page-header">
+     <h1>{{ incident.title | h }} <small>{{ incident.ticketnumber | h }}</small>
+          <div class="pull-right">
+            <div class="btn-group">
+              <a href="javascript:window.print()" class="btn btn-default"><i class="glyphicon glyphicon-print"></i> Print</a>
+            </div>
+          </div>
+        </h1>
+    </div>
+   </div>
+    {% if incident.adx_publishtoweb and incident.statecode.value == 1 %}
+   <div class="row">
+    <div class="col-md-12">
+      {% if page.adx_copy %}
+       {% include 'page_copy' %}
+     {% endif %}
+     <div class="case-info">
+        <div class="status pull-right">
+          {% if incident.casetypecode %}
+           <span class="label label-default">{{ incident.casetypecode.label | h }}</span>
+         {% endif %}
+         <span class="label label-success">{{ incident.statecode.label | h }} &ndash; {{ incident.statuscode.label | h }}</span>
+        </div>
+        <div>
+         {% editable snippets 'CustomerService/Case/Resolved' type: 'text', default: resx['CustomerService_Case_Resolved'], escape: true %} {% if incident.adx_resolutiondate %}<time datetime="{{ incident.adx_resolutiondate | date_to_iso8601 }}">{{ incident.adx_resolutiondate }}</time>{% endif %}
+        </div>
+        <div class="description">
+           {{ incident.description | text_to_html  }}
+         </div>
+         {% if incident.adx_resolution %}
+           <div class="resolution">
+             <div class="page-header">
+               <h3>{% editable snippets 'CustomerService/Case/Resolution' type: 'text', default: resx['CustomerService_Case_Resolution'], escape: true %}</h3>
+              </div>
+              {{ incident.adx_resolution | text_to_html  }}
+           </div>
+         {% endif %}
+         {% if incident.kbarticleid %}
+           {% assign article = entities['kbarticle'][incident.kbarticleid.id] %}
+           {% if article and article.cms.can_read and article.url %}
+             <div class="articles panel panel-default">
+                <div class="panel-heading">{% editable snippets 'CustomerService/Case/KnowledgeBaseArticle' type: 'text', default: resx['CustomerService_Case_Knowledge_Base_Article'], escape: true %}</div>
+                <ul class="list-group">
+                  <li class="list-group-item"><a href="{{ article.url | h }}">{{ article.title | h }}</a></li>
+                </ul>
+              </div>
+           {% endif %}
+         {% endif %}
+       </div>
+    </div>
+   </div>
+    {% else %}
+      <div class="row">
+      <div class="col-md-12">
+          <div class="alert alert-block alert-danger">{% editable snippets 'CustomerService/Case/InvalidPermission' type: 'text', default: resx['CustomerService_Case_Invalid_Permission'], escape: true %}</div>
+        </div>
+      </div>
+    {% endif %}
+  {% else %}
+    <div class="page-heading">
+    <ul class="breadcrumb">
+     {% for crumb in page.breadcrumbs -%}
+     <li>
+      <a href="{{ crumb.url | h }}" title="{{ crumb.title | h }}">{{ crumb.title | truncate: 24 | h }}</a>
+     </li>
+     {% endfor -%}
+     <li class="active">{% editable snippets 'CustomerService/Case/NotFound' type: 'text', default: resx['CustomerService_Case_Not_Found'], escape: true %}</li>
+    </ul>
+    <div class="page-header">
+     <h1>{{ page.title | h }}</h1>
+    </div>
+   </div>
+    <div class="row">
+    <div class="col-md-12">
+        <div class="alert alert-block alert-danger">{% editable snippets 'CustomerService/Case/NotFoundSentence' type: 'text', default: resx['CustomerService_Case_Not_Found_Sentence'], escape: true %}</div>
+      </div>
+    </div>
+  {% endif %}
+</div>
+<style>
+  .case-info .description {
+    margin-top: 15px;
+  }
+  .case-info .resolution {
+  }
+  .case-info .articles {
+    margin-top: 20px;
+  }
+</style>

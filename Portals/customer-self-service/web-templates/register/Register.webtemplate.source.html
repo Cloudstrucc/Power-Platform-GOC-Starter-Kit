@@ -1,0 +1,36 @@
+<style>
+nav #LoginBtn {
+    display:none;
+}
+
+</style>
+
+<div class="container">
+
+  <div class="page-heading">
+      {% block breadcrumbs %}
+        {% include 'Breadcrumbs' %}
+      {% endblock %}
+    
+   </div>
+
+    <div class="row">
+        <div class="col-md-6">
+                <div class="">
+                    <h1>Register now</h1>
+                    <p>
+                        {% entityform id: page.adx_entityform.id %}               
+                    </p>                   
+                </div>
+        </div>
+        <div class="col-md-6">
+            <div class="">
+                    <h1>Returning user?</h1>
+                    <p>
+                        Sign in to view and manage your services. If you already have an online account with us, you can click on the link below to sign in. 
+                    </p>
+                    <p><a href="/Account/Login/" class="btn btn-primary btn-lg" role="button">Click here to login</a></p>
+            </div>
+        </div>
+    </div>
+</div>

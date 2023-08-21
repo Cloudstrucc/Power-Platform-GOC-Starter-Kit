@@ -1,0 +1,19 @@
+{% assign categoryguid = categoryguid %}
+{% assign limit = limit | default: 5 %}
+
+{% assign category_url = sitemarkers['Category'].url %}
+
+{% if categoryguid %}
+  {% assign relatedcategories = knowledge.categories | related: categoryguid, limit %}
+  {% if relatedcategories.size > 0 %}
+    <h2>{{ snippets["Category/RelatedCategoryHeading"] | default: resx['Related_Categories_DefaultText'] }}</h2>
+    <ul class="list-group unstyled">
+      {% for category in relatedcategories %}
+        <li class="list-group-item">
+          <a href="{{ category_url | add_query: 'id', category.categorynumber | escape }}" class="title">{{ category.title | escape }}</a>
+          <p class="description">{{ category.description | escape }}</p>
+        </li>
+      {% endfor%}
+    </div>
+  {% endif %}
+{% endif %}

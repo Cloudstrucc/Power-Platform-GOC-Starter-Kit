@@ -1,0 +1,12 @@
+adx_append: false
+adx_appendto: false
+adx_create: true
+adx_delete: false
+adx_entitylogicalname: lead
+adx_entityname: Lead
+adx_entitypermission_webrole:
+- 03a3c34f-f5a4-461f-8179-21710a52f22d
+adx_entitypermissionid: 8984c9fc-5239-ed11-9db1-000d3af4f031
+adx_read: false
+adx_scope: 756150000
+adx_write: false

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{555bfe86-98bf-ec11-983e-000d3a09d0bb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cs_name" select="1" icon="1" preview="1">
+        <row name="result" id="cs_documentuploadid">
+          <cell name="cs_name" width="159" />
+          <cell name="cs_documenttype" width="284" />
+          <cell name="cs_description" width="300" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cs_documentupload">
+          <attribute name="cs_name" />
+          <attribute name="cs_documentuploadid" />
+          <attribute name="cs_documenttype" />
+          <attribute name="cs_description" />
+          <attribute name="modifiedon" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal-User Document Uploads" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

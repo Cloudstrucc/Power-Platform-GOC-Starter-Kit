@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{6af9b2d7-0666-ed11-9561-000d3a09c3a2}</WebResourceId>
+  <Name>undefined_admin</Name>
+  <DisplayName>Administration</DisplayName>
+  <Description>Admin app</Description>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.1.0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/undefined_admin6AF9B2D7-0666-ED11-9561-000D3A09C3A2</FileName>
+</WebResource>

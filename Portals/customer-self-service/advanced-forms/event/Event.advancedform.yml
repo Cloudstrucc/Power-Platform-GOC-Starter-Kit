@@ -1,0 +1,12 @@
+adx_authenticationrequired: false
+adx_editexistingrecordpermitted: true
+adx_multiplerecordsperuserpermitted: true
+adx_name: Event
+adx_progressindicatorenabled: false
+adx_progressindicatorignorelaststep: false
+adx_progressindicatorposition: 756150000
+adx_progressindicatorprependstepnum: false
+adx_progressindicatortype: 756150000
+adx_savechangeswarningonclose: false
+adx_startnewsessiononload: false
+adx_webformid: 28b53c18-062d-ec11-b6e6-0022483c6ce0

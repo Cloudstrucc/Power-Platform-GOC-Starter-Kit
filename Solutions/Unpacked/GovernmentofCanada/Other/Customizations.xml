@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <IsvConfig>
+    <configuration version="3.0.0000.0">
+      <Root />
+      <ServiceManagement>
+        <AppointmentBook>
+          <SmoothScrollLimit>2000</SmoothScrollLimit>
+          <TimeBlocks>
+            <TimeBlock EntityType="4214" StatusCode="1" CssClass="ganttBlockServiceActivityStatus1" />
+            <TimeBlock EntityType="4214" StatusCode="2" CssClass="ganttBlockServiceActivityStatus2" />
+            <TimeBlock EntityType="4214" StatusCode="3" CssClass="ganttBlockServiceActivityStatus3" />
+            <TimeBlock EntityType="4214" StatusCode="4" CssClass="ganttBlockServiceActivityStatus4" />
+            <TimeBlock EntityType="4214" StatusCode="6" CssClass="ganttBlockServiceActivityStatus6" />
+            <TimeBlock EntityType="4214" StatusCode="7" CssClass="ganttBlockServiceActivityStatus7" />
+            <TimeBlock EntityType="4214" StatusCode="8" CssClass="ganttBlockServiceActivityStatus8" />
+            <TimeBlock EntityType="4214" StatusCode="9" CssClass="ganttBlockServiceActivityStatus9" />
+            <TimeBlock EntityType="4214" StatusCode="10" CssClass="ganttBlockServiceActivityStatus10" />
+            <TimeBlock EntityType="4201" StatusCode="1" CssClass="ganttBlockAppointmentStatus1" />
+            <TimeBlock EntityType="4201" StatusCode="2" CssClass="ganttBlockAppointmentStatus2" />
+            <TimeBlock EntityType="4201" StatusCode="3" CssClass="ganttBlockAppointmentStatus3" />
+            <TimeBlock EntityType="4201" StatusCode="4" CssClass="ganttBlockAppointmentStatus4" />
+            <TimeBlock EntityType="4201" StatusCode="5" CssClass="ganttBlockAppointmentStatus5" />
+            <TimeBlock EntityType="4201" StatusCode="6" CssClass="ganttBlockAppointmentStatus6" />
+          </TimeBlocks>
+        </AppointmentBook>
+      </ServiceManagement>
+    </configuration>
+  </IsvConfig>
+  <RelationshipRoles />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings>
+    <general>
+      <fullnameconventioncode>1</fullnameconventioncode>
+      <numberformat>us</numberformat>
+      <negativeformatcode>1</negativeformatcode>
+      <currencysymbol>$</currencysymbol>
+      <currencyformatcode>0</currencyformatcode>
+      <pricingdecimalprecision>2</pricingdecimalprecision>
+      <sharetopreviousowneronassign>False</sharetopreviousowneronassign>
+      <getstartedpanecontentenabled>True</getstartedpanecontentenabled>
+      <ispresenceenabled>True</ispresenceenabled>
+      <isautosaveenabled>True</isautosaveenabled>
+      <globalhelpurl></globalhelpurl>
+      <globalhelpurlenabled>False</globalhelpurlenabled>
+      <globalappendurlparametersenabled>False</globalappendurlparametersenabled>
+      <istextwrapenabled>True</istextwrapenabled>
+      <enablelivepersonacarduci>True</enablelivepersonacarduci>
+      <allowlegacydialogsembedding>True</allowlegacydialogsembedding>
+    </general>
+    <calendar>
+      <weekstartdaycode>0</weekstartdaycode>
+      <calendartype>0</calendartype>
+      <dateformatcode>2</dateformatcode>
+      <dateseparator>/</dateseparator>
+      <timeformatcode>0</timeformatcode>
+      <showweeknumber>False</showweeknumber>
+      <maxappointmentdurationdays>10</maxappointmentdurationdays>
+    </calendar>
+    <email>
+      <trackingprefix>CRM:;</trackingprefix>
+      <trackingtokenidbase>0</trackingtokenidbase>
+      <trackingtokeniddigits>3</trackingtokeniddigits>
+      <maximumtrackingnumber>999</maximumtrackingnumber>
+      <ignoreinternalemail>False</ignoreinternalemail>
+      <rendersecureiframeforemail>False</rendersecureiframeforemail>
+      <allowunresolvedpartiesonemailsend>False</allowunresolvedpartiesonemailsend>
+    </email>
+    <marketing>
+      <allowmarketingemailexecution>True</allowmarketingemailexecution>
+      <allowautoresponsecreation>True</allowautoresponsecreation>
+      <allowautounsubscribe>False</allowautounsubscribe>
+      <allowautounsubscribeacknowledgement>False</allowautounsubscribeacknowledgement>
+    </marketing>
+    <customization>
+      <isappmode>False</isappmode>
+    </customization>
+    <outlookSynchronization>
+      <tagpollingperiod>600000</tagpollingperiod>
+      <tagmaxaggressivecycles>2</tagmaxaggressivecycles>
+      <allowoutlookscheduledsyncs>True</allowoutlookscheduledsyncs>
+      <minoutlooksyncinterval>900000</minoutlooksyncinterval>
+      <emailsendpollingperiod>600000</emailsendpollingperiod>
+      <allowofflinescheduledsyncs>True</allowofflinescheduledsyncs>
+      <minofflinesyncinterval>900000</minofflinesyncinterval>
+      <allowaddressbooksyncs>True</allowaddressbooksyncs>
+      <minaddressbooksyncinterval>3600000</minaddressbooksyncinterval>
+    </outlookSynchronization>
+    <sales>
+      <useinbuiltrulefordefaultpricelistselection>True</useinbuiltrulefordefaultpricelistselection>
+      <maxproductsinbundle>15</maxproductsinbundle>
+      <oobpricecalculationenabled>True</oobpricecalculationenabled>
+      <discountcalculationmethod>0</discountcalculationmethod>
+      <maximumdynamicpropertiesallowed>50</maximumdynamicpropertiesallowed>
+      <createproductswithoutparentinactivestate>False</createproductswithoutparentinactivestate>
+    </sales>
+  </OrganizationSettings>
+  <optionsets />
+  <WebResources />
+  <CustomControls />
+  <SolutionPluginAssemblies />
+  <SdkMessageProcessingSteps />
+  <AppModuleSiteMaps />
+  <AppModules />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1033</Language>
+    <Language>1036</Language>
+  </Languages>
+</ImportExportXml>

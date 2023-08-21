@@ -1,0 +1,7 @@
+adx_entityname: adx_communityforum
+adx_isdefault: false
+adx_name: Forum
+adx_pagetemplateid: 080bba99-a914-41f6-9ada-ceb2706a2018
+adx_rewriteurl: ~/Areas/Forums/Pages/Forum.aspx
+adx_type: 756150000
+adx_usewebsiteheaderandfooter: true

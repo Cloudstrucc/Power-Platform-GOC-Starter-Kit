@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>Customerservicehub</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="Service_Area" ResourceId="SitemapDesigner.ServiceArea" Icon="/WebResources/msdyn_/Images/Area_Default_Icon.png" ShowGroups="false" ordinalvalue="0">
+      <Group Id="CustomersGroup_a1366aec" ResourceId="SitemapDesigner.CustomersGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="1">
+        <SubArea Id="subarea_8800fb14" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="lead" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ordinalvalue="3" solutionaction="Added" />
+      </Group>
+    </Area>
+    <Area Id="Service_Management" ResourceId="SitemapDesigner.ServiceManagement" VectorIcon="$webresource:msdynce_CustomerServiceHub/_imgs/Sitemap/ServiceManagement.svg" Icon="/WebResources/msdynce_CustomerServiceHub/_imgs/Sitemap/ServiceManagement.svg" ShowGroups="false" ordinalvalue="1">
+      <Group Id="UnifiedRouting_637482408399874575" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="1" solutionaction="Modified" />
+      <Group Id="CSAnalyticsInsightsGroup" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="7" solutionaction="Modified" />
+      <Group Id="MicrosoftTeamsIntegration_6c7492b3" ResourceId="SitemapDesigner.MicrosoftTeamsIntegration" IsProfile="false" ToolTipResourseId="SitemapDesigner.MicrosoftTeamsIntegration" ordinalvalue="8" solutionaction="Modified" />
+      <Group Id="DataManagementGroup_b70fad72" ResourceId="SitemapDesigner.DataManagementGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.DataManagementGroup" ordinalvalue="6" solutionaction="Modified" />
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Customer Service Hub" languagecode="1033" />
+    <LocalizedName description="Centre de service clientèle" languagecode="1036" />
+  </LocalizedNames>
+</AppModuleSiteMap>

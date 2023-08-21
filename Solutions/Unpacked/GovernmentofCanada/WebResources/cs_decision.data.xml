@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{505335a9-fd65-ed11-9562-000d3af4f031}</WebResourceId>
+  <Name>cs_decision</Name>
+  <DisplayName>decision</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.1.0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cs_decision505335A9-FD65-ED11-9562-000D3AF4F031</FileName>
+</WebResource>

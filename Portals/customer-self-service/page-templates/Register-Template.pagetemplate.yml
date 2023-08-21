@@ -1,0 +1,8 @@
+adx_description: 'Dedicated registration page template - to make use of this, you should set open registration site setting to false, and set the invitation only site setting to true. This page template is used on the login-register web page which hosts the join web form - the join web form is tied to the lead table, and on create it will generate the invitation and send an email to the person registering to fulfill. '
+adx_entityname: adx_webpage
+adx_isdefault: false
+adx_name: Register Template
+adx_pagetemplateid: 77bbf416-5739-ed11-9db1-000d3af4f031
+adx_type: 756150001
+adx_usewebsiteheaderandfooter: true
+adx_webtemplateid: a7c04487-5639-ed11-9db1-000d3af4f031

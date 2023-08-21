@@ -1,0 +1,16 @@
+{% assign knowledge_url = sitemarkers['Knowledge'].url %}
+{% assign createcase_url = sitemarkers['Create Case'].url %}
+
+<div id="gethelp" class="container">
+  <h3>{% editable snippets "GetHelp/Heading" default: resx['Get_Help_DefaultText'] %}</h3>
+  <div class="row">
+    <div class="col-sm-4">
+        <a href="{{ knowledge_url | escape }}" class="btn btn-default">{{ snippets["Knowledge/BrowseKb"] | default: resx['Browse_The_KB'] }}</a>
+    </div>
+    <div class="col-sm-4">
+        <a href="{{ createcase_url | escape }}" class="btn btn-default">{{ snippets["Case/CreateCase"] | default: resx['Create_Case_DefaultText'] }}</a>
+    </div>
+    <div class="col-sm-4">
+    </div>
+  </div>
+</div>

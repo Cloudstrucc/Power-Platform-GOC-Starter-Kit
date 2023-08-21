@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cs_documenttype" localizedName="Document Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Document Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="100000000" ExternalValue="">
+      <labels>
+        <label description="Articles of Incorporation" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="100000001" ExternalValue="">
+      <labels>
+        <label description="Receipt" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="100000002" ExternalValue="">
+      <labels>
+        <label description="Signed Agreement" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

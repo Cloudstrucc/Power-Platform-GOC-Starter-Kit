@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Decisions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=040b3419a9f49a6d" PluginAssemblyId="26c0605d-b7bb-4524-885f-d59c04ebad04" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/Decisions-26C0605D-B7BB-4524-885F-D59C04EBAD04/Decisions.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cloudstrucc.Decisions.CreateAccount, Decisions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=040b3419a9f49a6d" PluginTypeId="fb109e99-7c69-481d-a01a-268a3cee5154" Name="Cloudstrucc.Decisions.CreateAccount">
+      <FriendlyName>0e652c87-59ea-441f-b416-3fbf87e181d9</FriendlyName>
+      <WorkflowActivityGroupName>Decisions (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cloudstrucc.Decisions.CreateDecision, Decisions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=040b3419a9f49a6d" PluginTypeId="1a7ca208-7783-4822-ac0c-e9db5673872a" Name="Cloudstrucc.Decisions.CreateDecision">
+      <FriendlyName>88288f8a-7870-4592-9f24-dd41f50c0794</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cloudstrucc.Decisions.UpdateDecision, Decisions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=040b3419a9f49a6d" PluginTypeId="6ff8db22-9078-4a1c-b469-2e4306bd01a3" Name="Cloudstrucc.Decisions.UpdateDecision">
+      <FriendlyName>2fe9493f-8049-496d-9561-0a0d95792dbd</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

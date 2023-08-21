@@ -1,0 +1,7002 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Fred/projects/cicdcs/goc-theme-release/GOC-THEME-V2/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/docfx.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/docfx.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/ALM/ALM.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/ALM/ALM.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/Azure-Storage/Storage-Diagnostics.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/Azure-Storage/Storage-Diagnostics.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/AzureB2C/AzureB2C.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/AzureB2C/AzureB2C.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/DLP/Dataverse-Tenant-Wide-DLP.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/DLP/Dataverse-Tenant-Wide-DLP.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/Digital Signature Module/index.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/Digital Signature Module/index.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/Email-Configuration/Email-Integration.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/Email-Configuration/Email-Integration.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/GOC-Theme-Configuration/overview.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/GOC-Theme-Configuration/overview.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/SharePoint/Combined.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/SharePoint/Combined.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/System Design Guide/SDD.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/System Design Guide/SDD.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/staticwebapp.config.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/staticwebapp.config.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Resource",
+      "source_relative_path": "_site/documentation/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/documentation/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "_site/documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_site/_site/documentation/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/fonts/glyphicons-halflings-regular.eot",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/fonts/glyphicons-halflings-regular.eot"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/fonts/glyphicons-halflings-regular.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/fonts/glyphicons-halflings-regular.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/fonts/glyphicons-halflings-regular.ttf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/fonts/glyphicons-halflings-regular.ttf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/fonts/glyphicons-halflings-regular.woff",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/fonts/glyphicons-halflings-regular.woff"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/fonts/glyphicons-halflings-regular.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/fonts/glyphicons-halflings-regular.woff2"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image10.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image11.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image12.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image13.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image14.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image15.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image16.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image17.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image17.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image18.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image18.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image19.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image19.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image20.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image20.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image21.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image21.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image22.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image22.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image23.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image23.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image24.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image24.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image25.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image25.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image26.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image26.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image27.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image27.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image28.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image28.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image29.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image29.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image30.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image30.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image31.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image31.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image32.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image32.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image33.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image33.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/image9.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/image9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/ALM/introimage.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/ALM/introimage.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/06e71083444da4618398bfb9b149799a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/06e71083444da4618398bfb9b149799a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/09b3e8e03a55bd3eae6377a122f8ad72.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/09b3e8e03a55bd3eae6377a122f8ad72.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/757f56111b6bcbacaadc27ed56853495.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/757f56111b6bcbacaadc27ed56853495.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/7d3f3717b5eefc463580b40dfb55da3e.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/7d3f3717b5eefc463580b40dfb55da3e.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/8620b791d937ac1ec0a448771631a6a4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/8620b791d937ac1ec0a448771631a6a4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/9f7a1c39a29366ba082c77647b70937a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/9f7a1c39a29366ba082c77647b70937a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/a12c6bfb26ae84fa600cd9ff8b49d493.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/a12c6bfb26ae84fa600cd9ff8b49d493.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/a7ac3940a2596899bb4cf46d839886c6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/a7ac3940a2596899bb4cf46d839886c6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/b33f0f55b36dae62c9608df5bf3ff5da.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/b33f0f55b36dae62c9608df5bf3ff5da.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/b59669203e3a3772afa4f042e490ae1b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/b59669203e3a3772afa4f042e490ae1b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/da062d7e9086aebe2a41af08fbe7ed91.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/da062d7e9086aebe2a41af08fbe7ed91.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/df55bc318118760f1105426f811a0733.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/df55bc318118760f1105426f811a0733.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Azure-Storage/e12e79588a2e1f73b70606e9cc2f6e22.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Azure-Storage/e12e79588a2e1f73b70606e9cc2f6e22.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image10.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image11.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image12.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image13.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image14.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image15.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image16.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image17.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image17.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image18.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image18.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image19.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image19.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image20.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image20.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image21.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image21.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image22.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image22.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image23.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image23.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image24.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image24.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image25.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image25.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image26.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image26.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image27.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image27.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image28.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image28.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image29.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image29.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image30.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image30.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image300.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image300.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image31.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image31.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image32.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image32.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image33.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image33.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image39.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image39.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image40.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image40.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image41.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image41.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image42.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image42.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image43.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image43.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image44.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image44.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image45.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image45.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image46.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image46.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image47.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image47.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image48.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image48.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image49.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image49.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image50.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image50.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image51.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image51.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image52.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image52.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image53.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image53.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image54.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image54.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image55.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image55.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image56.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image56.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image57.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image57.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image58.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image58.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image59.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image59.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image60.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image60.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image61.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image61.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image62.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image62.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image63.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image63.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image64.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image65.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image65.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image66.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image66.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image67.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image67.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image68.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image68.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image69.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image69.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image70.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image70.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image71.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image71.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image72.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image72.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image73.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image73.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image74.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image74.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image75.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image75.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image76.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image76.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image77.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image77.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image78.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image78.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image79.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image79.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image80.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image80.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image81.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image81.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image82.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image82.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image83.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image83.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image84.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image84.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image85.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image85.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image86.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image86.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image87.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image87.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image88.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image88.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image89.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image89.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image9.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image90.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image90.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image91.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image91.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image92.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image92.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image93.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image93.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image94.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image94.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/AzureB2C/image95.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/AzureB2C/image95.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/DLP/44e26b1f989321df3f5d7acbdfd9eb14.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/DLP/44e26b1f989321df3f5d7acbdfd9eb14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/DLP/99e9243b7a13a4a56294563cc04665a8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/DLP/99e9243b7a13a4a56294563cc04665a8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/DLP/a46b8a47ab71cddd7d8ec5acf892731b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/DLP/a46b8a47ab71cddd7d8ec5acf892731b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/DLP/b7e9004a7e46f007a2f1cd7989a99217.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/DLP/b7e9004a7e46f007a2f1cd7989a99217.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/DLP/f5af777af543195b78becf225c0c8c78.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/DLP/f5af777af543195b78becf225c0c8c78.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/DLP/fa395951b40d09439ab1524cc02653b7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/DLP/fa395951b40d09439ab1524cc02653b7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Digital Signatures Module/Picture1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Digital Signatures Module/Picture1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Digital Signatures Module/Picture2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Digital Signatures Module/Picture2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Digital Signatures Module/Picture3a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Digital Signatures Module/Picture3a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Digital Signatures Module/Picture3b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Digital Signatures Module/Picture3b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Digital Signatures Module/Picture4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Digital Signatures Module/Picture4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/2ccc3910b9ca39d104fd64c3870dc2e2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/2ccc3910b9ca39d104fd64c3870dc2e2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/2f7a4ca25b4cb1d98bd28e3b5832243c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/2f7a4ca25b4cb1d98bd28e3b5832243c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/549040610345e540362e4e771680b952.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/549040610345e540362e4e771680b952.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/63517022ce382cd22af1635a97c1cb9d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/63517022ce382cd22af1635a97c1cb9d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/962d7bac547ab955413fed13a42a61b3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/962d7bac547ab955413fed13a42a61b3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/bf1577575d37dc01dc5407a06d5b6387.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/bf1577575d37dc01dc5407a06d5b6387.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/e057317d354ca0352d0f1889fc33600f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/e057317d354ca0352d0f1889fc33600f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/e53b392e0f790393cf6fae35036cd9a9.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/e53b392e0f790393cf6fae35036cd9a9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/Email/f7c91c1b5fd3818133912a2a25b97b48.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/Email/f7c91c1b5fd3818133912a2a25b97b48.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCLogos/wmms-blk.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCLogos/wmms-blk.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/0f33e03a984fd36c3f547c873cfaf039.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/0f33e03a984fd36c3f547c873cfaf039.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/10bb8a4eb9b3a3fac1ab24a83c82e159.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/10bb8a4eb9b3a3fac1ab24a83c82e159.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/12306f096b1c767153bb91278872c950.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/12306f096b1c767153bb91278872c950.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/143cabc55fc83fe3d461451220d756be.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/143cabc55fc83fe3d461451220d756be.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/17e48572eb0248412a53d2ceafa85f3a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/17e48572eb0248412a53d2ceafa85f3a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/1da091e95899937da4fe31d7caf5e52b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/1da091e95899937da4fe31d7caf5e52b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/234365b195f5239c748153b68d6c7945.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/234365b195f5239c748153b68d6c7945.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/2a08aac71ceabdbe8d74cb1d305eb24e.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/2a08aac71ceabdbe8d74cb1d305eb24e.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/2bc69dc9d23ce30ec856b10f17bfd193.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/2bc69dc9d23ce30ec856b10f17bfd193.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/2f1c44331a61ee0f72701faae9ef064d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/2f1c44331a61ee0f72701faae9ef064d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/327adb61b765d8908bf0e4bbe304a2d0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/327adb61b765d8908bf0e4bbe304a2d0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/33866d9d685113db97e2fdae60390bfc.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/33866d9d685113db97e2fdae60390bfc.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/40a0aa1de6107b7643dfa2b88724d85c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/40a0aa1de6107b7643dfa2b88724d85c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/5e29a3b3685d683b7f8baed0dfc6b824.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/5e29a3b3685d683b7f8baed0dfc6b824.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/6340961daec54646c9f4dffcf45ab5fb.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/6340961daec54646c9f4dffcf45ab5fb.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/661960549d8769519d4ff136833249a1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/661960549d8769519d4ff136833249a1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/6c8c64d7e0cbc98d9485191231a52aa8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/6c8c64d7e0cbc98d9485191231a52aa8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/749882836967e9e92ed178e094cd263c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/749882836967e9e92ed178e094cd263c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/834fb101a83f1d119bc88d47b4844348.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/834fb101a83f1d119bc88d47b4844348.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/88de67ab5df1e25a956241a407d46f1a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/88de67ab5df1e25a956241a407d46f1a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/8c901726ffdab2a1be56280988ce3112.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/8c901726ffdab2a1be56280988ce3112.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/9057a5e8aa616d266df8139d9bac4437.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/9057a5e8aa616d266df8139d9bac4437.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/983f48324ab6141cda53d03980dbce07.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/983f48324ab6141cda53d03980dbce07.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/990a2e3b91f750d26eaf47396096384c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/990a2e3b91f750d26eaf47396096384c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/9c669b96bdff4d67ef1c62b28bf2a1d7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/9c669b96bdff4d67ef1c62b28bf2a1d7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/a110720844fcb82e67e18936ac8a3839.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/a110720844fcb82e67e18936ac8a3839.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/a26df0fd3bc0d9ba969175f9162bd1bd.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/a26df0fd3bc0d9ba969175f9162bd1bd.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/a495613960521e921ba16807d21364d6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/a495613960521e921ba16807d21364d6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/ab704aad858ef1500896f6f6345a7c4f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/ab704aad858ef1500896f6f6345a7c4f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/ac22dbcf22555e6291438bcea21a6bc3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/ac22dbcf22555e6291438bcea21a6bc3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/de4af876682d57a4bca064cfc73c499a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/de4af876682d57a4bca064cfc73c499a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/e6a91865d8a58aea79dc648f632e56f8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/e6a91865d8a58aea79dc648f632e56f8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/e95f43b63a40b0109969eba51e0623db.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/e95f43b63a40b0109969eba51e0623db.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/eac8ca6ba83af7fe80a6037ad75ec05b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/eac8ca6ba83af7fe80a6037ad75ec05b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/f1d33f4af2ae8c10a095e480a5ddd468.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/f1d33f4af2ae8c10a095e480a5ddd468.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/f752c1d6ad9d4937f4b8d6f18a36099d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/f752c1d6ad9d4937f4b8d6f18a36099d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/f817fef3e6a153eb7b61b558b6e21c63.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/f817fef3e6a153eb7b61b558b6e21c63.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/fcfc0b6f24cf4e96ac4e30a4875201f0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/fcfc0b6f24cf4e96ac4e30a4875201f0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/GOCThemeDeploy/ff3a2ccbcd5632ddaec6b2163a2364c7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/GOCThemeDeploy/ff3a2ccbcd5632ddaec6b2163a2364c7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/M365HL.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/M365HL.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/0214b5528e5d549c766ca0348a6ea123.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/0214b5528e5d549c766ca0348a6ea123.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/0701f53cc51ff6c4f1ff7cd6f7818377.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/0701f53cc51ff6c4f1ff7cd6f7818377.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/07adc377fbfaa45a7d5abbf0befaaab4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/07adc377fbfaa45a7d5abbf0befaaab4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/0ab736090cbf2d7cec491f9a0aaf15d5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/0ab736090cbf2d7cec491f9a0aaf15d5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/0f234e1a84b62def15978c03bf32fa33.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/0f234e1a84b62def15978c03bf32fa33.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/0faa8b50636dc97b33fc24e2fd204e96.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/0faa8b50636dc97b33fc24e2fd204e96.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/1208c492a2d3a2ba1292b0e72402b184.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/1208c492a2d3a2ba1292b0e72402b184.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/13e9cace4b316779ad958851b1bc37af.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/13e9cace4b316779ad958851b1bc37af.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/14aefc582ec4c6cf0a5988dafa0089c0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/14aefc582ec4c6cf0a5988dafa0089c0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/165feece563ed4bb21aeb7ab506586e1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/165feece563ed4bb21aeb7ab506586e1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/188074d79bdea4cd3a48fb1fa780aaf3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/188074d79bdea4cd3a48fb1fa780aaf3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/22454a61a67a60fe26f6e32be805cb8c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/22454a61a67a60fe26f6e32be805cb8c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/2978ebdb970eadf46f74b8b9acc64ceb.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/2978ebdb970eadf46f74b8b9acc64ceb.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/2ce9b9094b53cf08b77c29da5e262286.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/2ce9b9094b53cf08b77c29da5e262286.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/2da592bf3f7232176aed8a7eb439b606.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/2da592bf3f7232176aed8a7eb439b606.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/2f21a350a12d214885d9dea998486833.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/2f21a350a12d214885d9dea998486833.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/357b6e395bb0e23220652b1268e3f0ac.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/357b6e395bb0e23220652b1268e3f0ac.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/37e1e8704834922ccb61139ed88d015d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/37e1e8704834922ccb61139ed88d015d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/38d1404592f40620056b73a92b9104c7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/38d1404592f40620056b73a92b9104c7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/3eab268b7abab5d785c4c9d7cbcbd934.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/3eab268b7abab5d785c4c9d7cbcbd934.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/40f2061f6c28cc0dc9cf3b3c52dda86d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/40f2061f6c28cc0dc9cf3b3c52dda86d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/44b5218673ab2c87c9d2d3a113c4dd02.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/44b5218673ab2c87c9d2d3a113c4dd02.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/493f247d2a9717e03e2d789705f462f8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/493f247d2a9717e03e2d789705f462f8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/4a5cfff0a292cbafed9d34d572ad8bde.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/4a5cfff0a292cbafed9d34d572ad8bde.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/51416632b3fad4d2d6103159c1262fb2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/51416632b3fad4d2d6103159c1262fb2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/51fa3bb9fa6dcc456d8061519145a12b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/51fa3bb9fa6dcc456d8061519145a12b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/53e7098e5a55f14e8b42bd20abab62f7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/53e7098e5a55f14e8b42bd20abab62f7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/605e7b3b807fb6b7a6277dc015d55e32.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/605e7b3b807fb6b7a6277dc015d55e32.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/644ae1a50e15c5213488426bcb359dec.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/644ae1a50e15c5213488426bcb359dec.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/6c184e705511895bfb3d95b7333f9db0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/6c184e705511895bfb3d95b7333f9db0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/77e27e5bd2419ddd1440774391f222fd.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/77e27e5bd2419ddd1440774391f222fd.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/7915d4e46d0f55b2b350cf89f1df44fa.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/7915d4e46d0f55b2b350cf89f1df44fa.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/7eaf0b38a26fa8c389255f4072732f47.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/7eaf0b38a26fa8c389255f4072732f47.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/87e85d2a5060540a65fd800aee4d18e0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/87e85d2a5060540a65fd800aee4d18e0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/894dae4bfe90bf4a16e346098d985f2b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/894dae4bfe90bf4a16e346098d985f2b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/933f1ae0b00e5226222dd302a4662b0f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/933f1ae0b00e5226222dd302a4662b0f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/95e87dc2b889d1c2d55e2b9915138826.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/95e87dc2b889d1c2d55e2b9915138826.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/9e98ffb27714857aa3ecceef16555092.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/9e98ffb27714857aa3ecceef16555092.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/a1100f583089b9c41e7c516b0b0f71ab.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/a1100f583089b9c41e7c516b0b0f71ab.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/b11d8d2cbd5c68b8709e7415810ae879.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/b11d8d2cbd5c68b8709e7415810ae879.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/b2c4397f88e7bc4a28f0f3065b245459.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/b2c4397f88e7bc4a28f0f3065b245459.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/b5a2f8c3f9d3d70a2d4806ac1222610e.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/b5a2f8c3f9d3d70a2d4806ac1222610e.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/c110e34928c4c8890291a177a811338b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/c110e34928c4c8890291a177a811338b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/c709289d075d090871acf2a1531d6715.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/c709289d075d090871acf2a1531d6715.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/c9bbdf335fbf2ad8282d5f0bdc28246f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/c9bbdf335fbf2ad8282d5f0bdc28246f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/cbb5f5c18e0e7011fc762451172c9add.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/cbb5f5c18e0e7011fc762451172c9add.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/cc6927050a802ff79f47961bd237d869.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/cc6927050a802ff79f47961bd237d869.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/d424edc2470fa9472e328a8dba63215f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/d424edc2470fa9472e328a8dba63215f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/d55130659a7a3ab9b0d7de0091acb110.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/d55130659a7a3ab9b0d7de0091acb110.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/dabe329f1b2fc05f979d00ef73543ab7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/dabe329f1b2fc05f979d00ef73543ab7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/de05ff0559d3fc3c852381d8f664d317.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/de05ff0559d3fc3c852381d8f664d317.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/ebd835c6e9ddb602a745874fdc45a1f5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/ebd835c6e9ddb602a745874fdc45a1f5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/ec0585993640016494873593500476ec.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/ec0585993640016494873593500476ec.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/ecf9ffa5cb330b26adfee974677d2db4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/ecf9ffa5cb330b26adfee974677d2db4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/f3264796bbb359611f2ce2f6ee0348d5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/f3264796bbb359611f2ce2f6ee0348d5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/f4d2c29e4b601aabaed1a70ec5fad7bf.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/f4d2c29e4b601aabaed1a70ec5fad7bf.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/f6fecc2671e1864b4579739469f70586.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/f6fecc2671e1864b4579739469f70586.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SDD/faa2c64e36a856655adde1c84290cf85.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SDD/faa2c64e36a856655adde1c84290cf85.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture10.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture11.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture12.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture13.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture14.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture15.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture16.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture17.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture17.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture18.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture18.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture19.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture19.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture20.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture20.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture21.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture21.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture22.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture22.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture23.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture23.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture24.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture24.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture25.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture25.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture26.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture26.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture27.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture27.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture28.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture28.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/Picture9.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/Picture9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/SharePoint/images.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/SharePoint/images.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/templates/cse/backUplogo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/templates/cse/backUplogo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/templates/cse/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/templates/cse/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/index.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/index.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/manifest.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/manifest.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Resource",
+      "source_relative_path": "_site/product-releases/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/product-releases/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "_site/product-releases/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_site/_site/product-releases/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/search-stopwords.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/search-stopwords.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/staticwebapp.config.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/staticwebapp.config.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/styles/glyphicons-halflings-regular-ACNUA6UY.ttf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/styles/glyphicons-halflings-regular-ACNUA6UY.ttf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/styles/glyphicons-halflings-regular-JOUF32XT.woff",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/styles/glyphicons-halflings-regular-JOUF32XT.woff"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/styles/glyphicons-halflings-regular-PIHUWCJO.eot",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/styles/glyphicons-halflings-regular-PIHUWCJO.eot"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/styles/glyphicons-halflings-regular-QXYEM3FU.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/styles/glyphicons-halflings-regular-QXYEM3FU.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/styles/glyphicons-halflings-regular-W4DYDFZM.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/styles/glyphicons-halflings-regular-W4DYDFZM.woff2"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/backUplogo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/backUplogo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.eot",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/fonts/glyphicons-halflings-regular.eot"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/fonts/glyphicons-halflings-regular.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.ttf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/fonts/glyphicons-halflings-regular.ttf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.woff",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/fonts/glyphicons-halflings-regular.woff"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/fonts/glyphicons-halflings-regular.woff2"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/search-stopwords.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/search-stopwords.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/templates/cse/token.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/templates/cse/token.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Resource",
+      "source_relative_path": "_site/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "_site/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_site/_site/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/web.config",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/web.config"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/xrefmap.yml",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/xrefmap.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/docfx.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/ALM/ALM.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/ALM/ALM.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/ALM/ALM.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/ALM/ALM.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/Azure-Storage/Storage-Diagnostics.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/Azure-Storage/Storage-Diagnostics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/Azure-Storage/Storage-Diagnostics.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/Azure-Storage/Storage-Diagnostics.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/AzureB2C/AzureB2C.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/AzureB2C/AzureB2C.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/AzureB2C/Combined.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/AzureB2C/Combined.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/DLP/Dataverse-Tenant-Wide-DLP.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/DLP/Dataverse-Tenant-Wide-DLP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/DLP/Dataverse-Tenant-Wide-DLP.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/DLP/Dataverse-Tenant-Wide-DLP.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/Digital Signature Module/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/Digital Signature Module/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/Digital Signature Module/index.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/Digital Signature Module/index.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/Email-Configuration/Email-Integration.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/Email-Configuration/Email-Integration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/Email-Configuration/Email-Integration.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/Email-Configuration/Email-Integration.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/GOC-Theme-Configuration/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/GOC-Theme-Configuration/overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/GOC-Theme-Configuration/overview.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/GOC-Theme-Configuration/overview.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/SharePoint/Combined.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/SharePoint/Combined.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/SharePoint/Combined.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/SharePoint/Combined.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/System Design Guide/SDD.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/System Design Guide/SDD.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/System Design Guide/SDD.pdf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/System Design Guide/SDD.pdf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/staticwebapp.config.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/staticwebapp.config.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "documentation/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "_site/documentation/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_site/documentation/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "_site/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/glyphicons-halflings-regular.eot",
+      "output": {
+        "resource": {
+          "relative_path": "_site/fonts/glyphicons-halflings-regular.eot"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/glyphicons-halflings-regular.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/fonts/glyphicons-halflings-regular.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/glyphicons-halflings-regular.ttf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/fonts/glyphicons-halflings-regular.ttf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/glyphicons-halflings-regular.woff",
+      "output": {
+        "resource": {
+          "relative_path": "_site/fonts/glyphicons-halflings-regular.woff"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/glyphicons-halflings-regular.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "_site/fonts/glyphicons-halflings-regular.woff2"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image10.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image11.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image12.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image13.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image14.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image15.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image16.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image17.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image17.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image18.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image18.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image19.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image19.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image20.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image20.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image21.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image21.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image22.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image22.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image23.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image23.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image24.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image24.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image25.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image25.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image26.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image26.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image27.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image27.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image28.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image28.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image29.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image29.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image30.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image30.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image31.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image31.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image32.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image32.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image33.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image33.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/image9.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/image9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ALM/introimage.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/ALM/introimage.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/06e71083444da4618398bfb9b149799a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/06e71083444da4618398bfb9b149799a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/09b3e8e03a55bd3eae6377a122f8ad72.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/09b3e8e03a55bd3eae6377a122f8ad72.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/757f56111b6bcbacaadc27ed56853495.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/757f56111b6bcbacaadc27ed56853495.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/7d3f3717b5eefc463580b40dfb55da3e.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/7d3f3717b5eefc463580b40dfb55da3e.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/8620b791d937ac1ec0a448771631a6a4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/8620b791d937ac1ec0a448771631a6a4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/9f7a1c39a29366ba082c77647b70937a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/9f7a1c39a29366ba082c77647b70937a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/a12c6bfb26ae84fa600cd9ff8b49d493.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/a12c6bfb26ae84fa600cd9ff8b49d493.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/a7ac3940a2596899bb4cf46d839886c6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/a7ac3940a2596899bb4cf46d839886c6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/b33f0f55b36dae62c9608df5bf3ff5da.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/b33f0f55b36dae62c9608df5bf3ff5da.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/b59669203e3a3772afa4f042e490ae1b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/b59669203e3a3772afa4f042e490ae1b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/da062d7e9086aebe2a41af08fbe7ed91.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/da062d7e9086aebe2a41af08fbe7ed91.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/df55bc318118760f1105426f811a0733.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/df55bc318118760f1105426f811a0733.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Azure-Storage/e12e79588a2e1f73b70606e9cc2f6e22.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Azure-Storage/e12e79588a2e1f73b70606e9cc2f6e22.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image10.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image11.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image12.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image13.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image14.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image15.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image16.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image17.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image17.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image18.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image18.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image19.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image19.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image20.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image20.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image21.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image21.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image22.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image22.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image23.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image23.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image24.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image24.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image25.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image25.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image26.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image26.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image27.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image27.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image28.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image28.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image29.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image29.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image30.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image30.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image300.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image300.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image31.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image31.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image32.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image32.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image33.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image33.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image39.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image39.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image40.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image40.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image41.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image41.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image42.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image42.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image43.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image43.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image44.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image44.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image45.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image45.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image46.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image46.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image47.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image47.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image48.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image48.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image49.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image49.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image50.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image50.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image51.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image51.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image52.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image52.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image53.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image53.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image54.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image54.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image55.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image55.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image56.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image56.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image57.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image57.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image58.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image58.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image59.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image59.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image60.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image60.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image61.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image61.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image62.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image62.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image63.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image63.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image64.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image64.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image65.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image65.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image66.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image66.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image67.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image67.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image68.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image68.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image69.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image69.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image70.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image70.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image71.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image71.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image72.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image72.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image73.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image73.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image74.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image74.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image75.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image75.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image76.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image76.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image77.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image77.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image78.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image78.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image79.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image79.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image80.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image80.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image81.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image81.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image82.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image82.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image83.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image83.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image84.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image84.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image85.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image85.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image86.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image86.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image87.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image87.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image88.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image88.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image89.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image89.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image9.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image90.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image90.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image91.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image91.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image92.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image92.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image93.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image93.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image94.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image94.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/AzureB2C/image95.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/AzureB2C/image95.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DLP/44e26b1f989321df3f5d7acbdfd9eb14.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/DLP/44e26b1f989321df3f5d7acbdfd9eb14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DLP/99e9243b7a13a4a56294563cc04665a8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/DLP/99e9243b7a13a4a56294563cc04665a8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DLP/a46b8a47ab71cddd7d8ec5acf892731b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/DLP/a46b8a47ab71cddd7d8ec5acf892731b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DLP/b7e9004a7e46f007a2f1cd7989a99217.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/DLP/b7e9004a7e46f007a2f1cd7989a99217.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DLP/f5af777af543195b78becf225c0c8c78.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/DLP/f5af777af543195b78becf225c0c8c78.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DLP/fa395951b40d09439ab1524cc02653b7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/DLP/fa395951b40d09439ab1524cc02653b7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Digital Signatures Module/Picture1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Digital Signatures Module/Picture1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Digital Signatures Module/Picture2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Digital Signatures Module/Picture2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Digital Signatures Module/Picture3a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Digital Signatures Module/Picture3a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Digital Signatures Module/Picture3b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Digital Signatures Module/Picture3b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Digital Signatures Module/Picture4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Digital Signatures Module/Picture4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/2ccc3910b9ca39d104fd64c3870dc2e2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/2ccc3910b9ca39d104fd64c3870dc2e2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/2f7a4ca25b4cb1d98bd28e3b5832243c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/2f7a4ca25b4cb1d98bd28e3b5832243c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/549040610345e540362e4e771680b952.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/549040610345e540362e4e771680b952.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/63517022ce382cd22af1635a97c1cb9d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/63517022ce382cd22af1635a97c1cb9d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/962d7bac547ab955413fed13a42a61b3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/962d7bac547ab955413fed13a42a61b3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/bf1577575d37dc01dc5407a06d5b6387.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/bf1577575d37dc01dc5407a06d5b6387.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/e057317d354ca0352d0f1889fc33600f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/e057317d354ca0352d0f1889fc33600f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/e53b392e0f790393cf6fae35036cd9a9.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/e53b392e0f790393cf6fae35036cd9a9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Email/f7c91c1b5fd3818133912a2a25b97b48.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/Email/f7c91c1b5fd3818133912a2a25b97b48.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCLogos/wmms-blk.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCLogos/wmms-blk.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/0f33e03a984fd36c3f547c873cfaf039.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/0f33e03a984fd36c3f547c873cfaf039.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/10bb8a4eb9b3a3fac1ab24a83c82e159.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/10bb8a4eb9b3a3fac1ab24a83c82e159.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/12306f096b1c767153bb91278872c950.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/12306f096b1c767153bb91278872c950.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/143cabc55fc83fe3d461451220d756be.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/143cabc55fc83fe3d461451220d756be.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/17e48572eb0248412a53d2ceafa85f3a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/17e48572eb0248412a53d2ceafa85f3a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/1da091e95899937da4fe31d7caf5e52b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/1da091e95899937da4fe31d7caf5e52b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/234365b195f5239c748153b68d6c7945.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/234365b195f5239c748153b68d6c7945.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/2a08aac71ceabdbe8d74cb1d305eb24e.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/2a08aac71ceabdbe8d74cb1d305eb24e.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/2bc69dc9d23ce30ec856b10f17bfd193.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/2bc69dc9d23ce30ec856b10f17bfd193.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/2f1c44331a61ee0f72701faae9ef064d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/2f1c44331a61ee0f72701faae9ef064d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/327adb61b765d8908bf0e4bbe304a2d0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/327adb61b765d8908bf0e4bbe304a2d0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/33866d9d685113db97e2fdae60390bfc.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/33866d9d685113db97e2fdae60390bfc.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/40a0aa1de6107b7643dfa2b88724d85c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/40a0aa1de6107b7643dfa2b88724d85c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/5e29a3b3685d683b7f8baed0dfc6b824.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/5e29a3b3685d683b7f8baed0dfc6b824.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/6340961daec54646c9f4dffcf45ab5fb.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/6340961daec54646c9f4dffcf45ab5fb.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/661960549d8769519d4ff136833249a1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/661960549d8769519d4ff136833249a1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/6c8c64d7e0cbc98d9485191231a52aa8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/6c8c64d7e0cbc98d9485191231a52aa8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/749882836967e9e92ed178e094cd263c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/749882836967e9e92ed178e094cd263c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/834fb101a83f1d119bc88d47b4844348.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/834fb101a83f1d119bc88d47b4844348.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/88de67ab5df1e25a956241a407d46f1a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/88de67ab5df1e25a956241a407d46f1a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/8c901726ffdab2a1be56280988ce3112.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/8c901726ffdab2a1be56280988ce3112.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/9057a5e8aa616d266df8139d9bac4437.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/9057a5e8aa616d266df8139d9bac4437.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/983f48324ab6141cda53d03980dbce07.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/983f48324ab6141cda53d03980dbce07.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/990a2e3b91f750d26eaf47396096384c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/990a2e3b91f750d26eaf47396096384c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/9c669b96bdff4d67ef1c62b28bf2a1d7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/9c669b96bdff4d67ef1c62b28bf2a1d7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/a110720844fcb82e67e18936ac8a3839.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/a110720844fcb82e67e18936ac8a3839.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/a26df0fd3bc0d9ba969175f9162bd1bd.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/a26df0fd3bc0d9ba969175f9162bd1bd.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/a495613960521e921ba16807d21364d6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/a495613960521e921ba16807d21364d6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/ab704aad858ef1500896f6f6345a7c4f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/ab704aad858ef1500896f6f6345a7c4f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/ac22dbcf22555e6291438bcea21a6bc3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/ac22dbcf22555e6291438bcea21a6bc3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/de4af876682d57a4bca064cfc73c499a.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/de4af876682d57a4bca064cfc73c499a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/e6a91865d8a58aea79dc648f632e56f8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/e6a91865d8a58aea79dc648f632e56f8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/e95f43b63a40b0109969eba51e0623db.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/e95f43b63a40b0109969eba51e0623db.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/eac8ca6ba83af7fe80a6037ad75ec05b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/eac8ca6ba83af7fe80a6037ad75ec05b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/f1d33f4af2ae8c10a095e480a5ddd468.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/f1d33f4af2ae8c10a095e480a5ddd468.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/f752c1d6ad9d4937f4b8d6f18a36099d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/f752c1d6ad9d4937f4b8d6f18a36099d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/f817fef3e6a153eb7b61b558b6e21c63.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/f817fef3e6a153eb7b61b558b6e21c63.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/fcfc0b6f24cf4e96ac4e30a4875201f0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/fcfc0b6f24cf4e96ac4e30a4875201f0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GOCThemeDeploy/ff3a2ccbcd5632ddaec6b2163a2364c7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/GOCThemeDeploy/ff3a2ccbcd5632ddaec6b2163a2364c7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/M365HL.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/M365HL.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/0214b5528e5d549c766ca0348a6ea123.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/0214b5528e5d549c766ca0348a6ea123.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/0701f53cc51ff6c4f1ff7cd6f7818377.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/0701f53cc51ff6c4f1ff7cd6f7818377.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/07adc377fbfaa45a7d5abbf0befaaab4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/07adc377fbfaa45a7d5abbf0befaaab4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/0ab736090cbf2d7cec491f9a0aaf15d5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/0ab736090cbf2d7cec491f9a0aaf15d5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/0f234e1a84b62def15978c03bf32fa33.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/0f234e1a84b62def15978c03bf32fa33.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/0faa8b50636dc97b33fc24e2fd204e96.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/0faa8b50636dc97b33fc24e2fd204e96.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/1208c492a2d3a2ba1292b0e72402b184.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/1208c492a2d3a2ba1292b0e72402b184.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/13e9cace4b316779ad958851b1bc37af.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/13e9cace4b316779ad958851b1bc37af.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/14aefc582ec4c6cf0a5988dafa0089c0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/14aefc582ec4c6cf0a5988dafa0089c0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/165feece563ed4bb21aeb7ab506586e1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/165feece563ed4bb21aeb7ab506586e1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/188074d79bdea4cd3a48fb1fa780aaf3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/188074d79bdea4cd3a48fb1fa780aaf3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/22454a61a67a60fe26f6e32be805cb8c.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/22454a61a67a60fe26f6e32be805cb8c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/2978ebdb970eadf46f74b8b9acc64ceb.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/2978ebdb970eadf46f74b8b9acc64ceb.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/2ce9b9094b53cf08b77c29da5e262286.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/2ce9b9094b53cf08b77c29da5e262286.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/2da592bf3f7232176aed8a7eb439b606.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/2da592bf3f7232176aed8a7eb439b606.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/2f21a350a12d214885d9dea998486833.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/2f21a350a12d214885d9dea998486833.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/357b6e395bb0e23220652b1268e3f0ac.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/357b6e395bb0e23220652b1268e3f0ac.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/37e1e8704834922ccb61139ed88d015d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/37e1e8704834922ccb61139ed88d015d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/38d1404592f40620056b73a92b9104c7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/38d1404592f40620056b73a92b9104c7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/3eab268b7abab5d785c4c9d7cbcbd934.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/3eab268b7abab5d785c4c9d7cbcbd934.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/40f2061f6c28cc0dc9cf3b3c52dda86d.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/40f2061f6c28cc0dc9cf3b3c52dda86d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/44b5218673ab2c87c9d2d3a113c4dd02.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/44b5218673ab2c87c9d2d3a113c4dd02.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/493f247d2a9717e03e2d789705f462f8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/493f247d2a9717e03e2d789705f462f8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/4a5cfff0a292cbafed9d34d572ad8bde.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/4a5cfff0a292cbafed9d34d572ad8bde.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/51416632b3fad4d2d6103159c1262fb2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/51416632b3fad4d2d6103159c1262fb2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/51fa3bb9fa6dcc456d8061519145a12b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/51fa3bb9fa6dcc456d8061519145a12b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/53e7098e5a55f14e8b42bd20abab62f7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/53e7098e5a55f14e8b42bd20abab62f7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/605e7b3b807fb6b7a6277dc015d55e32.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/605e7b3b807fb6b7a6277dc015d55e32.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/644ae1a50e15c5213488426bcb359dec.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/644ae1a50e15c5213488426bcb359dec.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/6c184e705511895bfb3d95b7333f9db0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/6c184e705511895bfb3d95b7333f9db0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/77e27e5bd2419ddd1440774391f222fd.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/77e27e5bd2419ddd1440774391f222fd.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/7915d4e46d0f55b2b350cf89f1df44fa.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/7915d4e46d0f55b2b350cf89f1df44fa.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/7eaf0b38a26fa8c389255f4072732f47.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/7eaf0b38a26fa8c389255f4072732f47.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/87e85d2a5060540a65fd800aee4d18e0.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/87e85d2a5060540a65fd800aee4d18e0.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/894dae4bfe90bf4a16e346098d985f2b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/894dae4bfe90bf4a16e346098d985f2b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/933f1ae0b00e5226222dd302a4662b0f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/933f1ae0b00e5226222dd302a4662b0f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/95e87dc2b889d1c2d55e2b9915138826.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/95e87dc2b889d1c2d55e2b9915138826.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/9e98ffb27714857aa3ecceef16555092.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/9e98ffb27714857aa3ecceef16555092.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/a1100f583089b9c41e7c516b0b0f71ab.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/a1100f583089b9c41e7c516b0b0f71ab.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/b11d8d2cbd5c68b8709e7415810ae879.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/b11d8d2cbd5c68b8709e7415810ae879.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/b2c4397f88e7bc4a28f0f3065b245459.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/b2c4397f88e7bc4a28f0f3065b245459.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/b5a2f8c3f9d3d70a2d4806ac1222610e.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/b5a2f8c3f9d3d70a2d4806ac1222610e.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/c110e34928c4c8890291a177a811338b.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/c110e34928c4c8890291a177a811338b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/c709289d075d090871acf2a1531d6715.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/c709289d075d090871acf2a1531d6715.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/c9bbdf335fbf2ad8282d5f0bdc28246f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/c9bbdf335fbf2ad8282d5f0bdc28246f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/cbb5f5c18e0e7011fc762451172c9add.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/cbb5f5c18e0e7011fc762451172c9add.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/cc6927050a802ff79f47961bd237d869.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/cc6927050a802ff79f47961bd237d869.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/d424edc2470fa9472e328a8dba63215f.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/d424edc2470fa9472e328a8dba63215f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/d55130659a7a3ab9b0d7de0091acb110.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/d55130659a7a3ab9b0d7de0091acb110.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/dabe329f1b2fc05f979d00ef73543ab7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/dabe329f1b2fc05f979d00ef73543ab7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/de05ff0559d3fc3c852381d8f664d317.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/de05ff0559d3fc3c852381d8f664d317.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/ebd835c6e9ddb602a745874fdc45a1f5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/ebd835c6e9ddb602a745874fdc45a1f5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/ec0585993640016494873593500476ec.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/ec0585993640016494873593500476ec.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/ecf9ffa5cb330b26adfee974677d2db4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/ecf9ffa5cb330b26adfee974677d2db4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/f3264796bbb359611f2ce2f6ee0348d5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/f3264796bbb359611f2ce2f6ee0348d5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/f4d2c29e4b601aabaed1a70ec5fad7bf.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/f4d2c29e4b601aabaed1a70ec5fad7bf.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/f6fecc2671e1864b4579739469f70586.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/f6fecc2671e1864b4579739469f70586.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SDD/faa2c64e36a856655adde1c84290cf85.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SDD/faa2c64e36a856655adde1c84290cf85.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture10.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture11.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture12.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture13.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture14.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture15.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture16.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture17.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture17.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture18.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture18.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture19.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture19.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture20.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture20.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture21.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture21.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture22.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture22.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture23.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture23.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture24.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture24.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture25.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture25.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture26.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture26.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture27.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture27.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture28.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture28.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture4.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture5.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture6.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture7.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture8.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/Picture9.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/Picture9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "images/SharePoint/Readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/images/SharePoint/Readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SharePoint/images.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/SharePoint/images.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates/cse/backUplogo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/templates/cse/backUplogo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates/cse/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/templates/cse/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/index.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "infrastructure/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/infrastructure/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manifest.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/manifest.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/ALM/ALM.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/ALM/ALM.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/Azure Storage/Releases.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/Azure Storage/Releases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/AzureB2C/Releases.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/AzureB2C/Releases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/Digital Signatures Module/Releases.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/Digital Signatures Module/Releases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/GOC Theme Configuration/Releases.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/GOC Theme Configuration/Releases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/Portals CS Form Wizard/Releases.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/Portals CS Form Wizard/Releases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/SharePoint/Releases.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/SharePoint/Releases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/System Design Guide/SDD.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/System Design Guide/SDD.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "product-releases/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "product-releases/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_site/product-releases/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "product-releases/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "_site/product-releases/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "search-stopwords.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/search-stopwords.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "staticwebapp.config.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/staticwebapp.config.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "styles/glyphicons-halflings-regular-ACNUA6UY.ttf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/styles/glyphicons-halflings-regular-ACNUA6UY.ttf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "styles/glyphicons-halflings-regular-JOUF32XT.woff",
+      "output": {
+        "resource": {
+          "relative_path": "_site/styles/glyphicons-halflings-regular-JOUF32XT.woff"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "styles/glyphicons-halflings-regular-PIHUWCJO.eot",
+      "output": {
+        "resource": {
+          "relative_path": "_site/styles/glyphicons-halflings-regular-PIHUWCJO.eot"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "styles/glyphicons-halflings-regular-QXYEM3FU.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/styles/glyphicons-halflings-regular-QXYEM3FU.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "styles/glyphicons-halflings-regular-W4DYDFZM.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "_site/styles/glyphicons-halflings-regular-W4DYDFZM.woff2"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/backUplogo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/backUplogo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/fonts/glyphicons-halflings-regular.eot",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.eot"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/fonts/glyphicons-halflings-regular.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/fonts/glyphicons-halflings-regular.ttf",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.ttf"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/fonts/glyphicons-halflings-regular.woff",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.woff"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/fonts/glyphicons-halflings-regular.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/fonts/glyphicons-halflings-regular.woff2"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/search-stopwords.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/search-stopwords.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/cse/token.json",
+      "output": {
+        "resource": {
+          "relative_path": "_site/templates/cse/token.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Resource",
+      "source_relative_path": "toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "_site/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "_site/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "web.config",
+      "output": {
+        "resource": {
+          "relative_path": "_site/web.config"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "xrefmap.yml",
+      "output": {
+        "resource": {
+          "relative_path": "_site/xrefmap.yml"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+adx_append: true
+adx_appendto: true
+adx_create: true
+adx_delete: true
+adx_entitylogicalname: msdyn_entityattachment
+adx_entityname: FC Entity Attachments
+adx_entitypermission_webrole: []
+adx_entitypermissionid: 1128148c-2630-ee11-bdf4-000d3a09d4d4
+adx_parententitypermission: 8380f763-4b78-4ef3-9f65-3d7d370d7383
+adx_parentrelationship: msdyn_relatedentity_msdyn_entityattachment
+adx_read: true
+adx_scope: 756150003
+adx_write: true

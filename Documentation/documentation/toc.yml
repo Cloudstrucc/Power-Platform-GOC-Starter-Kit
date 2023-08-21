@@ -1,0 +1,22 @@
+- name: Configuration Docs
+  href: index.md
+  topicHref: index.md
+  items:
+  - name: System Design Guide
+    href: System Design Guide/SDD.md
+  - name: Azure B2C
+    href: AzureB2C/Combined.md
+  - name: Application Lifecycle Management (ALM)
+    href: ALM/ALM.md
+  - name: SharePoint
+    href: SharePoint/Combined.md
+  - name: Email
+    href: Email-Configuration/Email-Integration.md
+  - name: Digital Signature Module
+    href: Digital Signature Module/Digital-Signature-Module.md
+  - name: GOC Theme Configuration
+    href: GOC-Theme-Configuration/overview.md
+  - name: Azure-Storage
+    href: Azure-Storage/Storage-Diagnostics.md
+  - name: Data Loss Prevention (Data Policies)
+    href: DLP/Dataverse-Tenant-Wide-DLP.md

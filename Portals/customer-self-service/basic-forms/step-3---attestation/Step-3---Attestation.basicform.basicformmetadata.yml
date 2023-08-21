@@ -1,0 +1,14 @@
+- adx_adddescription: false
+  adx_attributelogicalname: statuscode
+  adx_descriptionposition: 100000000
+  adx_entityform: 48d42a38-1618-ed11-b83e-000d3af4f031
+  adx_entityformforcreate: 48d42a38-1618-ed11-b83e-000d3af4f031
+  adx_entityformmetadataid: c0b494c0-0e66-ed11-9562-000d3af4f031
+  adx_fieldisrequired: false
+  adx_ignoredefaultvalue: false
+  adx_onsavetype: 100000000
+  adx_onsavevalue: 100000001
+  adx_randomizeoptionsetvalues: false
+  adx_setvalueonsave: true
+  adx_type: 100000000
+  adx_useattributedescriptionproperty: true

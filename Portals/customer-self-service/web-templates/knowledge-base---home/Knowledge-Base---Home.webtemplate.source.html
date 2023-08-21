@@ -1,0 +1,17 @@
+{% extends 'layout_1_column' %}
+
+{% block main %}
+  {% include 'Page Copy' %}
+  {% assign category_url = sitemarkers['Category'].url %}
+  {% assign count = count | default: 0 %}
+  {% assign categories = knowledge.categories | top_level: count %}
+  {% if categories %}
+    <div class="list-group unstyled">
+    {% for category in categories %}
+      <a href="{{ category_url | add_query: 'id', category.categorynumber }}" class="list-group-item">
+        {{ category.title }}
+      </a>
+    {% endfor %}
+    </div>
+  {% endif %}
+{% endblock %}

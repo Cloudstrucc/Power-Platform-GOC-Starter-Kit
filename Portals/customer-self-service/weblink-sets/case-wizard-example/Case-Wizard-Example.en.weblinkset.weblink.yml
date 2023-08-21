@@ -1,0 +1,22 @@
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 2
+  adx_displaypagechildlinks: false
+  adx_name: 'Step 2: Submit'
+  adx_openinnewwindow: false
+  adx_pageid: 1022bfba-3a3e-ee11-bdf4-000d3a09d4d4
+  adx_publishingstateid: ed67356b-a2db-49a9-b26d-4c8a59e3d9a7
+  adx_robotsfollowlink: false
+  adx_weblinkid: 4ab60b59-3b3e-ee11-bdf4-000d3a09d4d4
+  adx_weblinksetid: 4f746562-423d-ee11-bdf4-000d3a09d4d4
+- adx_disablepagevalidation: false
+  adx_displayimageonly: false
+  adx_displayorder: 1
+  adx_displaypagechildlinks: false
+  adx_name: 'Step 1: Wizard Example'
+  adx_openinnewwindow: false
+  adx_pageid: d8718c61-413d-ee11-bdf4-000d3a09d4d4
+  adx_publishingstateid: ed67356b-a2db-49a9-b26d-4c8a59e3d9a7
+  adx_robotsfollowlink: true
+  adx_weblinkid: 9ba28f83-423d-ee11-bdf4-000d3a09d4d4
+  adx_weblinksetid: 4f746562-423d-ee11-bdf4-000d3a09d4d4

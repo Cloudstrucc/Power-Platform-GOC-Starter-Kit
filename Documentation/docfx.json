@@ -1,0 +1,22 @@
+{
+  "build": {
+    "content": [{"files": ["documentation/*.md", "documentation/*.yml", "documentation/**/*.yml", "documentation/**/*.md", "documentation/**/*.pdf", "product-releases/*.md", "product-releases/*.yml", "product-releases/**/*.yml", "product-releases/**/*.md", "documentation/staticwebapp.config.json", "web.config", "index.md", "logo.png", "favicon.ico", "docfx.json"]}],
+    "resource": [{"files": [ "images/**/**", "images/**/**/**","web.config", "documentation/staticwebapp.config.json" ]}],
+    "overwrite": [ { "files": [ "documentation/**/**.md", "documentation/**.md", "product-releases/**/**.md", "product-releases/**.md", "documentation/staticwebapp.config.json" ], "exclude": [ "obj/**", "_site/**" ], "yamlMime": [ "ManagedReference", "Conceptual" ] } ],
+    "dest": "_site",
+    "template": [ "default", "templates/cse" ],
+    "globalMetadata": {
+        "_appTitle": "GAC EDMSP Documentation",
+        "_appLogoPath": "logo.png",
+        "_enableSearch": true
+    },
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2623d4e7-ac46-4283-a509-3281ecfb199d}</formid>
+    <IntroducedVersion>1.0.0021</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{fb562b86-e39c-490e-b7b2-d7c53d363325}" IsUserDefined="1" name="{fb562b86-e39c-490e-b7b2-d7c53d363325}" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{5d983152-5327-4492-b286-b7446cf20f0d}" locklevel="0" labelwidth="115" name="{5d983152-5327-4492-b286-b7446cf20f0d}" columns="11" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" colspan="2" id="{78509ceb-5dc1-4bed-a976-cbb4a340832f}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{a6b0f0a7-7eec-4ecd-bf02-f4f3aed70ab6}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Web Link Set" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3adc2caa-5858-092c-61e5-3ba11e13d411}" showlabel="true" locklevel="0" colspan="2" ordinalvalue="10002">
+                        <labels>
+                          <label description="Publishing State" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{502bca54-7908-9dea-a1cc-3c206bc9c562}" showlabel="true" locklevel="0" colspan="2" ordinalvalue="10003">
+                        <labels>
+                          <label description="Parent Web Link" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{9098978f-78f2-4e1a-9620-73801c189ba5}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Page" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="4" colspan="2" id="{a8fdc20c-ed4e-4f16-a105-5a12b80cc690}" visible="false" ordinalvalue="10008" solutionaction="Modified">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8cd60c6a-89d7-d5e6-7cc5-401eb7260c0c}" showlabel="true" colspan="2" auto="false" rowspan="16" ordinalvalue="10009" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{5b90abc7-c0bb-451b-8605-5d613d7b5006}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Icon Class" languagecode="1033" />
+                        </labels>
+                        <control id="cs_iconclass" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cs_iconclass" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{814fbb17-7fa6-4e35-9dba-300229c20cab}" ordinalvalue="20007" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{fb562b86-e39c-490e-b7b2-d7c53d363325}_section_3" showlabel="true" showbar="true" locklevel="0" id="{87d9b775-0143-5a1c-3469-40dc870dbd70}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{0eaf40f6-fc2b-4c8f-b894-031fd67f8714}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Robots Follow Link" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{ef6f8b78-e36b-442b-b562-9dc8d2e7fbbd}" ordinalvalue="20001">
+                        <labels>
+                          <label description="Open In New Window" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{25252fba-84cd-47c7-8ec1-1bf9413ccc2d}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Display Order" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{2c2e52d2-5b5e-9bcd-5771-0265a89775b6}" showlabel="true" locklevel="0" ordinalvalue="20003">
+                        <labels>
+                          <label description="Disable Page Validation" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4ac24a4c-969b-b2c9-22ea-0120bb3cabbb}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="Display Page Child Links" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="true" showbar="true" locklevel="0" id="{a5db4708-ab02-de11-bdf3-0003ff48c0db}" IsUserDefined="1" layout="varwidth" columns="11" labelwidth="115" name="{a5db4708-ab02-de11-bdf3-0003ff48c0db}" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{5947b4bf-2ea0-4706-9ff9-aaa2224a388f}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Image Height" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{600ec858-7058-4c57-ab1d-04067a6afd3c}" ordinalvalue="20002">
+                        <labels>
+                          <label description="Image Width" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{6e6bc879-092e-4578-a4de-bbdfa7a8d232}" ordinalvalue="10003">
+                        <labels>
+                          <label description="Image Alt Text" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e1581b63-c13d-d205-827e-203eac84bb4d}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="Display Image Only" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{32fd5919-53ed-dd11-9268-0003ff48c0db}" IsUserDefined="1" locklevel="0" name="{32fd5919-53ed-dd11-9268-0003ff48c0db}" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="true" showbar="false" locklevel="0" id="{33fd5919-53ed-dd11-9268-0003ff48c0db}" IsUserDefined="1" layout="varwidth" columns="11" labelwidth="115" name="{33fd5919-53ed-dd11-9268-0003ff48c0db}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{8e424ccd-74c6-463c-a8e3-a47ddec12096}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{b8b411b4-7783-44d7-a046-0916bcc5f88b}" columns="1">
+        <rows>
+          <row>
+            <cell id="{c7d232e5-f6a0-465b-bebd-3e50833d4779}" ordinalvalue="10000">
+              <labels>
+                <label description="Status" languagecode="1033" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <header id="{b92ba404-1c5f-415a-ac28-0d05fdd61328}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Information" languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité." languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

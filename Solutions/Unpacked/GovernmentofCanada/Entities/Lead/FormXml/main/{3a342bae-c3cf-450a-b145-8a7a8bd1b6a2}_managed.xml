@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3a342bae-c3cf-450a-b145-8a7a8bd1b6a2}</formid>
+    <IntroducedVersion>7.0.0003</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{2c26e8f7-026f-4d3e-9262-6523e9accb2b}" IsUserDefined="0" labelid="{9744d01f-61b0-471d-aaf6-1b4a40a27a8c}" ordinalvalue="0">
+          <columns>
+            <column width="50%" id="0" solutionaction="Modified">
+              <sections>
+                <section showlabel="false" showbar="false" id="{5a43a4e9-5370-4ee7-9f71-9ef915467f90}" IsUserDefined="0" height="auto" labelid="{50123e33-d01f-4722-8b8d-3cb6c5cc9353}" name="newuser" celllabelposition="Top" ordinalvalue="0" solutionaction="Modified">
+                  <labels>
+                    <label description="New user? register now" languagecode="1033" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c1e4f775-e881-4325-a22b-0e3203ec3f90}" labelid="{254796f3-cb60-4ac8-b3cf-8b0508480b2d}" showlabel="true" locklevel="0" colspan="2" ordinalvalue="10000">
+                        <labels>
+                          <label description="First Name" languagecode="1033" solutionaction="Added" />
+                          <label description="Prénom" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e93f7539-ba2f-423d-ba9e-64559c5846dd}" labelid="{7279cb1d-1863-4fbb-b402-8ca9dbdfd309}" showlabel="true" locklevel="0" colspan="2" ordinalvalue="10001">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" solutionaction="Added" />
+                          <label description="Nom" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3a7bde9a-c4f5-4fcf-a6f0-b506947ed04f}" labelid="{fed8c109-d26d-4f78-aa40-c6db4666c9ac}" showlabel="true" locklevel="0" colspan="2" ordinalvalue="10002">
+                        <labels>
+                          <label description="E-mail" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{f5abdb46-bdc6-4196-ab85-352a02d457b1}" labelid="{681b6cd2-7daa-4844-ac68-47cd4121de5d}" visible="false" ordinalvalue="10003" solutionaction="Modified">
+                        <labels>
+                          <label description="Topic" languagecode="1033" solutionaction="Added" />
+                          <label description="Rubrique" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" showlabel="true" rowspan="5" auto="true" id="{eef9a2d6-9191-41ca-9183-b9d9dd522197}" locklevel="0" labelid="{9c4b7854-492b-47c5-853c-f8596374ff00}" visible="false" ordinalvalue="10004" solutionaction="Modified">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                          <label description="Description" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b8eeaf0-8890-475f-bdde-c2bb82d6239f}" labelid="{5cbe2575-f785-488f-be0c-0cf8263629c3}" visible="false" ordinalvalue="10005" solutionaction="Modified">
+                        <labels>
+                          <label description="Source du prospect" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell id="{fe0f5b16-6f30-43fb-bec1-9d64e9a7e50a}" labelid="{bf6c25d0-f9f1-4ee1-9339-4a765336835c}" showlabel="true" locklevel="0" visible="false" ordinalvalue="20006">
+                        <labels>
+                          <label description="Company Name" languagecode="1033" solutionaction="Added" />
+                          <label description="Nom de la société" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1" solutionaction="Added">
+              <sections>
+                <section name="LoginSectionPortal" id="55545171-dd4b-48ce-a42d-b94be0b8780c" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Returning user? " languagecode="1033" />
+                  </labels>
+                  <rows></rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{3b298b0f-ce9e-4c1b-846e-f0da12a270c4}" IsUserDefined="0" labelid="{2b0b7fcb-0209-45b8-a7b5-1398e54c1222}" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" id="{168630c1-8a8a-4c90-babe-125d6f98231f}" IsUserDefined="0" labelid="{391547fa-1d8b-4756-b093-48356757e1fd}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{32e9d8bb-94e0-4dcf-b479-7ccb27136dd2}" labelid="{7010c05b-e176-4f58-8afb-a045382a6d13}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                          <label description="Propriétaire" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{b21ecc50-d63e-4ddd-bcbc-3e9901ef111c}" labelid="{b6095d99-c725-4046-9f89-cbf68273a46b}" ordinalvalue="20001">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" solutionaction="Added" />
+                          <label description="Raison du statut" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{a5245d08-403f-4504-9607-9395a5bda997}" labelid="{ee525c89-970e-458c-9465-bcda03f5a652}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Source Campaign" languagecode="1033" solutionaction="Added" />
+                          <label description="Campagne source" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="true" showbar="true" id="{7fe525d3-3673-4a96-b9b1-ec2b6de424b5}" IsUserDefined="0" labelid="{a557c63f-7b10-4ed2-b661-6ca550a634e9}" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{1a2b15ff-3ffa-4b77-928e-64ea44f2db4d}" labelid="{9f768445-443a-4a14-8c41-8618455affef}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Méthode de contact privilégiée" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{3b5372ee-4020-45d9-9464-beb969b36146}" labelid="{17f72e6f-3c40-49f1-9e77-d4a16484238f}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Ne pas autoriser le courrier électronique" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{301249a5-8f70-41ef-839a-5a156cd6d0fb}" labelid="{3a8404b5-8bd7-418a-af6c-2f43459a63b6}" ordinalvalue="10003">
+                        <labels>
+                          <label description="Ne pas autoriser l’envoi de messages en nombre" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{def230ee-753c-4800-90a6-05ae73f7d468}" labelid="{ce0eb37d-b028-4995-b311-a6983d40ae25}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Ne pas autoriser les appels téléphoniques" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{f635fc2c-1071-4499-a17d-e36153df39a8}" labelid="{6aa33289-9eff-41fc-b9be-aac2ac074b45}" ordinalvalue="10005">
+                        <labels>
+                          <label description="Ne pas autoriser la télécopie" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{8c579bb8-d15e-4e9b-ba2e-380ad002863c}" labelid="{2437e1b6-3139-4e4d-b37b-0d17fcc023e8}" ordinalvalue="10006">
+                        <labels>
+                          <label description="Ne pas autoriser le courrier postal" languagecode="1036" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="true" showbar="true" locklevel="0" id="{f1ebe00b-8f2d-4622-bceb-f47e2b9219ef}" IsUserDefined="0" layout="varheight" columns="11" labelid="{0898b6fb-7b2a-4a4e-907d-e9ad57399e01}" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{1d848663-e0ba-4092-a108-fbb0f50c72f8}" labelid="{8966d433-4dec-40fa-9adc-a9c7a7149de6}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Marketing Material" languagecode="1033" solutionaction="Added" />
+                          <label description="Documents marketing" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{641b5024-3331-43fc-8a13-c733fc38cca8}" labelid="{a39f089e-6afb-47c9-9356-a140e6bb3186}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Last Campaign Date" languagecode="1033" solutionaction="Added" />
+                          <label description="Dernière date de la campagne" languagecode="1036" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{6296BEFE-3D2F-40ee-80C7-D84FB71EB13C}" IsUserDefined="0" expanded="false" labelid="{905d5833-48ac-4b5a-91e0-2bbc17c28517}" ordinalvalue="2">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" id="{D30B89F9-DF1A-4b76-B1BF-50EF5B41712A}" IsUserDefined="0" height="auto" labelid="{ea13bd0b-5586-48d0-8786-bc86158d321a}" ordinalvalue="0">
+                  <rows />
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{114201bc-3404-44d0-b1f2-226f268aec56}">
+        <rows>
+          <row>
+            <cell id="{13371c98-7de9-4dc0-a9ba-45c9df634463}" labelid="{cd0f1a3c-1936-4668-a5e0-d739197979c7}" ordinalvalue="10000">
+              <labels>
+                <label description="Status" languagecode="1033" solutionaction="Added" />
+                <label description="Statut" languagecode="1036" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <header id="{c679034d-1692-4d4f-b29a-30375940236f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Join Web Form" languagecode="1033" />
+      <LocalizedName description="Join Web Form" languagecode="1036" />
+    </LocalizedNames>
+  </systemform>
+</forms>

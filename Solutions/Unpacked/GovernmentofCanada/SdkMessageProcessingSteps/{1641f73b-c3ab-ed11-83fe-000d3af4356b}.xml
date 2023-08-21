@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cloudstrucc.Decisions.CreateDecision: Create of cs_decision" SdkMessageProcessingStepId="{1641f73b-c3ab-ed11-83fe-000d3af4356b}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>9ebdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>Cloudstrucc.Decisions.CreateDecision, Decisions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=040b3419a9f49a6d</PluginTypeName>
+  <PluginTypeId>1a7ca208-7783-4822-ac0c-e9db5673872a</PluginTypeId>
+  <PrimaryEntity>cs_decision</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Cloudstrucc.Decisions.CreateDecision: Create of cs_decision</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

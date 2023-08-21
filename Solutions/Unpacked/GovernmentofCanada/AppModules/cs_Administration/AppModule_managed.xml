@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>cs_Administration</UniqueName>
+  <IntroducedVersion>1.1.0.2</IntroducedVersion>
+  <WebResourceId>6260bf11-0766-ed11-9562-000d3af4f031</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="adx_weblink" />
+    <AppModuleComponent type="1" schemaName="adx_weblinkset" />
+    <AppModuleComponent type="1" schemaName="campaign" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="cs_decision" />
+    <AppModuleComponent type="1" schemaName="cs_decisiontype" />
+    <AppModuleComponent type="26" id="{cad54115-046e-4efe-83c8-9f76611a93c6}" />
+    <AppModuleComponent type="26" id="{86bfb261-999a-4964-aaee-376f3854ab45}" />
+    <AppModuleComponent type="26" id="{d85a86c4-9261-4241-ac46-c11a2c1ae5b8}" />
+    <AppModuleComponent type="26" id="{39b0f3e6-a452-4785-b8a7-b082cbe597c7}" />
+    <AppModuleComponent type="26" id="{b836ae0d-ff8f-4bb4-a5ae-768d33b5ff4f}" />
+    <AppModuleComponent type="26" id="{2a0c5dc0-523c-4673-8f98-93db465c25dc}" />
+    <AppModuleComponent type="26" id="{b924d6c4-0166-ed11-9562-000d3af4f031}" />
+    <AppModuleComponent type="29" id="{f0874735-6a39-ed11-9db1-000d3af4f560}" />
+    <AppModuleComponent type="29" id="{32081a3e-495d-4406-9140-cda143606987}" />
+    <AppModuleComponent type="29" id="{599671af-4b18-ed11-b83e-000d3af4f560}" />
+    <AppModuleComponent type="29" id="{2c707ab7-76e7-4df7-9a3b-ff4a4e50ba1e}" />
+    <AppModuleComponent type="29" id="{c67f9386-5f39-ed11-9db1-000d3af4f560}" />
+    <AppModuleComponent type="29" id="{cbca00b2-7bbf-ec11-983e-000d3a09c40e}" />
+    <AppModuleComponent type="29" id="{da70a700-2cba-4fa9-b685-f703e2ecd0fa}" />
+    <AppModuleComponent type="29" id="{15c03c8d-754f-4386-a62c-cf7e91337ebd}" />
+    <AppModuleComponent type="29" id="{6cf2fe48-d865-4ced-8546-0a78600efefc}" />
+    <AppModuleComponent type="60" id="{58b9ee78-d4ec-4f47-b1a2-98455858ef47}" />
+    <AppModuleComponent type="60" id="{123b5b8a-6f61-4f56-805b-c27a947f13d5}" />
+    <AppModuleComponent type="60" id="{9e667e55-812b-ee11-bdf4-000d3a09d132}" />
+    <AppModuleComponent type="62" schemaName="cs_Administration" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Administration" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

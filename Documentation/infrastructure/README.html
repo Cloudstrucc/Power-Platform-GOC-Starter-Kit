@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create Documentation Website | GOC Theme Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create Documentation Website | GOC Theme Documentation ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  
+  </head>   <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav style="height:55px" id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img style="width:100%; height:auto; max-width:300px; padding-right:65px; padding-top:10px; padding-left:1px" id="logo" class="" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-documentation-website">Create Documentation Website</h1>
+
+<p>This folder contains the Terraform scripts for creating the documentation website. The terraform command to deploy this website is executed in the <strong>.pipelines/documentation.yml</strong>.</p>
+<p>More explanation of the use of these files can be found int the article <a href="https://github.com/mtirionMSFT/DocFxQuickStart/blob/master/deploy-docfx-azure-website.md">Deploy the DocFx Documentation website to an Azure Website automatically</a>.</p>
+<h2 id="running-terraform-locally">Running Terraform locally</h2>
+<p>To run these scripts, first make sure you set the proper values of the variables.</p>
+<blockquote>
+<p>IMPORTANT: Make sure you modify the value of the <strong>app_name</strong> variable. This value is appended by <strong>azurewebsites.net</strong> and must be unique. Otherwise the script will fail that it cannot create the website.</p>
+</blockquote>
+<p>To install Terraform, you can use <a href="https://chocolatey.org/install">Chocolatey</a>:</p>
+<pre><code class="lang-shell">choco install terraform
+</code></pre>
+<p>To run the terraform scripts from your local developer machine, make sure to modify the <strong>providers.tf</strong>. Comment the <strong>backend</strong> definition as instructed.</p>
+<p>Next make the connection with the Azure environment by running the <a href="https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli">Azure Cli</a> command:</p>
+<pre><code class="lang-shell">az login
+</code></pre>
+<p>Next you can initialize Terraform:</p>
+<pre><code class="lang-shell">terraform init
+</code></pre>
+<p>The you can plan the terraform actions:</p>
+<pre><code class="lang-shell">terraform plan
+</code></pre>
+<p>And apply the terraform script with:</p>
+<pre><code class="lang-shell">terraform apply
+</code></pre>
+<p>When asked for approval, type &quot;yes&quot; followed by ENTER. You can also add the <em>-auto-approve</em> flag to the terraform apply command.</p>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/cloudstrucc/Cloudstrucc-Project-Management/_git/GOC-THEME-V2?path=Documentation/infrastructure/README.md&amp;version=GBmain&amp;line=1" class="contribution-link">Improve this Document</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+      
+      
+      <a href="Https://Canada.ca" target="_blank"><img class="float-right" ;="" id="logo" src="https://gocdocfx.blob.core.windows.net/gocdocfxsite/_site/images/GOCLogos/wmms-blk.svg"></a>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="footer-text">
+         
+                    <a class="footer-link-text" href="/">Home</a>
+                    <a class="footer-link-text" href="/documentation/index.html">Documentation</a>
+                    <a class="footer-link-text" href="/product-releases/index.html">Product Releases </a>  
+                    <!-- <a class="footer-link-text" href="https://gocdocfx.blob.core.windows.net/gocpdf/GOC-DocFx_documentation.pdf" target="_blank" download>Download PDF Copy of Docs </a>   -->
+           
+                </div>
+              </div>
+            <div class="container">
+             <span class="pull-right">
+              <a class="BackToTopButton" ;="" href="#top">Back to top</a>
+            </span> 
+            </div>
+        </div>
+      </div></div></footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

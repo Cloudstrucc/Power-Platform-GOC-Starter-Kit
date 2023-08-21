@@ -1,0 +1,114 @@
+
+<header>
+    <!-- <link rel="stylesheet" href="/iss.css"> -->
+    <div id="wb-bnr" class="container">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="57x57 72x72 114x114 144x144 150x150" class="wb-favicon" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon-mobile.png">
+    <link href="https://wet-boew.github.io/themes-dist/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" class="wb-init wb-favicon-inited">
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" class="wb-init wb-favicon-inited">
+        <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
+    <noscript><link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/css/noscript.min.css" /></noscript>
+    <!-- js references - move to container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/wet-boew/js/wet-boew.min.js"></script>
+    <script type="text/javascript" src="/wet-boew/js/i18n/en-US.min.js"></script>
+<!-- <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/i18n/en.min.js"></script>  -->
+
+
+{% include 'WET Override CSS' %}
+
+{% include 'External Registration - Custom Load Script' %}
+
+
+    <div class="row">
+
+    <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+        <h2 class="wb-inv">Language selection</h2>
+        <ul class="list-inline mrgn-bttm-0">
+        {% if website.languages.size > 1 %}
+            {% for language in page.languages %}
+                {% if language.name != website.selected_language.name %}
+                    <li>
+                        <a hreflang="fr" href="/{{ language.url_substitution }}" lang="{{ language.name }}">
+                        <span class="hidden-xs">{{ language.name }}</span>
+                        <abbr title="{{ language.name }}" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">{{ language.name }}</abbr>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+         {% endif %}
+        </ul>
+    </section>
+
+</div>
+  
+    <div class="row">
+        <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" resource="#wb-publisher" typeof="GovernmentOrganization">					                            
+            <link href="/" property="url">            
+                <img src="/GCWeb/assets/sig-blk-en.png" alt="Government of Canada" property="logo">
+                <span class="wb-inv"> /                    
+                    <span lang="fr">Gouvernement du Canada</span>
+                </span>                    
+            <meta property="name" content="Government of Canada">
+            <meta property="areaServed" typeof="Country" content="Canada">
+            <link property="logo" href="/GCWeb/assets/wmms-blk.png">
+        </div>
+        
+       
+       
+        <section id="wb-srch" class="col-lg-8 text-right">
+            <h2>Search</h2>    
+            <form action="https://www.canada.ca/{{languageCode}}/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline">
+                <div class="form-group">
+                    <label for="wb-srch-q" class="wb-inv">{{ snippets["Header/Search"] }} </label>
+                    <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search"
+                        value="" size="34" maxlength="170" placeholder="{{ snippets['Header/Search'] }}">
+                    <datalist id="wb-srch-q-ac"></datalist>
+                </div>
+                <div class="form-group submit">
+                    <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+                        <span class="glyphicon-search glyphicon"></span>
+                        <span class="wb-inv">Search</span>
+                    </button>
+                </div>
+            </form>
+        </section>
+    </div>
+    </div>
+
+    <nav class="gcweb-menu" typeof="SiteNavigationElement">
+        <div class="container">        
+            <h2 class="wb-inv">Menu</h2>
+            <button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>            
+            <ul role="menu" aria-orientation="vertical" data-ajax-replace="/ajax/sitemenu-v5-en.html">
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+                <li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+                <li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+                <li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>                
+            </ul>
+        </div>
+    </nav>
+    {% unless user %}
+        {% include 'NavigationMenu' %}
+    {% endunless %}
+{% comment %}
+    <a role="menuitem" aria-label="{{ snippets["links/logout"] | default:resx["Sign_Out"] | h | escape }}" href="{% if homeurl%}/{{ homeurl }}{% endif %}{{ website.sign_out_url_substitution }}" 
+    title="{{ snippets["links/logout"] | default:resx["Sign_Out"] | h | escape }}">
+                        {{ snippets["links/logout"] | default:resx["Sign_Out"] | h | escape }} </a>
+{% endcomment %}                    
+    
+</header>
+
+<br>

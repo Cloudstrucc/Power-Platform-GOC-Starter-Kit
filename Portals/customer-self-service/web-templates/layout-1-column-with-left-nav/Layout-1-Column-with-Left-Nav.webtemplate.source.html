@@ -1,0 +1,34 @@
+{% include 'Wizard Style' %}
+
+<main property="mainContentOfPage">
+<!-- <div class="wrapper-body"> -->
+    <div class="container">
+        <div class="page-heading">
+          {% block breadcrumbs %}
+            {% include 'Breadcrumbs' %}
+          {% endblock %}
+
+          {% block title %}
+            {% assign parentPageTitle = page.parent.title %}
+            {% include 'Page Header' title: parentPageTitle %}
+          {% endblock %}
+        </div>
+        
+            <div class="col-md-3">
+            {% block navigation %}
+            {% endblock %}
+            </div>
+            <div class="col-md-9">
+            {% block main %}
+              
+            {% endblock %}
+
+            {% block nextPrevious %}
+
+            {% endblock %}
+            </div>
+        
+    </div>
+          <div class ="push"></div>
+<!-- </div> -->
+</main>
