@@ -96,19 +96,14 @@ git clone https://YOURUSERNAME:PASSWORDGENERATED@dev.azure.com/YourOrganization/
 In this diagram, the Developer provides the Dynamics 365 Solution Name, Data File, and Power Apps Portal to the DevOps Pipeline. The DevOps Pipeline stores the artifacts in the release for the Dev Environment, commits them to the GIT Repository, and stores the releasable artifacts in the Azure Artifact Storage.
 The Release Manager issues the release to QA, UAT, PREPROD, and Production environments. The QA Team confirms the release for each environment. If the release is rejected, the QA Team notifies the Developer in the comment thread. The Developer then issues a new release which follows the same process as the initial release.
 
-![Software Diagram (Draft - subject to minor updates - particularly the security perimetetr) - Developers only (CI)](Documentation/Picture2.png)
-
-### Self Hosted Agent for Automated Pipepines
-
-![Subject to minor updates](Documentation/images/GOC-SDD/image52.png)
 
 ### Minor Pipeline Sequence (Patches)-Developers only, and they are accountable to validate their releases to staging
 
-![Subject to minor updates](Documentation/images/GOC-SDD/ebd835c6e9ddb602a745874fdc45a1f5.png)
+![Subject to minor updates](Documentation/images/SDD/ebd835c6e9ddb602a745874fdc45a1f5.png)
 
 ### Major Pipeline Sequence (Solution Clone - Full) - Tech Lead Accountability
 
-![Subject to minor updates](Documentation/images/GOC-SDD/2f21a350a12d214885d9dea998486833.png)
+![Subject to minor updates](Documentation/images/SDD/2f21a350a12d214885d9dea998486833.png)
 
 ## Environment map
 
