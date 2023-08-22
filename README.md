@@ -6,6 +6,21 @@
 
 This project hosts the git repo for the Government of Canada Starter Kit for the Power Platform. It contains the Power Pages Site with the WET Canada.ca framework to meet the accessibilty and look and feel requirments for Federal Departments and Agencies, acoompanying CRM solutions, and other supporting and optional artifacts such as an automated pipeline for your development and configuration teams to deploy to Azure DevOps and a DocFX website you can host anywhere or inside an Azure Storage accounts blob container connected to an Azure Storage static web app, the former being leveraged for Portal diagnostics thus leveraging the same architecture that supports the Power Platform. You can chose to clone this repository and deploy as a Git repo in your Azure DevOps tenant and follow the instructions in our documentation site to deploy the starter kit to your Power Platform environment in a (or multiple) Dataverse environment that is licensed with Dynamics 365 Customer Service licensing. Moreover this entire repository can be used as a template for any PBMM implementation of a Power Platform project with requirements for a Power Pages website with GCKEY (GCCF consolidator or Sign in Canada or standalone Azure AD or B2C) with a CRM backend for processing data submitted from the website and govern the web publishing process of any vertical that has a public facing component (e.g Grands and Contributions, Permits, Regulatory/Compliance form submission and much more).  The kit also includes a more robust form wizard that addresses some of the limitations of multi step forms and the website theme has been tested against WCAG 2.x requirements and the documentation site included in this repo can also be leveraged as a template for your technical documentation and or in support of your security process to provide evidence. The rest of the overview below is meant to serve as a template for your own repository's overview page for your development team to reference as you on board new resources to your project and want to equip them with details on your SLDC/ALM processes and is only an example but aligns with modern ALM practiced in many teams who implement software today. Note that this is our first major open source release and there will be a significant number of minor and major releases to the kit over the coming year but you can always keep up to date with new releases and we will highlight stable vs preview builds and any breaking changes. Finally, our company does provide services to deploy this entire stack to your organization and offer an SLA service. For more information on these services you can visit our website or contact us directly @ contact@cloudstrucc.com. Since this is an open source project we welcome other developers to contribute. The process to contribute will be documented in the next released which is scheduled for August 30, 2023. 
 
+## Dependencies
+
+To ensure that all aspects of this theme is deployable in your environment you will need the following:
+
+1. Dynamics 365 Customer Service Licensing (basic, pro, or enterpise) - Minimum.
+2. The unmanaged solutions contained in the Solutions/Unmanaged folder
+3. The customer-self-service portal application installed in the target Dataverse environment
+4. If you are integrating with Sign In Canada (TBS) or GCCF Consolidator (SSC) and want to implement an enterprise SSO so you can centralize identies and control the profile and which apps in your organization will leverage your enterprise SSO you will need to engage with either TBS or SSC to on board with these systems. This repository includes the B2C configurations however the Power Pages site also supports both of these identity providers out of the box using the OIDC authentication profile functionality. See [link to the TBS Sign In Canada Service](https://connect.canada.ca/en/index.html) and [link to Canada's GCCF SSO service](https://sc-gc-pch.fjgc-gccf.gc.ca/GCCFAccess/FAQ.aspx). For the GCCF Consolidator service please contact the SSC help desk to obtain your OIDC Client ID, Secret (or Private Key), Certificates (optional), and onboarding documentation.
+5. As part of the theme, we included the GCnotify integration. This is leveraged in addition to out of the box email (server side sync) as an email or sms platform that is available to every Department of Agency (Federal). [See link to register your application](https://notification.canada.ca/) and get your API keys and develop your email templates.
+6. An Azure Subscription to host supporting resources: B2C, Storage, Front Door, Log Analytics Workspace (optional), Sentinel (optional), Azure Monitor, KeyVaults, Custom Agent for DevOps (optional), Diagnostics, and billing policies for both the Dataverse environments and your DevOps organization (both optional as well).
+
+## Overall software/cloud architecture (example)
+
+![Sotware Architecture-Draft - Subject to minor updates](Documentation/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png)
+
 ## Example Process (development team)
 
 You will be provided a branch to clone from the yourproject GIT repository (yourproject) locally using your editor of choice, however we recommend using Visual Studio Code with the Power Platform build tools installed (CLI)
@@ -121,10 +136,6 @@ This section provides a table of that describes each envrionment and each enviro
 
 The App User leveraged to connect to each non production environment is the yourproject-System App User. The Application ID for this user is: 32423424234. To obtain the secret value to connect to the environment using the PAC CLI or XrmToolBox or even the web API if using a console app or other tool to for example test automation, you need to request this to the tech lead and obtain access to the yourproject KeyVault that stores the secret value. Note this is sensitive information and we rotate keys for non production environment every 24 months. Production keys are not available to anyone beyond the project owners and senior IM/IT leads. [The following link](https://yourkeyvaultsecreturl.com)) is the KeyVault resource that stores our secret for non prodution environment and is available to org users only and whoever requires to view this key needs to request access to this resource.
 
-## Overall software/cloud architecture (example)
-
-![Sotware Architecture-Draft - Subject to minor updates](Documentation/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png)
-
 ## Wizard Form Configuration architecture
 
 ![Subject to minor updates](Documentation/images/SDD/ec0585993640016494873593500476ec.png)
@@ -132,13 +143,3 @@ The App User leveraged to connect to each non production environment is the your
 ## Enterprise Grants & Contributions
 
 *Details coming soon* - baseline data model solution (EGCS-DS) is available under the Solutions/Unmanged folder. The unpacked and packed (managed) versions coming with the documentation update in our next release. A second version of the customer-self-service portal for G&C will be published as well in our next release slated for August 30 - which includes G&C specific baseline functionality whereas the customer-self-service includes the functionality for any dataverse environment with the D365 Customer Service (basic and pro) licensing available.
-
-## Dependencies
-
-To ensure this theme is deployable in your environment you will need the following (minimum only, additonal dependencies required if you deploy DocFX, DevOps Pipelines, B2C and all other artifacts for the fulsome implementation of the entire architecture - described in the documentation)
-
-1. Dynamics 365 Customer Service Licensing (basic, pro, or enterpise) - Minimum.
-2. The unmanaged solutions contained in the Solutions/Unmanaged folder
-3. The customer-self-service portal application installed in the target Dataverse environment
-4. If you are integrating with Sign In Canada (TBS) or GCCF Consolidator (SSC) and want to implement an enterprise SSO so you can centralize identies and control the profile and which apps in your organization will leverage your enterprise SSO you will need to engage with either TBS or SSC to on board with these systems. This repository includes the B2C configurations however the Power Pages site also supports both of these identity providers out of the box using the OIDC authentication profile functionality. See [link to the TBS Sign In Canada Service](https://connect.canada.ca/en/index.html) and [link to Canada's GCCF SSO service](https://sc-gc-pch.fjgc-gccf.gc.ca/GCCFAccess/FAQ.aspx). For the GCCF Consolidator service please contact the SSC help desk to obtain your OIDC Client ID, Secret (or Private Key), Certificates (optional), and onboarding documentation.
-5. As part of the theme, we included the GCnotify integration. This is leveraged in addition to out of the box email (server side sync) as an email or sms platform that is available to every Department of Agency (Federal). [See link to register your application](https://notification.canada.ca/) and get your API keys and develop your email templates.
