@@ -14,7 +14,7 @@ This project is the repository housing the Government of Canada Starter Kit tail
 
 The kit offers a versatile template for PBMM-driven Power Platform projects. It caters to Power Pages websites, fortified with OIDC Single Sign On integration, including GCCF consolidator, Sign in Canada, standalone Azure AD, or B2C. It also ships with a CRM solution that enhances the platform features such as (but not exclusive to) governing web publishing for verticals like Grants, Contributions, Permits, and Regulatory/Compliance forms. The kit introduces an advanced form wizard, addressing multi-step form limitations, and its WCAG 2.x-compliant theme ensures accessibility. The documentation site can serve as a template for technical documentation and security protocols. The subsequent section outlines a template for repository overviews, embracing modern ALM practices. Noting this inaugural open-source release, expect minor and major updates, distinct stable/preview builds, and contributions welcomed from developers. Services with SLA support expedite stack integration, fostering collaboration for technological excellence.
 
-## Dependencies
+### Dependencies
 
 To ensure that all aspects of this theme are deployable in your environment, you will need the following:
 
@@ -25,11 +25,11 @@ To ensure that all aspects of this theme are deployable in your environment, you
 5. Included in the theme is GCnotify integration, serving as an email or SMS platform in addition to the out-of-the-box email (server-side sync) for every Department or Agency (Federal). [Register your application](https://notification.canada.ca/) to get your API keys and develop your email templates.
 6. An **Azure Subscription** is required to host supporting resources: B2C, Storage, Front Door, Log Analytics Workspace (optional), Sentinel (optional), Azure Monitor, KeyVaults, Custom Agent for DevOps (optional), Diagnostics, and billing policies for both the Dataverse environments and your DevOps organization (both optional).
 
-## Overall Software/Cloud Architecture (Example)
+### Overall Software/Cloud Architecture (Example)
 
 ![Software Architecture - Draft (Subject to minor updates)](Documentation/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png)
 
-## Example Process (Development Team)
+### Example Process (Development Team)
 
 You will be provided with a branch to clone from the `yourproject` GIT repository locally using your preferred code editor, though we recommend Visual Studio Code with Power Platform build tools installed (CLI).
 
@@ -38,7 +38,7 @@ You will be provided with a branch to clone from the `yourproject` GIT repositor
 3. Note that at 3 am daily, a pipeline migrates your specific patch to the staging (release) environment. However, manual triggering via the PowerPlatform-CI-Staging pipeline is available for validation in a managed environment prior to a full release (typically twice a sprint or more frequently).
 4. During the issuance of releases to downstream environments like QA, UAT, CUT, PREPROD, and PROD, your participation is required for smoke testing your contributions.
 
-## Process (Tech Leads)
+### Process (Tech Leads)
 
 You will receive a dedicated branch to clone from the `yourproject` GIT repository locally, using your preferred code editor. While any editor works, we recommend Visual Studio Code with Power Platform build tools installed (CLI).
 
@@ -54,9 +54,9 @@ You will receive a dedicated branch to clone from the `yourproject` GIT reposito
 10. Once step 9 is complete, conduct smoke testing (automated and manual). (*More information to follow on test plans, OWASP, etc.*)
 11. If step 10 is successful, indicating the test suite passed, issue a PR to the "Main" branch. This deploys the artifacts to production. By this point, developers and analysts might have tested various new features and deployed them to UAT, but this process chooses the release artifacts within the scope of the UAT cycle for this particular release. Deployment is a continuous process, with the only minor "freeze" during step 4, which represents the official "release dates" defined within a sprint. Otherwise, releases are carried out daily to staging and QA, and twice a sprint (or occasionally less frequently, based on priorities) to UAT. PREPROD mirrors production, with the only substantial difference occurring during an actual release (step 9).
 
-## Cloning the repository to your local terminal/git client/vs code
+### Cloning the repository to your local terminal/git client/vs code
 
-### Step 1: Set up a Personal Access Token (repeat this step if your PAT expires)
+#### Step 1: Set up a Personal Access Token (repeat this step if your PAT expires)
 
 (If using Azure DevOps) To set up a personal access token (PAT) for cloning private repositories from Azure DevOps in your Windows PowerShell terminal/VS Code Terminal, follow these steps:
 
@@ -99,7 +99,7 @@ git clone https://dev.azure.com/YourOrganization/YourProject/_git/YourRepo # the
 
 **Remember to keep your personal access token secure and do not share it with anyone. If you suspect your token has been compromised, you can revoke it and generate a new one. Also, be aware that using PATs in this manner might not be the most secure option for all scenarios; consider other authentication methods if necessary.**
 
-### Step 2: Re-authenticating your terminal/git client for subsequent Pulls and Clones when session expires and PAT token is configured (step 1)
+#### Step 2: Re-authenticating your terminal/git client for subsequent Pulls and Clones when session expires and PAT token is configured (step 1)
 
 1. At the root of the yourproject repo press the Clone button
 2. In the left modal popup, press generate git credentials
@@ -109,22 +109,22 @@ git clone https://dev.azure.com/YourOrganization/YourProject/_git/YourRepo # the
 git clone https://YOURUSERNAME:PASSWORDGENERATED@dev.azure.com/YourOrganization/YourProject/_git/YourRepo
 ```
 
-## Release Pipeline Automation, CICD and QA
+### Release Pipeline Automation, CICD and QA
 
 **Make sure you are comfortable with GIT, cloning the repository and issuig PR's to merge your local branch into the Main branch to update the repository before executing the pipeline**
 In this diagram, the Developer provides the Dynamics 365 Solution Name, Data File, and Power Apps Portal to the DevOps Pipeline. The DevOps Pipeline stores the artifacts in the release for the Dev Environment, commits them to the GIT Repository, and stores the releasable artifacts in the Azure Artifact Storage.
 The Release Manager issues the release to QA, UAT, PREPROD, and Production environments. The QA Team confirms the release for each environment. If the release is rejected, the QA Team notifies the Developer in the comment thread. The Developer then issues a new release which follows the same process as the initial release.
 
 
-### Minor Pipeline Sequence (Patches)-Developers only, and they are accountable to validate their releases to staging
+#### Minor Pipeline Sequence (Patches)-Developers only, and they are accountable to validate their releases to staging
 
 ![Subject to minor updates](Documentation/images/SDD/ebd835c6e9ddb602a745874fdc45a1f5.png)
 
-### Major Pipeline Sequence (Solution Clone - Full) - Tech Lead Accountability
+#### Major Pipeline Sequence (Solution Clone - Full) - Tech Lead Accountability
 
 ![Subject to minor updates](Documentation/images/SDD/2f21a350a12d214885d9dea998486833.png)
 
-## Environment map
+### Environment map
 
 *(EXAMPLE -> Typically you will want to show your environment map in your main project's readme.me file that is typically linked to the home page of your repository)*
 This section provides a table of that describes each envrionment and each environment's depedent services like email integration, SharePoint integration, B2C (GCKey ingeration), pipelines (projects, repos and branches). As a developer you have acceess full sys admin access to development and staging is your testing ground to test your managed deployment using business personas. You need to ensuret that before we release yoor story or features to the extended team using the release pipeliines.
@@ -144,18 +144,18 @@ This section provides a table of that describes each envrionment and each enviro
 
 The App User leveraged to connect to each non production environment is the yourproject-System App User. The Application ID for this user is: 32423424234. To obtain the secret value to connect to the environment using the PAC CLI or XrmToolBox or even the web API if using a console app or other tool to for example test automation, you need to request this to the tech lead and obtain access to the yourproject KeyVault that stores the secret value. Note this is sensitive information and we rotate keys for non production environment every 24 months. Production keys are not available to anyone beyond the project owners and senior IM/IT leads. [The following link](https://yourkeyvaultsecreturl.com)) is the KeyVault resource that stores our secret for non prodution environment and is available to org users only and whoever requires to view this key needs to request access to this resource.
 
-## Wizard Form Configuration architecture
+### Wizard Form Configuration architecture
 
 ![Subject to minor updates](Documentation/images/SDD/ec0585993640016494873593500476ec.png)
 
-## Enterprise Grants & Contributions
+### Enterprise Grants & Contributions
 
 *Details coming soon* - baseline data model solution (EGCS-DS) is available under the Solutions/Unmanged folder. The unpacked and packed (managed) versions coming with the documentation update in our next release. A second version of the customer-self-service portal for G&C will be published as well in our next release slated for August 30 - which includes G&C specific baseline functionality whereas the customer-self-service includes the functionality for any dataverse environment with the D365 Customer Service (basic and pro) licensing available.
 <!--
-## Theme Preview and Example Implementations
+### Theme Preview and Example Implementations
 
-### Theme
+#### Theme
 
-### International Scholarships (Global Affairs Canada)
+#### International Scholarships (Global Affairs Canada)
 
-### Regulatory Compliance Case Management (Financial Sector) - FINTRAC -->
+#### Regulatory Compliance Case Management (Financial Sector) - FINTRAC -->
