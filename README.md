@@ -1,4 +1,4 @@
-# Government of Canada Power Platform StarterKit
+# Government of Canada Power Platform Starter Kit
 
 [Link to technical documentation](https://csdocs.z9.web.core.windows.net/documentation/index.html)
 
