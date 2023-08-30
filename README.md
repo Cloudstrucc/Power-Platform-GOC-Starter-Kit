@@ -155,3 +155,11 @@ The App User leveraged to connect to each non production environment is the your
 ## Enterprise Grants & Contributions
 
 *Details coming soon* - baseline data model solution (EGCS-DS) is available under the Solutions/Unmanged folder. The unpacked and packed (managed) versions coming with the documentation update in our next release. A second version of the customer-self-service portal for G&C will be published as well in our next release slated for August 30 - which includes G&C specific baseline functionality whereas the customer-self-service includes the functionality for any dataverse environment with the D365 Customer Service (basic and pro) licensing available.
+<!--
+## Theme Preview and Example Implementations
+
+### Theme
+
+### International Scholarships (Global Affairs Canada)
+
+### Regulatory Compliance Case Management (Financial Sector) - FINTRAC -->
