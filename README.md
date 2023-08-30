@@ -20,27 +20,27 @@ Should you seek to expedite the integration of this entire stack within your org
 
 ## Dependencies
 
-To ensure that all aspects of this theme is deployable in your environment you will need the following:
+To ensure that all aspects of this theme are deployable in your environment, you will need the following:
 
-1. Dynamics 365 Customer Service Licensing (basic, pro, or enterpise) - Minimum.
-2. The unmanaged solutions contained in the Solutions/Unmanaged folder
-3. The customer-self-service portal application installed in the target Dataverse environment
-4. If you are integrating with Sign In Canada (TBS) or GCCF Consolidator (SSC) and want to implement an enterprise SSO so you can centralize identies and control the profile and which apps in your organization will leverage your enterprise SSO you will need to engage with either TBS or SSC to on board with these systems. This repository includes the B2C configurations however the Power Pages site also supports both of these identity providers out of the box using the OIDC authentication profile functionality. See [link to the TBS Sign In Canada Service](https://connect.canada.ca/en/index.html) and [link to Canada's GCCF SSO service](https://sc-gc-pch.fjgc-gccf.gc.ca/GCCFAccess/FAQ.aspx). For the GCCF Consolidator service please contact the SSC help desk to obtain your OIDC Client ID, Secret (or Private Key), Certificates (optional), and onboarding documentation.
-5. As part of the theme, we included the GCnotify integration. This is leveraged in addition to out of the box email (server side sync) as an email or sms platform that is available to every Department of Agency (Federal). [See link to register your application](https://notification.canada.ca/) and get your API keys and develop your email templates.
-6. An Azure Subscription to host supporting resources: B2C, Storage, Front Door, Log Analytics Workspace (optional), Sentinel (optional), Azure Monitor, KeyVaults, Custom Agent for DevOps (optional), Diagnostics, and billing policies for both the Dataverse environments and your DevOps organization (both optional as well).
+1. **Dynamics 365 Customer Service Licensing (basic, pro, or enterprise)** - Minimum.
+2. The unmanaged solutions contained in the `Solutions/Unmanaged` folder.
+3. The customer self-service portal application installed in the target Dataverse environment.
+4. If you are integrating with **Sign In Canada (TBS)** or **GCCF Consolidator (SSC)** and want to implement an enterprise SSO to centralize identities and control the profile and app usage in your organization, you will need to engage with either TBS or SSC for onboarding. This repository includes B2C configurations, and the Power Pages site supports both of these identity providers out of the box using the OIDC authentication profile functionality. Refer to [TBS Sign In Canada Service](https://connect.canada.ca/en/index.html) and [Canada's GCCF SSO service](https://sc-gc-pch.fjgc-gccf.gc.ca/GCCFAccess/FAQ.aspx). For the GCCF Consolidator service, please contact the SSC help desk to obtain your OIDC Client ID, Secret (or Private Key), Certificates (optional), and onboarding documentation.
+5. Included in the theme is GCnotify integration, serving as an email or SMS platform in addition to the out-of-the-box email (server-side sync) for every Department or Agency (Federal). [Register your application](https://notification.canada.ca/) to get your API keys and develop your email templates.
+6. An **Azure Subscription** is required to host supporting resources: B2C, Storage, Front Door, Log Analytics Workspace (optional), Sentinel (optional), Azure Monitor, KeyVaults, Custom Agent for DevOps (optional), Diagnostics, and billing policies for both the Dataverse environments and your DevOps organization (both optional).
 
-## Overall software/cloud architecture (example)
+## Overall Software/Cloud Architecture (Example)
 
-![Sotware Architecture-Draft - Subject to minor updates](Documentation/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png)
+![Software Architecture - Draft (Subject to minor updates)](Documentation/images/SDD/d2b7fb22cf85599b4a99ae89b6fe8ac6.png)
 
-## Example Process (development team)
+## Example Process (Development Team)
 
-You will be provided a branch to clone from the yourproject GIT repository (yourproject) locally using your editor of choice, however we recommend using Visual Studio Code with the Power Platform build tools installed (CLI)
+You will be provided with a branch to clone from the `yourproject` GIT repository locally using your preferred code editor, though we recommend Visual Studio Code with Power Platform build tools installed (CLI).
 
-1. The version you've cloned will be "linked" to your Dataverse development environment where you will be doing all your work in a silo
-2. When you are ready to merge in your changes to the primary development environment, you simply issue a PR to the "Development" branch which will trigger a pipline that will import your patch and or portal code into the main development environment (unmanaged) where you can verify that your patch doesnt have any dependency issues or fails our conventions (or industry wide conventions).
-3. Note that at 3am every evening, a pipeline executes that migrates your dedicated patch to the staging (release) environment. However you have the flexibility to trigger this manually by running the PowerPlatform-CI-Staging pipeline manually. This is important so that you can validate that your work is deployable in a managed environment in preperation for a full release (twice a sprint/sometimes more frequently)
-4. When releases are issued to downstream environments such as QA, UAT, CUT, PREPROD and PROD, you will be asked to smoke test your work.
+1. The cloned version will be "linked" to your Dataverse development environment, serving as an isolated workspace.
+2. When ready to merge your changes into the primary development environment, initiate a pull request (PR) to the "Development" branch. This action triggers a pipeline to import your patch and portal code into the main development environment (unmanaged), allowing you to verify against dependencies and conventions.
+3. Note that at 3 am daily, a pipeline migrates your specific patch to the staging (release) environment. However, manual triggering via the PowerPlatform-CI-Staging pipeline is available for validation in a managed environment prior to a full release (typically twice a sprint or more frequently).
+4. During the issuance of releases to downstream environments like QA, UAT, CUT, PREPROD, and PROD, your participation is required for smoke testing your contributions.
 
 ## Process (tech leads)
 
