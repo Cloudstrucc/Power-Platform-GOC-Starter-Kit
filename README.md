@@ -58,7 +58,6 @@ You will receive a dedicated branch to clone from the `yourproject` GIT reposito
 10. Once step 9 is complete, conduct smoke testing (automated and manual). (*More information to follow on test plans, OWASP, etc.*)
 11. If step 10 is successful, indicating the test suite passed, issue a PR to the "Main" branch. This deploys the artifacts to production. By this point, developers and analysts might have tested various new features and deployed them to UAT, but this process chooses the release artifacts within the scope of the UAT cycle for this particular release. Deployment is a continuous process, with the only minor "freeze" during step 4, which represents the official "release dates" defined within a sprint. Otherwise, releases are carried out daily to staging and QA, and twice a sprint (or occasionally less frequently, based on priorities) to UAT. PREPROD mirrors production, with the only substantial difference occurring during an actual release (step 9).
 
-
 ## Cloning the repository to your local terminal/git client/vs code
 
 ### Step 1: Set up a Personal Access Token (repeat this step if your PAT expires)
