@@ -1,5 +1,6 @@
 # Government of Canada Power Platform Starter Kit
 
+[Link to quick WET install scripts for WET Canada.ca v14.1.0+](https://github.com/Cloudstrucc/Public)
 [Link to technical documentation](https://csdocs.z9.web.core.windows.net/documentation/index.html)
 
 ## Introduction
