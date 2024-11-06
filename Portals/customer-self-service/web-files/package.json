@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/wet-boew/gcweb/issues"
   },
-  "homepage": "https://github.com/wet-boew/themes-cdn#readme"
+  "homepage": "https://github.com/wet-boew/themes-cdn#readme",
+  "dependencies": {
+    "gcweb-compiled": "file:"
+  }
 }

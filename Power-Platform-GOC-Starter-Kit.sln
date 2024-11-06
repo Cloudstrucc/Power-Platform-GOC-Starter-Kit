@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{CD3BDB54-45B6-4FCA-8069-026EA80D3D79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CLI-Helpers", "CLI-Helpers", "{2A1C3C71-BE2A-4CF9-9FD0-449BA72A5B2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionCloneUgradeUtility", "Libraries\CLI-Helpers\SolutionCloneUgradeUtility\SolutionCloneUgradeUtility.csproj", "{E41CF65B-F45C-4438-9A1E-87943B1D7A32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomWorkflowTools", "CustomWorkflowTools", "{3B05FCAA-0DF3-48BC-9172-85749AE93C82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloudstrucc.Modules", "Libraries\CustomWorkflowTools\Cloudstrucc.Modules\Cloudstrucc.Modules.csproj", "{173912E8-1FC1-4F1E-B04D-1B5BC40A72C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleTests", "ConsoleTests", "{307050E0-5D05-46A1-8F63-87706C93CBCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExportPDF", "Libraries\CustomWorkflowTools\ConsoleTests\ExportPDF\ExportPDF.csproj", "{6F6EB4D3-9318-493A-A7D1-D9456A146823}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCnotifyTest", "Libraries\CustomWorkflowTools\ConsoleTests\GCnotifyTest\GCnotifyTest.csproj", "{18ABE4D5-EC8F-4385-A92C-73F040D25169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E41CF65B-F45C-4438-9A1E-87943B1D7A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41CF65B-F45C-4438-9A1E-87943B1D7A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41CF65B-F45C-4438-9A1E-87943B1D7A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41CF65B-F45C-4438-9A1E-87943B1D7A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173912E8-1FC1-4F1E-B04D-1B5BC40A72C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173912E8-1FC1-4F1E-B04D-1B5BC40A72C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173912E8-1FC1-4F1E-B04D-1B5BC40A72C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173912E8-1FC1-4F1E-B04D-1B5BC40A72C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F6EB4D3-9318-493A-A7D1-D9456A146823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6EB4D3-9318-493A-A7D1-D9456A146823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6EB4D3-9318-493A-A7D1-D9456A146823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6EB4D3-9318-493A-A7D1-D9456A146823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18ABE4D5-EC8F-4385-A92C-73F040D25169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18ABE4D5-EC8F-4385-A92C-73F040D25169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18ABE4D5-EC8F-4385-A92C-73F040D25169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18ABE4D5-EC8F-4385-A92C-73F040D25169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A1C3C71-BE2A-4CF9-9FD0-449BA72A5B2E} = {CD3BDB54-45B6-4FCA-8069-026EA80D3D79}
+		{E41CF65B-F45C-4438-9A1E-87943B1D7A32} = {2A1C3C71-BE2A-4CF9-9FD0-449BA72A5B2E}
+		{3B05FCAA-0DF3-48BC-9172-85749AE93C82} = {CD3BDB54-45B6-4FCA-8069-026EA80D3D79}
+		{173912E8-1FC1-4F1E-B04D-1B5BC40A72C0} = {3B05FCAA-0DF3-48BC-9172-85749AE93C82}
+		{307050E0-5D05-46A1-8F63-87706C93CBCC} = {3B05FCAA-0DF3-48BC-9172-85749AE93C82}
+		{6F6EB4D3-9318-493A-A7D1-D9456A146823} = {307050E0-5D05-46A1-8F63-87706C93CBCC}
+		{18ABE4D5-EC8F-4385-A92C-73F040D25169} = {307050E0-5D05-46A1-8F63-87706C93CBCC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54E12F0F-46B7-4DD7-AA0C-14D8EBA9D321}
+	EndGlobalSection
+EndGlobal
